@@ -1,5 +1,3 @@
-import html
-from pathlib import Path
 from typing import Annotated
 
 from dopynion.data_model import (
@@ -67,24 +65,21 @@ def unknown_exception_handler(_request: Request, exc: Exception) -> JSONResponse
 
 
 #####################################################
-# Template extra bonus
+# Home page
 #####################################################
 
 
-# The root of the website shows the code of the website
 @app.get("/", response_class=HTMLResponse)
 def root() -> str:
-    header = (
-        "<html><head><title>Dopynion template</title></head><body>"
-        "<h1>Dopynion documentation</h1>"
-        "<h2>API documentation</h2>"
-        '<p><a href="/docs">Read the documentation.</a></p>'
-        "<h2>Code template</h2>"
-        "<p>The code of this website is:</p>"
-        "<pre>"
-    )
-    footer = "</pre></body></html>"
-    return header + html.escape(Path(__file__).read_text(encoding="utf-8")) + footer
+    return """
+    <html>
+        <head><title>Dopynion Bot API</title></head>
+        <body>
+            <h1>Dopynion API</h1>
+            <p><a href="/docs">Consulter la documentation interactive de l'API (/docs)</a></p>
+        </body>
+    </html>
+    """
 
 
 #####################################################
