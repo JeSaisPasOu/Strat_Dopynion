@@ -16,7 +16,6 @@ Documentation interactive de référence : [https://dopynion-template.lecalamar.
 ## 2. Modules et Dépendances
 
 Faire la commande 'pip install -r requirements.txt'
-Puis 'pip install dopynion'
 
 
 ## 3. Modifier l'api
