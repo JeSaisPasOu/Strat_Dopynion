@@ -89,7 +89,7 @@ def root() -> str:
 
 @app.get("/name")
 def name() -> str:
-    return "Default player name"
+    return "Toulousain"
 
 
 @app.get("/start_game")
