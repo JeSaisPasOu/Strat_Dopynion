@@ -6,20 +6,20 @@ API_URL = "http://127.0.0.1:8000"
 GAME_ID = "simu-test-001"
 HEADERS = {"x-game-id": GAME_ID, "Content-Type": "application/json"}
 
-# Base de données des cartes (TOUT EN MINUSCULES !)
+# Base de données des cartes avec les valeurs en points de victoire (val_pv)
 CARTES = {
-    "copper": {"cost": 0, "val_money": 1, "type": "treasure"},
-    "silver": {"cost": 3, "val_money": 2, "type": "treasure"},
-    "gold":   {"cost": 6, "val_money": 3, "type": "treasure"},
-    "estate": {"cost": 2, "val_money": 0, "type": "victory"},
-    "duchy":  {"cost": 5, "val_money": 0, "type": "victory"},
-    "province":{"cost": 8, "val_money": 0, "type": "victory"},
-    "laboratory": {"cost": 5, "val_money": 0, "type": "action"},
-    "market": {"cost": 5, "val_money": 0, "type": "action"},
-    "village": {"cost": 3, "val_money": 0, "type": "action"},
-    "woodcutter": {"cost": 3, "val_money": 0, "type": "action"},
-    "smithy": {"cost": 4, "val_money": 0, "type": "action"},
-    "festival": {"cost": 5, "val_money": 0, "type": "action"},
+    "copper": {"cost": 0, "val_money": 1, "val_pv": 0, "type": "treasure"},
+    "silver": {"cost": 3, "val_money": 2, "val_pv": 0, "type": "treasure"},
+    "gold":   {"cost": 6, "val_money": 3, "val_pv": 0, "type": "treasure"},
+    "estate": {"cost": 2, "val_money": 0, "val_pv": 1, "type": "victory"},
+    "duchy":  {"cost": 5, "val_money": 0, "val_pv": 3, "type": "victory"},
+    "province":{"cost": 8, "val_money": 0, "val_pv": 6, "type": "victory"},
+    "laboratory": {"cost": 5, "val_money": 0, "val_pv": 0, "type": "action"},
+    "market": {"cost": 5, "val_money": 0, "val_pv": 0, "type": "action"},
+    "village": {"cost": 3, "val_money": 0, "val_pv": 0, "type": "action"},
+    "woodcutter": {"cost": 3, "val_money": 0, "val_pv": 0, "type": "action"},
+    "smithy": {"cost": 4, "val_money": 0, "val_pv": 0, "type": "action"},
+    "festival": {"cost": 5, "val_money": 0, "val_pv": 0, "type": "action"},
 }
 
 class ArbitreDominion:
@@ -31,7 +31,7 @@ class ArbitreDominion:
             "laboratory": 10, "market": 10, "village": 10, 
             "woodcutter": 10, "smithy": 10, "festival": 10
         }
-        # Deck de départ : 7 cuivres, 3 domaines
+        # Deck de départ : 7 cuivres, 3 domaines (score initial de 3)
         self.deck = ["copper"] * 7 + ["estate"] * 3
         random.shuffle(self.deck)
         self.hand = []
@@ -70,7 +70,7 @@ class ArbitreDominion:
                 for card in self.hand:
                     hand_quantities[card] = hand_quantities.get(card, 0) + 1
                 
-                # 2. Le payload avec les cartes en minuscules
+                # 2. Le payload mis à jour dynamiquement
                 payload = {
                     "finished": False,
                     "players": [
@@ -101,7 +101,6 @@ class ArbitreDominion:
                     decision = rep.json().get("decision", "END_TURN")
                 except requests.exceptions.RequestException as e:
                     print(f"Erreur API : {e}")
-                    # Affiche le détail si on a encore une erreur 422
                     if hasattr(e.response, 'text'):
                         print("Détail de l'erreur :", e.response.text)
                     decision = "END_TURN"
@@ -111,7 +110,6 @@ class ArbitreDominion:
                 if decision == "END_TURN":
                     tour_en_cours = False
                 elif decision.startswith("BUY "):
-                    # On convertit l'achat en minuscule pour bien chercher dans le stock
                     carte_achetee = decision.split(" ")[1].lower()
                     money_dispo = self.get_money_in_hand()
                     
@@ -122,9 +120,18 @@ class ArbitreDominion:
                         print(f"  [!] Achat annulé : Pas assez d'argent ({money_dispo} vs {CARTES[carte_achetee]['cost']}).")
                         tour_en_cours = False
                     else:
+                        # Validation de l'achat et mise à jour du stock
                         self.stock[carte_achetee] -= 1
                         self.discard.append(carte_achetee)
-                        print(f"  [+] Achat réussi : {carte_achetee}")
+                        
+                        # --- MISE À JOUR DU SCORE ---
+                        points_gagnes = CARTES[carte_achetee]["val_pv"]
+                        if points_gagnes > 0:
+                            self.score += points_gagnes
+                            print(f"  [+] Achat réussi : {carte_achetee} (+{points_gagnes} PV). Nouveau score : {self.score}")
+                        else:
+                            print(f"  [+] Achat réussi : {carte_achetee}")
+                            
                         tour_en_cours = False
                 elif decision.startswith("ACTION "):
                     print(f"  [+] Action jouée : {decision}")
