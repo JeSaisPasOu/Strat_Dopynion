@@ -104,6 +104,7 @@ def start_turn(game_id: GameIdDependency) -> DopynionResponseStr:
 
 @app.post("/play")
 def play(_game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
+    print(_game)
     return DopynionResponseStr(game_id=game_id, decision="END_TURN")
 
 
