@@ -6,6 +6,8 @@ from typing import Literal
 from dopynion.cards import Card
 from dopynion.data_model import CardName, Cards
 
+from communication import transmettre_commande
+
 
 @dataclass(frozen=True)
 class EffetsAction:
@@ -81,7 +83,7 @@ def action(
     *,
     actions_restantes: int = 1,
 ) -> ResultatAction | Literal[False]:
-    """Prépare la commande et les bonus d'une carte, ou retourne False.
+    """Transmet la commande via /play et retourne les bonus, ou False.
 
     La stratégie choisit la carte, fournit la main courante du joueur
     et appelle cette fonction au bon moment du tour. Il faut avoir au
@@ -100,10 +102,13 @@ def action(
     consomme une action : le compteur devient ancien - 1 + bonus actions.
     Tous ces bonus concernent uniquement le tour en cours.
 
-    Le serveur transmet uniquement ``resultat.decision`` dans le champ
-    ``decision`` de /play, avec le ``game_id`` de la partie. L'arbitre
-    joue alors la carte et résout ses effets. Le programme peut ensuite
-    appeler confirmer_fin_action, quand la résolution est confirmée.
+    Pendant /play, la commande est automatiquement placée dans la
+    réponse HTTP courante ; la stratégie n'a pas à la transmettre.
+    Le serveur envoie cette réponse avec le game_id après le retour
+    de la stratégie. Hors de /play (par exemple dans un test local),
+    seule la préparation est effectuée, sans envoi à un arbitre.
+    Le programme peut ensuite appeler confirmer_fin_action, quand
+    la résolution chez l'arbitre est confirmée.
     Un effet de pioche irréalisable ne rend pas la carte injouable.
 
     Cette fonction ne modifie ni la main ni le compteur d'actions.
@@ -123,10 +128,12 @@ def action(
         return False
 
     effets = effets_action(carte)
-    return ResultatAction(
+    resultat = ResultatAction(
         decision=f"ACTION {carte.value}",
         end_action=False,
         actions=effets.actions,
         buys=effets.buys,
         bonus_money=effets.bonus_money,
     )
+    transmettre_commande(resultat.decision)
+    return resultat

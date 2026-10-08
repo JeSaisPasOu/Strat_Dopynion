@@ -29,3 +29,7 @@ htmlcov/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Les fichiers servant aux tests de comm
+communication.py
+test_communication.py
