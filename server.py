@@ -1,3 +1,4 @@
+from collections.abc import Callable
 from typing import Annotated
 
 from dopynion.data_model import (
@@ -8,9 +9,11 @@ from dopynion.data_model import (
     MoneyCardsInHand,
     PossibleCards,
 )
-from fastapi import Depends, FastAPI, Header, Request
+from fastapi import Depends, FastAPI, Header, HTTPException, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel
+
+from communication import contexte_reponse_arbitre, transmettre_commande
 
 app = FastAPI()
 
@@ -44,6 +47,24 @@ def get_game_id(x_game_id: str = Header(description="ID of the game")) -> str:
 
 
 GameIdDependency = Annotated[str, Depends(get_game_id)]
+
+
+# La stratégie reçoit l'état du jeu et l'identifiant de la partie.
+# Elle appelle action pour jouer une carte ou retourne une autre décision.
+Strategie = Callable[[Game, str], object]
+
+
+def get_strategie() -> Strategie:
+    strategie = getattr(app.state, "strategie", None)
+    if not callable(strategie):
+        raise HTTPException(
+            status_code=503,
+            detail="Le programme stratégie n'est pas encore raccordé au serveur.",
+        )
+    return strategie
+
+
+StrategieDependency = Annotated[Strategie, Depends(get_strategie)]
 
 
 #####################################################
@@ -103,9 +124,29 @@ def start_turn(game_id: GameIdDependency) -> DopynionResponseStr:
 
 
 @app.post("/play")
-def play(_game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
-    print(_game)
-    return DopynionResponseStr(game_id=game_id, decision="END_TURN")
+def play(
+    _game: Game,
+    game_id: GameIdDependency,
+    strategie: StrategieDependency,
+) -> DopynionResponseStr:
+    with contexte_reponse_arbitre(game_id) as reponse:
+        decision_strategie = strategie(_game, game_id)
+        if reponse.decision is None:
+            if not isinstance(decision_strategie, str) or not decision_strategie:
+                raise HTTPException(
+                    status_code=500,
+                    detail="La stratégie n'a fourni aucune commande pour ce /play.",
+                )
+            transmettre_commande(decision_strategie)
+        elif (
+            isinstance(decision_strategie, str)
+            and decision_strategie != reponse.decision
+        ):
+            raise HTTPException(
+                status_code=500,
+                detail="La stratégie a fourni deux commandes différentes pour ce /play.",
+            )
+        return DopynionResponseStr(game_id=game_id, decision=reponse.decision)
 
 
 @app.get("/end_game")
