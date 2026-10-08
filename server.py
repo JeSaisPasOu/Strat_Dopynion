@@ -1,5 +1,6 @@
 from typing import Annotated
 
+from dopynion.cards import Card
 from dopynion.data_model import (
     CardName,
     CardNameAndHand,
@@ -12,19 +13,17 @@ from fastapi import Depends, FastAPI, Header, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel
 
-# Import de ta fonction d'achat
+# Imports de tes modules de stratégie
 from achat import achat
+from action import action
 
 app = FastAPI()
 
 #####################################################
 # Variables globales pour la mémoire du Bot
 #####################################################
-# turn_tracker : retient à quel tour se trouve chaque partie
-turn_tracker = {}
-# buy_tracker : retient combien d'achats ont été faits dans le tour actuel
-buy_tracker = {}
-
+# turn_state : retient l'état du tour en cours (actions, achats, monnaie bonus)
+turn_state = {}
 
 #####################################################
 # Data model for responses
@@ -42,7 +41,6 @@ class DopynionResponseStr(BaseModel):
     game_id: str
     decision: str
 
-
 #####################################################
 # Getter for the game identifier
 #####################################################
@@ -51,7 +49,6 @@ def get_game_id(x_game_id: str = Header(description="ID of the game")) -> str:
     return x_game_id
 
 GameIdDependency = Annotated[str, Depends(get_game_id)]
-
 
 #####################################################
 # Error management
@@ -69,7 +66,6 @@ def unknown_exception_handler(_request: Request, exc: Exception) -> JSONResponse
         },
     )
 
-
 #####################################################
 # Home page
 #####################################################
@@ -86,7 +82,6 @@ def root() -> str:
     </html>
     """
 
-
 #####################################################
 # The code of the strategy
 #####################################################
@@ -97,62 +92,96 @@ def name() -> str:
 
 @app.get("/start_game")
 def start_game(game_id: GameIdDependency) -> DopynionResponseStr:
-    # Initialisation de la mémoire pour une nouvelle partie
-    turn_tracker[game_id] = 0
+    turn_state.pop(game_id, None)
     return DopynionResponseStr(game_id=game_id, decision="OK")
 
 @app.get("/start_turn")
 def start_turn(game_id: GameIdDependency) -> DopynionResponseStr:
-    # On incrémente le tour et on remet le compteur d'achats à 0
-    turn_tracker[game_id] = turn_tracker.get(game_id, 0) + 1
-    buy_tracker[game_id] = 0
+    turn_state[game_id] = {"actions": 1, "buys": 1, "bonus_money": 0}
     return DopynionResponseStr(game_id=game_id, decision="OK")
-
 
 @app.post("/play")
 def play(_game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
-    tour_actuel = turn_tracker.get(game_id, 1)
-    achats_faits = buy_tracker.get(game_id, 0)
-    print(_game)
+    state = turn_state.setdefault(game_id, {"actions": 1, "buys": 1, "bonus_money": 0})
     
-    # Sécurité anti-boucle : 1 seul achat par tour par défaut
-    if achats_faits >= 1:
-        return DopynionResponseStr(game_id=game_id, decision="END_TURN")
-
-    # Recherche de la main de notre bot (c'est le joueur dont la main n'est pas masquée)
     mon_joueur = next((p for p in _game.players if p.hand is not None), _game.players[0])
     ma_main = mon_joueur.hand
     stock = _game.stock
 
-    decision = False
-
-    # --- STRATÉGIE D'OUVERTURE ---
-    if tour_actuel == 1:
-        # Acheter un domaine au tour 1 (coût 2)
-        decision = achat(ma_main, CardName("estate"), stock)
-    elif tour_actuel == 2:
-        # Acheter un Argent au tour 2 (coût 3)
-        decision = achat(ma_main, CardName("silver"), stock)
+    # ==========================================
+    # 1. PHASE D'ACTION
+    # ==========================================
+    if state["actions"] > 0:
+        priorites_actions = [
+            CardName("village"),
+            CardName("festival"),
+            CardName("laboratory"),
+            CardName("market"),
+            CardName("smithy"),
+            CardName("woodcutter")
+        ]
         
-        # Si on n'a pas les 3 cuivres nécessaires pour l'Argent, on se rabat sur un Domaine
-        if not decision:
-            decision = achat(ma_main, CardName("estate"), stock)
-    
-    # Application de la décision d'achat
-    if decision:
-        buy_tracker[game_id] = achats_faits + 1
-        return DopynionResponseStr(game_id=game_id, decision=decision)
+        for carte_action in priorites_actions:
+            # action.py gère toutes les vérifications (présence en main, type de carte)
+            resultat_action = action(
+                main=ma_main, 
+                carte=carte_action, 
+                actions_restantes=state["actions"]
+            )
+            
+            if resultat_action:
+                # La carte est jouée, on applique ses effets
+                state["actions"] = state["actions"] - 1 + resultat_action.actions
+                state["buys"] += resultat_action.buys
+                state["bonus_money"] += resultat_action.bonus_money
+                
+                return DopynionResponseStr(game_id=game_id, decision=resultat_action.decision)
 
-    # Fin de tour par défaut
+    # ==========================================
+    # 2. PHASE D'ACHAT
+    # ==========================================
+    if state["buys"] > 0:
+        priorites_achat = [
+            CardName("province"),
+            CardName("gold"),
+            CardName("laboratory"),
+            CardName("festival"),
+            CardName("market"),
+            CardName("smithy"),
+            CardName("silver"),
+            CardName("village"),
+            CardName("woodcutter"),
+            CardName("estate")
+        ]
+        
+        for carte_cible in priorites_achat:
+            decision_achat = achat(
+                main=ma_main, 
+                carte=carte_cible, 
+                stock=stock, 
+                monnaie_disponible=state["bonus_money"], 
+                achats_restants=state["buys"]
+            )
+            
+            if decision_achat:
+                state["buys"] -= 1
+                # Si on a un achat multiple (grâce à Woodcutter, Market ou Festival), 
+                # il faut déduire le prix du premier achat pour ajuster le budget du suivant.
+                # L'argent bonus peut devenir négatif, ce qui compensera la valeur des cuivres en main.
+                cout_carte = Card.class_(carte_cible).cost
+                state["bonus_money"] -= cout_carte
+                
+                return DopynionResponseStr(game_id=game_id, decision=decision_achat)
+
+    # ==========================================
+    # 3. FIN DE TOUR
+    # ==========================================
     return DopynionResponseStr(game_id=game_id, decision="END_TURN")
-
 
 @app.get("/end_game")
 def end_game(game_id: GameIdDependency) -> DopynionResponseStr:
-    turn_tracker.pop(game_id, None)
-    buy_tracker.pop(game_id, None)
+    turn_state.pop(game_id, None)
     return DopynionResponseStr(game_id=game_id, decision="OK")
-
 
 @app.post("/confirm_discard_card_from_hand")
 async def confirm_discard_card_from_hand(game_id: GameIdDependency, _decision_input: CardNameAndHand) -> DopynionResponseBool:
