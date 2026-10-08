@@ -1,5 +1,6 @@
 from typing import Annotated
 
+from dopynion.cards import Card
 from dopynion.data_model import (
     CardName,
     CardNameAndHand,
@@ -12,8 +13,9 @@ from fastapi import Depends, FastAPI, Header, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel
 
-# Import de ta fonction d'achat
+# Imports de tes modules de stratégie
 from achat import achat
+from action import action
 
 app = FastAPI()
 
@@ -65,6 +67,22 @@ def unknown_exception_handler(_request: Request, exc: Exception) -> JSONResponse
     )
 
 #####################################################
+# Home page
+#####################################################
+
+@app.get("/", response_class=HTMLResponse)
+def root() -> str:
+    return """
+    <html>
+        <head><title>Dopynion Bot API</title></head>
+        <body>
+            <h1>Dopynion API</h1>
+            <p><a href="/docs">Consulter la documentation interactive de l'API (/docs)</a></p>
+        </body>
+    </html>
+    """
+
+#####################################################
 # The code of the strategy
 #####################################################
 
@@ -74,22 +92,18 @@ def name() -> str:
 
 @app.get("/start_game")
 def start_game(game_id: GameIdDependency) -> DopynionResponseStr:
-    # Nettoyage initial
     turn_state.pop(game_id, None)
     return DopynionResponseStr(game_id=game_id, decision="OK")
 
 @app.get("/start_turn")
 def start_turn(game_id: GameIdDependency) -> DopynionResponseStr:
-    # À chaque début de tour, on a 1 Action, 1 Achat, et 0 monnaie bonus
     turn_state[game_id] = {"actions": 1, "buys": 1, "bonus_money": 0}
     return DopynionResponseStr(game_id=game_id, decision="OK")
 
 @app.post("/play")
 def play(_game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
-    print(_game)
     state = turn_state.setdefault(game_id, {"actions": 1, "buys": 1, "bonus_money": 0})
     
-    # Recherche de la main de notre bot
     mon_joueur = next((p for p in _game.players if p.hand is not None), _game.players[0])
     ma_main = mon_joueur.hand
     stock = _game.stock
@@ -98,59 +112,46 @@ def play(_game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
     # 1. PHASE D'ACTION
     # ==========================================
     if state["actions"] > 0:
-        # Liste de nos actions en main
-        actions_en_main = [carte for carte, qte in ma_main.quantities.items() if qte > 0 and carte in [
-            "village", "woodcutter", "smithy", "festival", "laboratory", "market"
-        ]]
+        priorites_actions = [
+            CardName("village"),
+            CardName("festival"),
+            CardName("laboratory"),
+            CardName("market"),
+            CardName("smithy"),
+            CardName("woodcutter")
+        ]
         
-        if actions_en_main:
-            # ORDRE DE PRIORITÉ DES ACTIONS (priorité haute à basse -> cartes qui ajoute des actions en premier)
-            priorite_actions = ["village", "festival", "laboratory", "market", "smithy", "woodcutter"]
+        for carte_action in priorites_actions:
+            # action.py gère toutes les vérifications (présence en main, type de carte)
+            resultat_action = action(
+                main=ma_main, 
+                carte=carte_action, 
+                actions_restantes=state["actions"]
+            )
             
-            action_a_jouer = None
-            for action in priorite_actions:
-                if action in actions_en_main:
-                    action_a_jouer = action
-                    break
-            
-            if action_a_jouer:
-                state["actions"] -= 1
+            if resultat_action:
+                # La carte est jouée, on applique ses effets
+                state["actions"] = state["actions"] - 1 + resultat_action.actions
+                state["buys"] += resultat_action.buys
+                state["bonus_money"] += resultat_action.bonus_money
                 
-                # --- PRÉ-SIMULATION DES EFFETS (en attendant action.py) ---
-                if action_a_jouer == "village":
-                    state["actions"] += 2  # +2 Actions
-                elif action_a_jouer == "festival":
-                    state["actions"] += 2  # +2 Actions
-                    state["buys"] += 1     # +1 Achat
-                    state["bonus_money"] += 2 # +2 Cuivres (Monnaie)
-                elif action_a_jouer == "laboratory":
-                    state["actions"] += 1  # +1 Action
-                elif action_a_jouer == "market":
-                    state["actions"] += 1  # +1 Action
-                    state["buys"] += 1     # +1 Achat
-                    state["bonus_money"] += 1 # +1 Pièce
-                elif action_a_jouer == "woodcutter":
-                    state["buys"] += 1     # +1 Achat
-                    state["bonus_money"] += 2 # +2 Cuivres
-                # Note: Le Forgeron (smithy) fait piocher, c'est géré par l'arbitre, pas de stats à changer ici.
-
-                return DopynionResponseStr(game_id=game_id, decision=f"ACTION {action_a_jouer}")
+                return DopynionResponseStr(game_id=game_id, decision=resultat_action.decision)
 
     # ==========================================
     # 2. PHASE D'ACHAT
     # ==========================================
     if state["buys"] > 0:
-        # LISTE DYNAMIQUE DE PRIORITÉS D'ACHAT (du plus cher au moins cher)
         priorites_achat = [
-            CardName("province"),   # Coût 8 (Priorité absolue pour gagner)
-            CardName("laboratory"), # Coût 5 (Super piocheur qui ne bloque pas le tour)
-            CardName("smithy"),     # Coût 4 (Bon piocheur)
-            CardName("festival"),   # Coût 5 (Générateur d'actions et de sous)
-            CardName("market"),     # Coût 5 (Carte polyvalente)
-            CardName("silver"),     # Coût 3 (Sécurité économique)
-            CardName("village"),    # Coût 3 (Nécessaire si on a trop d'actions terminales)
-            CardName("woodcutter"), # Coût 3 (Si on manque d'achats)
-            CardName("estate")      # Coût 2 (En dernier recours)
+            CardName("province"),
+            CardName("gold"),
+            CardName("laboratory"),
+            CardName("festival"),
+            CardName("market"),
+            CardName("smithy"),
+            CardName("silver"),
+            CardName("village"),
+            CardName("woodcutter"),
+            CardName("estate")
         ]
         
         for carte_cible in priorites_achat:
@@ -163,10 +164,13 @@ def play(_game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
             )
             
             if decision_achat:
-                # Achat validé ! On consomme 1 achat et on renvoie la décision
                 state["buys"] -= 1
-                # (Bonus : on remet l'argent bonus à zéro ou on le déduit si on voulait être ultra précis, 
-                # mais dans ton achat.py actuel, le budget est recalculé globalement, ce qui est suffisant pour le moment)
+                # Si on a un achat multiple (grâce à Woodcutter, Market ou Festival), 
+                # il faut déduire le prix du premier achat pour ajuster le budget du suivant.
+                # L'argent bonus peut devenir négatif, ce qui compensera la valeur des cuivres en main.
+                cout_carte = Card.class_(carte_cible).cost
+                state["bonus_money"] -= cout_carte
+                
                 return DopynionResponseStr(game_id=game_id, decision=decision_achat)
 
     # ==========================================
