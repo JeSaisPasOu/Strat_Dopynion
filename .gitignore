@@ -1,0 +1,31 @@
+# Fichiers generes par Python
+__pycache__/
+*.py[cod]
+
+# Environnements virtuels locaux
+.venv/
+venv/
+env/
+
+# Configuration locale et secrets
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Journaux de parties Dopynion
+/games/
+*.log
+
+# Caches de tests et d'analyse
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Fichiers temporaires du systeme
+.DS_Store
+Thumbs.db
+Desktop.ini
