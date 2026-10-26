@@ -13,21 +13,12 @@ from fastapi import Depends, FastAPI, Header, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel
 
-# Imports de tes modules de stratégie
 from achat import achat
 from action import action
 
 app = FastAPI()
 
-#####################################################
-# Variables globales pour la mémoire du Bot
-#####################################################
-# turn_state : retient l'état du tour en cours (actions, achats, monnaie bonus)
 turn_state = {}
-
-#####################################################
-# Data model for responses
-#####################################################
 
 class DopynionResponseBool(BaseModel):
     game_id: str
@@ -41,54 +32,23 @@ class DopynionResponseStr(BaseModel):
     game_id: str
     decision: str
 
-#####################################################
-# Getter for the game identifier
-#####################################################
-
 def get_game_id(x_game_id: str = Header(description="ID of the game")) -> str:
     return x_game_id
 
 GameIdDependency = Annotated[str, Depends(get_game_id)]
 
-#####################################################
-# Error management
-#####################################################
-
 @app.exception_handler(Exception)
 def unknown_exception_handler(_request: Request, exc: Exception) -> JSONResponse:
     print(exc.__class__.__name__, str(exc))
-    return JSONResponse(
-        status_code=500,
-        content={
-            "message": "Oops!",
-            "detail": str(exc),
-            "name": exc.__class__.__name__,
-        },
-    )
-
-#####################################################
-# Home page
-#####################################################
+    return JSONResponse(status_code=500, content={"message": "Oops!", "detail": str(exc), "name": exc.__class__.__name__})
 
 @app.get("/", response_class=HTMLResponse)
 def root() -> str:
-    return """
-    <html>
-        <head><title>Dopynion Bot API</title></head>
-        <body>
-            <h1>Dopynion API</h1>
-            <p><a href="/docs">Consulter la documentation interactive de l'API (/docs)</a></p>
-        </body>
-    </html>
-    """
-
-#####################################################
-# The code of the strategy
-#####################################################
+    return "<html><head><title>Dopynion Bot API</title></head><body><h1>Dopynion API</h1><p><a href='/docs'>Documentation</a></p></body></html>"
 
 @app.get("/name")
 def name() -> str:
-    return "Toulousain"
+    return "Toulousain test"
 
 @app.get("/start_game")
 def start_game(game_id: GameIdDependency) -> DopynionResponseStr:
@@ -103,38 +63,34 @@ def start_turn(game_id: GameIdDependency) -> DopynionResponseStr:
 @app.post("/play")
 def play(_game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
     state = turn_state.setdefault(game_id, {"actions": 1, "buys": 1, "bonus_money": 0})
-    
     mon_joueur = next((p for p in _game.players if p.hand is not None), _game.players[0])
     ma_main = mon_joueur.hand
     stock = _game.stock
 
     # ==========================================
-    # 1. PHASE D'ACTION
+    # 1. PHASE D'ACTION (Moteurs d'abord, Terminaux ensuite)
     # ==========================================
     if state["actions"] > 0:
         priorites_actions = [
+            CardName("farming_village"),
             CardName("village"),
             CardName("festival"),
+            CardName("distant_shore"),
             CardName("laboratory"),
             CardName("market"),
+            CardName("hireling"),
+            CardName("witch"),
+            CardName("council_room"),
             CardName("smithy"),
             CardName("woodcutter")
         ]
         
         for carte_action in priorites_actions:
-            # action.py gère toutes les vérifications (présence en main, type de carte)
-            resultat_action = action(
-                main=ma_main, 
-                carte=carte_action, 
-                actions_restantes=state["actions"]
-            )
-            
+            resultat_action = action(main=ma_main, carte=carte_action, actions_restantes=state["actions"])
             if resultat_action:
-                # La carte est jouée, on applique ses effets
                 state["actions"] = state["actions"] - 1 + resultat_action.actions
                 state["buys"] += resultat_action.buys
                 state["bonus_money"] += resultat_action.bonus_money
-                
                 return DopynionResponseStr(game_id=game_id, decision=resultat_action.decision)
 
     # ==========================================
@@ -142,16 +98,20 @@ def play(_game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
     # ==========================================
     if state["buys"] > 0:
         priorites_achat = [
-            CardName("province"),
-            CardName("gold"),
-            CardName("laboratory"),
-            CardName("festival"),
-            CardName("market"),
-            CardName("smithy"),
-            CardName("silver"),
-            CardName("village"),
-            CardName("woodcutter"),
-            CardName("estate")
+            CardName("province"),         # 8 (Victoire)
+            CardName("hireling"),         # 6 (Pioche permanente, incroyable)
+            CardName("distant_shore"),    # 6 (Victoire + Moteur)
+            CardName("gold"),             # 6 (Économie)
+            CardName("witch"),            # 5 (Attaque dévastatrice)
+            CardName("council_room"),     # 5 (Forte pioche + Achat)
+            CardName("laboratory"),       # 5 
+            CardName("festival"),         # 5 
+            CardName("market"),           # 5 
+            CardName("duchy"),            # 5 (Victoire)
+            CardName("farming_village"),  # 4 (Meilleur que le Village standard)
+            CardName("smithy"),           # 4 
+            CardName("silver"),           # 3 
+            CardName("village")           # 3 
         ]
         
         for carte_cible in priorites_achat:
@@ -165,17 +125,10 @@ def play(_game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
             
             if decision_achat:
                 state["buys"] -= 1
-                # Si on a un achat multiple (grâce à Woodcutter, Market ou Festival), 
-                # il faut déduire le prix du premier achat pour ajuster le budget du suivant.
-                # L'argent bonus peut devenir négatif, ce qui compensera la valeur des cuivres en main.
                 cout_carte = Card.class_(carte_cible).cost
                 state["bonus_money"] -= cout_carte
-                
                 return DopynionResponseStr(game_id=game_id, decision=decision_achat)
 
-    # ==========================================
-    # 3. FIN DE TOUR
-    # ==========================================
     return DopynionResponseStr(game_id=game_id, decision="END_TURN")
 
 @app.get("/end_game")
