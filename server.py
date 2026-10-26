@@ -48,7 +48,7 @@ def root() -> str:
 
 @app.get("/name")
 def name() -> str:
-    return "Toulousain"
+    return "Toulousain test"
 
 @app.get("/start_game")
 def start_game(game_id: GameIdDependency) -> DopynionResponseStr:
