@@ -48,7 +48,7 @@ def root() -> str:
 
 @app.get("/name")
 def name() -> str:
-    return "Toulousain test"
+    return "Toulousain"
 
 @app.get("/start_game")
 def start_game(game_id: GameIdDependency) -> DopynionResponseStr:
@@ -72,12 +72,15 @@ def play(_game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
     # ==========================================
     if state["actions"] > 0:
         priorites_actions = [
+            # 1. Multiplicateurs d'actions
             CardName.FARMINGVILLAGE,
             CardName.VILLAGE,
             CardName.FESTIVAL,
-            CardName.DISTANTSHORE,
+            # 2. Piocheurs non-terminaux (se remboursent en action)
             CardName.LABORATORY,
+            CardName.DISTANTSHORE,
             CardName.MARKET,
+            # 3. Actions terminales (consomment l'action)
             CardName.HIRELING,
             CardName.WITCH,
             CardName.COUNCILROOM,
@@ -94,25 +97,39 @@ def play(_game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
                 return DopynionResponseStr(game_id=game_id, decision=resultat_action.decision)
 
     # ==========================================
-    # 2. PHASE D'ACHAT
+    # 2. PHASE D'ACHAT DYNAMIQUE
     # ==========================================
     if state["buys"] > 0:
-        priorites_achat = [
-            CardName.PROVINCE,         # 8 (Victoire)
-            CardName.HIRELING,         # 6 (Pioche permanente, incroyable)
-            CardName.DISTANTSHORE,     # 6 (Victoire + Moteur)
-            CardName.GOLD,             # 6 (Économie)
-            CardName.WITCH,            # 5 (Attaque dévastatrice)
-            CardName.COUNCILROOM,      # 5 (Forte pioche + Achat)
-            CardName.LABORATORY,       # 5 
-            CardName.FESTIVAL,         # 5 
-            CardName.MARKET,           # 5 
-            CardName.DUCHY,            # 5 (Victoire)
-            CardName.FARMINGVILLAGE,   # 4 (Meilleur que le Village standard)
-            CardName.SMITHY,           # 4 
-            CardName.SILVER,           # 3 
-            CardName.VILLAGE           # 3 
-        ]
+        # Lecture du stock pour déterminer le stade de la partie
+        provinces_restantes = stock.quantities.get(CardName.PROVINCE, 8)
+        
+        if provinces_restantes <= 4:
+            # LATE GAME : Course aux points, on arrête de construire le deck
+            priorites_achat = [
+                CardName.PROVINCE,
+                CardName.DUCHY,
+                CardName.ESTATE,
+                CardName.GOLD,
+                CardName.SILVER
+            ]
+        else:
+            # EARLY / MID GAME : Construction du moteur et de l'économie
+            priorites_achat = [
+                CardName.PROVINCE,         # 8 (Toujours prendre si on peut)
+                CardName.HIRELING,         # 6 (Accélérateur colossal)
+                CardName.GOLD,             # 6 (Économie)
+                CardName.WITCH,            # 5 (Pourrir l'adversaire très tôt)
+                CardName.LABORATORY,       # 5 
+                CardName.FESTIVAL,         # 5 
+                CardName.MARKET,           # 5 
+                CardName.COUNCILROOM,      # 5 
+                CardName.DISTANTSHORE,     # 6 
+                CardName.FARMINGVILLAGE,   # 4 
+                CardName.SMITHY,           # 4 
+                CardName.SILVER,           # 3 
+                CardName.VILLAGE           # 3 
+                # On ignore volontairement le Duché et le Domaine en début de partie
+            ]
         
         for carte_cible in priorites_achat:
             decision_achat = achat(
@@ -136,12 +153,28 @@ def end_game(game_id: GameIdDependency) -> DopynionResponseStr:
     turn_state.pop(game_id, None)
     return DopynionResponseStr(game_id=game_id, decision="OK")
 
+# ==========================================
+# GESTION INTELLIGENTE DES CHOIX DE CARTES
+# ==========================================
+
 @app.post("/confirm_discard_card_from_hand")
 async def confirm_discard_card_from_hand(game_id: GameIdDependency, _decision_input: CardNameAndHand) -> DopynionResponseBool:
     return DopynionResponseBool(game_id=game_id, decision=True)
 
 @app.post("/discard_card_from_hand")
 async def discard_card_from_hand(game_id: GameIdDependency, decision_input: Hand) -> DopynionResponseCardName:
+    # On défausse en priorité les cartes qui n'apportent aucune valeur pendant le tour
+    ordre_defausse = [
+        CardName.CURSE, 
+        CardName.PROVINCE, 
+        CardName.DUCHY, 
+        CardName.ESTATE, 
+        CardName.COPPER
+    ]
+    for carte_cible in ordre_defausse:
+        if carte_cible in decision_input.hand:
+            return DopynionResponseCardName(game_id=game_id, decision=carte_cible)
+    # Sécurité si aucune carte de la liste n'est présente
     return DopynionResponseCardName(game_id=game_id, decision=decision_input.hand[0])
 
 @app.post("/confirm_trash_card_from_hand")
@@ -150,6 +183,15 @@ async def confirm_trash_card_from_hand(game_id: GameIdDependency, _decision_inpu
 
 @app.post("/trash_card_from_hand")
 async def trash_card_from_hand(game_id: GameIdDependency, decision_input: Hand) -> DopynionResponseCardName:
+    # On détruit en priorité les cartes toxiques, puis les petites cartes
+    ordre_poubelle = [
+        CardName.CURSE, 
+        CardName.ESTATE, 
+        CardName.COPPER
+    ]
+    for carte_cible in ordre_poubelle:
+        if carte_cible in decision_input.hand:
+            return DopynionResponseCardName(game_id=game_id, decision=carte_cible)
     return DopynionResponseCardName(game_id=game_id, decision=decision_input.hand[0])
 
 @app.post("/confirm_discard_deck")
@@ -158,10 +200,19 @@ async def confirm_discard_deck(game_id: GameIdDependency) -> DopynionResponseBoo
 
 @app.post("/choose_card_to_receive_in_discard")
 async def choose_card_to_receive_in_discard(game_id: GameIdDependency, decision_input: PossibleCards) -> DopynionResponseCardName:
+    # Si on nous offre une carte gratuite, on prend la meilleure disponible
+    priorites_gain = [CardName.PROVINCE, CardName.GOLD, CardName.HIRELING, CardName.WITCH, CardName.LABORATORY, CardName.DUCHY, CardName.SILVER]
+    for carte_cible in priorites_gain:
+        if carte_cible in decision_input.possible_cards:
+            return DopynionResponseCardName(game_id=game_id, decision=carte_cible)
     return DopynionResponseCardName(game_id=game_id, decision=decision_input.possible_cards[0])
 
 @app.post("/choose_card_to_receive_in_deck")
 async def choose_card_to_receive_in_deck(game_id: GameIdDependency, decision_input: PossibleCards) -> DopynionResponseCardName:
+    priorites_gain = [CardName.PROVINCE, CardName.GOLD, CardName.HIRELING, CardName.WITCH, CardName.LABORATORY, CardName.DUCHY, CardName.SILVER]
+    for carte_cible in priorites_gain:
+        if carte_cible in decision_input.possible_cards:
+            return DopynionResponseCardName(game_id=game_id, decision=carte_cible)
     return DopynionResponseCardName(game_id=game_id, decision=decision_input.possible_cards[0])
 
 @app.post("/skip_card_reception_in_hand")
@@ -170,4 +221,7 @@ async def skip_card_reception_in_hand(game_id: GameIdDependency, _decision_input
 
 @app.post("/trash_money_card_for_better_money_card")
 async def trash_money_card_for_better_money_card(game_id: GameIdDependency, decision_input: MoneyCardsInHand) -> DopynionResponseCardName:
+    # On détruit le Cuivre en priorité pour l'échanger contre mieux
+    if CardName.COPPER in decision_input.money_in_hand:
+        return DopynionResponseCardName(game_id=game_id, decision=CardName.COPPER)
     return DopynionResponseCardName(game_id=game_id, decision=decision_input.money_in_hand[0])
