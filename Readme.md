@@ -17,7 +17,6 @@ Documentation interactive de référence : [https://dopynion-template.lecalamar.
 
 Faire la commande 'pip install -r requirements.txt'
 
-
 ## 3. Modifier l'api
 
 Pour modifier l'api et le mettre en ligne faire ces commande :
@@ -39,13 +38,13 @@ La fonction retourne `False` si la carte ne peut pas être jouée ou si
 ses effets ne sont pas encore définis dans le catalogue. Sinon, elle
 retourne un `ResultatAction` avec les champs suivants :
 
-| Champ | Signification |
-|---|---|
-| `decision` | Commande `ACTION <nom_carte>`, placée automatiquement dans la réponse à `/play`. |
-| `end_action` | Confirmation de fin réelle des effets ; `False` à la préparation. |
-| `actions` | Bonus d'actions de cette carte uniquement. |
-| `buys` | Bonus d'achats de cette carte uniquement. |
-| `bonus_money` | Bonus de crédits de cette carte uniquement, pour ce tour. |
+| Champ           | Signification                                                                          |
+| --------------- | -------------------------------------------------------------------------------------- |
+| `decision`    | Commande`ACTION <nom_carte>`, placée automatiquement dans la réponse à `/play`. |
+| `end_action`  | Confirmation de fin réelle des effets ;`False` à la préparation.                  |
+| `actions`     | Bonus d'actions de cette carte uniquement.                                             |
+| `buys`        | Bonus d'achats de cette carte uniquement.                                              |
+| `bonus_money` | Bonus de crédits de cette carte uniquement, pour ce tour.                             |
 
 Aucun cumul ni état entre les requêtes n'est mémorisé par la fonction. Une carte
 consomme une action avant son bonus : le compteur devient
@@ -54,14 +53,14 @@ consomme une action avant son bonus : le compteur devient
 Les six cartes du [compte rendu réunion 5](https://docs.google.com/document/d/1tSDUKYQxZG90aoxY5dKmFEJY5ZVaT0kAA_7aPzr12ws/edit)
 sont définies :
 
-| Carte | `actions` | `buys` | `bonus_money` |
-|---|---:|---:|---:|
-| Village | 2 | 0 | 0 |
-| Bûcheron | 0 | 1 | 2 |
-| Forgeron | 0 | 0 | 0 |
-| Festival | 2 | 1 | 2 |
-| Laboratoire | 1 | 0 | 0 |
-| Marché | 1 | 1 | 1 |
+| Carte       | `actions` | `buys` | `bonus_money` |
+| ----------- | ----------: | -------: | --------------: |
+| Village     |           2 |        0 |               0 |
+| Bûcheron   |           0 |        1 |               2 |
+| Forgeron    |           0 |        0 |               0 |
+| Festival    |           2 |        1 |               2 |
+| Laboratoire |           1 |        0 |               0 |
+| Marché     |           1 |        1 |               1 |
 
 Exemple de préparation locale d'une action (sans requête `/play`, aucun envoi) :
 
