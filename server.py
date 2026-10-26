@@ -48,7 +48,7 @@ def root() -> str:
 
 @app.get("/name")
 def name() -> str:
-    return "Toulousain test"
+    return "Toulousain"
 
 @app.get("/start_game")
 def start_game(game_id: GameIdDependency) -> DopynionResponseStr:
@@ -72,17 +72,17 @@ def play(_game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
     # ==========================================
     if state["actions"] > 0:
         priorites_actions = [
-            CardName("farming_village"),
-            CardName("village"),
-            CardName("festival"),
-            CardName("distant_shore"),
-            CardName("laboratory"),
-            CardName("market"),
-            CardName("hireling"),
-            CardName("witch"),
-            CardName("council_room"),
-            CardName("smithy"),
-            CardName("woodcutter")
+            CardName.FARMINGVILLAGE,
+            CardName.VILLAGE,
+            CardName.FESTIVAL,
+            CardName.DISTANTSHORE,
+            CardName.LABORATORY,
+            CardName.MARKET,
+            CardName.HIRELING,
+            CardName.WITCH,
+            CardName.COUNCILROOM,
+            CardName.SMITHY,
+            CardName.WOODCUTTER
         ]
         
         for carte_action in priorites_actions:
@@ -98,20 +98,20 @@ def play(_game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
     # ==========================================
     if state["buys"] > 0:
         priorites_achat = [
-            CardName("province"),         # 8 (Victoire)
-            CardName("hireling"),         # 6 (Pioche permanente, incroyable)
-            CardName("distant_shore"),    # 6 (Victoire + Moteur)
-            CardName("gold"),             # 6 (Économie)
-            CardName("witch"),            # 5 (Attaque dévastatrice)
-            CardName("council_room"),     # 5 (Forte pioche + Achat)
-            CardName("laboratory"),       # 5 
-            CardName("festival"),         # 5 
-            CardName("market"),           # 5 
-            CardName("duchy"),            # 5 (Victoire)
-            CardName("farming_village"),  # 4 (Meilleur que le Village standard)
-            CardName("smithy"),           # 4 
-            CardName("silver"),           # 3 
-            CardName("village")           # 3 
+            CardName.PROVINCE,         # 8 (Victoire)
+            CardName.HIRELING,         # 6 (Pioche permanente, incroyable)
+            CardName.DISTANTSHORE,     # 6 (Victoire + Moteur)
+            CardName.GOLD,             # 6 (Économie)
+            CardName.WITCH,            # 5 (Attaque dévastatrice)
+            CardName.COUNCILROOM,      # 5 (Forte pioche + Achat)
+            CardName.LABORATORY,       # 5 
+            CardName.FESTIVAL,         # 5 
+            CardName.MARKET,           # 5 
+            CardName.DUCHY,            # 5 (Victoire)
+            CardName.FARMINGVILLAGE,   # 4 (Meilleur que le Village standard)
+            CardName.SMITHY,           # 4 
+            CardName.SILVER,           # 3 
+            CardName.VILLAGE           # 3 
         ]
         
         for carte_cible in priorites_achat:
