@@ -107,6 +107,11 @@ class ActionTests(unittest.TestCase):
             (CardName.FESTIVAL, 2, 1, 2),
             (CardName.LABORATORY, 1, 0, 0),
             (CardName.MARKET, 1, 1, 1),
+            (CardName.COUNCILROOM, 0, 1 ,0),
+            (CardName.WITCH, 0, 0, 0),
+            (CardName.FARMINGVILLAGE, 2 ,0 ,0),
+            (CardName.DISTANTSHORE, 1, 0, 0),
+            (CardName.HIRELING, 0, 0, 0)
         ):
             with self.subTest(carte=carte):
                 resultat = action(Cards(quantities={carte: 1}), carte)
@@ -139,7 +144,7 @@ class ActionTests(unittest.TestCase):
 
 
 class EffetsActionTests(unittest.TestCase):
-    def test_catalogue_des_six_cartes_du_client(self):
+    def test_catalogue_des_onze_cartes_du_client(self):
         self.assertEqual(
             set(EFFETS_ACTION),
             {
@@ -149,6 +154,11 @@ class EffetsActionTests(unittest.TestCase):
                 CardName.FESTIVAL,
                 CardName.LABORATORY,
                 CardName.MARKET,
+                CardName.COUNCILROOM,
+                CardName.WITCH,
+                CardName.FARMINGVILLAGE,
+                CardName.DISTANTSHORE,
+                CardName.HIRELING
             },
         )
 
