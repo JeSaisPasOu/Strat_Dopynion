@@ -6,8 +6,6 @@ from typing import Literal
 from dopynion.cards import Card
 from dopynion.data_model import CardName, Cards
 
-from communication import transmettre_commande
-
 
 @dataclass(frozen=True)
 class EffetsAction:
@@ -79,5 +77,5 @@ def action(
         buys=effets.buys,
         bonus_money=effets.bonus_money,
     )
-    transmettre_commande(resultat.decision)
+    
     return resultat
