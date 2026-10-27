@@ -16,6 +16,13 @@ from pydantic import BaseModel
 from achat import achat
 from action import action
 
+from reaction import (
+    confirmer_defausse, 
+    choisir_defausse, 
+    confirmer_destruction, 
+    choisir_destruction
+)
+
 app = FastAPI()
 
 turn_state = {}
@@ -48,7 +55,7 @@ def root() -> str:
 
 @app.get("/name")
 def name() -> str:
-    return "Toulousain test"
+    return "Toulousain"
 
 @app.get("/start_game")
 def start_game(game_id: GameIdDependency) -> DopynionResponseStr:
@@ -80,9 +87,13 @@ def play(_game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
             CardName.LABORATORY,
             CardName.DISTANTSHORE,
             CardName.MARKET,
-            # 3. Actions terminales (consomment l'action)
+            # 3. Actions terminales (consomment l'action) - Priorité aux attaques 
+            CardName.BANDIT,       # Donne de l'Or et détruit l'économie adverse
+            CardName.MILITIA,      # Donne des sous et handicape l'adversaire
+            CardName.WITCH,        # Donne des malédictions
+            CardName.BUREAUCRAT,   # Donne de l'Argent et ralentit l'adversaire
             CardName.HIRELING,
-            CardName.WITCH,
+            CardName.CHANCELLOR,   # Économie rapide
             CardName.COUNCILROOM,
             CardName.SMITHY,
             CardName.WOODCUTTER
@@ -100,45 +111,42 @@ def play(_game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
     # 2. PHASE D'ACHAT DYNAMIQUE
     # ==========================================
     if state["buys"] > 0:
-        # Lecture du stock pour déterminer le stade de la partie
         provinces_restantes = stock.quantities.get(CardName.PROVINCE, 8)
         
         if provinces_restantes <= 4:
-            # LATE GAME : Course aux points, on arrête de construire le deck
+            # LATE GAME : Course aux points (On intègre les Jardins ici)
             priorites_achat = [
-                CardName.PROVINCE,
-                CardName.DUCHY,
-                CardName.ESTATE,
-                CardName.GOLD,
+                CardName.PROVINCE, 
+                CardName.DUCHY, 
+                CardName.GARDENS, # Très rentable en fin de partie avec un gros deck
+                CardName.ESTATE, 
+                CardName.GOLD, 
                 CardName.SILVER
             ]
         else:
-            # EARLY / MID GAME : Construction du moteur et de l'économie
+            # EARLY / MID GAME : Construction du moteur et attaques
             priorites_achat = [
-                CardName.PROVINCE,         # 8 (Toujours prendre si on peut)
-                CardName.HIRELING,         # 6 (Accélérateur colossal)
-                CardName.GOLD,             # 6 (Économie)
-                CardName.WITCH,            # 5 (Pourrir l'adversaire très tôt)
-                CardName.LABORATORY,       # 5 
-                CardName.FESTIVAL,         # 5 
-                CardName.MARKET,           # 5 
-                CardName.COUNCILROOM,      # 5 
-                CardName.DISTANTSHORE,     # 6 
-                CardName.FARMINGVILLAGE,   # 4 
-                CardName.SMITHY,           # 4 
-                CardName.SILVER,           # 3 
-                CardName.VILLAGE           # 3 
-                # On ignore volontairement le Duché et le Domaine en début de partie
+                CardName.PROVINCE,         
+                CardName.HIRELING,         
+                CardName.GOLD,             
+                CardName.BANDIT,           # 5 - Génère de l'Or gratuit et attaque
+                CardName.WITCH,            # 5 - Attaque indispensable
+                CardName.LABORATORY,       
+                CardName.FESTIVAL,         
+                CardName.MARKET,           
+                CardName.COUNCILROOM,      
+                CardName.MILITIA,          # 4 - Excellente attaque à 4 pièces
+                CardName.BUREAUCRAT,       # 4 - Bon départ
+                CardName.DISTANTSHORE,     
+                CardName.FARMINGVILLAGE,   
+                CardName.SMITHY,           
+                CardName.SILVER,           
+                CardName.CHANCELLOR,       # 3 - Économie
+                CardName.VILLAGE           
             ]
         
         for carte_cible in priorites_achat:
-            decision_achat = achat(
-                main=ma_main, 
-                carte=carte_cible, 
-                stock=stock, 
-                monnaie_disponible=state["bonus_money"], 
-                achats_restants=state["buys"]
-            )
+            decision_achat = achat(main=ma_main, carte=carte_cible, stock=stock, monnaie_disponible=state["bonus_money"], achats_restants=state["buys"])
             
             if decision_achat:
                 state["buys"] -= 1
@@ -154,54 +162,39 @@ def end_game(game_id: GameIdDependency) -> DopynionResponseStr:
     return DopynionResponseStr(game_id=game_id, decision="OK")
 
 # ==========================================
-# GESTION INTELLIGENTE DES CHOIX DE CARTES
+# GESTION INTELLIGENTE DES RÉACTIONS (reaction.py externe)
 # ==========================================
 
 @app.post("/confirm_discard_card_from_hand")
-async def confirm_discard_card_from_hand(game_id: GameIdDependency, _decision_input: CardNameAndHand) -> DopynionResponseBool:
-    return DopynionResponseBool(game_id=game_id, decision=True)
+async def confirm_discard_card_from_hand(game_id: GameIdDependency, decision_input: CardNameAndHand) -> DopynionResponseBool:
+    carte = getattr(decision_input, 'card_name', getattr(decision_input, 'card', None))
+    decision = confirmer_defausse(carte)
+    return DopynionResponseBool(game_id=game_id, decision=decision)
 
 @app.post("/discard_card_from_hand")
 async def discard_card_from_hand(game_id: GameIdDependency, decision_input: Hand) -> DopynionResponseCardName:
-    # On défausse en priorité les cartes qui n'apportent aucune valeur pendant le tour
-    ordre_defausse = [
-        CardName.CURSE, 
-        CardName.PROVINCE, 
-        CardName.DUCHY, 
-        CardName.ESTATE, 
-        CardName.COPPER
-    ]
-    for carte_cible in ordre_defausse:
-        if carte_cible in decision_input.hand:
-            return DopynionResponseCardName(game_id=game_id, decision=carte_cible)
-    # Sécurité si aucune carte de la liste n'est présente
-    return DopynionResponseCardName(game_id=game_id, decision=decision_input.hand[0])
+    carte_choisie = choisir_defausse(decision_input.hand)
+    return DopynionResponseCardName(game_id=game_id, decision=carte_choisie)
 
 @app.post("/confirm_trash_card_from_hand")
-async def confirm_trash_card_from_hand(game_id: GameIdDependency, _decision_input: CardNameAndHand) -> DopynionResponseBool:
-    return DopynionResponseBool(game_id=game_id, decision=True)
+async def confirm_trash_card_from_hand(game_id: GameIdDependency, decision_input: CardNameAndHand) -> DopynionResponseBool:
+    carte = getattr(decision_input, 'card_name', getattr(decision_input, 'card', None))
+    decision = confirmer_destruction(carte)
+    return DopynionResponseBool(game_id=game_id, decision=decision)
 
 @app.post("/trash_card_from_hand")
 async def trash_card_from_hand(game_id: GameIdDependency, decision_input: Hand) -> DopynionResponseCardName:
-    # On détruit en priorité les cartes toxiques, puis les petites cartes
-    ordre_poubelle = [
-        CardName.CURSE, 
-        CardName.ESTATE, 
-        CardName.COPPER
-    ]
-    for carte_cible in ordre_poubelle:
-        if carte_cible in decision_input.hand:
-            return DopynionResponseCardName(game_id=game_id, decision=carte_cible)
-    return DopynionResponseCardName(game_id=game_id, decision=decision_input.hand[0])
+    carte_choisie = choisir_destruction(decision_input.hand)
+    return DopynionResponseCardName(game_id=game_id, decision=carte_choisie)
 
 @app.post("/confirm_discard_deck")
 async def confirm_discard_deck(game_id: GameIdDependency) -> DopynionResponseBool:
+    # Utile pour valider l'effet du Chancelier qui permet de défausser son deck pour remélanger
     return DopynionResponseBool(game_id=game_id, decision=True)
 
 @app.post("/choose_card_to_receive_in_discard")
 async def choose_card_to_receive_in_discard(game_id: GameIdDependency, decision_input: PossibleCards) -> DopynionResponseCardName:
-    # Si on nous offre une carte gratuite, on prend la meilleure disponible
-    priorites_gain = [CardName.PROVINCE, CardName.GOLD, CardName.HIRELING, CardName.WITCH, CardName.LABORATORY, CardName.DUCHY, CardName.SILVER]
+    priorites_gain = [CardName.PROVINCE, CardName.GOLD, CardName.HIRELING, CardName.WITCH, CardName.BANDIT, CardName.LABORATORY, CardName.DUCHY, CardName.SILVER]
     for carte_cible in priorites_gain:
         if carte_cible in decision_input.possible_cards:
             return DopynionResponseCardName(game_id=game_id, decision=carte_cible)
@@ -209,7 +202,7 @@ async def choose_card_to_receive_in_discard(game_id: GameIdDependency, decision_
 
 @app.post("/choose_card_to_receive_in_deck")
 async def choose_card_to_receive_in_deck(game_id: GameIdDependency, decision_input: PossibleCards) -> DopynionResponseCardName:
-    priorites_gain = [CardName.PROVINCE, CardName.GOLD, CardName.HIRELING, CardName.WITCH, CardName.LABORATORY, CardName.DUCHY, CardName.SILVER]
+    priorites_gain = [CardName.PROVINCE, CardName.GOLD, CardName.HIRELING, CardName.WITCH, CardName.BANDIT, CardName.LABORATORY, CardName.DUCHY, CardName.SILVER]
     for carte_cible in priorites_gain:
         if carte_cible in decision_input.possible_cards:
             return DopynionResponseCardName(game_id=game_id, decision=carte_cible)
@@ -221,7 +214,6 @@ async def skip_card_reception_in_hand(game_id: GameIdDependency, _decision_input
 
 @app.post("/trash_money_card_for_better_money_card")
 async def trash_money_card_for_better_money_card(game_id: GameIdDependency, decision_input: MoneyCardsInHand) -> DopynionResponseCardName:
-    # On détruit le Cuivre en priorité pour l'échanger contre mieux
     if CardName.COPPER in decision_input.money_in_hand:
         return DopynionResponseCardName(game_id=game_id, decision=CardName.COPPER)
     return DopynionResponseCardName(game_id=game_id, decision=decision_input.money_in_hand[0])
