@@ -111,7 +111,12 @@ class ActionTests(unittest.TestCase):
             (CardName.WITCH, 0, 0, 0),
             (CardName.FARMINGVILLAGE, 2 ,0 ,0),
             (CardName.DISTANTSHORE, 1, 0, 0),
-            (CardName.HIRELING, 0, 0, 0)
+            (CardName.HIRELING, 0, 0, 0),
+            (CardName.BANDIT, 0, 0, 0), 
+            (CardName.BUREAUCRAT, 0, 0, 0),
+            (CardName.CHANCELLOR, 0, 0, 2),
+            (CardName.GARDENS, 0, 0, 0),
+            (CardName.MILITIA, 0, 0, 2)
         ):
             with self.subTest(carte=carte):
                 resultat = action(Cards(quantities={carte: 1}), carte)
@@ -158,7 +163,11 @@ class EffetsActionTests(unittest.TestCase):
                 CardName.WITCH,
                 CardName.FARMINGVILLAGE,
                 CardName.DISTANTSHORE,
-                CardName.HIRELING
+                CardName.HIRELING,
+                CardName.BANDIT,
+                CardName.BUREAUCRAT,
+                CardName.CHANCELLOR,
+                CardName.MILITIA
             },
         )
 
