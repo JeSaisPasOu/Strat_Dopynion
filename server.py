@@ -27,6 +27,20 @@ app = FastAPI()
 
 turn_state = {}
 
+# ==========================================
+# PRIORITÉ 4 : LISTE UNIVERSELLE DE VALEUR DES CARTES
+# Utilisée pour choisir quelle carte recevoir via un effet (ex: Bureaucrate)
+# ==========================================
+ORDRE_DE_VALEUR_DES_CARTES = [
+    CardName.PROVINCE, CardName.GOLD, CardName.HIRELING, CardName.WITCH, 
+    CardName.BANDIT, CardName.DISTANTSHORE, CardName.LABORATORY, 
+    CardName.FESTIVAL, CardName.MARKET, CardName.COUNCILROOM, 
+    CardName.DUCHY, CardName.GARDENS, CardName.FARMINGVILLAGE, 
+    CardName.MILITIA, CardName.BUREAUCRAT, CardName.SMITHY, 
+    CardName.SILVER, CardName.CHANCELLOR, CardName.VILLAGE, 
+    CardName.WOODCUTTER, CardName.ESTATE, CardName.COPPER
+]
+
 class DopynionResponseBool(BaseModel):
     game_id: str
     decision: bool
@@ -75,25 +89,22 @@ def play(_game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
     stock = _game.stock
 
     # ==========================================
-    # 1. PHASE D'ACTION (Moteurs d'abord, Terminaux ensuite)
+    # 1. PHASE D'ACTION 
     # ==========================================
     if state["actions"] > 0:
         priorites_actions = [
-            # 1. Multiplicateurs d'actions
             CardName.FARMINGVILLAGE,
             CardName.VILLAGE,
             CardName.FESTIVAL,
-            # 2. Piocheurs non-terminaux (se remboursent en action)
             CardName.LABORATORY,
             CardName.DISTANTSHORE,
             CardName.MARKET,
-            # 3. Actions terminales (consomment l'action) - Priorité aux attaques 
-            CardName.BANDIT,       # Donne de l'Or et détruit l'économie adverse
-            CardName.MILITIA,      # Donne des sous et handicape l'adversaire
-            CardName.WITCH,        # Donne des malédictions
-            CardName.BUREAUCRAT,   # Donne de l'Argent et ralentit l'adversaire
+            CardName.BANDIT,       
+            CardName.MILITIA,      
+            CardName.WITCH,        
+            CardName.BUREAUCRAT,   
             CardName.HIRELING,
-            CardName.CHANCELLOR,   # Économie rapide
+            CardName.CHANCELLOR,   
             CardName.COUNCILROOM,
             CardName.SMITHY,
             CardName.WOODCUTTER
@@ -111,14 +122,17 @@ def play(_game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
     # 2. PHASE D'ACHAT DYNAMIQUE
     # ==========================================
     if state["buys"] > 0:
+        # PRIORITÉ 5 : Détection des fins de parties alternatives
         provinces_restantes = stock.quantities.get(CardName.PROVINCE, 8)
+        piles_vides = sum(1 for qte in stock.quantities.values() if qte == 0)
         
-        if provinces_restantes <= 4:
-            # LATE GAME : Course aux points (On intègre les Jardins ici)
+        # Si 4 Provinces ou moins, OU si au moins 2 piles sont vides (la 3ème vide termine la partie)
+        if provinces_restantes <= 4 or piles_vides >= 2:
+            # LATE GAME : Course aux points 
             priorites_achat = [
                 CardName.PROVINCE, 
                 CardName.DUCHY, 
-                CardName.GARDENS, # Très rentable en fin de partie avec un gros deck
+                CardName.GARDENS, 
                 CardName.ESTATE, 
                 CardName.GOLD, 
                 CardName.SILVER
@@ -127,22 +141,24 @@ def play(_game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
             # EARLY / MID GAME : Construction du moteur et attaques
             priorites_achat = [
                 CardName.PROVINCE,         
-                CardName.HIRELING,         
                 CardName.GOLD,             
-                CardName.BANDIT,           # 5 - Génère de l'Or gratuit et attaque
-                CardName.WITCH,            # 5 - Attaque indispensable
+                CardName.BANDIT,           
+                CardName.WITCH,            
+                # PRIORITÉ 3 : Hireling abaissé après l'Or et la Sorcière
+                CardName.HIRELING,         
+                # PRIORITÉ 2 : Villages remontés pour fournir les actions des cartes terminales
+                CardName.FARMINGVILLAGE,   
+                CardName.VILLAGE,          
                 CardName.LABORATORY,       
                 CardName.FESTIVAL,         
                 CardName.MARKET,           
                 CardName.COUNCILROOM,      
-                CardName.MILITIA,          # 4 - Excellente attaque à 4 pièces
-                CardName.BUREAUCRAT,       # 4 - Bon départ
+                CardName.MILITIA,          
+                CardName.BUREAUCRAT,       
                 CardName.DISTANTSHORE,     
-                CardName.FARMINGVILLAGE,   
                 CardName.SMITHY,           
                 CardName.SILVER,           
-                CardName.CHANCELLOR,       # 3 - Économie
-                CardName.VILLAGE           
+                CardName.CHANCELLOR        
             ]
         
         for carte_cible in priorites_achat:
@@ -189,21 +205,21 @@ async def trash_card_from_hand(game_id: GameIdDependency, decision_input: Hand) 
 
 @app.post("/confirm_discard_deck")
 async def confirm_discard_deck(game_id: GameIdDependency) -> DopynionResponseBool:
-    # Utile pour valider l'effet du Chancelier qui permet de défausser son deck pour remélanger
-    return DopynionResponseBool(game_id=game_id, decision=True)
+    # PRIORITÉ 1 : On refuse systématiquement l'effet (ex: Chancelier) pour ne pas défausser une bonne pioche
+    return DopynionResponseBool(game_id=game_id, decision=False)
 
 @app.post("/choose_card_to_receive_in_discard")
 async def choose_card_to_receive_in_discard(game_id: GameIdDependency, decision_input: PossibleCards) -> DopynionResponseCardName:
-    priorites_gain = [CardName.PROVINCE, CardName.GOLD, CardName.HIRELING, CardName.WITCH, CardName.BANDIT, CardName.LABORATORY, CardName.DUCHY, CardName.SILVER]
-    for carte_cible in priorites_gain:
+    # PRIORITÉ 4 : On utilise la liste de valeur universelle
+    for carte_cible in ORDRE_DE_VALEUR_DES_CARTES:
         if carte_cible in decision_input.possible_cards:
             return DopynionResponseCardName(game_id=game_id, decision=carte_cible)
     return DopynionResponseCardName(game_id=game_id, decision=decision_input.possible_cards[0])
 
 @app.post("/choose_card_to_receive_in_deck")
 async def choose_card_to_receive_in_deck(game_id: GameIdDependency, decision_input: PossibleCards) -> DopynionResponseCardName:
-    priorites_gain = [CardName.PROVINCE, CardName.GOLD, CardName.HIRELING, CardName.WITCH, CardName.BANDIT, CardName.LABORATORY, CardName.DUCHY, CardName.SILVER]
-    for carte_cible in priorites_gain:
+    # PRIORITÉ 4 : On utilise la liste de valeur universelle
+    for carte_cible in ORDRE_DE_VALEUR_DES_CARTES:
         if carte_cible in decision_input.possible_cards:
             return DopynionResponseCardName(game_id=game_id, decision=carte_cible)
     return DopynionResponseCardName(game_id=game_id, decision=decision_input.possible_cards[0])
