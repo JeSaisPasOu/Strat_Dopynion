@@ -27,7 +27,12 @@ EFFETS_ACTION: dict[CardName, EffetsAction] = {
     CardName.WITCH: EffetsAction(),
     CardName.FARMINGVILLAGE: EffetsAction(actions=2),
     CardName.DISTANTSHORE: EffetsAction(actions=1),
-    CardName.HIRELING: EffetsAction() 
+    CardName.HIRELING: EffetsAction(),
+    CardName.BANDIT: EffetsAction(),
+    CardName.BUREAUCRAT: EffetsAction(),
+    CardName.CHANCELLOR: EffetsAction(0, 0, 2),
+    CardName.GARDENS: EffetsAction(),
+    CardName.MILITIA: EffetsAction(0, 0, 2)
 }
 
 
