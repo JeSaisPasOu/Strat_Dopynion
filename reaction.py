@@ -1,24 +1,39 @@
-"""Choix de réaction : défausse, destruction et cartes reçues."""
+"""Décisions de réaction : défausse, destruction et cartes reçues."""
+
 from typing import Iterable
 
 from dopynion.data_model import CardName
 
 
 def confirmer_defausse(carte: CardName | None) -> bool:
-    """Accepte la défausse volontaire de cartes généralement peu utiles en main."""
+    """Accepte surtout de défausser les cartes peu utiles pour les pièces du tour."""
     return carte in {
         CardName.CURSE,
-        CardName.PROVINCE,
-        CardName.DUCHY,
         CardName.ESTATE,
+        CardName.DUCHY,
+        CardName.PROVINCE,
+        CardName.GARDENS,
+        CardName.COPPER,
     }
 
 
 def choisir_defausse(main: list[CardName]) -> CardName:
-    """Lors d'une défausse forcée, jette d'abord les cartes mortes en main."""
+    """Défausse d'abord les cartes mortes, en préservant les trésors forts."""
     ordre = [
-        CardName.CURSE, CardName.ESTATE, CardName.DUCHY, CardName.PROVINCE,
-        CardName.COPPER, CardName.SILVER,
+        CardName.CURSE,
+        CardName.ESTATE,
+        CardName.DUCHY,
+        CardName.PROVINCE,
+        CardName.GARDENS,
+        CardName.COPPER,
+        CardName.CHANCELLOR,
+        CardName.WOODCUTTER,
+        CardName.BUREAUCRAT,
+        CardName.VILLAGE,
+        CardName.FARMINGVILLAGE,
+        CardName.SMITHY,
+        CardName.SILVER,
+        CardName.GOLD,
     ]
     for card in ordre:
         if card in main:
@@ -27,22 +42,22 @@ def choisir_defausse(main: list[CardName]) -> CardName:
 
 
 def confirmer_destruction(carte: CardName | None) -> bool:
-    """Confirme la destruction d'une malédiction, d'un domaine ou d'un cuivre."""
+    """Ne détruit volontairement que les cartes généralement nuisibles."""
     return carte in {CardName.CURSE, CardName.ESTATE, CardName.COPPER}
 
 
 def choisir_destruction(main: list[CardName]) -> CardName:
-    """Choisit une carte faible à détruire si l'arbitre impose un choix."""
-    ordre = [CardName.CURSE, CardName.ESTATE, CardName.COPPER, CardName.SILVER]
+    """Choisit les cartes à détruire dans l'ordre le moins coûteux."""
+    ordre = [CardName.CURSE, CardName.ESTATE, CardName.COPPER]
     for card in ordre:
         if card in main:
             return card
+    # Pas de carte que l'on souhaite détruire : renvoie une carte disponible.
+    # confirmer_destruction() refusera ensuite une destruction coûteuse.
     return main[0] if main else CardName.COPPER
 
 
 def _cost(card: CardName) -> int:
-    # Valeurs de repli : suffisantes pour départager les cartes si le SDK ne donne
-    # pas un coût pour une carte dans l'ensemble fourni.
     try:
         from dopynion.cards import Card
         card_type = Card.class_(card)
@@ -52,39 +67,63 @@ def _cost(card: CardName) -> int:
 
 
 def choisir_carte_recue(possibles: list[CardName], destination: str = "discard") -> CardName:
-    """Préfère une carte forte, en tenant compte du fait qu'elle va au-dessus du deck."""
+    """Préfère les cartes utiles, et évite les points de victoire au-dessus du deck."""
     if not possibles:
         return CardName.COPPER
+
     valeurs = {
-        CardName.PROVINCE: 80, CardName.GOLD: 76, CardName.HIRELING: 75,
-        CardName.BANDIT: 68, CardName.WITCH: 67, CardName.LABORATORY: 66,
-        CardName.FESTIVAL: 65, CardName.MARKET: 62, CardName.COUNCILROOM: 62,
-        CardName.DISTANTSHORE: 60, CardName.DUCHY: 55, CardName.FARMINGVILLAGE: 55,
-        CardName.MILITIA: 54, CardName.BUREAUCRAT: 51, CardName.SMITHY: 51,
-        CardName.SILVER: 45, CardName.CHANCELLOR: 38, CardName.VILLAGE: 37,
-        CardName.WOODCUTTER: 36, CardName.GARDENS: 34, CardName.ESTATE: 18,
-        CardName.COPPER: 5, CardName.CURSE: -20,
+        CardName.PROVINCE: 82,
+        CardName.GOLD: 80,
+        CardName.HIRELING: 79,
+        CardName.LABORATORY: 77,
+        CardName.FESTIVAL: 74,
+        CardName.WITCH: 73,
+        CardName.BANDIT: 72,
+        CardName.MARKET: 70,
+        CardName.COUNCILROOM: 69,
+        CardName.MILITIA: 68,
+        CardName.DISTANTSHORE: 64,
+        CardName.SMITHY: 63,
+        CardName.DUCHY: 45,
+        CardName.FARMINGVILLAGE: 45,
+        CardName.BUREAUCRAT: 43,
+        CardName.SILVER: 42,
+        CardName.CHANCELLOR: 38,
+        CardName.VILLAGE: 38,
+        CardName.WOODCUTTER: 36,
+        CardName.GARDENS: 30,
+        CardName.ESTATE: 18,
+        CardName.COPPER: 5,
+        CardName.CURSE: -100,
     }
 
     def score(card: CardName) -> float:
         value = float(valeurs.get(card, 20 + 2 * _cost(card)))
         if destination == "deck":
             if card in (CardName.PROVINCE, CardName.DUCHY, CardName.ESTATE, CardName.GARDENS):
-                value -= 25
-            if card in (CardName.LABORATORY, CardName.FESTIVAL, CardName.MARKET, CardName.HIRELING):
-                value += 8
+                value -= 35
+            if card in (
+                CardName.LABORATORY,
+                CardName.FESTIVAL,
+                CardName.MARKET,
+                CardName.HIRELING,
+                CardName.GOLD,
+                CardName.WITCH,
+                CardName.BANDIT,
+            ):
+                value += 7
         return value
 
     return max(possibles, key=score)
 
 
 def sauter_reception_en_main() -> bool:
-    """False signifie par défaut que le bot ne demande pas à sauter la réception."""
+    """False : accepte par défaut de recevoir la carte dans la main."""
     return False
 
 
 def choisir_monnaie_a_detruire(monnaies: list[CardName]) -> CardName:
-    """Choisit la carte de monnaie la plus faible présente."""
+    """Détruit en priorité le cuivre pour obtenir une meilleure carte de monnaie."""
     for card in (CardName.COPPER, CardName.SILVER):
         if card in monnaies:
             return card

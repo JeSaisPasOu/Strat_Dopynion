@@ -1,6 +1,6 @@
-"""API FastAPI de Toulousain test. La stratégie est séparée en action.py,
-achat.py et reaction.py.
-"""
+"""API FastAPI de Toulousain test, avec stratégie séparée en modules."""
+
+import logging
 from collections import Counter
 from typing import Annotated, Any
 
@@ -17,10 +17,8 @@ from fastapi import Depends, FastAPI, Header, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel
 
-# Imports corrigés pour correspondre à tes fichiers réels
 from action import action
-from achat import achat
-
+from achat import achat, cout_carte, monnaie_en_main, priorites_achat
 from reaction import (
     confirmer_defausse,
     choisir_defausse,
@@ -31,6 +29,8 @@ from reaction import (
     choisir_monnaie_a_detruire,
 )
 
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger("toulousain")
 app = FastAPI(title="Toulousain test - Dopynion")
 turn_state: dict[str, dict[str, Any]] = {}
 
@@ -82,13 +82,29 @@ def _extract_card_name(payload: Any) -> CardName | None:
             try:
                 return CardName(str(raw).lower())
             except (TypeError, ValueError):
-                pass
+                continue
     return None
+
+
+def _safe_card_cost(carte: CardName) -> int:
+    try:
+        return int(cout_carte(carte))
+    except (AttributeError, TypeError, ValueError, KeyError):
+        try:
+            classe = Card.class_(carte)
+            return int(classe.cost) if classe is not Card else 0
+        except (AttributeError, TypeError, ValueError, KeyError):
+            return 0
+
+
+def _piles_vides(stock: Any) -> int:
+    quantities = getattr(stock, "quantities", {}) or {}
+    return sum(1 for quantity in quantities.values() if int(quantity) == 0)
 
 
 @app.exception_handler(Exception)
 def unknown_exception_handler(_request: Request, exc: Exception) -> JSONResponse:
-    print(exc.__class__.__name__, str(exc))
+    logger.exception("Erreur non gérée dans l'API Dopynion")
     return JSONResponse(
         status_code=500,
         content={"message": "Oops!", "detail": str(exc), "name": exc.__class__.__name__},
@@ -128,88 +144,97 @@ def start_turn(game_id: GameIdDependency) -> DopynionResponseStr:
 @app.post("/play")
 def play(game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
     state = turn_state.setdefault(game_id, _new_state())
-    players = game.players or []
-    player = next((p for p in players if p.hand is not None), players[0] if players else None)
-    
-    if player is None or player.hand is None:
+    players = getattr(game, "players", None) or []
+    player = next((p for p in players if getattr(p, "hand", None) is not None), None)
+    if player is None:
         return DopynionResponseStr(game_id=game_id, decision="END_TURN")
 
-    ma_main = player.hand
+    main = player.hand
     stock = game.stock
+    quantities_main = getattr(main, "quantities", {}) or {}
 
-    # ==========================================
-    # 1. PHASE D'ACTION 
-    # ==========================================
-    if state["actions"] > 0:
-        priorites_actions = [
-            CardName.FARMINGVILLAGE,
-            CardName.VILLAGE,
-            CardName.FESTIVAL,
-            CardName.LABORATORY,
-            CardName.DISTANTSHORE,
-            CardName.MARKET,
-            CardName.BANDIT,       
-            CardName.MILITIA,      
-            CardName.WITCH,        
-            CardName.BUREAUCRAT,   
-            CardName.HIRELING,
-            CardName.CHANCELLOR,   
-            CardName.COUNCILROOM,
-            CardName.SMITHY,
-            CardName.WOODCUTTER
-        ]
-        
+    # Les cartes qui ajoutent des actions passent avant les actions terminales.
+    # L'ordre est réévalué à chaque appel de /play avec la main réellement reçue.
+    priorites_actions = [
+        CardName.FARMINGVILLAGE,
+        CardName.VILLAGE,
+        CardName.FESTIVAL,
+        CardName.LABORATORY,
+        CardName.DISTANTSHORE,
+        CardName.MARKET,
+        CardName.COUNCILROOM,
+        CardName.WITCH,
+        CardName.BANDIT,
+        CardName.HIRELING,
+        CardName.MILITIA,
+        CardName.BUREAUCRAT,
+        CardName.SMITHY,
+        CardName.CHANCELLOR,
+        CardName.WOODCUTTER,
+    ]
+
+    if int(state.get("actions", 0)) > 0:
         for carte_action in priorites_actions:
-            resultat_action = action(main=ma_main, carte=carte_action, actions_restantes=state["actions"])
+            resultat_action = action(
+                main=main,
+                carte=carte_action,
+                actions_restantes=int(state["actions"]),
+            )
             if resultat_action:
-                state["actions"] = max(0, int(state.get("actions", 0)) - 1 + resultat_action.actions)
-                state["buys"] = int(state.get("buys", 0)) + resultat_action.buys
-                state["bonus_money"] = int(state.get("bonus_money", 0)) + resultat_action.bonus_money
+                state["actions"] = max(
+                    0,
+                    int(state.get("actions", 0)) - 1 + int(resultat_action.actions),
+                )
+                state["buys"] = int(state.get("buys", 0)) + int(resultat_action.buys)
+                state["bonus_money"] = int(state.get("bonus_money", 0)) + int(
+                    resultat_action.bonus_money
+                )
+                logger.info(
+                    "game=%s turn=%s action=%s actions_restantes=%s bonus=%s",
+                    game_id,
+                    state.get("turn", 0),
+                    carte_action.value,
+                    state["actions"],
+                    state["bonus_money"],
+                )
                 return DopynionResponseStr(game_id=game_id, decision=resultat_action.decision)
 
-    # ==========================================
-    # 2. PHASE D'ACHAT 
-    # ==========================================
-    if state["buys"] > 0:
-        provinces_restantes = stock.quantities.get(CardName.PROVINCE, 8)
-        piles_vides = sum(1 for qte in stock.quantities.values() if qte == 0)
-        
-        if provinces_restantes <= 4 or piles_vides >= 2:
-            priorites_achat = [
-                CardName.PROVINCE, 
-                CardName.DUCHY, 
-                CardName.GARDENS, 
-                CardName.ESTATE, 
-                CardName.GOLD, 
-                CardName.SILVER
-            ]
-        else:
-            priorites_achat = [
-                CardName.PROVINCE,         
-                CardName.GOLD,             
-                CardName.BANDIT,           
-                CardName.WITCH,            
-                CardName.HIRELING,         
-                CardName.FARMINGVILLAGE,   
-                CardName.VILLAGE,          
-                CardName.LABORATORY,       
-                CardName.FESTIVAL,         
-                CardName.MARKET,           
-                CardName.COUNCILROOM,      
-                CardName.MILITIA,          
-                CardName.BUREAUCRAT,       
-                CardName.DISTANTSHORE,     
-                CardName.SMITHY,           
-                CardName.SILVER,           
-                CardName.CHANCELLOR        
-            ]
-        
-        for carte_cible in priorites_achat:
-            decision_achat = achat(main=ma_main, carte=carte_cible, stock=stock, monnaie_disponible=state["bonus_money"], achats_restants=state["buys"])
+    # Fin de partie : standard Dominion = Province vide OU trois piles vides.
+    provinces_restantes = int(getattr(stock, "quantities", {}).get(CardName.PROVINCE, 8))
+    piles_vides = _piles_vides(stock)
+    budget = int(state.get("bonus_money", 0)) + monnaie_en_main(main)
+
+    if int(state.get("buys", 0)) > 0:
+        priorites = priorites_achat(
+            stock,
+            achats=state.get("purchased", Counter()),
+            tour=int(state.get("turn", 1)),
+            provinces_restantes=provinces_restantes,
+            piles_vides=piles_vides,
+            budget=budget,
+        )
+        for carte_cible in priorites:
+            decision_achat = achat(
+                main=main,
+                carte=carte_cible,
+                stock=stock,
+                monnaie_disponible=int(state.get("bonus_money", 0)),
+                achats_restants=int(state.get("buys", 0)),
+            )
             if decision_achat:
                 state["buys"] = int(state.get("buys", 0)) - 1
-                cout_carte = Card.class_(carte_cible).cost
-                state["bonus_money"] = int(state.get("bonus_money", 0)) - cout_carte
+                state["bonus_money"] = int(state.get("bonus_money", 0)) - _safe_card_cost(
+                    carte_cible
+                )
+                state["purchased"][carte_cible] += 1
+                logger.info(
+                    "game=%s turn=%s achat=%s budget_avant=%s achats_restants=%s",
+                    game_id,
+                    state.get("turn", 0),
+                    carte_cible.value,
+                    budget,
+                    state["buys"],
+                )
                 return DopynionResponseStr(game_id=game_id, decision=decision_achat)
 
     return DopynionResponseStr(game_id=game_id, decision="END_TURN")
@@ -255,6 +280,7 @@ def trash_card_from_hand(
 
 @app.post("/confirm_discard_deck")
 def confirm_discard_deck(game_id: GameIdDependency) -> DopynionResponseBool:
+    # Choix prudent : ne vide pas le deck sans connaître sa composition.
     return DopynionResponseBool(game_id=game_id, decision=False)
 
 
