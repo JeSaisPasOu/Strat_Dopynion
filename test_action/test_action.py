@@ -116,7 +116,13 @@ class ActionTests(unittest.TestCase):
             (CardName.BUREAUCRAT, 0, 0, 0),
             (CardName.CHANCELLOR, 0, 0, 2),
             (CardName.GARDENS, 0, 0, 0),
-            (CardName.MILITIA, 0, 0, 2)
+            (CardName.MILITIA, 0, 0, 2),
+            (CardName.ADVENTURER, 0, 0, 0),
+            (CardName.CELLAR, 1, 0, 0),
+            (CardName.FORTUNETELLER, 0, 0, 2),
+            (CardName.LIBRARY, 0, 0, 0),
+            (CardName.MAGNATE, 0, 0, 0),
+            (CardName.WORKSHOP, 0, 0, 0)
         ):
             with self.subTest(carte=carte):
                 resultat = action(Cards(quantities={carte: 1}), carte)
@@ -168,8 +174,14 @@ class EffetsActionTests(unittest.TestCase):
                 CardName.BUREAUCRAT,
                 CardName.CHANCELLOR,
                 CardName.GARDENS,
-                CardName.MILITIA
-            },
+                CardName.MILITIA,
+                CardName.ADVENTURER,
+                CardName.CELLAR,
+                CardName.FORTUNETELLER,
+                CardName.LIBRARY,
+                CardName.MAGNATE,
+                CardName.WORKSHOP
+            }
         )
 
     def test_bonus_conformes_a_la_bibliotheque_dopynion(self):
