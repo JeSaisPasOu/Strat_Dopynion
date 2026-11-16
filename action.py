@@ -1,4 +1,4 @@
-"""Gestion prudente de la phase d'action pour le bot Dopynion."""
+"""Gestion de la phase d'action pour le bot Toulousain test."""
 
 from dataclasses import dataclass, replace
 from typing import Literal
@@ -9,15 +9,16 @@ from dopynion.data_model import CardName, Cards
 
 @dataclass(frozen=True)
 class EffetsAction:
-    """Nombre d'effets bonus déclarés par la carte, avant consommation de l'action."""
+    """Bonus à appliquer au compteur local après avoir joué une carte."""
 
     actions: int = 0
     buys: int = 0
     bonus_money: int = 0
 
 
-# Ces valeurs servent uniquement à maintenir le compteur local du bot.
-# Les effets complets des cartes sont exécutés par l'arbitre Dopynion.
+# Le moteur Dopynion résout les effets complets des cartes (piocher, attaque,
+# défausse, gain...). Ici, on ne comptabilise que les bonus nécessaires au bot
+# pour savoir s'il peut encore jouer une action ou effectuer un achat.
 EFFETS_ACTION: dict[CardName, EffetsAction] = {
     CardName.VILLAGE: EffetsAction(actions=2),
     CardName.WOODCUTTER: EffetsAction(buys=1, bonus_money=2),
@@ -35,13 +36,42 @@ EFFETS_ACTION: dict[CardName, EffetsAction] = {
     CardName.CHANCELLOR: EffetsAction(bonus_money=2),
     CardName.GARDENS: EffetsAction(),
     CardName.MILITIA: EffetsAction(bonus_money=2),
-    CardName.ADVENTURER : EffetsAction(),
-    CardName.CELLAR : EffetsAction(actions=1),
-    CardName.FORTUNETELLER : EffetsAction(bonus_money=2),
-    CardName.LIBRARY : EffetsAction(),
-    CardName.MAGNATE : EffetsAction(),
-    CardName.WORKSHOP : EffetsAction()
+    # Nouvelles cartes
+    CardName.ADVENTURER: EffetsAction(),
+    CardName.CELLAR: EffetsAction(actions=1),
+    CardName.FORTUNETELLER: EffetsAction(bonus_money=2),
+    CardName.LIBRARY: EffetsAction(),
+    CardName.MAGNATE: EffetsAction(),
+    CardName.WORKSHOP: EffetsAction(),
 }
+
+
+# Toutes les cartes qui rendent une action doivent être jouées avant les cartes
+# terminales. Les autres priorités privilégient les attaques et les effets de
+# pioche, puis les cartes donnant surtout de l'argent ou un gain de carte.
+ACTION_PRIORITY: tuple[CardName, ...] = (
+    CardName.FARMINGVILLAGE,
+    CardName.VILLAGE,
+    CardName.FESTIVAL,
+    CardName.LABORATORY,
+    CardName.MARKET,
+    CardName.DISTANTSHORE,
+    CardName.CELLAR,
+    CardName.WITCH,
+    CardName.BANDIT,
+    CardName.HIRELING,
+    CardName.COUNCILROOM,
+    CardName.LIBRARY,
+    CardName.SMITHY,
+    CardName.MILITIA,
+    CardName.FORTUNETELLER,
+    CardName.MAGNATE,
+    CardName.ADVENTURER,
+    CardName.BUREAUCRAT,
+    CardName.WORKSHOP,
+    CardName.CHANCELLOR,
+    CardName.WOODCUTTER,
+)
 
 
 @dataclass(frozen=True)
@@ -65,7 +95,7 @@ def confirmer_fin_action(resultat: ResultatAction) -> ResultatAction:
 
 
 def _card_type(carte: CardName):
-    """Retourne le type de carte si connu, sans faire planter une décision API."""
+    """Retourne la classe de carte, ou Card si elle n'est pas connue."""
     try:
         return Card.class_(carte)
     except (AttributeError, TypeError, ValueError, KeyError):
@@ -78,7 +108,7 @@ def action(
     *,
     actions_restantes: int = 1,
 ) -> ResultatAction | Literal[False]:
-    """Propose une action seulement si elle est réellement présente et jouable."""
+    """Renvoie une décision ACTION uniquement si la carte est en main et jouable."""
     if actions_restantes <= 0:
         return False
 

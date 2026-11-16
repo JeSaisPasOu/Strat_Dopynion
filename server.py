@@ -17,7 +17,7 @@ from fastapi import Depends, FastAPI, Header, Request
 from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel
 
-from action import action
+from action import ACTION_PRIORITY, action
 from achat import achat, cout_carte, monnaie_en_main, priorites_achat
 from reaction import (
     confirmer_defausse,
@@ -64,6 +64,9 @@ def _new_state() -> dict[str, Any]:
         "buys": 1,
         "bonus_money": 0,
         "purchased": Counter(),
+        # Cartes gagnées par les effets (ex. Workshop, Bureaucrat), en plus
+        # des cartes explicitement achetées pendant la phase d'achat.
+        "gained": Counter(),
     }
 
 
@@ -88,7 +91,8 @@ def _extract_card_name(payload: Any) -> CardName | None:
 
 def _safe_card_cost(carte: CardName) -> int:
     try:
-        return int(cout_carte(carte))
+        cout = int(cout_carte(carte))
+        return cout if cout < 10**6 else 0
     except (AttributeError, TypeError, ValueError, KeyError):
         try:
             classe = Card.class_(carte)
@@ -100,6 +104,18 @@ def _safe_card_cost(carte: CardName) -> int:
 def _piles_vides(stock: Any) -> int:
     quantities = getattr(stock, "quantities", {}) or {}
     return sum(1 for quantity in quantities.values() if int(quantity) == 0)
+
+
+def _cartes_connues(state: dict[str, Any]) -> Counter:
+    """Fusionne les achats et les cartes gagnées par les effets du jeu."""
+    result = Counter(state.get("purchased", Counter()))
+    result.update(state.get("gained", Counter()))
+    return result
+
+
+def _enregistrer_carte_gagnee(game_id: str, carte: CardName) -> None:
+    state = turn_state.setdefault(game_id, _new_state())
+    state.setdefault("gained", Counter())[carte] += 1
 
 
 @app.exception_handler(Exception)
@@ -151,30 +167,11 @@ def play(game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
 
     main = player.hand
     stock = game.stock
-    quantities_main = getattr(main, "quantities", {}) or {}
 
-    # Les cartes qui ajoutent des actions passent avant les actions terminales.
-    # L'ordre est réévalué à chaque appel de /play avec la main réellement reçue.
-    priorites_actions = [
-        CardName.FARMINGVILLAGE,
-        CardName.VILLAGE,
-        CardName.FESTIVAL,
-        CardName.LABORATORY,
-        CardName.DISTANTSHORE,
-        CardName.MARKET,
-        CardName.COUNCILROOM,
-        CardName.WITCH,
-        CardName.BANDIT,
-        CardName.HIRELING,
-        CardName.MILITIA,
-        CardName.BUREAUCRAT,
-        CardName.SMITHY,
-        CardName.CHANCELLOR,
-        CardName.WOODCUTTER,
-    ]
-
+    # Les cartes donnant des actions sont placées avant les actions terminales.
+    # L'arbitre résout leurs effets complets ; le bot actualise ici ses compteurs.
     if int(state.get("actions", 0)) > 0:
-        for carte_action in priorites_actions:
+        for carte_action in ACTION_PRIORITY:
             resultat_action = action(
                 main=main,
                 carte=carte_action,
@@ -199,15 +196,15 @@ def play(game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
                 )
                 return DopynionResponseStr(game_id=game_id, decision=resultat_action.decision)
 
-    # Fin de partie : standard Dominion = Province vide OU trois piles vides.
-    provinces_restantes = int(getattr(stock, "quantities", {}).get(CardName.PROVINCE, 8))
+    stock_quantities = getattr(stock, "quantities", {}) or {}
+    provinces_restantes = int(stock_quantities.get(CardName.PROVINCE, 8))
     piles_vides = _piles_vides(stock)
     budget = int(state.get("bonus_money", 0)) + monnaie_en_main(main)
 
     if int(state.get("buys", 0)) > 0:
         priorites = priorites_achat(
             stock,
-            achats=state.get("purchased", Counter()),
+            achats=_cartes_connues(state),
             tour=int(state.get("turn", 1)),
             provinces_restantes=provinces_restantes,
             piles_vides=piles_vides,
@@ -226,7 +223,7 @@ def play(game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
                 state["bonus_money"] = int(state.get("bonus_money", 0)) - _safe_card_cost(
                     carte_cible
                 )
-                state["purchased"][carte_cible] += 1
+                state.setdefault("purchased", Counter())[carte_cible] += 1
                 logger.info(
                     "game=%s turn=%s achat=%s budget_avant=%s achats_restants=%s",
                     game_id,
@@ -280,7 +277,7 @@ def trash_card_from_hand(
 
 @app.post("/confirm_discard_deck")
 def confirm_discard_deck(game_id: GameIdDependency) -> DopynionResponseBool:
-    # Choix prudent : ne vide pas le deck sans connaître sa composition.
+    # Ne pas sacrifier le deck entier sans connaître sa composition.
     return DopynionResponseBool(game_id=game_id, decision=False)
 
 
@@ -288,7 +285,10 @@ def confirm_discard_deck(game_id: GameIdDependency) -> DopynionResponseBool:
 def choose_card_to_receive_in_discard(
     game_id: GameIdDependency, decision_input: PossibleCards
 ) -> DopynionResponseCardName:
-    chosen = choisir_carte_recue(list(decision_input.possible_cards), destination="discard")
+    possibles = list(decision_input.possible_cards)
+    chosen = choisir_carte_recue(possibles, destination="discard")
+    if possibles:
+        _enregistrer_carte_gagnee(game_id, chosen)
     return DopynionResponseCardName(game_id=game_id, decision=chosen)
 
 
@@ -296,7 +296,10 @@ def choose_card_to_receive_in_discard(
 def choose_card_to_receive_in_deck(
     game_id: GameIdDependency, decision_input: PossibleCards
 ) -> DopynionResponseCardName:
-    chosen = choisir_carte_recue(list(decision_input.possible_cards), destination="deck")
+    possibles = list(decision_input.possible_cards)
+    chosen = choisir_carte_recue(possibles, destination="deck")
+    if possibles:
+        _enregistrer_carte_gagnee(game_id, chosen)
     return DopynionResponseCardName(game_id=game_id, decision=chosen)
 
 
