@@ -167,6 +167,7 @@ class EffetsActionTests(unittest.TestCase):
                 CardName.BANDIT,
                 CardName.BUREAUCRAT,
                 CardName.CHANCELLOR,
+                CardName.GARDENS,
                 CardName.MILITIA
             },
         )
