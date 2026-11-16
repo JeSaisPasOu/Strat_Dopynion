@@ -94,12 +94,8 @@ def _score_achat(
     if carte == CardName.ESTATE:
         return 86.0 if provinces_restantes <= 1 or piles_vides >= 2 else 2.0
     if carte == CardName.GARDENS:
-        # Sans accès au deck complet, on évite Gardens au début et on ne le
-        # considère qu'en fin de partie, lorsque le nombre de cartes est plus élevé.
         return 72.0 if tour >= 13 and (provinces_restantes <= 4 or piles_vides >= 2) else 24.0
 
-    # Hireling produit une carte supplémentaire à chaque tour : le premier est
-    # très rentable, les suivants restent bons mais ne doivent pas monopoliser le deck.
     if carte == CardName.HIRELING:
         return 104.0 if achetee == 0 else 92.0 if achetee == 1 else 58.0
     if carte == CardName.GOLD:
