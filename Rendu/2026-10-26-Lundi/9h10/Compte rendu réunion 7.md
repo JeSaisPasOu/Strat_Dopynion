@@ -78,20 +78,6 @@ Gestion du surplus : Si un joueur dispose de plus de monnaie que le coût d'une 
 | Compte rendu avant et après reunion | Erwan Menard | Au fur et à mesure |
 | Avancement cahier des charges | Guillaume Befre/Erwan Menard | Au fur et à mesure |
 
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
-## 
-
 ## **6\. Signatures**
 
 | Pierre Dejean | Erwan Menard | Guillaume Befre | Adam Alves | Le Client |
