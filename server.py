@@ -63,6 +63,9 @@ def _new_state() -> dict[str, Any]:
         "actions": 1,
         "buys": 1,
         "bonus_money": 0,
+        # Budget restant après chaque achat du tour : les trésors ne peuvent
+        # pas être dépensés plusieurs fois si /play est rappelé.
+        "money_remaining": None,
         "purchased": Counter(),
         # Cartes gagnées par les effets (ex. Workshop, Bureaucrat), en plus
         # des cartes explicitement achetées pendant la phase d'achat.
@@ -103,7 +106,34 @@ def _safe_card_cost(carte: CardName) -> int:
 
 def _piles_vides(stock: Any) -> int:
     quantities = getattr(stock, "quantities", {}) or {}
+    # Le moteur peut omettre les piles épuisées de stock.quantities.
+    # Le comptage exact est donc fait dans _maj_piles_vides avec l'historique.
     return sum(1 for quantity in quantities.values() if int(quantity) == 0)
+
+
+def _maj_piles_vides(state: dict[str, Any], stock: Any) -> int:
+    quantities = getattr(stock, "quantities", {}) or {}
+    known = state.setdefault("known_piles", set())
+    previous = state.setdefault("last_stock", {})
+    current_names = set(quantities.keys())
+    known.update(current_names)
+    for name, quantity in quantities.items():
+        try:
+            if int(quantity) > 0:
+                previous[name] = int(quantity)
+            else:
+                previous[name] = 0
+        except (TypeError, ValueError):
+            continue
+    # Une pile connue auparavant mais absente du stock est considérée vide.
+    empty = 0
+    for name in known:
+        if name not in current_names:
+            empty += 1
+        elif previous.get(name, 1) == 0:
+            empty += 1
+    state["piles_vides"] = empty
+    return empty
 
 
 def _cartes_connues(state: dict[str, Any]) -> Counter:
@@ -154,6 +184,7 @@ def start_turn(game_id: GameIdDependency) -> DopynionResponseStr:
     state["actions"] = 1
     state["buys"] = 1
     state["bonus_money"] = 0
+    state["money_remaining"] = None
     return DopynionResponseStr(game_id=game_id, decision="OK")
 
 
@@ -198,8 +229,10 @@ def play(game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
 
     stock_quantities = getattr(stock, "quantities", {}) or {}
     provinces_restantes = int(stock_quantities.get(CardName.PROVINCE, 8))
-    piles_vides = _piles_vides(stock)
-    budget = int(state.get("bonus_money", 0)) + monnaie_en_main(main)
+    piles_vides = _maj_piles_vides(state, stock)
+    if state.get("money_remaining") is None:
+        state["money_remaining"] = int(state.get("bonus_money", 0)) + monnaie_en_main(main)
+    budget = int(state.get("money_remaining", 0))
 
     if int(state.get("buys", 0)) > 0:
         priorites = priorites_achat(
@@ -215,14 +248,12 @@ def play(game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
                 main=main,
                 carte=carte_cible,
                 stock=stock,
-                monnaie_disponible=int(state.get("bonus_money", 0)),
+                monnaie_disponible=budget - monnaie_en_main(main),
                 achats_restants=int(state.get("buys", 0)),
             )
             if decision_achat:
                 state["buys"] = int(state.get("buys", 0)) - 1
-                state["bonus_money"] = int(state.get("bonus_money", 0)) - _safe_card_cost(
-                    carte_cible
-                )
+                state["money_remaining"] = max(0, budget - _safe_card_cost(carte_cible))
                 state.setdefault("purchased", Counter())[carte_cible] += 1
                 logger.info(
                     "game=%s turn=%s achat=%s budget_avant=%s achats_restants=%s",

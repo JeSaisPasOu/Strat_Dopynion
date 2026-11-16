@@ -8,8 +8,11 @@ from dopynion.data_model import CardName, Cards
 
 # Les nouvelles cartes sont incluses explicitement. Leur coût réel est toujours
 # lu dans dopynion.cards : aucun coût n'est codé en dur dans la stratégie.
-CARTES_STRATEGIE: tuple[CardName, ...] = (
+_COLONY = getattr(CardName, "COLONY", getattr(CardName, "COLONIE", None))
+
+CARTES_STRATEGIE: tuple[CardName, ...] = tuple(c for c in (
     CardName.PROVINCE,
+    _COLONY,
     CardName.GOLD,
     CardName.HIRELING,
     CardName.WITCH,
@@ -36,7 +39,7 @@ CARTES_STRATEGIE: tuple[CardName, ...] = (
     CardName.GARDENS,
     CardName.DUCHY,
     CardName.ESTATE,
-)
+) if c is not None)
 
 
 CARTES_TERMINALES: tuple[CardName, ...] = (
@@ -139,15 +142,20 @@ def _score_achat(
     # approche réellement de sa fin.
     if carte == CardName.PROVINCE:
         return 150.0
+    if _COLONY is not None and carte == _COLONY:
+        # Colonie (10 PV) : priorité très élevée, comme Province.
+        return 155.0
     if carte == CardName.DUCHY:
         return 124.0 if fin_proche else 12.0
     if carte == CardName.ESTATE:
         return 90.0 if provinces_restantes <= 1 or piles_vides >= 2 else 1.0
     if carte == CardName.GARDENS:
+        # Retour de réunion : jardins peu rentables avec le deck actuel.
+        # Ne devient intéressant que si le deck est réellement volumineux.
         points_estimes = taille_deck_estimee // 10
-        if tour >= 11 or fin_proche:
-            return min(92.0, 32.0 + 13.0 * points_estimes)
-        return 18.0 + 5.0 * points_estimes
+        if fin_proche and points_estimes >= 4:
+            return min(76.0, 28.0 + 9.0 * points_estimes)
+        return 12.0 + 3.0 * points_estimes
 
     # Économie et cartes très efficaces.
     if carte == CardName.HIRELING:
@@ -230,7 +238,8 @@ def _score_achat(
     if carte == CardName.SILVER:
         return 68.0 if tour <= 12 else 58.0 if tour <= 18 else 44.0
     if carte == CardName.WOODCUTTER:
-        return 57.0 if copies < 2 else 42.0
+        # Faible rentabilité constatée pendant la réunion.
+        return 38.0 if copies == 0 else 25.0
     if carte == CardName.VILLAGE:
         if terminales >= 2 and villages < terminales:
             return 69.0 if copies < 2 else 52.0
