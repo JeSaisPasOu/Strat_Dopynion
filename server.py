@@ -30,7 +30,7 @@ from strategie import Contexte, carte, nombre, quantites
 
 logger = logging.getLogger('toulousain')
 logging.basicConfig(level=logging.INFO)
-app = FastAPI(title='Toulousain test - Dopynion V5')
+app = FastAPI(title='Toulousain - Dopynion V5')
 DATABASE = Path(os.environ.get('TOULOUSAIN_STATE_DB',
     str(Path(__file__).with_name('toulousain_etat.sqlite3'))))
 DECISIONS_LOG = os.environ.get('TOULOUSAIN_DECISIONS_LOG')
@@ -166,7 +166,7 @@ def _player(game):
     # La V4 prenait le premier joueur ayant une main non nulle, ce qui peut
     # désigner un adversaire si plusieurs mains sont présentes dans le modèle.
     for p in players:
-        if getattr(p,'name',None)=='Toulousain test' and getattr(p,'hand',None) is not None:
+        if getattr(p,'name',None)=='Toulousain' and getattr(p,'hand',None) is not None:
             return p
     hands=[p for p in players if getattr(p,'hand',None) is not None]
     return hands[0] if len(hands)==1 else None
@@ -205,7 +205,7 @@ def unknown_exception_handler(_request:Request,exc:Exception):
 
 @app.get('/',response_class=HTMLResponse)
 def root():
-    return "<html><body><h1>Toulousain test - Dopynion V5</h1><a href='/docs'>API</a></body></html>"
+    return "<html><body><h1>Toulousain - Dopynion V5</h1><a href='/docs'>API</a></body></html>"
 
 
 @app.get("/name")
