@@ -1,0 +1,545 @@
+Partie du 2026-11-17T14:39:12.608438+01:00
+Réserve initiale
+Tour 1 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 3
+
+Tour 1 : Chloé
+Achète Cuivre
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 3
+
+Tour 2 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 3
+
+Tour 2 : Chloé
+Achète Bandit
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a pour l'instant un score de 3
+
+Tour 3 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 3
+
+Tour 3 : Chloé
+Achète Argent
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 3
+
+Tour 4 : "Monty_Python_Test"
+Achète Or
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a pour l'instant un score de 3
+
+Tour 4 : Chloé
+Achète Argent
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 3
+
+Tour 5 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 3
+
+Tour 5 : Chloé
+Joue Bandit
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Achète Cuivre
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 3
+
+Tour 6 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 3
+
+Tour 6 : Chloé
+Achète Or
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a pour l'instant un score de 3
+
+Tour 7 : "Monty_Python_Test"
+Achète Province
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a pour l'instant un score de 9
+
+Tour 7 : Chloé
+Achète Argent
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 3
+
+Tour 8 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 9
+
+Tour 8 : Chloé
+Joue Bandit
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Achète Province
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a pour l'instant un score de 9
+
+Tour 9 : "Monty_Python_Test"
+Achète Or
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 9
+
+Tour 9 : Chloé
+Achète Or
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 9
+
+Tour 10 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 9
+
+Tour 10 : Chloé
+Achète Or
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a pour l'instant un score de 9
+
+Tour 11 : "Monty_Python_Test"
+Achète Or
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 9
+
+Tour 11 : Chloé
+Achète Argent
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 9
+
+Tour 12 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 9
+
+Tour 12 : Chloé
+Joue Bandit
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Achète Bandit
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 9
+
+Tour 13 : "Monty_Python_Test"
+Achète Or
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 9
+
+Tour 13 : Chloé
+Achète Province
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 15
+
+Tour 14 : "Monty_Python_Test"
+Achète Or
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 9
+
+Tour 14 : Chloé
+Achète Or
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 15
+
+Tour 15 : "Monty_Python_Test"
+Achète Province
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 15
+
+Tour 15 : Chloé
+Joue Bandit
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Achète Argent
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 15
+
+Tour 16 : "Monty_Python_Test"
+Achète Duché
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 18
+
+Tour 16 : Chloé
+Joue Bandit
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Achète Province
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a pour l'instant un score de 21
+
+Tour 17 : "Monty_Python_Test"
+Achète Duché
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 21
+
+Tour 17 : Chloé
+Achète Or
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 21
+
+Tour 18 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 21
+
+Tour 18 : Chloé
+Achète Province
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 27
+
+Tour 19 : "Monty_Python_Test"
+Achète Duché
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 24
+
+Tour 19 : Chloé
+Joue Bandit
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Achète Province
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a pour l'instant un score de 33
+
+Tour 20 : "Monty_Python_Test"
+Achète Duché
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 27
+
+Tour 20 : Chloé
+Achète Province
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 39
+
+Score
+Chloé a un score de 39
+"Monty_Python_Test" a un score de 27

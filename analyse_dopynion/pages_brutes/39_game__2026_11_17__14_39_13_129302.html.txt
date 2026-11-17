@@ -1,0 +1,1092 @@
+Partie du 2026-11-17T14:39:13.129302+01:00
+Réserve initiale
+Tour 1 : Empire Of The Sun
+Achète Argent
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 1 : Vincent bm
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 1 : Groupe 5
+Achète Bureaucrate
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 2 : Empire Of The Sun
+Achète Argent
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 2 : Vincent bm
+Achète Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 2 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 3 : Empire Of The Sun
+Achète Sorcière
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 3 : Vincent bm
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 3 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 4 : Empire Of The Sun
+Achète Argent
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 4 : Vincent bm
+Achète Laboratoire
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 4 : Groupe 5
+Joue Bureaucrate
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 5 : Empire Of The Sun
+Achète Sorcière
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 5 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Copper, Copper, Silver, Copper])
+
+Vincent bm a répondu Copper
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Curse, Cellar, Estate, Copper])
+
+Vincent bm a répondu Copper
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 5 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 6 : Empire Of The Sun
+Achète Argent
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 6 : Vincent bm
+Joue Laboratoire
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Laboratoire
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 6 : Groupe 5
+Joue Bureaucrate
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 7 : Empire Of The Sun
+Joue Sorcière
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Argent
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 7 : Vincent bm
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 2
+
+Tour 7 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 2
+
+Tour 8 : Empire Of The Sun
+Achète Or
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 8 : Vincent bm
+Joue Laboratoire
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Joue Laboratoire
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Or
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 2
+
+Tour 8 : Groupe 5
+Joue Bureaucrate
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 2
+
+Tour 9 : Empire Of The Sun
+Joue Sorcière
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Or
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 9 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper])
+
+Vincent bm a répondu Copper
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Curse, Cellar, Estate, Copper])
+
+Vincent bm a répondu Copper
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 1
+
+Tour 9 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 1
+
+Tour 10 : Empire Of The Sun
+Achète Or
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 10 : Vincent bm
+Joue Laboratoire
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Laboratoire
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 1
+
+Tour 10 : Groupe 5
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 7
+
+Tour 11 : Empire Of The Sun
+Joue Sorcière
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Province
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 9
+
+Tour 11 : Vincent bm
+Achète Laboratoire
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 0
+
+Tour 11 : Groupe 5
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 12
+
+Tour 12 : Empire Of The Sun
+Achète Laboratoire
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 9
+
+Tour 12 : Vincent bm
+Joue Laboratoire
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Gold, Copper, Copper, Copper, Silver])
+
+Vincent bm a répondu Gold
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Silver, Province, Laboratory, Copper, Curse, Fortuneteller, Cellar, Witch, Distantshore, Estate, Swap, Remodel, Bureaucrat, Duchy, Magnate, Gold, Woodcutter])
+
+Vincent bm a répondu Province
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 6
+
+Tour 12 : Groupe 5
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 18
+
+Tour 13 : Empire Of The Sun
+Achète Province
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a pour l'instant un score de 15
+
+Tour 13 : Vincent bm
+Joue Laboratoire
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 6
+
+Tour 13 : Groupe 5
+Achète Duché
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 21
+
+Tour 14 : Empire Of The Sun
+Joue Sorcière
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Or
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 15
+
+Tour 14 : Vincent bm
+Joue Laboratoire
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Joue Laboratoire
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 11
+
+Tour 14 : Groupe 5
+Joue Bureaucrate
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Domaine
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 21
+
+Tour 15 : Empire Of The Sun
+Achète Duché
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a pour l'instant un score de 18
+
+Tour 15 : Vincent bm
+Achète Or
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 11
+
+Tour 15 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 21
+
+Tour 16 : Empire Of The Sun
+Achète Duché
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 21
+
+Tour 16 : Vincent bm
+Joue Laboratoire
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Or
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 11
+
+Tour 16 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 21
+
+Tour 17 : Empire Of The Sun
+Joue Laboratoire
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Province
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 27
+
+Tour 17 : Vincent bm
+Joue Laboratoire
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Joue Laboratoire
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 11
+
+Tour 17 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 21
+
+Tour 18 : Empire Of The Sun
+Achète Domaine
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 28
+
+Tour 18 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Silver, Silver, Curse, Province])
+
+Vincent bm a répondu Curse
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Curse, Cellar, Estate, Copper])
+
+Vincent bm a répondu Copper
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 12
+
+Tour 18 : Groupe 5
+Joue Bureaucrate
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 21
+
+Tour 19 : Empire Of The Sun
+Joue Sorcière
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Duché
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 31
+
+Tour 19 : Vincent bm
+Joue Laboratoire
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 17
+
+Tour 19 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 20
+
+Tour 20 : Empire Of The Sun
+Achète Province
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a pour l'instant un score de 37
+
+Tour 20 : Vincent bm
+Joue Laboratoire
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Gold, Silver, Gold, Copper, Copper])
+
+Vincent bm a répondu Gold
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Silver, Province, Laboratory, Copper, Curse, Fortuneteller, Cellar, Witch, Distantshore, Estate, Swap, Remodel, Bureaucrat, Duchy, Magnate, Gold, Woodcutter])
+
+Vincent bm a répondu Province
+
+Achète Duché
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 26
+
+Tour 20 : Groupe 5
+Achète Domaine
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 21
+
+Tour 21 : Empire Of The Sun
+Joue Laboratoire
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Duché
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 40
+
+Tour 21 : Vincent bm
+Achète Domaine
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 27
+
+Tour 21 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 21
+
+Tour 22 : Empire Of The Sun
+Achète Duché
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 43
+
+Tour 22 : Vincent bm
+Joue Laboratoire
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Duché
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 30
+
+Tour 22 : Groupe 5
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 27
+
+Score
+Empire Of The Sun a un score de 43
+Vincent bm a un score de 30
+Groupe 5 a un score de 27

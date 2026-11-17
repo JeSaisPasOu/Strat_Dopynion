@@ -1,0 +1,641 @@
+Partie du 2026-11-17T14:39:26.288847+01:00
+Réserve initiale
+Tour 1 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 1 : Toulousain test
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 1 : Toulousain
+Achète Argent
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 3
+
+Tour 2 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 2 : Toulousain test
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 2 : Toulousain
+Achète Argent
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 3
+
+Tour 3 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 3 : Toulousain test
+Achète Recrue
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 3 : Toulousain
+Achète Argent
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 3
+
+Tour 4 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 4 : Toulousain test
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 4 : Toulousain
+Achète Argent
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 3
+
+Tour 5 : Shortest (27 lines of Python)
+Achète Or
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 5 : Toulousain test
+Achète Recrue
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 5 : Toulousain
+Achète Province
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a pour l'instant un score de 9
+
+Tour 6 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 6 : Toulousain test
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 6 : Toulousain
+Achète Bandit
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 9
+
+Tour 7 : Shortest (27 lines of Python)
+Achète Or
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 7 : Toulousain test
+Joue Recrue
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 7 : Toulousain
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 9
+
+Tour 8 : Shortest (27 lines of Python)
+Achète Or
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 8 : Toulousain test
+Joue Recrue
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 9
+
+Tour 8 : Toulousain
+Joue Bandit
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Achète Recrue
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a pour l'instant un score de 9
+
+Tour 9 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 9 : Toulousain test
+Achète Or
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 9
+
+Tour 9 : Toulousain
+Achète Or
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 9
+
+Tour 10 : Shortest (27 lines of Python)
+Achète Province
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a pour l'instant un score de 9
+
+Tour 10 : Toulousain test
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 15
+
+Tour 10 : Toulousain
+Achète Or
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 9
+
+Tour 11 : Shortest (27 lines of Python)
+Achète Or
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 9
+
+Tour 11 : Toulousain test
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 21
+
+Tour 11 : Toulousain
+Achète Bandit
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 9
+
+Tour 12 : Shortest (27 lines of Python)
+Achète Province
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 15
+
+Tour 12 : Toulousain test
+Achète Or
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 21
+
+Tour 12 : Toulousain
+Joue Bandit
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Achète Marché
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 9
+
+Tour 13 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 15
+
+Tour 13 : Toulousain test
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 27
+
+Tour 13 : Toulousain
+Joue Recrue
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Achète Or
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a pour l'instant un score de 9
+
+Tour 14 : Shortest (27 lines of Python)
+Achète Province
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 21
+
+Tour 14 : Toulousain test
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 33
+
+Tour 14 : Toulousain
+Joue Marché
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Joue Bandit
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Achète Duché
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 12
+
+Tour 15 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 21
+
+Tour 15 : Toulousain test
+Achète Marché
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 33
+
+Tour 15 : Toulousain
+Achète Province
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 18
+
+Tour 16 : Shortest (27 lines of Python)
+Achète Province
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 27
+
+Tour 16 : Toulousain test
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 39
+
+Score
+Toulousain test a un score de 39
+Shortest (27 lines of Python) a un score de 27
+Toulousain a un score de 18

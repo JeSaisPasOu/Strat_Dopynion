@@ -1,0 +1,897 @@
+Partie du 2026-11-17T14:39:29.436418+01:00
+Réserve initiale
+Tour 1 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 1 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 1 : Vincent basique
+Achète Chapelle
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 2 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 2 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 2 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 3 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 3 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 3 : Vincent basique
+Joue Chapelle
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Copper, Silver, Copper])
+
+Vincent basique a répondu True
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Silver, Copper])
+
+Vincent basique a répondu False
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Copper, Silver, Copper])
+
+Vincent basique a répondu False
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Silver, Copper])
+
+Vincent basique a répondu False
+
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 2
+
+Tour 4 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 4 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 4 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 2
+
+Tour 5 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 5 : Vincent Glicko
+Achète Or
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 5 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 2
+
+Tour 6 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 6 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 6 : Vincent basique
+Joue Chapelle
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper, Copper, Estate])
+
+Vincent basique a répondu True
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper, Estate])
+
+Vincent basique a répondu True
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Estate])
+
+Vincent basique a répondu True
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate])
+
+Vincent basique a répondu True
+
+Achète Cuivre
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 1
+
+Tour 7 : "Monty_Python"
+Achète Province
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 9
+
+Tour 7 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 7 : Vincent basique
+Joue Chapelle
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Copper, Silver, Estate])
+
+Vincent basique a répondu False
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Copper, Silver, Estate])
+
+Vincent basique a répondu True
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Silver, Estate])
+
+Vincent basique a répondu False
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Silver, Silver, Estate])
+
+Vincent basique a répondu True
+
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 0
+
+Tour 8 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 9
+
+Tour 8 : Vincent Glicko
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 9
+
+Tour 8 : Vincent basique
+Achète Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 0
+
+Tour 9 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 9
+
+Tour 9 : Vincent Glicko
+Achète Jardins
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 10
+
+Tour 9 : Vincent basique
+Joue Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 0
+
+Tour 10 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 9
+
+Tour 10 : Vincent Glicko
+Achète Jardins
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 13
+
+Tour 10 : Vincent basique
+Achète Province
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 6
+
+Tour 11 : "Monty_Python"
+Achète Province
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 15
+
+Tour 11 : Vincent Glicko
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 19
+
+Tour 11 : Vincent basique
+Joue Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Province
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 12
+
+Tour 12 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 15
+
+Tour 12 : Vincent Glicko
+Achète Jardins
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 21
+
+Tour 12 : Vincent basique
+Joue Chapelle
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Silver, Province, Copper, Copper, Province])
+
+Vincent basique a répondu False
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Silver, Province, Copper, Copper, Province])
+
+Vincent basique a répondu False
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Province, hand=[Silver, Silver, Province, Copper, Copper, Province])
+
+Vincent basique a répondu False
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Silver, Province, Copper, Copper, Province])
+
+Vincent basique a répondu True
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Silver, Province, Copper, Province])
+
+Vincent basique a répondu True
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Province, hand=[Silver, Silver, Province, Province])
+
+Vincent basique a répondu False
+
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 12
+
+Tour 13 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 15
+
+Tour 13 : Vincent Glicko
+Achète Jardins
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 23
+
+Tour 13 : Vincent basique
+Achète Province
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 18
+
+Tour 14 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 15
+
+Tour 14 : Vincent Glicko
+Achète Cuivre
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 23
+
+Tour 14 : Vincent basique
+Joue Chapelle
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Province, hand=[Province, Silver, Province, Silver, Copper, Silver])
+
+Vincent basique a répondu False
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Province, Silver, Province, Silver, Copper, Silver])
+
+Vincent basique a répondu False
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Province, hand=[Province, Silver, Province, Silver, Copper, Silver])
+
+Vincent basique a répondu False
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Province, Silver, Province, Silver, Copper, Silver])
+
+Vincent basique a répondu False
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Province, Silver, Province, Silver, Copper, Silver])
+
+Vincent basique a répondu True
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Province, Silver, Province, Silver, Silver])
+
+Vincent basique a répondu False
+
+Achète Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 18
+
+Tour 15 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 15
+
+Tour 15 : Vincent Glicko
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 29
+
+Tour 15 : Vincent basique
+Joue Chapelle
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Copper, Province, Silver, Silver, Province])
+
+Vincent basique a répondu False
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Copper, Province, Silver, Silver, Province])
+
+Vincent basique a répondu True
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Province, hand=[Silver, Province, Silver, Silver, Province])
+
+Vincent basique a répondu False
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Province, Silver, Silver, Province])
+
+Vincent basique a répondu False
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Province, Silver, Silver, Province])
+
+Vincent basique a répondu False
+
+Vincent basique: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Province, hand=[Silver, Province, Silver, Silver, Province])
+
+Vincent basique a répondu False
+
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 18
+
+Tour 16 : "Monty_Python"
+Achète Province
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 21
+
+Tour 16 : Vincent Glicko
+Achète Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 29
+
+Tour 16 : Vincent basique
+Joue Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Province
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 24
+
+Tour 17 : "Monty_Python"
+Achète Duché
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 24
+
+Tour 17 : Vincent Glicko
+Achète Chapelle
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 29
+
+Tour 17 : Vincent basique
+Achète Province
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 30
+
+Tour 18 : "Monty_Python"
+Achète Duché
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 27
+
+Tour 18 : Vincent Glicko
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 35
+
+Score
+Vincent Glicko a un score de 35
+Vincent basique a un score de 30
+"Monty_Python" a un score de 27

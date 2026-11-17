@@ -1,0 +1,1006 @@
+Partie du 2026-11-17T14:39:26.061958+01:00
+Réserve initiale
+Tour 1 : Gros boulet
+Achète Domaine
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 4
+
+Tour 1 : Le 4ème Empire le Remake
+Achète Forgeron
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 1 : Vincent bm
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 2 : Gros boulet
+Achète Bucheron
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 4
+
+Tour 2 : Le 4ème Empire le Remake
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 2 : Vincent bm
+Achète Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 3 : Gros boulet
+Achète Argent
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 4
+
+Tour 3 : Le 4ème Empire le Remake
+Achète Argent
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 3 : Vincent bm
+Achète Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 4 : Gros boulet
+Joue Bucheron
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Domaine
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 5
+
+Tour 4 : Le 4ème Empire le Remake
+Joue Forgeron
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Argent
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 4 : Vincent bm
+Achète Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 5 : Gros boulet
+Achète Argent
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 5
+
+Tour 5 : Le 4ème Empire le Remake
+Achète Recrue
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 5 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper])
+
+Vincent bm a répondu Copper
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Estate, Copper, Curse])
+
+Vincent bm a répondu Copper
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 6 : Gros boulet
+Joue Bucheron
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Malédiction
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 4
+
+Tour 6 : Le 4ème Empire le Remake
+Joue Forgeron
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Argent
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 6 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 7 : Gros boulet
+Achète Domaine
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 5
+
+Tour 7 : Le 4ème Empire le Remake
+Joue Forgeron
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Province
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 9
+
+Tour 7 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Recrue
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 8 : Gros boulet
+Achète Village agricole
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 5
+
+Tour 8 : Le 4ème Empire le Remake
+Joue Recrue
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Argent
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 9
+
+Tour 8 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 9 : Gros boulet
+Joue Bucheron
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 5
+
+Tour 9 : Le 4ème Empire le Remake
+Achète Or
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 9
+
+Tour 9 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 9
+
+Tour 10 : Gros boulet
+Achète Argent
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 5
+
+Tour 10 : Le 4ème Empire le Remake
+Joue Forgeron
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Province
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 15
+
+Tour 10 : Vincent bm
+Joue Recrue
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 9
+
+Tour 11 : Gros boulet
+Achète Bucheron
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 5
+
+Tour 11 : Le 4ème Empire le Remake
+Achète Or
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 15
+
+Tour 11 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 9
+
+Tour 12 : Gros boulet
+Joue Village agricole
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Jardins
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 7
+
+Tour 12 : Le 4ème Empire le Remake
+Joue Forgeron
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Province
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 21
+
+Tour 12 : Vincent bm
+Achète Or
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 9
+
+Tour 13 : Gros boulet
+Joue Bucheron
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Domaine
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 8
+
+Tour 13 : Le 4ème Empire le Remake
+Achète Marché
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 21
+
+Tour 13 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 15
+
+Tour 14 : Gros boulet
+Achète Domaine
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 9
+
+Tour 14 : Le 4ème Empire le Remake
+Achète Province
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 27
+
+Tour 14 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Estate, Copper, Silver, Copper, Smithy])
+
+Vincent bm a répondu Estate
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Woodcutter, Smithy, Estate, Remodel, Gardens, Silver, Farmingvillage, Copper, Curse])
+
+Vincent bm a répondu Silver
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 14
+
+Tour 15 : Gros boulet
+Achète Rénovation
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 9
+
+Tour 15 : Le 4ème Empire le Remake
+Achète Duché
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 30
+
+Tour 15 : Vincent bm
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 20
+
+Tour 16 : Gros boulet
+Achète Malédiction
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 8
+
+Tour 16 : Le 4ème Empire le Remake
+Joue Forgeron
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Province
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 36
+
+Tour 16 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Silver, Estate, Silver, Smithy, Copper])
+
+Vincent bm a répondu Estate
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Woodcutter, Smithy, Estate, Remodel, Gardens, Silver, Farmingvillage, Copper, Curse])
+
+Vincent bm a répondu Silver
+
+Achète Duché
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 22
+
+Tour 17 : Gros boulet
+Joue Bucheron
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 8
+
+Tour 17 : Le 4ème Empire le Remake
+Achète Duché
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 39
+
+Tour 17 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 28
+
+Tour 18 : Gros boulet
+Achète Domaine
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 9
+
+Tour 18 : Le 4ème Empire le Remake
+Achète Domaine
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 40
+
+Tour 18 : Vincent bm
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 34
+
+Tour 19 : Gros boulet
+Achète Jardins
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 11
+
+Tour 19 : Le 4ème Empire le Remake
+Joue Marché
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Province
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 46
+
+Tour 19 : Vincent bm
+Achète Duché
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 37
+
+Tour 20 : Gros boulet
+Joue Rénovation
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Gros boulet: trash_card_from_hand
+
+Hand(hand=[Curse, Estate, Copper, Copper])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/trash_card_from_hand
+
+Gros boulet a répondu Curse
+
+Gros boulet: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Estate, Copper, Curse])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/choose_card_to_receive_in_discard
+
+Gros boulet a répondu Estate
+
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 15
+
+Tour 20 : Le 4ème Empire le Remake
+Achète Jardins
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 48
+
+Tour 20 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Silver, Gold, Province, Silver, Silver])
+
+Vincent bm a répondu Gold
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Woodcutter, Smithy, Hireling, Councilroom, Duchy, Gold, Estate, Remodel, Gardens, Province, Silver, Mine, Market, Swap, Farmingvillage, Copper, Curse])
+
+Vincent bm a répondu Province
+
+Achète Duché
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 46
+
+Score
+Le 4ème Empire le Remake a un score de 48
+Vincent bm a un score de 46
+Gros boulet a un score de 15

@@ -1,0 +1,1483 @@
+Partie du 2026-11-17T14:39:14.865036+01:00
+Réserve initiale
+Tour 1 : Le 4ème Empire "Vrai"
+Achète Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 1 : Toulousain test
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 1 : Groupe 5
+Achète Milice
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 2 : Le 4ème Empire "Vrai"
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 2 : Toulousain test
+Achète Chapelle
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 2 : Groupe 5
+Achète Chapelle
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 3 : Le 4ème Empire "Vrai"
+Achète Argent
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 3 : Toulousain test
+Joue Chapelle
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Estate, Copper, Copper])
+
+Toulousain test a répondu True
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Copper, Copper])
+
+Toulousain test a répondu True
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper])
+
+Toulousain test a répondu True
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper])
+
+Toulousain test a répondu True
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 3 : Groupe 5
+Joue Milice
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Estate, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Copper, Copper, Silver])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Silver])
+
+Toulousain test a répondu Copper
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 4 : Le 4ème Empire "Vrai"
+Achète Argent
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 4 : Toulousain test
+Achète Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 4 : Groupe 5
+Joue Chapelle
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper, Copper, Copper])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper, Copper])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper])
+
+Groupe 5 a répondu True
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 5 : Le 4ème Empire "Vrai"
+Joue Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Or
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 5 : Toulousain test
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Copper, Copper, Silver])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Silver])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Militia, Chapel, Silver])
+
+Groupe 5 a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Copper, Militia, Chapel, Silver])
+
+Groupe 5 a répondu Copper
+
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 5 : Groupe 5
+Joue Milice
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Estate, Copper, Silver])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Silver])
+
+Toulousain test a répondu Copper
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 6 : Le 4ème Empire "Vrai"
+Achète Milice
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 6 : Toulousain test
+Achète Marché
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 6 : Groupe 5
+Joue Chapelle
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper, Estate, Estate])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Estate, Estate])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Estate])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate])
+
+Groupe 5 a répondu True
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 1
+
+Tour 7 : Le 4ème Empire "Vrai"
+Joue Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 7 : Toulousain test
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Militia, Copper, Estate, Silver])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Militia, Copper, Silver])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Silver, Militia, Estate])
+
+Groupe 5 a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Silver, Militia])
+
+Groupe 5 a répondu Copper
+
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 7 : Groupe 5
+Joue Milice
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Copper, Copper, Silver])
+
+Toulousain test a répondu Copper
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Copper, Silver])
+
+Toulousain test a répondu Copper
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 1
+
+Tour 8 : Le 4ème Empire "Vrai"
+Joue Milice
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Estate, Copper, Militia])
+
+Groupe 5 a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Copper, Militia])
+
+Groupe 5 a répondu Copper
+
+Achète Village agricole
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 8 : Toulousain test
+Achète Or
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 8 : Groupe 5
+Joue Milice
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Estate, Estate, Militia, Copper, Copper])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Estate, Militia, Copper, Copper])
+
+Toulousain test a répondu Estate
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 1
+
+Tour 9 : Le 4ème Empire "Vrai"
+Achète Argent
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 9 : Toulousain test
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Militia, Farmingvillage, Silver, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Militia, Farmingvillage, Silver, Copper])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Gold, Chapel, Gold, Silver, Copper])
+
+Groupe 5 a répondu Copper
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Gold, Chapel, Gold, Silver])
+
+Groupe 5 a répondu Chapel
+
+Achète Village agricole
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 9 : Groupe 5
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 7
+
+Tour 10 : Le 4ème Empire "Vrai"
+Joue Village agricole
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Joue Milice
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Market, Chapel, Estate, Copper, Copper])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Market, Chapel, Copper, Copper])
+
+Toulousain test a répondu Market
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Militia, Silver, Estate, Copper, Province])
+
+Groupe 5 a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Militia, Silver, Copper, Province])
+
+Groupe 5 a répondu Province
+
+Achète Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 10 : Toulousain test
+Joue Chapelle
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper])
+
+Toulousain test a répondu True
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper])
+
+Toulousain test a répondu True
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 10 : Groupe 5
+Joue Milice
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Province, Estate, Gold, Library, Estate])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Province, Gold, Library, Estate])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Gold, Militia, Silver, Estate, Silver])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Gold, Militia, Silver, Silver])
+
+Toulousain test a répondu Militia
+
+Achète Mine
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 7
+
+Tour 11 : Le 4ème Empire "Vrai"
+Joue Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 15
+
+Tour 11 : Toulousain test
+Achète Or
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 11 : Groupe 5
+Joue Chapelle
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Gold, hand=[Gold, Gold, Silver, Estate])
+
+Groupe 5 a répondu False
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Gold, hand=[Gold, Gold, Silver, Estate])
+
+Groupe 5 a répondu False
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Gold, Gold, Silver, Estate])
+
+Groupe 5 a répondu False
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Gold, Gold, Silver, Estate])
+
+Groupe 5 a répondu True
+
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 12
+
+Tour 12 : Le 4ème Empire "Vrai"
+Joue Village agricole
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Joue Milice
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Farmingvillage, Copper, Silver, Gold])
+
+Toulousain test a répondu Copper
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Farmingvillage, Copper, Silver, Gold])
+
+Toulousain test a répondu Copper
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Militia, Province, Silver, Mine, Copper])
+
+Groupe 5 a répondu Province
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Militia, Silver, Mine, Copper])
+
+Groupe 5 a répondu Copper
+
+Achète Or
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 15
+
+Tour 12 : Toulousain test
+Joue Village agricole
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Achète Bandit
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 12 : Groupe 5
+Joue Mine
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: trash_money_card_for_better_money_card
+
+MoneyCardsInHand(money_in_hand=[Silver])
+
+Groupe 5 a répondu Silver
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 12
+
+Tour 13 : Le 4ème Empire "Vrai"
+Joue Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Le 4ème Empire "Vrai": skip_card_reception_in_hand
+
+CardNameAndHand(card_name=Library, hand=[Copper, Copper, Copper, Copper, Silver])
+
+Le 4ème Empire "Vrai" a répondu True
+
+Le 4ème Empire "Vrai": skip_card_reception_in_hand
+
+CardNameAndHand(card_name=Militia, hand=[Copper, Copper, Copper, Copper, Silver, Gold])
+
+Le 4ème Empire "Vrai" a répondu True
+
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 21
+
+Tour 13 : Toulousain test
+Joue Marché
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Estate, Farmingvillage, Estate, Silver, Copper])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Farmingvillage, Estate, Silver, Copper])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Province, Gold, Mine, Silver, Copper])
+
+Groupe 5 a répondu Province
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Gold, Mine, Silver, Copper])
+
+Groupe 5 a répondu Copper
+
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 8
+
+Tour 13 : Groupe 5
+Joue Mine
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: trash_money_card_for_better_money_card
+
+MoneyCardsInHand(money_in_hand=[Silver, Gold])
+
+Groupe 5 a répondu Silver
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 12
+
+Tour 14 : Le 4ème Empire "Vrai"
+Joue Village agricole
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Village agricole
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 21
+
+Tour 14 : Toulousain test
+Joue Bandit
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Achète Or
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 8
+
+Tour 14 : Groupe 5
+Joue Milice
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Province, Province, Silver])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Province, Province, Silver])
+
+Le 4ème Empire "Vrai" a répondu Province
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Province, Copper, Farmingvillage, Chapel, Market])
+
+Toulousain test a répondu Province
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Farmingvillage, Chapel, Market])
+
+Toulousain test a répondu Farmingvillage
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 12
+
+Tour 15 : Le 4ème Empire "Vrai"
+Achète Argent
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 21
+
+Tour 15 : Toulousain test
+Joue Marché
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Chapelle
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Gold])
+
+Toulousain test a répondu True
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Gold, hand=[Gold])
+
+Toulousain test a répondu False
+
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 8
+
+Tour 15 : Groupe 5
+Joue Mine
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: trash_money_card_for_better_money_card
+
+MoneyCardsInHand(money_in_hand=[Copper, Gold])
+
+Groupe 5 a répondu Copper
+
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 18
+
+Tour 16 : Le 4ème Empire "Vrai"
+Joue Village agricole
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Joue Milice
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Silver, Militia, Estate, Silver, Estate])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Silver, Militia, Silver, Estate])
+
+Toulousain test a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Militia, Gold, Mine, Province, Gold])
+
+Groupe 5 a répondu Province
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Militia, Gold, Mine, Gold])
+
+Groupe 5 a répondu Mine
+
+Joue Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Duché
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 24
+
+Tour 16 : Toulousain test
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Copper, Farmingvillage, Silver])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Farmingvillage, Silver])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Achète Or
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 8
+
+Tour 16 : Groupe 5
+Joue Milice
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Gold, Silver, Silver, Gold])
+
+Toulousain test a répondu Copper
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Gold, Silver, Silver, Gold])
+
+Toulousain test a répondu Silver
+
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 24
+
+Tour 17 : Le 4ème Empire "Vrai"
+Joue Village agricole
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Duché
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 27
+
+Tour 17 : Toulousain test
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 14
+
+Tour 17 : Groupe 5
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 30
+
+Tour 18 : Le 4ème Empire "Vrai"
+Joue Village agricole
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Joue Milice
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Farmingvillage, Province, Gold, Chapel, Market])
+
+Toulousain test a répondu Chapel
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Farmingvillage, Province, Gold, Market])
+
+Toulousain test a répondu Province
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Province, Chapel, Silver, Gold, Province])
+
+Groupe 5 a répondu Province
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Chapel, Silver, Gold, Province])
+
+Groupe 5 a répondu Province
+
+Joue Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Le 4ème Empire "Vrai": skip_card_reception_in_hand
+
+CardNameAndHand(card_name=Library, hand=[Province, Province, Silver, Gold])
+
+Le 4ème Empire "Vrai" a répondu True
+
+Achète Duché
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 30
+
+Tour 18 : Toulousain test
+Joue Marché
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Village agricole
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Bandit
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Achète Duché
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 17
+
+Tour 18 : Groupe 5
+Achète Duché
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 33
+
+Tour 19 : Le 4ème Empire "Vrai"
+Joue Village agricole
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Duché
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 33
+
+Tour 19 : Toulousain test
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 23
+
+Tour 19 : Groupe 5
+Joue Mine
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: trash_money_card_for_better_money_card
+
+MoneyCardsInHand(money_in_hand=[Silver, Gold])
+
+Groupe 5 a répondu Silver
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 33
+
+Tour 20 : Le 4ème Empire "Vrai"
+Achète Duché
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 36
+
+Tour 20 : Toulousain test
+Joue Village agricole
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 29
+
+Score
+Le 4ème Empire "Vrai" a un score de 36
+Groupe 5 a un score de 33
+Toulousain test a un score de 29

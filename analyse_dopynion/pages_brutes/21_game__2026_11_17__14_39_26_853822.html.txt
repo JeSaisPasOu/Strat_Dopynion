@@ -1,0 +1,461 @@
+Partie du 2026-11-17T14:39:26.853822+01:00
+Réserve initiale
+Tour 1 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 1 : Groupe 5
+Achète Chapelle
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 2 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 2 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 3 : Shortest (27 lines of Python)
+Achète Or
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 3 : Groupe 5
+Joue Chapelle
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper, Copper, Copper])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper, Copper])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper])
+
+Groupe 5 a répondu True
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 4 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 4 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 5 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 5 : Groupe 5
+Joue Chapelle
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper, Estate, Silver])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Estate, Silver])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Silver])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver])
+
+Groupe 5 a répondu False
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 2
+
+Tour 6 : Shortest (27 lines of Python)
+Achète Province
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a pour l'instant un score de 9
+
+Tour 6 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 2
+
+Tour 7 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 9
+
+Tour 7 : Groupe 5
+Joue Chapelle
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Copper, Estate, Silver])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Estate, Silver])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Silver])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver])
+
+Groupe 5 a répondu False
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 0
+
+Tour 8 : Shortest (27 lines of Python)
+Achète Province
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 15
+
+Tour 8 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 0
+
+Tour 9 : Shortest (27 lines of Python)
+Achète Or
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 15
+
+Tour 9 : Groupe 5
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 6
+
+Tour 10 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 15
+
+Tour 10 : Groupe 5
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 12
+
+Tour 11 : Shortest (27 lines of Python)
+Achète Province
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 21
+
+Tour 11 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 12
+
+Tour 12 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 21
+
+Tour 12 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 12
+
+Tour 13 : Shortest (27 lines of Python)
+Achète Province
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a pour l'instant un score de 27
+
+Tour 13 : Groupe 5
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 18
+
+Tour 14 : Shortest (27 lines of Python)
+Achète Or
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 27
+
+Tour 14 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 18
+
+Tour 15 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 27
+
+Tour 15 : Groupe 5
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 24
+
+Score
+Shortest (27 lines of Python) a un score de 27
+Groupe 5 a un score de 24

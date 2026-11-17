@@ -1,0 +1,1026 @@
+Partie du 2026-11-17T14:39:27.001891+01:00
+Réserve initiale
+Tour 1 : BOWSER
+Achète Argent
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 3
+
+Tour 1 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 2 : BOWSER
+Achète Milice
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 3
+
+Tour 2 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 3 : BOWSER
+Joue Milice
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Default player name: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Estate, Copper, Estate])
+
+Default player name a répondu Copper
+
+Default player name: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Estate])
+
+Default player name a répondu Copper
+
+Achète Argent
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 3
+
+Tour 3 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 4 : BOWSER
+Achète Argent
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 3
+
+Tour 4 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 5 : BOWSER
+Achète Sorcière
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 3
+
+Tour 5 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 6 : BOWSER
+Joue Milice
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Default player name: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Estate, Copper, Copper])
+
+Default player name a répondu Copper
+
+Default player name: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Copper])
+
+Default player name a répondu Copper
+
+Achète Argent
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 3
+
+Tour 6 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 7 : BOWSER
+Achète Sorcière
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 3
+
+Tour 7 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 8 : BOWSER
+Joue Milice
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Default player name: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Estate, Estate, Copper])
+
+Default player name a répondu Copper
+
+Default player name: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Estate, Copper])
+
+Default player name a répondu Copper
+
+Achète Or
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a pour l'instant un score de 3
+
+Tour 8 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 9 : BOWSER
+Joue Sorcière
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Or
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 3
+
+Tour 9 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 2
+
+Tour 10 : BOWSER
+Joue Milice
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Default player name: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper, Estate])
+
+Default player name a répondu Copper
+
+Default player name: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Estate])
+
+Default player name a répondu Copper
+
+Achète Or
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a pour l'instant un score de 3
+
+Tour 10 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 2
+
+Tour 11 : BOWSER
+Joue Sorcière
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Province
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 9
+
+Tour 11 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 1
+
+Tour 12 : BOWSER
+Joue Milice
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Default player name: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Curse, Estate, Estate])
+
+Default player name a répondu Copper
+
+Default player name: discard_card_from_hand
+
+Hand(hand=[Copper, Curse, Estate, Estate])
+
+Default player name a répondu Copper
+
+Achète Or
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 9
+
+Tour 12 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 1
+
+Tour 13 : BOWSER
+Achète Province
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 15
+
+Tour 13 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 1
+
+Tour 14 : BOWSER
+Joue Sorcière
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Province
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a pour l'instant un score de 21
+
+Tour 14 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 0
+
+Tour 15 : BOWSER
+Achète Duché
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 24
+
+Tour 15 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 0
+
+Tour 16 : BOWSER
+Achète Duché
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 27
+
+Tour 16 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 0
+
+Tour 17 : BOWSER
+Joue Sorcière
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Province
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 33
+
+Tour 17 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -1
+
+Tour 18 : BOWSER
+Achète Duché
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 36
+
+Tour 18 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -1
+
+Tour 19 : BOWSER
+Joue Sorcière
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Duché
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 39
+
+Tour 19 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -2
+
+Tour 20 : BOWSER
+Achète Jardins
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 42
+
+Tour 20 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -2
+
+Tour 21 : BOWSER
+Achète Duché
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 45
+
+Tour 21 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -2
+
+Tour 22 : BOWSER
+Joue Sorcière
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Province
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 51
+
+Tour 22 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -3
+
+Tour 23 : BOWSER
+Achète Domaine
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 52
+
+Tour 23 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -3
+
+Tour 24 : BOWSER
+Joue Milice
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Default player name: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Curse, Curse, Copper])
+
+Default player name a répondu Copper
+
+Default player name: discard_card_from_hand
+
+Hand(hand=[Estate, Curse, Curse, Copper])
+
+Default player name a répondu Estate
+
+Achète Duché
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 55
+
+Tour 24 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -3
+
+Tour 25 : BOWSER
+Joue Sorcière
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Domaine
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 56
+
+Tour 25 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -4
+
+Tour 26 : BOWSER
+Joue Sorcière
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Domaine
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 57
+
+Tour 26 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -5
+
+Tour 27 : BOWSER
+Achète Duché
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 60
+
+Tour 27 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -5
+
+Tour 28 : BOWSER
+Joue Sorcière
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Jardins
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 63
+
+Tour 28 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -6
+
+Tour 29 : BOWSER
+Achète Jardins
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 66
+
+Tour 29 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -6
+
+Tour 30 : BOWSER
+Achète Duché
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 72
+
+Tour 30 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -6
+
+Tour 31 : BOWSER
+Achète Domaine
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 73
+
+Tour 31 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -6
+
+Tour 32 : BOWSER
+Achète Province
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 79
+
+Tour 32 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -6
+
+Tour 33 : BOWSER
+Joue Sorcière
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Jardins
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 83
+
+Tour 33 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -7
+
+Tour 34 : BOWSER
+Achète Jardins
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 87
+
+Tour 34 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -7
+
+Tour 35 : BOWSER
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 87
+
+Tour 35 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -7
+
+Tour 36 : BOWSER
+Achète Domaine
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 88
+
+Tour 36 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -7
+
+Tour 37 : BOWSER
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 88
+
+Tour 37 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -7
+
+Tour 38 : BOWSER
+Joue Sorcière
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Domaine
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 89
+
+Tour 38 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -7
+
+Tour 39 : BOWSER
+Joue Milice
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Default player name: discard_card_from_hand
+
+Hand(hand=[Curse, Copper, Curse, Estate, Copper])
+
+Default player name a répondu Curse
+
+Default player name: discard_card_from_hand
+
+Hand(hand=[Copper, Curse, Estate, Copper])
+
+Default player name a répondu Copper
+
+Achète Jardins
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 93
+
+Tour 39 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -7
+
+Tour 40 : BOWSER
+Joue Sorcière
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Domaine
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 94
+
+Tour 40 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -7
+
+Tour 41 : BOWSER
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 94
+
+Tour 41 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -7
+
+Tour 42 : BOWSER
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 94
+
+Tour 42 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de -7
+
+Tour 43 : BOWSER
+Achète Domaine
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 95
+
+Score
+BOWSER a un score de 95
+Default player name a un score de -7

@@ -1,0 +1,886 @@
+Partie du 2026-11-17T14:39:27.947533+01:00
+Réserve initiale
+Tour 1 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 1 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 1 : Gros boulet
+Achète Malédiction
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 2
+
+Tour 1 : Toulousain
+Achète Argent
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 3
+
+Tour 2 : "Monty_Python"
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 2 : Vincent basique
+Achète Cuivre
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 2 : Gros boulet
+Achète Bureaucrate
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 2
+
+Tour 2 : Toulousain
+Achète Argent
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 3
+
+Tour 3 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 3 : Vincent basique
+Achète Bureaucrate
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 3 : Gros boulet
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 2
+
+Tour 3 : Toulousain
+Achète Recrue
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a pour l'instant un score de 3
+
+Tour 4 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 4 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 4 : Gros boulet
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 2
+
+Tour 4 : Toulousain
+Achète Argent
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 3
+
+Tour 5 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 5 : Vincent basique
+Achète Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 5 : Gros boulet
+Joue Bureaucrate
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Diseuse de bonne aventure
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 2
+
+Tour 5 : Toulousain
+Achète Chambre du conseil
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 3
+
+Tour 6 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 6 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 6 : Gros boulet
+Achète Malédiction
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 1
+
+Tour 6 : Toulousain
+Achète Argent
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 3
+
+Tour 7 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 7 : Vincent basique
+Joue Bureaucrate
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Cuivre
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 7 : Gros boulet
+Achète Malédiction
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 0
+
+Tour 7 : Toulousain
+Joue Recrue
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Achète Or
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a pour l'instant un score de 3
+
+Tour 8 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 8 : Vincent basique
+Joue Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 8 : Gros boulet
+Achète Domaine
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 1
+
+Tour 8 : Toulousain
+Joue Chambre du conseil
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Achète Province
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 9
+
+Tour 9 : "Monty_Python"
+Achète Province
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 9
+
+Tour 9 : Vincent basique
+Achète Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 9 : Gros boulet
+Joue Bureaucrate
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 1
+
+Tour 9 : Toulousain
+Joue Chambre du conseil
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Achète Province
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 15
+
+Tour 10 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 9
+
+Tour 10 : Vincent basique
+Joue Bureaucrate
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 10 : Gros boulet
+Joue Diseuse de bonne aventure
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Troc
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 1
+
+Tour 10 : Toulousain
+Achète Argent
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 15
+
+Tour 11 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 9
+
+Tour 11 : Vincent basique
+Joue Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 11 : Gros boulet
+Achète Cave
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 1
+
+Tour 11 : Toulousain
+Joue Chambre du conseil
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Achète Province
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 21
+
+Tour 12 : "Monty_Python"
+Achète Province
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 15
+
+Tour 12 : Vincent basique
+Joue Bureaucrate
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Province
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 9
+
+Tour 12 : Gros boulet
+Achète Festin
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 1
+
+Tour 12 : Toulousain
+Achète Chambre du conseil
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 21
+
+Tour 13 : "Monty_Python"
+Achète Province
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 21
+
+Tour 13 : Vincent basique
+Joue Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Province
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 15
+
+Tour 13 : Gros boulet
+Joue Troc
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Gros boulet: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Bureaucrat, hand=[Estate, Silver, Curse, Bureaucrat, Silver])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/confirm_trash_card_from_hand
+
+Gros boulet a répondu False
+
+Achète Bureaucrate
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 1
+
+Tour 13 : Toulousain
+Achète Chambre du conseil
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 21
+
+Tour 14 : "Monty_Python"
+Achète Duché
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 24
+
+Tour 14 : Vincent basique
+Achète Province
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 21
+
+Tour 14 : Gros boulet
+Joue Diseuse de bonne aventure
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Malédiction
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 0
+
+Tour 14 : Toulousain
+Joue Chambre du conseil
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Achète Duché
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 24
+
+Tour 15 : "Monty_Python"
+Achète Duché
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 27
+
+Tour 15 : Vincent basique
+Achète Province
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 27
+
+Tour 15 : Gros boulet
+Achète Domaine
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 1
+
+Tour 15 : Toulousain
+Achète Province
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 30
+
+Tour 16 : "Monty_Python"
+Achète Province
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 33
+
+Score
+"Monty_Python" a un score de 33
+Toulousain a un score de 30
+Vincent basique a un score de 27
+Gros boulet a un score de 1

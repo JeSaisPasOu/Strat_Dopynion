@@ -34,7 +34,7 @@ BASE_URL = "https://dopynion.lecalamar.fr/"
 BOT_URL = "https://alves.alwaysdata.net/"
 
 NOM_BOT = "Toulousain test"
-NOMBRE_PARTIES = 10
+NOMBRE_PARTIES = 50
 
 DOSSIER = Path("analyse_dopynion")
 DOSSIER_BRUT = DOSSIER / "pages_brutes"

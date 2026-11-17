@@ -1,0 +1,1945 @@
+Partie du 2026-11-17T14:39:38.422649+01:00
+Réserve initiale
+Tour 1 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 1 : Le 4ème Empire "Vrai"
+Achète Atelier
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 1 : Toulousain test
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 1 : Vincent
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 3
+
+Tour 2 : Vincent Glicko
+Achète Cuivre
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 2 : Le 4ème Empire "Vrai"
+Achète Jardins
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 4
+
+Tour 2 : Toulousain test
+Achète Chapelle
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 2 : Vincent
+Achète Village
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 3
+
+Tour 3 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 3 : Le 4ème Empire "Vrai"
+Achète Cuivre
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 4
+
+Tour 3 : Toulousain test
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 3 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper, Copper])
+
+Vincent Glicko a répondu Copper
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper])
+
+Vincent Glicko a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Gardens, Copper, Copper, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Gardens
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Chapel, Estate, Silver, Copper])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Chapel, Silver, Copper])
+
+Toulousain test a répondu Copper
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 6
+
+Tour 4 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 4 : Le 4ème Empire "Vrai"
+Achète Atelier
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 4
+
+Tour 4 : Toulousain test
+Joue Chapelle
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Copper])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Copper])
+
+Toulousain test a répondu True
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 4 : Vincent
+Joue Village
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 6
+
+Tour 5 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 5 : Le 4ème Empire "Vrai"
+Joue Atelier
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Le 4ème Empire "Vrai": choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Silver, Workshop, Remodel, Village, Curse, Militia, Copper, Gardens, Woodcutter, Bureaucrat, Estate, Chapel])
+
+Le 4ème Empire "Vrai" a répondu Gardens
+
+Achète Jardins
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 6
+
+Tour 5 : Toulousain test
+Achète Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 5 : Vincent
+Joue Village
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper, Silver])
+
+Vincent Glicko a répondu Copper
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Silver])
+
+Vincent Glicko a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Workshop, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Workshop, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Chapel, Estate, Copper, Silver, Estate])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Chapel, Copper, Silver, Estate])
+
+Toulousain test a répondu Estate
+
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 6
+
+Tour 6 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 6 : Le 4ème Empire "Vrai"
+Joue Atelier
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Le 4ème Empire "Vrai": choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Silver, Workshop, Remodel, Village, Curse, Militia, Copper, Gardens, Woodcutter, Bureaucrat, Estate, Chapel])
+
+Le 4ème Empire "Vrai" a répondu Gardens
+
+Achète Cuivre
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 7
+
+Tour 6 : Toulousain test
+Joue Chapelle
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Silver])
+
+Toulousain test a répondu True
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver])
+
+Toulousain test a répondu False
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 6 : Vincent
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 6
+
+Tour 7 : Vincent Glicko
+Achète Or
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 7 : Le 4ème Empire "Vrai"
+Achète Cuivre
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 7
+
+Tour 7 : Toulousain test
+Joue Chapelle
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Silver, Copper, Estate])
+
+Toulousain test a répondu True
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Copper, Estate])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Copper, Estate])
+
+Toulousain test a répondu True
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Silver, Estate])
+
+Toulousain test a répondu True
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 7 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Estate, Estate, Copper])
+
+Vincent Glicko a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Estate, Copper])
+
+Vincent Glicko a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Gardens, Gardens, Workshop])
+
+Le 4ème Empire "Vrai" a répondu Gardens
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Gardens, Workshop])
+
+Le 4ème Empire "Vrai" a répondu Gardens
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Militia, Silver, Estate, Estate, Copper])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Militia, Silver, Estate, Copper])
+
+Toulousain test a répondu Estate
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 9
+
+Tour 8 : Vincent Glicko
+Achète Cuivre
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 8 : Le 4ème Empire "Vrai"
+Joue Atelier
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Le 4ème Empire "Vrai": choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Silver, Workshop, Remodel, Village, Curse, Militia, Copper, Gardens, Woodcutter, Bureaucrat, Estate, Chapel])
+
+Le 4ème Empire "Vrai" a répondu Gardens
+
+Achète Domaine
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 14
+
+Tour 8 : Toulousain test
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Silver, Silver, Silver])
+
+Vincent Glicko a répondu Copper
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Silver, Silver])
+
+Vincent Glicko a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Estate, Duchy, Village, Copper, Estate])
+
+Vincent a répondu Estate
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Duchy, Village, Copper, Estate])
+
+Vincent a répondu Estate
+
+Achète Bibliothèque
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 8 : Vincent
+Joue Village
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Domaine
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 10
+
+Tour 9 : Vincent Glicko
+Achète Jardins
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 4
+
+Tour 9 : Le 4ème Empire "Vrai"
+Achète Atelier
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 14
+
+Tour 9 : Toulousain test
+Joue Bibliothèque
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Achète Recrue
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 9 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper, Silver])
+
+Vincent Glicko a répondu Copper
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Silver])
+
+Vincent Glicko a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Estate, Gardens, Workshop, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Gardens, Workshop, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Gardens
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Estate, Estate, Silver, Library, Hireling])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Library, Hireling])
+
+Toulousain test a répondu Estate
+
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 10
+
+Tour 10 : Vincent Glicko
+Achète Jardins
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 7
+
+Tour 10 : Le 4ème Empire "Vrai"
+Joue Atelier
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Le 4ème Empire "Vrai": choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Silver, Workshop, Remodel, Village, Curse, Militia, Copper, Gardens, Woodcutter, Bureaucrat, Estate, Chapel])
+
+Le 4ème Empire "Vrai" a répondu Gardens
+
+Achète Domaine
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 17
+
+Tour 10 : Toulousain test
+Joue Recrue
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Achète Village
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 10 : Vincent
+Joue Village
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Estate, Gardens, Silver, Silver])
+
+Vincent Glicko a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Gardens, Silver, Silver])
+
+Vincent Glicko a répondu Gardens
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Gardens, Workshop, Copper, Estate, Gardens])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Gardens, Workshop, Copper, Gardens])
+
+Le 4ème Empire "Vrai" a répondu Gardens
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Silver, Militia, Chapel])
+
+Toulousain test a répondu Militia
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Silver, Chapel])
+
+Toulousain test a répondu Chapel
+
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 10
+
+Tour 11 : Vincent Glicko
+Achète Jardins
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 9
+
+Tour 11 : Le 4ème Empire "Vrai"
+Joue Atelier
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Le 4ème Empire "Vrai": choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Silver, Workshop, Remodel, Village, Curse, Militia, Copper, Gardens, Woodcutter, Bureaucrat, Estate, Chapel])
+
+Le 4ème Empire "Vrai" a répondu Gardens
+
+Achète Cuivre
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 19
+
+Tour 11 : Toulousain test
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 11 : Vincent
+Achète Domaine
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 11
+
+Tour 12 : Vincent Glicko
+Achète Jardins
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 11
+
+Tour 12 : Le 4ème Empire "Vrai"
+Joue Atelier
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Le 4ème Empire "Vrai": choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Silver, Workshop, Remodel, Village, Curse, Militia, Copper, Gardens, Woodcutter, Bureaucrat, Estate, Chapel])
+
+Le 4ème Empire "Vrai" a répondu Gardens
+
+Achète Domaine
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 22
+
+Tour 12 : Toulousain test
+Joue Bibliothèque
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Toulousain test: skip_card_reception_in_hand
+
+CardNameAndHand(card_name=Village, hand=[Militia, Copper, Chapel, Estate, Silver])
+
+Toulousain test a répondu True
+
+Achète Or
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 12 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Gold, Estate, Gardens])
+
+Vincent Glicko a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Gold, Estate, Gardens])
+
+Vincent Glicko a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper, Gardens])
+
+Le 4ème Empire "Vrai" a répondu Gardens
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Estate, Copper, Militia])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Militia])
+
+Toulousain test a répondu Militia
+
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 11
+
+Tour 13 : Vincent Glicko
+Achète Chapelle
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 11
+
+Tour 13 : Le 4ème Empire "Vrai"
+Achète Atelier
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 22
+
+Tour 13 : Toulousain test
+Achète Or
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 13 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Gardens, Estate, Copper, Silver])
+
+Vincent Glicko a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Gardens, Copper, Silver])
+
+Vincent Glicko a répondu Gardens
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Gardens, Copper, Copper, Copper, Gardens])
+
+Le 4ème Empire "Vrai" a répondu Gardens
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Gardens])
+
+Le 4ème Empire "Vrai" a répondu Gardens
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Village, Silver, Library])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Village, Silver, Library])
+
+Toulousain test a répondu Copper
+
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 11
+
+Tour 14 : Vincent Glicko
+Achète Chapelle
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 11
+
+Tour 14 : Le 4ème Empire "Vrai"
+Achète Atelier
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 30
+
+Tour 14 : Toulousain test
+Joue Village
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Bibliothèque
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Chapelle
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Silver, Silver, Estate, Copper, Gold])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Silver, Silver, Estate, Copper, Gold])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Silver, Silver, Estate, Copper, Gold])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Silver, Silver, Silver, Estate, Copper, Gold])
+
+Toulousain test a répondu True
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Silver, Silver, Copper, Gold])
+
+Toulousain test a répondu True
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Gold, hand=[Silver, Silver, Silver, Gold])
+
+Toulousain test a répondu False
+
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 7
+
+Tour 14 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Copper, Copper])
+
+Vincent Glicko a répondu Copper
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Copper])
+
+Vincent Glicko a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Estate, Estate])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Estate])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Gold, Copper, Militia])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Gold, Copper, Militia])
+
+Toulousain test a répondu Militia
+
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 11
+
+Tour 15 : Vincent Glicko
+Achète Chapelle
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 11
+
+Tour 15 : Le 4ème Empire "Vrai"
+Achète Atelier
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 30
+
+Tour 15 : Toulousain test
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Gardens, Silver, Silver, Copper])
+
+Vincent Glicko a répondu Gardens
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Silver, Copper])
+
+Vincent Glicko a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Gardens, Estate, Gardens, Copper, Gardens])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Gardens, Gardens, Copper, Gardens])
+
+Le 4ème Empire "Vrai" a répondu Gardens
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Estate, Duchy, Village, Duchy, Estate])
+
+Vincent a répondu Estate
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Duchy, Village, Duchy, Estate])
+
+Vincent a répondu Estate
+
+Achète Or
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 7
+
+Tour 15 : Vincent
+Joue Village
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Cuivre
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 11
+
+Tour 16 : Vincent Glicko
+Achète Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 11
+
+Tour 16 : Le 4ème Empire "Vrai"
+Achète Cuivre
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 30
+
+Tour 16 : Toulousain test
+Joue Village
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Chapelle
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Silver, Silver, Gold, Silver])
+
+Toulousain test a répondu True
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Silver, Gold, Silver])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Silver, Gold, Silver])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Gold, hand=[Silver, Silver, Gold, Silver])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Silver, Gold, Silver])
+
+Toulousain test a répondu False
+
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 12
+
+Tour 16 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Gardens, Copper, Copper, Chapel, Copper])
+
+Vincent Glicko a répondu Gardens
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Chapel, Copper])
+
+Vincent Glicko a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Estate, Gardens, Estate, Workshop, Gardens])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Gardens, Estate, Workshop, Gardens])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Library, Province, Copper, Silver, Gold])
+
+Toulousain test a répondu Province
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Library, Copper, Silver, Gold])
+
+Toulousain test a répondu Copper
+
+Achète Bucheron
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 11
+
+Tour 17 : Vincent Glicko
+Joue Chapelle
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper])
+
+Vincent Glicko a répondu True
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper])
+
+Vincent Glicko a répondu True
+
+Achète Cuivre
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 11
+
+Tour 17 : Le 4ème Empire "Vrai"
+Joue Atelier
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Le 4ème Empire "Vrai": choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Silver, Workshop, Remodel, Village, Curse, Copper, Woodcutter, Bureaucrat, Estate, Chapel])
+
+Le 4ème Empire "Vrai" a répondu Workshop
+
+Achète Cuivre
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 30
+
+Tour 17 : Toulousain test
+Joue Bibliothèque
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Toulousain test: skip_card_reception_in_hand
+
+CardNameAndHand(card_name=Village, hand=[Silver, Gold, Gold, Silver])
+
+Toulousain test a répondu True
+
+Toulousain test: skip_card_reception_in_hand
+
+CardNameAndHand(card_name=Chapel, hand=[Silver, Gold, Gold, Silver])
+
+Toulousain test a répondu True
+
+Toulousain test: skip_card_reception_in_hand
+
+CardNameAndHand(card_name=Militia, hand=[Silver, Gold, Gold, Silver])
+
+Toulousain test a répondu True
+
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 18
+
+Tour 17 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Chapel, Copper, Chapel, Gold, Copper])
+
+Vincent Glicko a répondu Copper
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Chapel, Chapel, Gold, Copper])
+
+Vincent Glicko a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Workshop, Gardens, Workshop])
+
+Le 4ème Empire "Vrai" a répondu Gardens
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Workshop, Workshop])
+
+Le 4ème Empire "Vrai" a répondu Workshop
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Province, Copper, Gold, Province, Gold])
+
+Toulousain test a répondu Province
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Gold, Province, Gold])
+
+Toulousain test a répondu Province
+
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 11
+
+Tour 18 : Vincent Glicko
+Joue Chapelle
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Chapel, hand=[Chapel, Gold])
+
+Vincent Glicko a répondu False
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Gold, hand=[Chapel, Gold])
+
+Vincent Glicko a répondu False
+
+Achète Village
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 11
+
+Tour 18 : Le 4ème Empire "Vrai"
+Joue Atelier
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Le 4ème Empire "Vrai": choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Silver, Workshop, Remodel, Village, Curse, Copper, Woodcutter, Bureaucrat, Estate, Chapel])
+
+Le 4ème Empire "Vrai" a répondu Workshop
+
+Achète Domaine
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 31
+
+Tour 18 : Toulousain test
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 24
+
+Tour 18 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Copper, Estate, Estate])
+
+Vincent Glicko a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Copper, Estate])
+
+Vincent Glicko a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Estate, Workshop, Copper, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Workshop, Copper, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Chapel, Province, Village, Militia, Silver])
+
+Toulousain test a répondu Chapel
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Province, Village, Militia, Silver])
+
+Toulousain test a répondu Province
+
+Achète Village
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 11
+
+Tour 19 : Vincent Glicko
+Achète Village
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 11
+
+Tour 19 : Le 4ème Empire "Vrai"
+Joue Atelier
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Le 4ème Empire "Vrai": choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Silver, Workshop, Remodel, Village, Curse, Copper, Woodcutter, Bureaucrat, Estate, Chapel])
+
+Le 4ème Empire "Vrai" a répondu Workshop
+
+Achète Domaine
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 32
+
+Tour 19 : Toulousain test
+Joue Village
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Gardens, Hireling, Gardens, Silver])
+
+Vincent Glicko a répondu Gardens
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Hireling, Gardens, Silver])
+
+Vincent Glicko a répondu Gardens
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Workshop, Workshop, Gardens, Gardens, Copper])
+
+Le 4ème Empire "Vrai" a répondu Gardens
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Workshop, Workshop, Gardens, Copper])
+
+Le 4ème Empire "Vrai" a répondu Gardens
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Copper, Duchy, Duchy, Estate, Copper])
+
+Vincent a répondu Estate
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Copper, Duchy, Duchy, Copper])
+
+Vincent a répondu Duchy
+
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 30
+
+Tour 19 : Vincent
+Achète Domaine
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 12
+
+Tour 20 : Vincent Glicko
+Joue Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Achète Village
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 11
+
+Tour 20 : Le 4ème Empire "Vrai"
+Joue Atelier
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Le 4ème Empire "Vrai": choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Silver, Workshop, Remodel, Village, Curse, Copper, Woodcutter, Bureaucrat, Estate, Chapel])
+
+Le 4ème Empire "Vrai" a répondu Workshop
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 32
+
+Score
+Le 4ème Empire "Vrai" a un score de 32
+Toulousain test a un score de 30
+Vincent a un score de 12
+Vincent Glicko a un score de 11

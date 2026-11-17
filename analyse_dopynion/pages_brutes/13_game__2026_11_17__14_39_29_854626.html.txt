@@ -1,0 +1,1887 @@
+Partie du 2026-11-17T14:39:29.854626+01:00
+Réserve initiale
+Tour 1 : Toulousain test
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 1 : Le 4ème Empire le Remake
+Achète Argent
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 1 : We Are The People
+Achète Milice
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 1 : Le 4ème Empire "Vrai"
+Achète Milice
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 2 : Toulousain test
+Achète Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 2 : Le 4ème Empire le Remake
+Achète Milice
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 2 : We Are The People
+Achète Argent
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 2 : Le 4ème Empire "Vrai"
+Achète Argent
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 3 : Toulousain test
+Achète Laboratoire
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 3 : Le 4ème Empire le Remake
+Achète Bibliothèque
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 3 : We Are The People
+Joue Milice
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Estate, Militia, Copper, Copper, Copper])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Militia, Copper, Copper, Copper])
+
+Toulousain test a répondu Copper
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Estate, Estate, Copper, Copper, Militia])
+
+Le 4ème Empire le Remake a répondu Estate
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Copper, Militia])
+
+Le 4ème Empire le Remake a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Silver, Copper, Militia])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Militia])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Achète Argent
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 3 : Le 4ème Empire "Vrai"
+Joue Milice
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Silver, Copper])
+
+We Are The People a répondu Copper
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Silver, Copper])
+
+We Are The People a répondu Copper
+
+Achète Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 4 : Toulousain test
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 4 : Le 4ème Empire le Remake
+Joue Milice
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Estate, Copper, Copper])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Copper])
+
+Toulousain test a répondu Estate
+
+Achète Argent
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 4 : We Are The People
+Achète Village agricole
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a pour l'instant un score de 3
+
+Tour 4 : Le 4ème Empire "Vrai"
+Achète Argent
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 5 : Toulousain test
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 5 : Le 4ème Empire le Remake
+Achète Argent
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 5 : We Are The People
+Joue Milice
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Laboratory, Silver])
+
+Toulousain test a répondu Copper
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Laboratory, Silver])
+
+Toulousain test a répondu Copper
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Militia, Library, Copper, Estate, Copper])
+
+Le 4ème Empire le Remake a répondu Estate
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Militia, Library, Copper, Copper])
+
+Le 4ème Empire le Remake a répondu Militia
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Estate, Estate, Estate, Silver, Copper])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Estate, Estate, Silver, Copper])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Achète Laboratoire
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 5 : Le 4ème Empire "Vrai"
+Achète Argent
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 6 : Toulousain test
+Joue Laboratoire
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 6 : Le 4ème Empire le Remake
+Joue Bibliothèque
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Recrue
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 6 : We Are The People
+Joue Village agricole
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Achète Recrue
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 6 : Le 4ème Empire "Vrai"
+Joue Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Le 4ème Empire "Vrai": skip_card_reception_in_hand
+
+CardNameAndHand(card_name=Militia, hand=[Copper, Copper, Silver, Copper, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu True
+
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 7 : Toulousain test
+Joue Laboratoire
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Militia, Estate])
+
+Le 4ème Empire le Remake a répondu Estate
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Militia])
+
+Le 4ème Empire le Remake a répondu Copper
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Copper, Hireling, Copper])
+
+We Are The People a répondu Estate
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Hireling, Copper])
+
+We Are The People a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Copper, Copper, Estate])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Estate])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 9
+
+Tour 7 : Le 4ème Empire le Remake
+Joue Milice
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Silver, Copper, Copper])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Copper])
+
+Toulousain test a répondu Copper
+
+Achète Laboratoire
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 7 : We Are The People
+Joue Recrue
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Achète Argent
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a pour l'instant un score de 3
+
+Tour 7 : Le 4ème Empire "Vrai"
+Achète Village agricole
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 8 : Toulousain test
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 9
+
+Tour 8 : Le 4ème Empire le Remake
+Joue Bibliothèque
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Village agricole
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 8 : We Are The People
+Joue Village agricole
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Joue Laboratoire
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Joue Milice
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Estate, Silver])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Silver])
+
+Toulousain test a répondu Copper
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Silver, Militia, Silver, Hireling, Copper])
+
+Le 4ème Empire le Remake a répondu Militia
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Hireling, Copper])
+
+Le 4ème Empire le Remake a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Estate, Militia, Copper, Silver, Copper])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Militia, Copper, Silver, Copper])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Achète Province
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 9
+
+Tour 8 : Le 4ème Empire "Vrai"
+Joue Milice
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Laboratory, Copper, Militia, Copper, Province])
+
+We Are The People a répondu Province
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Laboratory, Copper, Militia, Copper])
+
+We Are The People a répondu Copper
+
+Achète Laboratoire
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 9 : Toulousain test
+Achète Bandit
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 9
+
+Tour 9 : Le 4ème Empire le Remake
+Joue Recrue
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Bandit
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 9 : We Are The People
+Joue Village agricole
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Joue Laboratoire
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Joue Milice
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Copper, Estate])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Copper])
+
+Toulousain test a répondu Copper
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Copper, Laboratory, Copper, Copper, Estate])
+
+Le 4ème Empire le Remake a répondu Estate
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Copper, Laboratory, Copper, Copper])
+
+Le 4ème Empire le Remake a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Library, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Silver, Library, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Achète Or
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a pour l'instant un score de 9
+
+Tour 9 : Le 4ème Empire "Vrai"
+Joue Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Le 4ème Empire "Vrai": skip_card_reception_in_hand
+
+CardNameAndHand(card_name=Militia, hand=[Silver, Copper, Province, Silver])
+
+Le 4ème Empire "Vrai" a répondu True
+
+Achète Recrue
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 10 : Toulousain test
+Achète Village agricole
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 9
+
+Tour 10 : Le 4ème Empire le Remake
+Joue Laboratoire
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Joue Milice
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Laboratory, Province, Copper])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Silver, Laboratory, Province, Copper])
+
+Toulousain test a répondu Province
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Silver, Estate, Copper, Silver, Silver])
+
+We Are The People a répondu Estate
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Silver, Silver])
+
+We Are The People a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Farmingvillage, Copper, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Farmingvillage, Copper, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Achète Argent
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 10 : We Are The People
+Achète Or
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 9
+
+Tour 10 : Le 4ème Empire "Vrai"
+Joue Village agricole
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Joue Laboratoire
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Bureaucrate
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 11 : Toulousain test
+Joue Laboratoire
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Silver, Estate, Copper, Silver, Copper])
+
+Le 4ème Empire le Remake a répondu Estate
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Silver, Copper])
+
+Le 4ème Empire le Remake a répondu Copper
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Gold, Copper, Silver])
+
+We Are The People a répondu Copper
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Copper, Gold, Copper, Silver])
+
+We Are The People a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Achète Recrue
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 9
+
+Tour 11 : Le 4ème Empire le Remake
+Joue Village agricole
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Joue Bandit
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Argent
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 11 : We Are The People
+Achète Or
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 9
+
+Tour 11 : Le 4ème Empire "Vrai"
+Achète Argent
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 12 : Toulousain test
+Achète Laboratoire
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 9
+
+Tour 12 : Le 4ème Empire le Remake
+Joue Bibliothèque
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Or
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 12 : We Are The People
+
+Erreur de We Are The People
+
+Error: <class 'json.decoder.JSONDecodeError'> JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+
+Erreur de We Are The People
+
+Elimination
+
+Tour 12 : Le 4ème Empire "Vrai"
+Joue Recrue
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Argent
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 13 : Toulousain test
+Joue Laboratoire
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Village agricole
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Achète Or
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 9
+
+Tour 13 : Le 4ème Empire le Remake
+Joue Village agricole
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Joue Milice
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Militia, Bandit, Hireling])
+
+Toulousain test a répondu Copper
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Silver, Militia, Bandit, Hireling])
+
+Toulousain test a répondu Silver
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Farmingvillage, Silver, Copper, Militia, Silver])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Farmingvillage, Silver, Militia, Silver])
+
+Le 4ème Empire "Vrai" a répondu Farmingvillage
+
+Achète Or
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 13 : Le 4ème Empire "Vrai"
+Joue Milice
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Bandit, Laboratory, Copper, Silver, Silver])
+
+Le 4ème Empire le Remake a répondu Copper
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Bandit, Laboratory, Silver, Silver])
+
+Le 4ème Empire le Remake a répondu Silver
+
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 15
+
+Tour 14 : Toulousain test
+Joue Recrue
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Achète Cave
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 9
+
+Tour 14 : Le 4ème Empire le Remake
+Joue Laboratoire
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Joue Bandit
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Argent
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 14 : Le 4ème Empire "Vrai"
+Joue Laboratoire
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Duché
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 18
+
+Tour 15 : Toulousain test
+Joue Bandit
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 9
+
+Tour 15 : Le 4ème Empire le Remake
+Joue Milice
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Farmingvillage, Estate])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Farmingvillage])
+
+Toulousain test a répondu Farmingvillage
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Bureaucrat, Copper, Estate, Copper, Library])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Bureaucrat, Copper, Copper, Library])
+
+Le 4ème Empire "Vrai" a répondu Bureaucrat
+
+Achète Province
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 9
+
+Tour 15 : Le 4ème Empire "Vrai"
+Joue Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Argent
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 18
+
+Tour 16 : Toulousain test
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 9
+
+Tour 16 : Le 4ème Empire le Remake
+Achète Province
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a pour l'instant un score de 15
+
+Tour 16 : Le 4ème Empire "Vrai"
+Joue Laboratoire
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Joue Village agricole
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Joue Milice
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Laboratory, Estate, Laboratory])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Laboratory, Laboratory])
+
+Toulousain test a répondu Copper
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Farmingvillage, Estate, Silver, Bandit, Silver])
+
+Le 4ème Empire le Remake a répondu Estate
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Farmingvillage, Silver, Bandit, Silver])
+
+Le 4ème Empire le Remake a répondu Farmingvillage
+
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 24
+
+Tour 17 : Toulousain test
+Joue Laboratoire
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Laboratoire
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Estate, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu Copper
+
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 15
+
+Tour 17 : Le 4ème Empire le Remake
+Joue Bandit
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Duché
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a pour l'instant un score de 18
+
+Tour 17 : Le 4ème Empire "Vrai"
+Achète Duché
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 27
+
+Tour 18 : Toulousain test
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 21
+
+Tour 18 : Le 4ème Empire le Remake
+Achète Province
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a pour l'instant un score de 24
+
+Tour 18 : Le 4ème Empire "Vrai"
+Joue Laboratoire
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Joue Bureaucrate
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Duché
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 30
+
+Tour 19 : Toulousain test
+Joue Village agricole
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Bandit
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Achète Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 21
+
+Tour 19 : Le 4ème Empire le Remake
+Joue Laboratoire
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Domaine
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 25
+
+Tour 19 : Le 4ème Empire "Vrai"
+Joue Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Le 4ème Empire "Vrai": skip_card_reception_in_hand
+
+CardNameAndHand(card_name=Farmingvillage, hand=[Silver, Silver, Province, Province, Copper])
+
+Le 4ème Empire "Vrai" a répondu True
+
+Achète Duché
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 33
+
+Tour 20 : Toulousain test
+Joue Laboratoire
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Bandit
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Achète Duché
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 24
+
+Tour 20 : Le 4ème Empire le Remake
+Joue Milice
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Farmingvillage, Militia, Copper, Silver, Silver])
+
+Toulousain test a répondu Farmingvillage
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Militia, Copper, Silver, Silver])
+
+Toulousain test a répondu Militia
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Duchy, Copper, Estate, Estate])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Copper, Duchy, Copper, Estate])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Achète Province
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 31
+
+Tour 20 : Le 4ème Empire "Vrai"
+Achète Domaine
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 34
+
+Tour 21 : Toulousain test
+Achète Duché
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 27
+
+Tour 21 : Le 4ème Empire le Remake
+Joue Village agricole
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Joue Bandit
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Domaine
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 32
+
+Tour 21 : Le 4ème Empire "Vrai"
+Joue Milice
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Province, Silver, Gold])
+
+Toulousain test a répondu Province
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Silver, Gold])
+
+Toulousain test a répondu Copper
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Copper, Province, Copper, Duchy, Estate])
+
+Le 4ème Empire le Remake a répondu Estate
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Copper, Province, Copper, Duchy])
+
+Le 4ème Empire le Remake a répondu Duchy
+
+Achète Duché
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 37
+
+Tour 22 : Toulousain test
+Achète Duché
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 30
+
+Tour 22 : Le 4ème Empire le Remake
+Achète Domaine
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 33
+
+Tour 22 : Le 4ème Empire "Vrai"
+Joue Village agricole
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Domaine
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 38
+
+Tour 23 : Toulousain test
+Joue Laboratoire
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Province, Silver, Estate, Copper, Copper])
+
+Le 4ème Empire le Remake a répondu Estate
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Province, Silver, Copper, Copper])
+
+Le 4ème Empire le Remake a répondu Province
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Duchy, Copper, Estate, Estate, Estate])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Le 4ème Empire "Vrai": discard_card_from_hand
+
+Hand(hand=[Duchy, Copper, Estate, Estate])
+
+Le 4ème Empire "Vrai" a répondu Estate
+
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 36
+
+Score
+Le 4ème Empire "Vrai" a un score de 38
+Toulousain test a un score de 36
+Le 4ème Empire le Remake a un score de 33
+We Are The People a un score de -10000

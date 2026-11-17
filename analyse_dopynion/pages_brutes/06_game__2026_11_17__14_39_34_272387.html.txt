@@ -1,0 +1,1576 @@
+Partie du 2026-11-17T14:39:34.272387+01:00
+Réserve initiale
+Tour 1 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 1 : Vincent bm
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 1 : Le 4ème Empire le Remake
+Achète Forgeron
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 1 : Chloé
+Achète Cave
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 3
+
+Tour 2 : Groupe 5
+Achète Forgeron
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 2 : Vincent bm
+Achète Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 2 : Le 4ème Empire le Remake
+Achète Argent
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 2 : Chloé
+Achète Argent
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 3
+
+Tour 3 : Groupe 5
+Joue Forgeron
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Festival
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 3 : Vincent bm
+Achète Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 3 : Le 4ème Empire le Remake
+Joue Forgeron
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Recrue
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 3 : Chloé
+Joue Cave
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Estate, Estate, Copper])
+
+Chloé a répondu True
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Estate, Copper])
+
+Chloé a répondu True
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Copper])
+
+Chloé a répondu True
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper])
+
+Chloé a répondu False
+
+Achète Festival
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a pour l'instant un score de 3
+
+Tour 4 : Groupe 5
+Achète Festival
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 4 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Estate])
+
+Vincent bm a répondu Estate
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Smithy, Estate, Farmingvillage, Curse, Woodcutter, Cellar, Copper, Silver, Bureaucrat, Chancellor, Remodel])
+
+Vincent bm a répondu Silver
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 2
+
+Tour 4 : Le 4ème Empire le Remake
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 4 : Chloé
+Achète Festival
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a pour l'instant un score de 3
+
+Tour 5 : Groupe 5
+Joue Forgeron
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Bureaucrate
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 5 : Vincent bm
+Achète Recrue
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 2
+
+Tour 5 : Le 4ème Empire le Remake
+Joue Recrue
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Argent
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 5 : Chloé
+Joue Cave
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Estate, Estate, Copper])
+
+Chloé a répondu False
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Copper, Estate, Estate, Copper])
+
+Chloé a répondu True
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Copper, Estate, Copper])
+
+Chloé a répondu True
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper])
+
+Chloé a répondu False
+
+Joue Festival
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Achète Rénovation
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Achète Cuivre
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 3
+
+Tour 6 : Groupe 5
+Joue Festival
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Joue Bureaucrate
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 6 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Recrue
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 2
+
+Tour 6 : Le 4ème Empire le Remake
+Achète Festival
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 6 : Chloé
+Achète Rénovation
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 3
+
+Tour 7 : Groupe 5
+Joue Forgeron
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 7 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Silver])
+
+Vincent bm a répondu Estate
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Smithy, Estate, Farmingvillage, Curse, Woodcutter, Cellar, Copper, Silver, Bureaucrat, Chancellor, Remodel])
+
+Vincent bm a répondu Silver
+
+Achète Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 1
+
+Tour 7 : Le 4ème Empire le Remake
+Joue Forgeron
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Or
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 7 : Chloé
+Joue Festival
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Joue Cave
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Remodel, Copper])
+
+Chloé a répondu True
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Remodel, hand=[Remodel, Copper])
+
+Chloé a répondu False
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Remodel, Copper])
+
+Chloé a répondu False
+
+Joue Rénovation
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Chloé: trash_card_from_hand
+
+Hand(hand=[Copper, Copper])
+
+Chloé a répondu Copper
+
+Chloé: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Curse, Copper, Estate, Cellar])
+
+Erreur de Chloé
+
+Not implemented hook: https://dopynion.lecalamar.fr/chloe/choose_card_to_receive_in_discard
+
+Chloé a répondu Curse
+
+Achète Argent
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Achète Cuivre
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a pour l'instant un score de 2
+
+Tour 8 : Groupe 5
+Joue Festival
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Joue Bureaucrate
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 8 : Vincent bm
+Joue Recrue
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 1
+
+Tour 8 : Le 4ème Empire le Remake
+Joue Festival
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Recrue
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 8 : Chloé
+Achète Rénovation
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a pour l'instant un score de 2
+
+Tour 9 : Groupe 5
+Achète Recrue
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 9 : Vincent bm
+Joue Recrue
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Or
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 1
+
+Tour 9 : Le 4ème Empire le Remake
+Joue Forgeron
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Province
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 9
+
+Tour 9 : Chloé
+Joue Festival
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Joue Cave
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Estate, Copper])
+
+Chloé a répondu True
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Copper])
+
+Chloé a répondu True
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper])
+
+Chloé a répondu False
+
+Achète Festival
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Achète Cuivre
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a pour l'instant un score de 2
+
+Tour 10 : Groupe 5
+Joue Festival
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Recrue
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 10 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Smithy, Copper, Copper, Silver, Smithy, Copper])
+
+Vincent bm a répondu Copper
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Curse, Copper, Estate, Cellar])
+
+Vincent bm a répondu Copper
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 1
+
+Tour 10 : Le 4ème Empire le Remake
+Joue Festival
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Or
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 9
+
+Tour 10 : Chloé
+Joue Rénovation
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Chloé: trash_card_from_hand
+
+Hand(hand=[Silver, Copper, Estate, Curse])
+
+Chloé a répondu Curse
+
+Chloé: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Curse, Copper, Estate, Cellar])
+
+Erreur de Chloé
+
+Not implemented hook: https://dopynion.lecalamar.fr/chloe/choose_card_to_receive_in_discard
+
+Chloé a répondu Curse
+
+Achète Argent
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 2
+
+Tour 11 : Groupe 5
+Joue Forgeron
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 11 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 7
+
+Tour 11 : Le 4ème Empire le Remake
+Joue Recrue
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Forgeron
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 9
+
+Tour 11 : Chloé
+Joue Rénovation
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Chloé: trash_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper])
+
+Chloé a répondu Copper
+
+Chloé: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Curse, Copper, Estate, Cellar])
+
+Erreur de Chloé
+
+Not implemented hook: https://dopynion.lecalamar.fr/chloe/choose_card_to_receive_in_discard
+
+Chloé a répondu Curse
+
+Achète Argent
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a pour l'instant un score de 1
+
+Tour 12 : Groupe 5
+Joue Festival
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Joue Recrue
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 9
+
+Tour 12 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Copper, Silver, Silver, Copper, Smithy, Copper])
+
+Vincent bm a répondu Copper
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Curse, Copper, Estate, Cellar])
+
+Vincent bm a répondu Copper
+
+Achète Or
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 7
+
+Tour 12 : Le 4ème Empire le Remake
+Joue Festival
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Joue Forgeron
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Province
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Achète Duché
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a pour l'instant un score de 18
+
+Tour 12 : Chloé
+Joue Festival
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Joue Rénovation
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Chloé: trash_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper])
+
+Chloé a répondu Copper
+
+Chloé: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Curse, Copper, Estate, Cellar])
+
+Erreur de Chloé
+
+Not implemented hook: https://dopynion.lecalamar.fr/chloe/choose_card_to_receive_in_discard
+
+Chloé a répondu Curse
+
+Achète Festival
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Achète Cuivre
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a pour l'instant un score de 0
+
+Tour 13 : Groupe 5
+Joue Festival
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Joue Bureaucrate
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Duché
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 12
+
+Tour 13 : Vincent bm
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 13
+
+Tour 13 : Le 4ème Empire le Remake
+Achète Duché
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 21
+
+Tour 13 : Chloé
+Joue Festival
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Achète Recrue
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Achète Cuivre
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a pour l'instant un score de 0
+
+Tour 14 : Groupe 5
+Joue Bureaucrate
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 12
+
+Tour 14 : Vincent bm
+Achète Or
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 13
+
+Tour 14 : Le 4ème Empire le Remake
+Joue Forgeron
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Province
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 27
+
+Tour 14 : Chloé
+Joue Festival
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Achète Rénovation
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Achète Cuivre
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de 0
+
+Tour 15 : Groupe 5
+Joue Festival
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Joue Recrue
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 12
+
+Tour 15 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Smithy, Smithy, Silver, Gold, Silver, Smithy])
+
+Vincent bm a répondu Gold
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Hireling, Smithy, Estate, Farmingvillage, Province, Curse, Woodcutter, Festival, Gold, Magnate, Copper, Silver, Bureaucrat, Cellar, Duchy, Chancellor, Remodel])
+
+Vincent bm a répondu Province
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 19
+
+Tour 15 : Le 4ème Empire le Remake
+Joue Festival
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Duché
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Achète Domaine
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 31
+
+Tour 15 : Chloé
+Joue Cave
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Curse, hand=[Curse, Copper, Estate, Remodel])
+
+Chloé a répondu True
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Estate, Remodel])
+
+Chloé a répondu False
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Copper, Estate, Remodel])
+
+Chloé a répondu True
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Remodel, hand=[Copper, Remodel])
+
+Chloé a répondu False
+
+Joue Rénovation
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Chloé: trash_card_from_hand
+
+Hand(hand=[Copper, Remodel, Copper])
+
+Chloé a répondu Copper
+
+Chloé: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Curse, Copper, Estate, Cellar])
+
+Erreur de Chloé
+
+Not implemented hook: https://dopynion.lecalamar.fr/chloe/choose_card_to_receive_in_discard
+
+Chloé a répondu Curse
+
+Achète Cuivre
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de -1
+
+Tour 16 : Groupe 5
+Joue Forgeron
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 18
+
+Tour 16 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 25
+
+Tour 16 : Le 4ème Empire le Remake
+Achète Province
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 37
+
+Tour 16 : Chloé
+Achète Argent
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a ces cartes :
+
+Chloé a pour l'instant un score de -1
+
+Tour 17 : Groupe 5
+Joue Festival
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 24
+
+Tour 17 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Province, Smithy, Province, Silver, Copper, Copper])
+
+Vincent bm a répondu Copper
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Curse, Copper, Estate, Cellar])
+
+Vincent bm a répondu Copper
+
+Achète Domaine
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 26
+
+Tour 17 : Le 4ème Empire le Remake
+Joue Forgeron
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Duché
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 40
+
+Tour 17 : Chloé
+Joue Cave
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Remodel, Curse, Copper])
+
+Chloé a répondu False
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Remodel, hand=[Copper, Remodel, Curse, Copper])
+
+Chloé a répondu False
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Curse, hand=[Copper, Remodel, Curse, Copper])
+
+Chloé a répondu True
+
+Chloé: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Remodel, Copper])
+
+Chloé a répondu False
+
+Joue Festival
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Joue Rénovation
+
+Chloé a ces cartes :
+
+Chloé joue
+
+Chloé: trash_card_from_hand
+
+Hand(hand=[Copper, Copper])
+
+Chloé a répondu Copper
+
+Chloé: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Curse, Copper, Estate, Cellar])
+
+Erreur de Chloé
+
+Not implemented hook: https://dopynion.lecalamar.fr/chloe/choose_card_to_receive_in_discard
+
+Chloé a répondu Curse
+
+Achète Argent
+
+Chloé a ces cartes :
+
+Chloé achète
+
+Achète Cuivre
+
+Chloé achète
+
+Fin Du Tour
+
+Chloé a pour l'instant un score de -2
+
+Tour 18 : Groupe 5
+Joue Festival
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 30
+
+Score
+Le 4ème Empire le Remake a un score de 40
+Groupe 5 a un score de 30
+Vincent bm a un score de 26
+Chloé a un score de -2

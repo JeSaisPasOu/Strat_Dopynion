@@ -1,0 +1,1343 @@
+Partie du 2026-11-17T14:39:16.557978+01:00
+Réserve initiale
+Tour 1 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 3
+
+Tour 1 : Le 4ème Empire le Remake
+Achète Milice
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 1 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 1 : We Are The People
+Achète Argent
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 2 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 3
+
+Tour 2 : Le 4ème Empire le Remake
+Achète Argent
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 2 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 2 : We Are The People
+Achète Forgeron
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 3 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 3
+
+Tour 3 : Le 4ème Empire le Remake
+Achète Bibliothèque
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 3 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 3 : We Are The People
+Joue Forgeron
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Achète Or
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 4 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 3
+
+Tour 4 : Le 4ème Empire le Remake
+Joue Milice
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+"Monty_Python_Test": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper, Silver])
+
+"Monty_Python_Test" a répondu Copper
+
+"Monty_Python_Test": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Silver])
+
+"Monty_Python_Test" a répondu Copper
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Estate, Copper, Copper])
+
+Vincent Glicko a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Estate, Copper, Copper])
+
+Vincent Glicko a répondu Estate
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Estate, Estate])
+
+We Are The People a répondu Estate
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Estate])
+
+We Are The People a répondu Estate
+
+Achète Laboratoire
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 4 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 4 : We Are The People
+Achète Argent
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a pour l'instant un score de 3
+
+Tour 5 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a pour l'instant un score de 3
+
+Tour 5 : Le 4ème Empire le Remake
+Joue Laboratoire
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Argent
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 5 : Vincent Glicko
+Achète Or
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 5 : We Are The People
+Joue Forgeron
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Achète Province
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 9
+
+Tour 6 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 3
+
+Tour 6 : Le 4ème Empire le Remake
+Joue Milice
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+"Monty_Python_Test": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Estate, Silver, Copper])
+
+"Monty_Python_Test" a répondu Copper
+
+"Monty_Python_Test": discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Silver, Copper])
+
+"Monty_Python_Test" a répondu Copper
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Copper, Silver, Silver])
+
+Vincent Glicko a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Silver, Silver])
+
+Vincent Glicko a répondu Copper
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Silver, Copper])
+
+We Are The People a répondu Estate
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Silver, Copper])
+
+We Are The People a répondu Copper
+
+Achète Village
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 6 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 6 : We Are The People
+Achète Milice
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a pour l'instant un score de 9
+
+Tour 7 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 3
+
+Tour 7 : Le 4ème Empire le Remake
+Joue Village
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Bandit
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 7 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 7 : We Are The People
+Achète Argent
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 9
+
+Tour 8 : "Monty_Python_Test"
+Achète Or
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 3
+
+Tour 8 : Le 4ème Empire le Remake
+Joue Bibliothèque
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Or
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 3
+
+Tour 8 : Vincent Glicko
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 9
+
+Tour 8 : We Are The People
+Joue Forgeron
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Achète Province
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 15
+
+Tour 9 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 3
+
+Tour 9 : Le 4ème Empire le Remake
+Joue Laboratoire
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Joue Village
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Joue Milice
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+"Monty_Python_Test": discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Silver, Silver, Copper])
+
+"Monty_Python_Test" a répondu Copper
+
+"Monty_Python_Test": discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Silver, Copper])
+
+"Monty_Python_Test" a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Silver, Copper, Copper])
+
+Vincent Glicko a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Copper])
+
+Vincent Glicko a répondu Copper
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Militia, Silver, Copper, Copper, Estate])
+
+We Are The People a répondu Estate
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Militia, Silver, Copper, Copper])
+
+We Are The People a répondu Copper
+
+Achète Province
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 9
+
+Tour 9 : Vincent Glicko
+Achète Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 9
+
+Tour 9 : We Are The People
+Joue Milice
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Estate, Copper, Estate])
+
+Le 4ème Empire le Remake a répondu Estate
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Estate])
+
+Le 4ème Empire le Remake a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Province, Copper])
+
+Vincent Glicko a répondu Province
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper])
+
+Vincent Glicko a répondu Copper
+
+Achète Laboratoire
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a pour l'instant un score de 15
+
+Tour 10 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 3
+
+Tour 10 : Le 4ème Empire le Remake
+Achète Argent
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a pour l'instant un score de 9
+
+Tour 10 : Vincent Glicko
+Achète Village
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 9
+
+Tour 10 : We Are The People
+Achète Argent
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 15
+
+Tour 11 : "Monty_Python_Test"
+Achète Or
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a pour l'instant un score de 3
+
+Tour 11 : Le 4ème Empire le Remake
+Joue Bandit
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Argent
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 9
+
+Tour 11 : Vincent Glicko
+Achète Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 9
+
+Tour 11 : We Are The People
+Achète Or
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 15
+
+Tour 12 : "Monty_Python_Test"
+Achète Province
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 9
+
+Tour 12 : Le 4ème Empire le Remake
+Achète Duché
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 12
+
+Tour 12 : Vincent Glicko
+Joue Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+"Monty_Python_Test": discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Silver, Province, Copper])
+
+"Monty_Python_Test" a répondu Estate
+
+"Monty_Python_Test": discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Province, Copper])
+
+"Monty_Python_Test" a répondu Silver
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Bandit, Copper, Copper, Estate, Militia])
+
+Le 4ème Empire le Remake a répondu Estate
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Bandit, Copper, Copper, Militia])
+
+Le 4ème Empire le Remake a répondu Militia
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Estate, Laboratory, Province, Gold, Copper])
+
+We Are The People a répondu Estate
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Laboratory, Province, Gold, Copper])
+
+We Are The People a répondu Province
+
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 15
+
+Tour 12 : We Are The People
+Joue Laboratoire
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Joue Milice
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Copper, Silver, Gold])
+
+Vincent Glicko a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Silver, Gold])
+
+Vincent Glicko a répondu Copper
+
+Achète Duché
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a pour l'instant un score de 18
+
+Tour 13 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 9
+
+Tour 13 : Le 4ème Empire le Remake
+Joue Bandit
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Domaine
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a pour l'instant un score de 13
+
+Tour 13 : Vincent Glicko
+Achète Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 15
+
+Tour 13 : We Are The People
+Achète Domaine
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 19
+
+Tour 14 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 9
+
+Tour 14 : Le 4ème Empire le Remake
+Joue Bibliothèque
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Le 4ème Empire le Remake: skip_card_reception_in_hand
+
+CardNameAndHand(card_name=Village, hand=[Estate, Copper, Estate, Gold])
+
+Le 4ème Empire le Remake a répondu True
+
+Le 4ème Empire le Remake: skip_card_reception_in_hand
+
+CardNameAndHand(card_name=Laboratory, hand=[Estate, Copper, Estate, Gold])
+
+Le 4ème Empire le Remake a répondu True
+
+Achète Province
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 19
+
+Tour 14 : Vincent Glicko
+Achète Village
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 15
+
+Tour 14 : We Are The People
+Achète Domaine
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 20
+
+Tour 15 : "Monty_Python_Test"
+Achète Province
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a pour l'instant un score de 15
+
+Tour 15 : Le 4ème Empire le Remake
+Joue Bandit
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Duché
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a pour l'instant un score de 22
+
+Tour 15 : Vincent Glicko
+Joue Village
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Joue Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+"Monty_Python_Test": discard_card_from_hand
+
+Hand(hand=[Gold, Estate, Silver, Copper, Copper])
+
+"Monty_Python_Test" a répondu Gold
+
+"Monty_Python_Test": discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Copper, Copper])
+
+"Monty_Python_Test" a répondu Estate
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Library, Estate, Silver, Province, Gold])
+
+Le 4ème Empire le Remake a répondu Estate
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Library, Silver, Province, Gold])
+
+Le 4ème Empire le Remake a répondu Province
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Copper, Smithy, Copper, Copper, Laboratory])
+
+We Are The People a répondu Copper
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Smithy, Copper, Copper, Laboratory])
+
+We Are The People a répondu Copper
+
+Achète Village
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 15
+
+Tour 15 : We Are The People
+Joue Laboratoire
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Joue Forgeron
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Achète Province
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 26
+
+Tour 16 : "Monty_Python_Test"
+Achète Argent
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a pour l'instant un score de 15
+
+Tour 16 : Le 4ème Empire le Remake
+Joue Bibliothèque
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Achète Province
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 28
+
+Tour 16 : Vincent Glicko
+Achète Laboratoire
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 15
+
+Tour 16 : We Are The People
+Achète Domaine
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 27
+
+Tour 17 : "Monty_Python_Test"
+Achète Province
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 21
+
+Tour 17 : Le 4ème Empire le Remake
+Joue Village
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Joue Laboratoire
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+Joue Milice
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake joue
+
+"Monty_Python_Test": discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Silver, Province])
+
+"Monty_Python_Test" a répondu Copper
+
+"Monty_Python_Test": discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Silver, Province])
+
+"Monty_Python_Test" a répondu Silver
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Militia, Village, Gold, Militia, Estate])
+
+Vincent Glicko a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Militia, Village, Gold, Militia])
+
+Vincent Glicko a répondu Village
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Copper, Militia, Copper])
+
+We Are The People a répondu Estate
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Militia, Copper])
+
+We Are The People a répondu Copper
+
+Achète Duché
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake a pour l'instant un score de 31
+
+Tour 17 : Vincent Glicko
+Joue Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Gold, Copper, Gold])
+
+Le 4ème Empire le Remake a répondu Estate
+
+Le 4ème Empire le Remake: discard_card_from_hand
+
+Hand(hand=[Silver, Gold, Copper, Gold])
+
+Le 4ème Empire le Remake a répondu Copper
+
+Achète Laboratoire
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 15
+
+Tour 17 : We Are The People
+Joue Milice
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Village, Silver, Copper])
+
+Vincent Glicko a répondu Copper
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Village, Silver, Copper])
+
+Vincent Glicko a répondu Copper
+
+Achète Duché
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a pour l'instant un score de 30
+
+Tour 18 : "Monty_Python_Test"
+Achète Domaine
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" achète
+
+Fin Du Tour
+
+"Monty_Python_Test" a ces cartes :
+
+"Monty_Python_Test" a pour l'instant un score de 22
+
+Tour 18 : Le 4ème Empire le Remake
+Achète Province
+
+Le 4ème Empire le Remake a ces cartes :
+
+Le 4ème Empire le Remake achète
+
+Fin Du Tour
+
+Le 4ème Empire le Remake a pour l'instant un score de 37
+
+Score
+Le 4ème Empire le Remake a un score de 37
+We Are The People a un score de 30
+"Monty_Python_Test" a un score de 22
+Vincent Glicko a un score de 15

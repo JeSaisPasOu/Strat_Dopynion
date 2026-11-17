@@ -1,0 +1,1993 @@
+Partie du 2026-11-17T14:39:27.629272+01:00
+Réserve initiale
+Tour 1 : Empire Of The Sun
+Achète Argent
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 1 : Vincent bm
+Achète Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 1 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 1 : Toulousain
+Achète Argent
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 3
+
+Tour 2 : Empire Of The Sun
+Achète Forgeron
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 2 : Vincent bm
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 2 : Vincent basique
+Achète Rénovation
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 2 : Toulousain
+Achète Milice
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 3
+
+Tour 3 : Empire Of The Sun
+Joue Forgeron
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Sorcière
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 3 : Vincent bm
+Achète Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 3 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 3 : Toulousain
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 3
+
+Tour 4 : Empire Of The Sun
+Joue Forgeron
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Milice
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 4 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Copper, Estate, Estate, Silver])
+
+Vincent bm a répondu Estate
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Gardens, Smithy, Copper, Silver, Militia, Remodel, Curse, Estate, Moneylender])
+
+Vincent bm a répondu Silver
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 2
+
+Tour 4 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 4 : Toulousain
+Achète Recrue
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a pour l'instant un score de 3
+
+Tour 5 : Empire Of The Sun
+Achète Sorcière
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 5 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Copper, Copper, Estate, Estate])
+
+Vincent bm a répondu Estate
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Gardens, Smithy, Copper, Silver, Militia, Remodel, Curse, Estate, Moneylender])
+
+Vincent bm a répondu Silver
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 1
+
+Tour 5 : Vincent basique
+Joue Rénovation
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Vincent basique: trash_card_from_hand
+
+Hand(hand=[Silver, Copper, Silver, Copper])
+
+Vincent basique a répondu Copper
+
+Vincent basique: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Curse, Estate, Copper])
+
+Vincent basique a répondu Copper
+
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 5 : Toulousain
+Joue Recrue
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Achète Milice
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 3
+
+Tour 6 : Empire Of The Sun
+Joue Milice
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Silver, Smithy, Copper, Copper, Silver])
+
+Vincent bm a répondu Copper
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Silver, Smithy, Copper, Silver])
+
+Vincent bm a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Silver, Copper])
+
+Vincent basique a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Silver, Copper])
+
+Vincent basique a répondu Copper
+
+Toulousain: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Estate, Copper, Estate])
+
+Toulousain a répondu Estate
+
+Toulousain: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Estate])
+
+Toulousain a répondu Estate
+
+Achète Argent
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 6 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 7
+
+Tour 6 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 6 : Toulousain
+Achète Forgeron
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a pour l'instant un score de 3
+
+Tour 7 : Empire Of The Sun
+Joue Forgeron
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Argent
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 7 : Vincent bm
+Achète Recrue
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 7
+
+Tour 7 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 7 : Toulousain
+Joue Milice
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Witch, Estate])
+
+Empire Of The Sun a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Witch])
+
+Empire Of The Sun a répondu Copper
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Silver, Smithy, Province])
+
+Vincent bm a répondu Province
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Silver, Smithy])
+
+Vincent bm a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Silver, Copper, Copper])
+
+Vincent basique a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Copper, Copper])
+
+Vincent basique a répondu Copper
+
+Achète Or
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 3
+
+Tour 8 : Empire Of The Sun
+Joue Sorcière
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Argent
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 8 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Recrue
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 6
+
+Tour 8 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 2
+
+Tour 8 : Toulousain
+Achète Sorcière
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 2
+
+Tour 9 : Empire Of The Sun
+Joue Sorcière
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Recrue
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 9 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Copper, Copper, Province, Silver])
+
+Vincent bm a répondu Copper
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Curse, Estate, Copper])
+
+Vincent bm a répondu Copper
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 5
+
+Tour 9 : Vincent basique
+Joue Rénovation
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Vincent basique: trash_card_from_hand
+
+Hand(hand=[Silver, Silver, Copper, Copper])
+
+Vincent basique a répondu Copper
+
+Vincent basique: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Curse, Estate, Copper])
+
+Vincent basique a répondu Copper
+
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 1
+
+Tour 9 : Toulousain
+Joue Milice
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Copper, Militia, Silver, Silver, Copper])
+
+Empire Of The Sun a répondu Copper
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Militia, Silver, Silver, Copper])
+
+Empire Of The Sun a répondu Copper
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Smithy, Hireling, Estate])
+
+Vincent bm a répondu Estate
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Smithy, Hireling])
+
+Vincent bm a répondu Silver
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Silver, Silver])
+
+Vincent basique a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Silver, Silver])
+
+Vincent basique a répondu Copper
+
+Achète Or
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 1
+
+Tour 10 : Empire Of The Sun
+Joue Milice
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Toulousain: discard_card_from_hand
+
+Hand(hand=[Copper, Curse, Estate, Copper, Copper])
+
+Toulousain a répondu Curse
+
+Toulousain: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Copper])
+
+Toulousain a répondu Estate
+
+Achète Or
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 10 : Vincent bm
+Joue Recrue
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 5
+
+Tour 10 : Vincent basique
+Achète Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 1
+
+Tour 10 : Toulousain
+Joue Sorcière
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Achète Or
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a pour l'instant un score de 1
+
+Tour 11 : Empire Of The Sun
+Joue Recrue
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 2
+
+Tour 11 : Vincent bm
+Joue Recrue
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Or
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 4
+
+Tour 11 : Vincent basique
+Joue Rénovation
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Vincent basique: trash_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Silver])
+
+Vincent basique a répondu Copper
+
+Vincent basique: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Curse, Estate, Copper])
+
+Vincent basique a répondu Copper
+
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 0
+
+Tour 11 : Toulousain
+Joue Forgeron
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Achète Or
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 1
+
+Tour 12 : Empire Of The Sun
+Joue Sorcière
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Or
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 2
+
+Tour 12 : Vincent bm
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 9
+
+Tour 12 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de -1
+
+Tour 12 : Toulousain
+Achète Province
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 6
+
+Tour 13 : Empire Of The Sun
+Joue Sorcière
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Province
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 8
+
+Tour 13 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Copper, Copper, Smithy, Copper, Silver, Curse])
+
+Vincent bm a répondu Curse
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Curse, Estate, Copper])
+
+Vincent bm a répondu Copper
+
+Achète Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 9
+
+Tour 13 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de -2
+
+Tour 13 : Toulousain
+Joue Sorcière
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Achète Province
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 11
+
+Tour 14 : Empire Of The Sun
+Joue Sorcière
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Argent
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 7
+
+Tour 14 : Vincent bm
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 13
+
+Tour 14 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de -4
+
+Tour 14 : Toulousain
+Achète Argent
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 10
+
+Tour 15 : Empire Of The Sun
+Joue Milice
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Remodel, Silver, Curse, Copper, Silver])
+
+Vincent bm a répondu Curse
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Remodel, Silver, Copper, Silver])
+
+Vincent bm a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Estate, Estate, Copper, Silver, Silver])
+
+Vincent basique a répondu Estate
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Silver, Silver])
+
+Vincent basique a répondu Estate
+
+Toulousain: discard_card_from_hand
+
+Hand(hand=[Smithy, Copper, Gold, Silver, Militia])
+
+Toulousain a répondu Copper
+
+Toulousain: discard_card_from_hand
+
+Hand(hand=[Smithy, Gold, Silver, Militia])
+
+Toulousain a répondu Smithy
+
+Achète Province
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 13
+
+Tour 15 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Silver, Silver, Silver, Copper])
+
+Vincent bm a répondu Copper
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Curse, Estate, Copper])
+
+Vincent bm a répondu Copper
+
+Achète Or
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 13
+
+Tour 15 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de -4
+
+Tour 15 : Toulousain
+Joue Milice
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Smithy, Witch, Copper, Estate, Copper])
+
+Empire Of The Sun a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Smithy, Witch, Copper, Copper])
+
+Empire Of The Sun a répondu Copper
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Copper, Curse, Curse, Smithy, Province])
+
+Vincent bm a répondu Curse
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Copper, Curse, Smithy, Province])
+
+Vincent bm a répondu Curse
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Copper, Silver])
+
+Vincent basique a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Silver])
+
+Vincent basique a répondu Copper
+
+Achète Or
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 10
+
+Tour 16 : Empire Of The Sun
+Joue Sorcière
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Duché
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 16
+
+Tour 16 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Duché
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 15
+
+Tour 16 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de -5
+
+Tour 16 : Toulousain
+Achète Or
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 9
+
+Tour 17 : Empire Of The Sun
+Joue Sorcière
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Duché
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 19
+
+Tour 17 : Vincent bm
+Achète Or
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 14
+
+Tour 17 : Vincent basique
+Joue Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de -6
+
+Tour 17 : Toulousain
+Joue Milice
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Gold, Curse, Estate, Silver, Duchy])
+
+Empire Of The Sun a répondu Curse
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Gold, Estate, Silver, Duchy])
+
+Empire Of The Sun a répondu Estate
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Smithy, Silver, Copper, Province, Silver])
+
+Vincent bm a répondu Province
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Smithy, Silver, Copper, Silver])
+
+Vincent bm a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Curse, Curse, Silver, Curse])
+
+Vincent basique a répondu Curse
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Curse, Silver, Curse])
+
+Vincent basique a répondu Curse
+
+Achète Or
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 8
+
+Tour 18 : Empire Of The Sun
+Achète Duché
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 22
+
+Tour 18 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Duché
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 17
+
+Tour 18 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de -6
+
+Tour 18 : Toulousain
+Joue Sorcière
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Achète Or
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 8
+
+Tour 19 : Empire Of The Sun
+Joue Sorcière
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Duché
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 24
+
+Tour 19 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 22
+
+Tour 19 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de -7
+
+Tour 19 : Toulousain
+Joue Milice
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Duchy, Silver, Curse, Silver, Province])
+
+Empire Of The Sun a répondu Curse
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Duchy, Silver, Silver, Province])
+
+Empire Of The Sun a répondu Duchy
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Curse, Duchy, Gold, Curse, Curse])
+
+Vincent bm a répondu Curse
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Duchy, Gold, Curse, Curse])
+
+Vincent bm a répondu Curse
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Remodel, Silver, Silver])
+
+Vincent basique a répondu Silver
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Remodel, Silver, Silver])
+
+Vincent basique a répondu Silver
+
+Achète Province
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 14
+
+Tour 20 : Empire Of The Sun
+Achète Duché
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 27
+
+Tour 20 : Vincent bm
+Achète Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 22
+
+Tour 20 : Vincent basique
+Joue Rénovation
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Vincent basique: trash_card_from_hand
+
+Hand(hand=[Silver, Silver, Curse])
+
+Vincent basique a répondu Curse
+
+Vincent basique: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Estate, Copper])
+
+Vincent basique a répondu Copper
+
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de -6
+
+Tour 20 : Toulousain
+Joue Milice
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Estate, Estate, Gold, Province, Copper])
+
+Empire Of The Sun a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Estate, Gold, Province, Copper])
+
+Empire Of The Sun a répondu Estate
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Curse, Curse, Silver])
+
+Vincent bm a répondu Curse
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Curse, Silver])
+
+Vincent bm a répondu Curse
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Silver, Curse, Copper])
+
+Vincent basique a répondu Curse
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Silver, Copper])
+
+Vincent basique a répondu Copper
+
+Achète Argent
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 14
+
+Tour 21 : Empire Of The Sun
+Joue Forgeron
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Duché
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 30
+
+Tour 21 : Vincent bm
+Achète Duché
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 25
+
+Tour 21 : Vincent basique
+Achète Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de -6
+
+Tour 21 : Toulousain
+Joue Sorcière
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Achète Duché
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 17
+
+Tour 22 : Empire Of The Sun
+Joue Sorcière
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Duché
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 33
+
+Tour 22 : Vincent bm
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 25
+
+Tour 22 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de -6
+
+Tour 22 : Toulousain
+Joue Milice
+
+Toulousain a ces cartes :
+
+Toulousain joue
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Curse, Estate, Duchy, Duchy, Copper])
+
+Empire Of The Sun a répondu Curse
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Estate, Duchy, Duchy, Copper])
+
+Empire Of The Sun a répondu Estate
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Curse, Gold, Silver, Curse, Duchy])
+
+Vincent bm a répondu Curse
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Gold, Silver, Curse, Duchy])
+
+Vincent bm a répondu Curse
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Curse, Silver, Copper, Curse, Silver])
+
+Vincent basique a répondu Curse
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Curse, Silver])
+
+Vincent basique a répondu Curse
+
+Achète Province
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 23
+
+Tour 23 : Empire Of The Sun
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 33
+
+Tour 23 : Vincent bm
+Achète Duché
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 28
+
+Tour 23 : Vincent basique
+Achète Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de -6
+
+Tour 23 : Toulousain
+Achète Or
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 23
+
+Tour 24 : Empire Of The Sun
+Joue Milice
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Province, Curse, Copper])
+
+Vincent bm a répondu Curse
+
+Vincent bm: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Province, Copper])
+
+Vincent bm a répondu Province
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Silver, Silver, Curse])
+
+Vincent basique a répondu Curse
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Silver, Silver])
+
+Vincent basique a répondu Copper
+
+Toulousain: discard_card_from_hand
+
+Hand(hand=[Copper, Gold, Gold, Curse, Gold])
+
+Toulousain a répondu Curse
+
+Toulousain: discard_card_from_hand
+
+Hand(hand=[Copper, Gold, Gold, Gold])
+
+Toulousain a répondu Copper
+
+Achète Province
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 39
+
+Tour 24 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Silver, Silver, Copper, Silver])
+
+Vincent bm a répondu Copper
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Estate, Copper])
+
+Vincent bm a répondu Copper
+
+Achète Domaine
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 29
+
+Tour 24 : Vincent basique
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de -6
+
+Tour 24 : Toulousain
+Achète Province
+
+Toulousain a ces cartes :
+
+Toulousain achète
+
+Fin Du Tour
+
+Toulousain a ces cartes :
+
+Toulousain a pour l'instant un score de 29
+
+Score
+Empire Of The Sun a un score de 39
+Vincent bm a un score de 29
+Toulousain a un score de 29
+Vincent basique a un score de -6

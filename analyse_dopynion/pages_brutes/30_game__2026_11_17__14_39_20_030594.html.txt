@@ -1,0 +1,1154 @@
+Partie du 2026-11-17T14:39:20.030594+01:00
+Réserve initiale
+Tour 1 : Le 4ème Empire "Vrai"
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 1 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 1 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 1 : Vincent
+Achète Village agricole
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 3
+
+Tour 2 : Le 4ème Empire "Vrai"
+Achète Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 2 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 2 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 2 : Vincent
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 3
+
+Tour 3 : Le 4ème Empire "Vrai"
+Achète Argent
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 3 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 3 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 3 : Vincent
+Joue Village agricole
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 3
+
+Tour 4 : Le 4ème Empire "Vrai"
+Joue Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Recrue
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 4 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 4 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 4 : Vincent
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 6
+
+Tour 5 : Le 4ème Empire "Vrai"
+Joue Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Recrue
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 5 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 5 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 5 : Vincent
+Joue Village agricole
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 6
+
+Tour 6 : Le 4ème Empire "Vrai"
+Joue Recrue
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Argent
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 6 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 6 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 6 : Vincent
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 9
+
+Tour 7 : Le 4ème Empire "Vrai"
+Joue Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Le 4ème Empire "Vrai": skip_card_reception_in_hand
+
+CardNameAndHand(card_name=Hireling, hand=[Estate, Copper, Copper, Silver, Copper, Copper])
+
+Le 4ème Empire "Vrai" a répondu True
+
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 7 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 7 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 7 : Vincent
+Joue Village agricole
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 9
+
+Tour 8 : Le 4ème Empire "Vrai"
+Achète Argent
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 8 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 8 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 8 : Vincent
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 12
+
+Tour 9 : Le 4ème Empire "Vrai"
+Joue Recrue
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Bureaucrate
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 9 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 9 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 9 : Vincent
+Achète Village agricole
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 12
+
+Tour 10 : Le 4ème Empire "Vrai"
+Joue Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Or
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 10 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 10 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 10 : Vincent
+Joue Village agricole
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 15
+
+Tour 11 : Le 4ème Empire "Vrai"
+Joue Bureaucrate
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Or
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 11 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 11 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 11 : Vincent
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 15
+
+Tour 12 : Le 4ème Empire "Vrai"
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 15
+
+Tour 12 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 12 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 12 : Vincent
+Joue Village agricole
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 18
+
+Tour 13 : Le 4ème Empire "Vrai"
+Joue Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 21
+
+Tour 13 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 13 : "Monty_Python"
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 13 : Vincent
+Joue Village agricole
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Joue Village agricole
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 21
+
+Tour 14 : Le 4ème Empire "Vrai"
+Joue Bureaucrate
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 27
+
+Tour 14 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 14 : "Monty_Python"
+Achète Province
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 9
+
+Tour 14 : Vincent
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a pour l'instant un score de 24
+
+Tour 15 : Le 4ème Empire "Vrai"
+Joue Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 33
+
+Tour 15 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 15 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 9
+
+Tour 15 : Vincent
+Achète Cuivre
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 24
+
+Tour 16 : Le 4ème Empire "Vrai"
+Achète Argent
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 33
+
+Tour 16 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 16 : "Monty_Python"
+Achète Province
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 15
+
+Tour 16 : Vincent
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 24
+
+Tour 17 : Le 4ème Empire "Vrai"
+Achète Duché
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 36
+
+Tour 17 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 17 : "Monty_Python"
+Achète Duché
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 18
+
+Tour 17 : Vincent
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 24
+
+Tour 18 : Le 4ème Empire "Vrai"
+Joue Bureaucrate
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Duché
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 39
+
+Tour 18 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 18 : "Monty_Python"
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 18
+
+Tour 18 : Vincent
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 27
+
+Tour 19 : Le 4ème Empire "Vrai"
+Achète Duché
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 42
+
+Tour 19 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 19 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 18
+
+Tour 19 : Vincent
+Joue Village agricole
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Joue Village agricole
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 27
+
+Tour 20 : Le 4ème Empire "Vrai"
+Joue Bibliothèque
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 48
+
+Tour 20 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 20 : "Monty_Python"
+Achète Province
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 24
+
+Tour 20 : Vincent
+Achète Troc
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 27
+
+Tour 21 : Le 4ème Empire "Vrai"
+Achète Domaine
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 49
+
+Tour 21 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 21 : "Monty_Python"
+Achète Province
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 30
+
+Tour 21 : Vincent
+Achète Cuivre
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 27
+
+Tour 22 : Le 4ème Empire "Vrai"
+Achète Domaine
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 50
+
+Tour 22 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 22 : "Monty_Python"
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 30
+
+Tour 22 : Vincent
+Achète Cave
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 27
+
+Tour 23 : Le 4ème Empire "Vrai"
+Joue Bureaucrate
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 56
+
+Tour 23 : Default player name
+Fin Du Tour
+
+Default player name a ces cartes :
+
+Default player name a pour l'instant un score de 3
+
+Tour 23 : "Monty_Python"
+Achète Province
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 36
+
+Score
+Le 4ème Empire "Vrai" a un score de 56
+"Monty_Python" a un score de 36
+Vincent a un score de 27
+Default player name a un score de 3

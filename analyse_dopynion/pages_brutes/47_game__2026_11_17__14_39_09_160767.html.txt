@@ -1,0 +1,858 @@
+Partie du 2026-11-17T14:39:09.160767+01:00
+Réserve initiale
+Tour 1 : BOWSER
+Achète Argent
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 3
+
+Tour 1 : Le 4ème Empire "Vrai"
+Achète Bandit
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 1 : Mini boulet
+Achète Argent
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 3
+
+Tour 2 : BOWSER
+Achète Argent
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 3
+
+Tour 2 : Le 4ème Empire "Vrai"
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 2 : Mini boulet
+Achète Village agricole
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 3
+
+Tour 3 : BOWSER
+Achète Recrue
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a pour l'instant un score de 3
+
+Tour 3 : Le 4ème Empire "Vrai"
+Joue Bandit
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 3 : Mini boulet
+Achète Rénovation
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 3
+
+Tour 4 : BOWSER
+Achète Argent
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 3
+
+Tour 4 : Le 4ème Empire "Vrai"
+Achète Argent
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 4 : Mini boulet
+Joue Village agricole
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 3
+
+Tour 5 : BOWSER
+Achète Bandit
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 3
+
+Tour 5 : Le 4ème Empire "Vrai"
+Achète Argent
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 5 : Mini boulet
+Achète Festin
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 3
+
+Tour 6 : BOWSER
+Joue Recrue
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Argent
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 3
+
+Tour 6 : Le 4ème Empire "Vrai"
+Joue Bandit
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Argent
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 6 : Mini boulet
+Joue Rénovation
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+Mini boulet: trash_card_from_hand
+
+Hand(hand=[Estate, Copper, Estate, Copper])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/trash_card_from_hand
+
+Mini boulet a répondu Estate
+
+Mini boulet: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Copper, Farmingvillage, Curse, Chapel, Feast, Remodel, Silver, Fortuneteller, Gardens, Estate])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/choose_card_to_receive_in_discard
+
+Mini boulet a répondu Copper
+
+Achète Domaine
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 3
+
+Tour 7 : BOWSER
+Achète Recrue
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 3
+
+Tour 7 : Le 4ème Empire "Vrai"
+Achète Recrue
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 7 : Mini boulet
+Joue Village agricole
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+Achète Domaine
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 4
+
+Tour 8 : BOWSER
+Joue Bandit
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Argent
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 3
+
+Tour 8 : Le 4ème Empire "Vrai"
+Achète Recrue
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 3
+
+Tour 8 : Mini boulet
+Joue Village agricole
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+Achète Chapelle
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 4
+
+Tour 9 : BOWSER
+Joue Recrue
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Recrue
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 3
+
+Tour 9 : Le 4ème Empire "Vrai"
+Joue Bandit
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 9 : Mini boulet
+Achète Argent
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 4
+
+Tour 10 : BOWSER
+Achète Or
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 3
+
+Tour 10 : Le 4ème Empire "Vrai"
+Joue Recrue
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Argent
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 10 : Mini boulet
+Joue Rénovation
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+Mini boulet: trash_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Feast])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/trash_card_from_hand
+
+Mini boulet a répondu Copper
+
+Mini boulet: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Copper, Curse, Chapel, Estate])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/choose_card_to_receive_in_discard
+
+Mini boulet a répondu Copper
+
+Achète Chapelle
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 4
+
+Tour 11 : BOWSER
+Joue Recrue
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Province
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 9
+
+Tour 11 : Le 4ème Empire "Vrai"
+Joue Recrue
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Or
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 11 : Mini boulet
+Achète Chapelle
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 4
+
+Tour 12 : BOWSER
+Joue Bandit
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Province
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 15
+
+Tour 12 : Le 4ème Empire "Vrai"
+Joue Bandit
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Or
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 9
+
+Tour 12 : Mini boulet
+Joue Village agricole
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+Achète Village agricole
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 4
+
+Tour 13 : BOWSER
+Joue Bandit
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Recrue
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 15
+
+Tour 13 : Le 4ème Empire "Vrai"
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 15
+
+Tour 13 : Mini boulet
+Joue Festin
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+Mini boulet: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Councilroom, Copper, Farmingvillage, Curse, Chapel, Feast, Remodel, Silver, Duchy, Fortuneteller, Gardens, Bandit, Estate])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/choose_card_to_receive_in_discard
+
+Mini boulet a répondu Councilroom
+
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 4
+
+Tour 14 : BOWSER
+Achète Province
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 21
+
+Tour 14 : Le 4ème Empire "Vrai"
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 21
+
+Tour 14 : Mini boulet
+Joue Chambre du conseil
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+Achète Diseuse de bonne aventure
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 4
+
+Tour 15 : BOWSER
+Achète Province
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 27
+
+Tour 15 : Le 4ème Empire "Vrai"
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 27
+
+Tour 15 : Mini boulet
+Joue Village agricole
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 4
+
+Tour 16 : BOWSER
+Joue Recrue
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Province
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 33
+
+Tour 16 : Le 4ème Empire "Vrai"
+Joue Bandit
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" joue
+
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 33
+
+Tour 16 : Mini boulet
+Joue Rénovation
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+Mini boulet: trash_card_from_hand
+
+Hand(hand=[Chapel, Chapel, Copper, Copper])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/trash_card_from_hand
+
+Mini boulet a répondu Chapel
+
+Mini boulet: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Copper, Farmingvillage, Curse, Chapel, Feast, Remodel, Silver, Fortuneteller, Gardens, Estate])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/choose_card_to_receive_in_discard
+
+Mini boulet a répondu Copper
+
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 4
+
+Tour 17 : BOWSER
+Joue Bandit
+
+BOWSER a ces cartes :
+
+BOWSER joue
+
+Achète Province
+
+BOWSER a ces cartes :
+
+BOWSER achète
+
+Fin Du Tour
+
+BOWSER a ces cartes :
+
+BOWSER a pour l'instant un score de 39
+
+Tour 17 : Le 4ème Empire "Vrai"
+Achète Province
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" achète
+
+Fin Du Tour
+
+Le 4ème Empire "Vrai" a ces cartes :
+
+Le 4ème Empire "Vrai" a pour l'instant un score de 39
+
+Score
+BOWSER a un score de 39
+Le 4ème Empire "Vrai" a un score de 39
+Mini boulet a un score de 4

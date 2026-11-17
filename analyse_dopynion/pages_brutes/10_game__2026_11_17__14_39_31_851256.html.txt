@@ -1,0 +1,2815 @@
+Partie du 2026-11-17T14:39:31.851256+01:00
+Réserve initiale
+Tour 1 : We Are The People
+Achète Forgeron
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 1 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 1 : Empire Of The Sun
+Achète Argent
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 1 : Vincent
+Achète Cave
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 3
+
+Tour 2 : We Are The People
+Achète Argent
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 2 : Vincent basique
+Achète Bucheron
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 2 : Empire Of The Sun
+Achète Forgeron
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 2 : Vincent
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 3
+
+Tour 3 : We Are The People
+Achète Milice
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 3 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 3 : Empire Of The Sun
+Achète Argent
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 3 : Vincent
+Achète Bucheron
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 3
+
+Tour 4 : We Are The People
+Joue Forgeron
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Achète Or
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 4 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 4 : Empire Of The Sun
+Joue Forgeron
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Or
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 4 : Vincent
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 3
+
+Tour 5 : We Are The People
+Joue Milice
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Woodcutter, Silver, Copper, Estate])
+
+Vincent basique a répondu Estate
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Woodcutter, Silver, Copper])
+
+Vincent basique a répondu Copper
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Estate, Silver])
+
+Empire Of The Sun a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Silver])
+
+Empire Of The Sun a répondu Copper
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Militia, Cellar, Estate, Estate, Copper])
+
+Vincent a répondu Estate
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Militia, Cellar, Estate, Copper])
+
+Vincent a répondu Estate
+
+Achète Argent
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 5 : Vincent basique
+Joue Bucheron
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Achète Cuivre
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 5 : Empire Of The Sun
+Achète Milice
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a pour l'instant un score de 3
+
+Tour 5 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Militia, hand=[Militia, Copper])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Militia, Copper])
+
+Vincent a répondu False
+
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Copper, Gold, Militia, Estate, Copper])
+
+We Are The People a répondu Estate
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Copper, Gold, Militia, Copper])
+
+We Are The People a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Estate, Copper, Copper])
+
+Vincent basique a répondu Estate
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Copper])
+
+Vincent basique a répondu Copper
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Gold, Smithy, Estate])
+
+Empire Of The Sun a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Gold, Smithy])
+
+Empire Of The Sun a répondu Copper
+
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a pour l'instant un score de 3
+
+Tour 6 : We Are The People
+Joue Milice
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Militia, Copper, Woodcutter])
+
+Vincent a répondu Estate
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Copper, Militia, Copper, Woodcutter])
+
+Vincent a répondu Copper
+
+Achète Or
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a pour l'instant un score de 3
+
+Tour 6 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 6 : Empire Of The Sun
+Joue Forgeron
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Province
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 9
+
+Tour 6 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Smithy, Estate, Copper])
+
+We Are The People a répondu Estate
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Smithy, Copper])
+
+We Are The People a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Copper, Silver])
+
+Vincent basique a répondu Estate
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Silver])
+
+Vincent basique a répondu Copper
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Copper, Estate])
+
+Empire Of The Sun a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Estate])
+
+Empire Of The Sun a répondu Estate
+
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 3
+
+Tour 7 : We Are The People
+Joue Forgeron
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Achète Argent
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 7 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 7 : Empire Of The Sun
+Achète Argent
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a pour l'instant un score de 9
+
+Tour 7 : Vincent
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 3
+
+Tour 8 : We Are The People
+Achète Province
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a pour l'instant un score de 9
+
+Tour 8 : Vincent basique
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 8 : Empire Of The Sun
+Achète Argent
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 9
+
+Tour 8 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Militia, hand=[Militia, Copper, Copper, Silver])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Militia, Copper, Copper, Silver])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Militia, Copper, Copper, Silver])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Militia, Copper, Copper, Silver])
+
+Vincent a répondu False
+
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Estate, Copper])
+
+We Are The People a répondu Estate
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Copper])
+
+We Are The People a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Woodcutter, Silver, Estate, Silver])
+
+Vincent basique a répondu Estate
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Woodcutter, Silver, Silver])
+
+Vincent basique a répondu Copper
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Province, Militia, Silver, Estate, Smithy])
+
+Empire Of The Sun a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Province, Militia, Silver, Smithy])
+
+Empire Of The Sun a répondu Province
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a pour l'instant un score de 6
+
+Tour 9 : We Are The People
+Achète Argent
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a pour l'instant un score de 9
+
+Tour 9 : Vincent basique
+Joue Bucheron
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Achète Cuivre
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 9 : Empire Of The Sun
+Joue Milice
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Estate, Estate, Copper, Smithy, Gold])
+
+We Are The People a répondu Estate
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Smithy, Gold])
+
+We Are The People a répondu Estate
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Silver, Silver, Copper])
+
+Vincent basique a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Silver, Copper])
+
+Vincent basique a répondu Copper
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Militia, Estate, Silver])
+
+Vincent a répondu Estate
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Copper, Militia, Estate, Silver])
+
+Vincent a répondu Estate
+
+Achète Argent
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 9
+
+Tour 9 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Copper, Copper])
+
+Empire Of The Sun a répondu Copper
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Copper])
+
+Empire Of The Sun a répondu Copper
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a pour l'instant un score de 9
+
+Tour 10 : We Are The People
+Joue Forgeron
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Achète Or
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 9
+
+Tour 10 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 10 : Empire Of The Sun
+Achète Argent
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a pour l'instant un score de 9
+
+Tour 10 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Estate, Gold])
+
+We Are The People a répondu Estate
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Gold])
+
+We Are The People a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Gold, Gold, Copper, Gold])
+
+Vincent basique a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Gold, Gold, Copper, Gold])
+
+Vincent basique a répondu Copper
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Copper, Gold, Silver, Smithy, Copper])
+
+Empire Of The Sun a répondu Copper
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Gold, Silver, Smithy, Copper])
+
+Empire Of The Sun a répondu Copper
+
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 9
+
+Tour 11 : We Are The People
+Achète Or
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a pour l'instant un score de 9
+
+Tour 11 : Vincent basique
+Achète Province
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 9
+
+Tour 11 : Empire Of The Sun
+Joue Forgeron
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Province
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a pour l'instant un score de 15
+
+Tour 11 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Militia, Copper, Estate])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Militia, hand=[Copper, Militia, Copper, Estate])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Militia, Copper, Estate])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Copper, Militia, Copper, Estate])
+
+Vincent a répondu True
+
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Estate, Province, Estate, Copper, Silver])
+
+Erreur de We Are The People
+
+Error: <class 'json.decoder.JSONDecodeError'> JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+
+Erreur de We Are The People
+
+Elimination
+
+We Are The People a répondu Estate
+
+We Are The People: discard_card_from_hand
+
+Hand(hand=[Province, Estate, Copper, Silver])
+
+Erreur de We Are The People
+
+Error: <class 'json.decoder.JSONDecodeError'> JSONDecodeError('Expecting value: line 1 column 1 (char 0)')
+
+Erreur de We Are The People
+
+Elimination
+
+We Are The People a répondu Province
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Woodcutter, Estate, Copper, Estate])
+
+Vincent basique a répondu Estate
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Woodcutter, Copper, Estate])
+
+Vincent basique a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Silver, Militia, Copper])
+
+Empire Of The Sun a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Militia, Copper])
+
+Empire Of The Sun a répondu Copper
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a pour l'instant un score de 12
+
+Tour 12 : Vincent basique
+Joue Bucheron
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Achète Cuivre
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 9
+
+Tour 12 : Empire Of The Sun
+Joue Milice
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Copper, Silver])
+
+Vincent basique a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Silver])
+
+Vincent basique a répondu Copper
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Militia, Copper])
+
+Vincent a répondu Copper
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Militia, Copper])
+
+Vincent a répondu Copper
+
+Achète Argent
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 15
+
+Tour 12 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Province, Estate, Silver])
+
+Empire Of The Sun a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Silver, Province, Estate, Silver])
+
+Empire Of The Sun a répondu Estate
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a pour l'instant un score de 15
+
+Tour 13 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 9
+
+Tour 13 : Empire Of The Sun
+Achète Argent
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 15
+
+Tour 13 : Vincent
+Achète Cave
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 15
+
+Tour 14 : Vincent basique
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 9
+
+Tour 14 : Empire Of The Sun
+Joue Milice
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Gold, Copper, Gold])
+
+Vincent basique a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Gold, Copper, Gold])
+
+Vincent basique a répondu Copper
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Copper, Cellar, Silver, Woodcutter, Estate])
+
+Vincent a répondu Estate
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Copper, Cellar, Silver, Woodcutter])
+
+Vincent a répondu Copper
+
+Achète Province
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a pour l'instant un score de 21
+
+Tour 14 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Woodcutter])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Woodcutter, hand=[Silver, Woodcutter])
+
+Vincent a répondu False
+
+Joue Bucheron
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Achète Cuivre
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a pour l'instant un score de 15
+
+Tour 15 : Vincent basique
+Achète Province
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 15
+
+Tour 15 : Empire Of The Sun
+Achète Domaine
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 22
+
+Tour 15 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Copper, Province, Silver])
+
+Vincent basique a répondu Estate
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Province, Silver])
+
+Vincent basique a répondu Province
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Gold, Estate, Copper])
+
+Empire Of The Sun a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Gold, Copper])
+
+Empire Of The Sun a répondu Copper
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 18
+
+Tour 16 : Vincent basique
+Achète Bureaucrate
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 15
+
+Tour 16 : Empire Of The Sun
+Achète Duché
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a pour l'instant un score de 25
+
+Tour 16 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Copper, Estate, Copper])
+
+Vincent basique a répondu Estate
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Copper, Copper])
+
+Vincent basique a répondu Copper
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Silver, Smithy, Silver, Province, Copper])
+
+Empire Of The Sun a répondu Province
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Silver, Smithy, Silver, Copper])
+
+Empire Of The Sun a répondu Copper
+
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 18
+
+Tour 17 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 15
+
+Tour 17 : Empire Of The Sun
+Joue Forgeron
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Province
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a pour l'instant un score de 31
+
+Tour 17 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Woodcutter, Copper, Gold])
+
+Vincent basique a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Woodcutter, Copper, Gold])
+
+Vincent basique a répondu Copper
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Province, Copper, Silver, Copper, Silver])
+
+Empire Of The Sun a répondu Province
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Silver])
+
+Empire Of The Sun a répondu Copper
+
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 18
+
+Tour 18 : Vincent basique
+Joue Bucheron
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Achète Cuivre
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 15
+
+Tour 18 : Empire Of The Sun
+Achète Duché
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a pour l'instant un score de 34
+
+Tour 18 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Gold, Gold, Copper, Copper])
+
+Vincent basique a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Gold, Gold, Copper, Copper])
+
+Vincent basique a répondu Copper
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Silver, Silver, Copper])
+
+Empire Of The Sun a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Silver, Copper])
+
+Empire Of The Sun a répondu Copper
+
+Achète Bucheron
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 18
+
+Tour 19 : Vincent basique
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 15
+
+Tour 19 : Empire Of The Sun
+Achète Duché
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a pour l'instant un score de 37
+
+Tour 19 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Duchy, hand=[Duchy, Militia, Duchy, Silver])
+
+Vincent a répondu True
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Militia, hand=[Militia, Duchy, Silver])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Duchy, hand=[Militia, Duchy, Silver])
+
+Vincent a répondu True
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Militia, Silver])
+
+Vincent a répondu False
+
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Gold, Silver, Copper, Copper])
+
+Vincent basique a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Gold, Silver, Copper, Copper])
+
+Vincent basique a répondu Copper
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Silver, Militia, Silver, Estate, Silver])
+
+Empire Of The Sun a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Silver, Militia, Silver, Silver])
+
+Empire Of The Sun a répondu Militia
+
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 18
+
+Tour 20 : Vincent basique
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 15
+
+Tour 20 : Empire Of The Sun
+Achète Duché
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a pour l'instant un score de 40
+
+Tour 20 : Vincent
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 21
+
+Tour 21 : Vincent basique
+Joue Bucheron
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Province
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Achète Cuivre
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 21
+
+Tour 21 : Empire Of The Sun
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 40
+
+Tour 21 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper, Copper, Militia])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper, Copper, Militia])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper, Copper, Militia])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Militia, hand=[Copper, Copper, Copper, Militia])
+
+Vincent a répondu False
+
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Province, Bureaucrat, Silver, Estate])
+
+Vincent basique a répondu Estate
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Province, Bureaucrat, Silver])
+
+Vincent basique a répondu Province
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Province, Smithy, Gold])
+
+Empire Of The Sun a répondu Province
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Smithy, Gold])
+
+Empire Of The Sun a répondu Copper
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a pour l'instant un score de 24
+
+Tour 22 : Vincent basique
+Joue Bureaucrate
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 21
+
+Tour 22 : Empire Of The Sun
+Joue Forgeron
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Duché
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 43
+
+Tour 22 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Woodcutter, Copper])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Woodcutter, hand=[Silver, Woodcutter, Copper])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Woodcutter, Copper])
+
+Vincent a répondu False
+
+Joue Bucheron
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Achète Cuivre
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a pour l'instant un score de 24
+
+Tour 23 : Vincent basique
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 21
+
+Tour 23 : Empire Of The Sun
+Achète Province
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a pour l'instant un score de 49
+
+Tour 23 : Vincent
+Achète Forgeron
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 24
+
+Tour 24 : Vincent basique
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 21
+
+Tour 24 : Empire Of The Sun
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 49
+
+Tour 24 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Militia, Militia, Estate])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Militia, hand=[Copper, Militia, Militia, Estate])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Militia, hand=[Copper, Militia, Militia, Estate])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Copper, Militia, Militia, Estate])
+
+Vincent a répondu True
+
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Copper, Copper, Bureaucrat])
+
+Vincent basique a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Copper, Bureaucrat])
+
+Vincent basique a répondu Copper
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Province, Silver, Duchy, Copper, Copper])
+
+Empire Of The Sun a répondu Duchy
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Province, Silver, Copper, Copper])
+
+Empire Of The Sun a répondu Province
+
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 24
+
+Tour 25 : Vincent basique
+Joue Bureaucrate
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Bureaucrate
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 21
+
+Tour 25 : Empire Of The Sun
+Achète Domaine
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 50
+
+Tour 25 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Gold, Copper, Woodcutter])
+
+Vincent basique a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Gold, Woodcutter])
+
+Vincent basique a répondu Silver
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Copper, Duchy, Silver, Copper, Province])
+
+Empire Of The Sun a répondu Duchy
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Province])
+
+Empire Of The Sun a répondu Province
+
+Achète Cave
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 24
+
+Tour 26 : Vincent basique
+Joue Bucheron
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Achète Cuivre
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 21
+
+Tour 26 : Empire Of The Sun
+Achète Domaine
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 51
+
+Tour 26 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Gold, Estate, Estate])
+
+Vincent basique a répondu Estate
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Gold, Estate])
+
+Vincent basique a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Militia, Silver, Copper])
+
+Empire Of The Sun a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Silver, Militia, Silver, Copper])
+
+Empire Of The Sun a répondu Copper
+
+Achète Forgeron
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 24
+
+Tour 27 : Vincent basique
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 21
+
+Tour 27 : Empire Of The Sun
+Joue Milice
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Gold, Copper, Silver])
+
+Vincent basique a répondu Estate
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Gold, Copper, Silver])
+
+Vincent basique a répondu Copper
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Militia, Silver, Copper, Estate, Estate])
+
+Vincent a répondu Estate
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Militia, Silver, Copper, Estate])
+
+Vincent a répondu Estate
+
+Achète Domaine
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 52
+
+Tour 27 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Estate, Province, Estate, Province, Smithy])
+
+Empire Of The Sun a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Province, Estate, Province, Smithy])
+
+Empire Of The Sun a répondu Estate
+
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 24
+
+Tour 28 : Vincent basique
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 21
+
+Tour 28 : Empire Of The Sun
+Joue Forgeron
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun joue
+
+Achète Domaine
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 53
+
+Tour 28 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Gold, Silver, Silver, Silver, Gold])
+
+Vincent basique a répondu Silver
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Gold, Silver, Silver, Gold])
+
+Vincent basique a répondu Silver
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Province, Duchy, Copper])
+
+Empire Of The Sun a répondu Duchy
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Province, Copper])
+
+Empire Of The Sun a répondu Province
+
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 24
+
+Tour 29 : Vincent basique
+Achète Province
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 27
+
+Tour 29 : Empire Of The Sun
+Achète Domaine
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 54
+
+Tour 29 : Vincent
+Joue Bucheron
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Or
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Achète Cuivre
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 24
+
+Tour 30 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 27
+
+Tour 30 : Empire Of The Sun
+Achète Domaine
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 55
+
+Tour 30 : Vincent
+Joue Forgeron
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Bucheron
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 24
+
+Tour 31 : Vincent basique
+Achète Province
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 33
+
+Tour 31 : Empire Of The Sun
+Achète Domaine
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 56
+
+Tour 31 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Cellar, hand=[Cellar, Estate, Estate, Militia])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Cellar, Estate, Estate, Militia])
+
+Vincent a répondu True
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Cellar, Estate, Militia])
+
+Vincent a répondu True
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Militia, hand=[Cellar, Militia])
+
+Vincent a répondu False
+
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Militia, hand=[Militia, Copper, Militia])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Militia, Copper, Militia])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Militia, hand=[Militia, Copper, Militia])
+
+Vincent a répondu False
+
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Province, Gold, Gold])
+
+Vincent basique a répondu Province
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Gold, Gold])
+
+Vincent basique a répondu Copper
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Silver, Gold, Silver, Copper, Estate])
+
+Empire Of The Sun a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Silver, Gold, Silver, Copper])
+
+Empire Of The Sun a répondu Copper
+
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 24
+
+Tour 32 : Vincent basique
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 33
+
+Tour 32 : Empire Of The Sun
+Achète Domaine
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 57
+
+Tour 32 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Silver, Copper, Gold])
+
+Vincent basique a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Copper, Gold])
+
+Vincent basique a répondu Copper
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Province, Duchy, Copper, Province, Estate])
+
+Empire Of The Sun a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Province, Duchy, Copper, Province])
+
+Empire Of The Sun a répondu Duchy
+
+Achète Forgeron
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 24
+
+Tour 33 : Vincent basique
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 33
+
+Tour 33 : Empire Of The Sun
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 57
+
+Tour 33 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Woodcutter, Copper, Copper])
+
+Vincent a répondu True
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Woodcutter, hand=[Woodcutter, Copper, Copper])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Woodcutter, Copper, Copper])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Woodcutter, Copper, Copper])
+
+Vincent a répondu False
+
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Province, Copper, Estate, Gold])
+
+Vincent basique a répondu Estate
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Silver, Province, Copper, Gold])
+
+Vincent basique a répondu Province
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Estate, Province, Silver, Copper, Estate])
+
+Empire Of The Sun a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Province, Silver, Copper, Estate])
+
+Empire Of The Sun a répondu Estate
+
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 24
+
+Tour 34 : Vincent basique
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 33
+
+Tour 34 : Empire Of The Sun
+Achète Domaine
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 58
+
+Tour 34 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Silver, Copper, Silver])
+
+Vincent basique a répondu Copper
+
+Vincent basique: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Silver])
+
+Vincent basique a répondu Copper
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Silver, Duchy, Estate, Silver, Estate])
+
+Empire Of The Sun a répondu Estate
+
+Empire Of The Sun: discard_card_from_hand
+
+Hand(hand=[Silver, Duchy, Silver, Estate])
+
+Empire Of The Sun a répondu Estate
+
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 24
+
+Tour 35 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 33
+
+Tour 35 : Empire Of The Sun
+Achète Domaine
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun a pour l'instant un score de 59
+
+Tour 35 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Duchy, hand=[Duchy, Silver, Duchy, Gold])
+
+Vincent a répondu True
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Duchy, Gold])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Duchy, hand=[Silver, Duchy, Gold])
+
+Vincent a répondu True
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Gold, hand=[Silver, Gold])
+
+Vincent a répondu False
+
+Achète Or
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 24
+
+Tour 36 : Vincent basique
+Achète Or
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 33
+
+Tour 36 : Empire Of The Sun
+Achète Province
+
+Empire Of The Sun a ces cartes :
+
+Empire Of The Sun achète
+
+Fin Du Tour
+
+Empire Of The Sun a pour l'instant un score de 65
+
+Score
+Empire Of The Sun a un score de 65
+Vincent basique a un score de 33
+Vincent a un score de 24
+We Are The People a un score de -10000

@@ -1,0 +1,967 @@
+Partie du 2026-11-17T14:39:08.266702+01:00
+Réserve initiale
+Tour 1 : KOOPA DOMINION test
+Achète Argent
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 1 : Toulousain test
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 2 : KOOPA DOMINION test
+Achète Milice
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 2 : Toulousain test
+Achète Chapelle
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 3 : KOOPA DOMINION test
+Joue Milice
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper, Estate])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper])
+
+Toulousain test a répondu Copper
+
+Achète Festival
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 3 : Toulousain test
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 3
+
+Tour 4 : KOOPA DOMINION test
+Achète Argent
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 4 : Toulousain test
+Joue Chapelle
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Copper, Copper, Estate])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Copper, Copper, Estate])
+
+Toulousain test a répondu True
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Copper, Estate])
+
+Toulousain test a répondu True
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Silver, Estate])
+
+Toulousain test a répondu True
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 5 : KOOPA DOMINION test
+Joue Milice
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Silver, Copper, Copper])
+
+Toulousain test a répondu Estate
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Copper])
+
+Toulousain test a répondu Copper
+
+Achète Argent
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 5 : Toulousain test
+Achète Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 2
+
+Tour 6 : KOOPA DOMINION test
+Achète Or
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 6 : Toulousain test
+Joue Chapelle
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Estate, Silver, Copper])
+
+Toulousain test a répondu True
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Silver, Copper])
+
+Toulousain test a répondu True
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Copper])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Copper])
+
+Toulousain test a répondu True
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 1
+
+Tour 7 : KOOPA DOMINION test
+Joue Festival
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Or
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 7 : Toulousain test
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+KOOPA DOMINION test: discard_card_from_hand
+
+Hand(hand=[Copper, Militia, Copper, Silver, Estate])
+
+KOOPA DOMINION test a répondu Estate
+
+KOOPA DOMINION test: discard_card_from_hand
+
+Hand(hand=[Copper, Militia, Copper, Silver])
+
+KOOPA DOMINION test a répondu Copper
+
+Achète Festival
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 1
+
+Tour 8 : KOOPA DOMINION test
+Joue Milice
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Silver, Chapel, Militia])
+
+Toulousain test a répondu Chapel
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Silver, Militia])
+
+Toulousain test a répondu Militia
+
+Achète Argent
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 8 : Toulousain test
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 1
+
+Tour 9 : KOOPA DOMINION test
+Achète Province
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a pour l'instant un score de 9
+
+Tour 9 : Toulousain test
+Joue Festival
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Chapelle
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Copper, Silver])
+
+Toulousain test a répondu True
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Silver])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Copper, Silver])
+
+Toulousain test a répondu False
+
+Achète Bibliothèque
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 0
+
+Tour 10 : KOOPA DOMINION test
+Achète Argent
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 9
+
+Tour 10 : Toulousain test
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+KOOPA DOMINION test: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Province, Silver, Gold])
+
+KOOPA DOMINION test a répondu Province
+
+KOOPA DOMINION test: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Silver, Gold])
+
+KOOPA DOMINION test a répondu Copper
+
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 6
+
+Tour 11 : KOOPA DOMINION test
+Achète Or
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a pour l'instant un score de 9
+
+Tour 11 : Toulousain test
+Joue Festival
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Bibliothèque
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 12
+
+Tour 12 : KOOPA DOMINION test
+Joue Festival
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Joue Milice
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Militia, Province, Copper, Silver, Silver])
+
+Toulousain test a répondu Province
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Militia, Copper, Silver, Silver])
+
+Toulousain test a répondu Copper
+
+Achète Province
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a pour l'instant un score de 15
+
+Tour 12 : Toulousain test
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+KOOPA DOMINION test: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Silver, Gold])
+
+KOOPA DOMINION test a répondu Estate
+
+KOOPA DOMINION test: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Silver, Gold])
+
+KOOPA DOMINION test a répondu Copper
+
+Achète Or
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 12
+
+Tour 13 : KOOPA DOMINION test
+Achète Duché
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a pour l'instant un score de 18
+
+Tour 13 : Toulousain test
+Joue Festival
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Bibliothèque
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Chapelle
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Copper, Province, Copper, Silver, Silver])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Copper, Province, Copper, Silver, Silver])
+
+Toulousain test a répondu True
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Province, hand=[Silver, Province, Copper, Silver, Silver])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Province, Copper, Silver, Silver])
+
+Toulousain test a répondu True
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Province, Silver, Silver])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Province, Silver, Silver])
+
+Toulousain test a répondu False
+
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 18
+
+Tour 14 : KOOPA DOMINION test
+Achète Duché
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 21
+
+Tour 14 : Toulousain test
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+KOOPA DOMINION test: discard_card_from_hand
+
+Hand(hand=[Silver, Province, Copper, Estate, Copper])
+
+KOOPA DOMINION test a répondu Province
+
+KOOPA DOMINION test: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Estate, Copper])
+
+KOOPA DOMINION test a répondu Estate
+
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 24
+
+Tour 15 : KOOPA DOMINION test
+Achète Jardins
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a pour l'instant un score de 23
+
+Tour 15 : Toulousain test
+Joue Festival
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+KOOPA DOMINION test: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Militia, Gold, Copper])
+
+KOOPA DOMINION test a répondu Copper
+
+KOOPA DOMINION test: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Militia, Gold])
+
+KOOPA DOMINION test a répondu Militia
+
+Achète Duché
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 27
+
+Tour 16 : KOOPA DOMINION test
+Achète Duché
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a pour l'instant un score de 26
+
+Tour 16 : Toulousain test
+Achète Argent
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 27
+
+Tour 17 : KOOPA DOMINION test
+Joue Festival
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Jardins
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 28
+
+Tour 17 : Toulousain test
+Joue Bibliothèque
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Toulousain test: skip_card_reception_in_hand
+
+CardNameAndHand(card_name=Festival, hand=[Silver, Silver, Silver, Province, Silver, Province])
+
+Toulousain test a répondu True
+
+Toulousain test: skip_card_reception_in_hand
+
+CardNameAndHand(card_name=Militia, hand=[Silver, Silver, Silver, Province, Silver, Province])
+
+Toulousain test a répondu True
+
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 33
+
+Tour 18 : KOOPA DOMINION test
+Achète Jardins
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 30
+
+Tour 18 : Toulousain test
+Achète Domaine
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 34
+
+Tour 19 : KOOPA DOMINION test
+Achète Duché
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 33
+
+Tour 19 : Toulousain test
+Achète Domaine
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 35
+
+Tour 20 : KOOPA DOMINION test
+Joue Milice
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Militia, Duchy, Province, Silver, Silver])
+
+Toulousain test a répondu Duchy
+
+Toulousain test: discard_card_from_hand
+
+Hand(hand=[Militia, Province, Silver, Silver])
+
+Toulousain test a répondu Province
+
+Achète Duché
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 39
+
+Tour 20 : Toulousain test
+Joue Milice
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+KOOPA DOMINION test: discard_card_from_hand
+
+Hand(hand=[Silver, Gold, Copper, Duchy, Copper])
+
+KOOPA DOMINION test a répondu Duchy
+
+KOOPA DOMINION test: discard_card_from_hand
+
+Hand(hand=[Silver, Gold, Copper, Copper])
+
+KOOPA DOMINION test a répondu Copper
+
+Achète Duché
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a pour l'instant un score de 38
+
+Tour 21 : KOOPA DOMINION test
+Achète Duché
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a pour l'instant un score de 42
+
+Tour 21 : Toulousain test
+Joue Festival
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Bibliothèque
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Joue Chapelle
+
+Toulousain test a ces cartes :
+
+Toulousain test joue
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Province, hand=[Province, Estate, Silver, Gold, Silver, Province])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Province, Estate, Silver, Gold, Silver, Province])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Province, Estate, Silver, Gold, Silver, Province])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Gold, hand=[Province, Estate, Silver, Gold, Silver, Province])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Province, Estate, Silver, Gold, Silver, Province])
+
+Toulousain test a répondu False
+
+Toulousain test: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Province, hand=[Province, Estate, Silver, Gold, Silver, Province])
+
+Toulousain test a répondu False
+
+Achète Province
+
+Toulousain test a ces cartes :
+
+Toulousain test achète
+
+Fin Du Tour
+
+Toulousain test a ces cartes :
+
+Toulousain test a pour l'instant un score de 44
+
+Score
+Toulousain test a un score de 44
+KOOPA DOMINION test a un score de 42

@@ -1,0 +1,2717 @@
+Partie du 2026-11-17T14:39:09.249880+01:00
+Réserve initiale
+Tour 1 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 1 : Gros boulet
+Achète Domaine
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 4
+
+Tour 1 : Mini boulet
+Achète Domaine
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 4
+
+Tour 1 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 2 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 2 : Gros boulet
+Achète Sorcière
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a pour l'instant un score de 4
+
+Tour 2 : Mini boulet
+Achète Argent
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 4
+
+Tour 2 : Groupe 5
+Achète Milice
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 3 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 3 : Gros boulet
+Achète Diseuse de bonne aventure
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 4
+
+Tour 3 : Mini boulet
+Achète Duché
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 7
+
+Tour 3 : Groupe 5
+Joue Milice
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Estate, Estate, Copper])
+
+"Monty_Python" a répondu Silver
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Estate, Copper])
+
+"Monty_Python" a répondu Copper
+
+Gros boulet: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Copper, Copper])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/discard_card_from_hand
+
+Gros boulet a répondu Copper
+
+Gros boulet: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Copper, Copper])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/discard_card_from_hand
+
+Gros boulet a répondu Estate
+
+Mini boulet: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Estate, Estate, Copper])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/discard_card_from_hand
+
+Mini boulet a répondu Copper
+
+Mini boulet: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Estate, Copper])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/discard_card_from_hand
+
+Mini boulet a répondu Copper
+
+Achète Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 4 : "Monty_Python"
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 4 : Gros boulet
+Achète Malédiction
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 3
+
+Tour 4 : Mini boulet
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 7
+
+Tour 4 : Groupe 5
+Achète Bureaucrate
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 5 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 5 : Gros boulet
+Joue Sorcière
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Milice
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 3
+
+Tour 5 : Mini boulet
+Achète Milice
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 6
+
+Tour 5 : Groupe 5
+Joue Bureaucrate
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 2
+
+Tour 6 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 2
+
+Tour 6 : Gros boulet
+Joue Diseuse de bonne aventure
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Bucheron
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 3
+
+Tour 6 : Mini boulet
+Achète Domaine
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 7
+
+Tour 6 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 2
+
+Tour 7 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 2
+
+Tour 7 : Gros boulet
+Joue Bucheron
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Malédiction
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 2
+
+Tour 7 : Mini boulet
+Achète Domaine
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 8
+
+Tour 7 : Groupe 5
+Achète Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 2
+
+Tour 8 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 2
+
+Tour 8 : Gros boulet
+Joue Milice
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Silver, Copper, Silver])
+
+"Monty_Python" a répondu Silver
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Silver])
+
+"Monty_Python" a répondu Copper
+
+Mini boulet: discard_card_from_hand
+
+Hand(hand=[Duchy, Copper, Estate, Copper, Copper])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/discard_card_from_hand
+
+Mini boulet a répondu Duchy
+
+Mini boulet: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Copper])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/discard_card_from_hand
+
+Mini boulet a répondu Copper
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Bureaucrat, Copper, Copper, Witch, Estate])
+
+Groupe 5 a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Bureaucrat, Copper, Copper, Witch])
+
+Groupe 5 a répondu Copper
+
+Achète Argent
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 2
+
+Tour 8 : Mini boulet
+Achète Domaine
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 9
+
+Tour 8 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 2
+
+Tour 9 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 1
+
+Tour 9 : Gros boulet
+Joue Sorcière
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 1
+
+Tour 9 : Mini boulet
+Achète Bucheron
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 7
+
+Tour 9 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 1
+
+Tour 10 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 0
+
+Tour 10 : Gros boulet
+Joue Milice
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Estate, Curse, Estate, Copper, Silver])
+
+"Monty_Python" a répondu Estate
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Curse, Estate, Copper, Silver])
+
+"Monty_Python" a répondu Curse
+
+Mini boulet: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Silver, Militia, Estate])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/discard_card_from_hand
+
+Mini boulet a répondu Copper
+
+Mini boulet: discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Militia, Estate])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/discard_card_from_hand
+
+Mini boulet a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Witch, Curse, Copper, Estate, Silver])
+
+Groupe 5 a répondu Curse
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Witch, Copper, Estate, Silver])
+
+Groupe 5 a répondu Estate
+
+Achète Argent
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 1
+
+Tour 10 : Mini boulet
+Joue Milice
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+Gros boulet: discard_card_from_hand
+
+Hand(hand=[Estate, Woodcutter, Curse, Copper, Curse])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/discard_card_from_hand
+
+Gros boulet a répondu Estate
+
+Gros boulet: discard_card_from_hand
+
+Hand(hand=[Woodcutter, Curse, Copper, Curse])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/discard_card_from_hand
+
+Gros boulet a répondu Woodcutter
+
+Achète Domaine
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 8
+
+Tour 10 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 1
+
+Tour 11 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de -1
+
+Tour 11 : Gros boulet
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 0
+
+Tour 11 : Mini boulet
+Achète Argent
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 7
+
+Tour 11 : Groupe 5
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 7
+
+Tour 12 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de -1
+
+Tour 12 : Gros boulet
+Joue Diseuse de bonne aventure
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Diseuse de bonne aventure
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de 0
+
+Tour 12 : Mini boulet
+Achète Argent
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 7
+
+Tour 12 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 7
+
+Tour 13 : "Monty_Python"
+Achète Province
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 4
+
+Tour 13 : Gros boulet
+Joue Sorcière
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Argent
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -1
+
+Tour 13 : Mini boulet
+Joue Milice
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Copper, Curse, Silver])
+
+"Monty_Python" a répondu Estate
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Curse, Silver])
+
+"Monty_Python" a répondu Silver
+
+Gros boulet: discard_card_from_hand
+
+Hand(hand=[Curse, Curse, Estate, Curse, Estate])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/discard_card_from_hand
+
+Gros boulet a répondu Curse
+
+Gros boulet: discard_card_from_hand
+
+Hand(hand=[Curse, Estate, Curse, Estate])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/discard_card_from_hand
+
+Gros boulet a répondu Curse
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Estate, Silver])
+
+Groupe 5 a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Estate, Silver])
+
+Groupe 5 a répondu Estate
+
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 5
+
+Tour 13 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 6
+
+Tour 14 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 3
+
+Tour 14 : Gros boulet
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -1
+
+Tour 14 : Mini boulet
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 5
+
+Tour 14 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 6
+
+Tour 15 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 2
+
+Tour 15 : Gros boulet
+Joue Bucheron
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Milice
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 15 : Mini boulet
+Joue Bucheron
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+Achète Domaine
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 5
+
+Tour 15 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 6
+
+Tour 16 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 2
+
+Tour 16 : Gros boulet
+Joue Diseuse de bonne aventure
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Diseuse de bonne aventure
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 16 : Mini boulet
+Achète Domaine
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 6
+
+Tour 16 : Groupe 5
+Achète Laboratoire
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 6
+
+Tour 17 : "Monty_Python"
+Achète Province
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 8
+
+Tour 17 : Gros boulet
+Joue Bucheron
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Malédiction
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -3
+
+Tour 17 : Mini boulet
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 6
+
+Tour 17 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 6
+
+Tour 18 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 8
+
+Tour 18 : Gros boulet
+Joue Milice
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Province, Silver, Silver, Estate, Copper])
+
+"Monty_Python" a répondu Province
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Estate, Copper])
+
+"Monty_Python" a répondu Silver
+
+Mini boulet: discard_card_from_hand
+
+Hand(hand=[Curse, Curse, Curse, Curse, Copper])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/discard_card_from_hand
+
+Mini boulet a répondu Curse
+
+Mini boulet: discard_card_from_hand
+
+Hand(hand=[Curse, Curse, Curse, Copper])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/discard_card_from_hand
+
+Mini boulet a répondu Curse
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Estate, Silver, Bureaucrat, Curse])
+
+Groupe 5 a répondu Curse
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Estate, Silver, Bureaucrat])
+
+Groupe 5 a répondu Estate
+
+Achète Domaine
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 18 : Mini boulet
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 6
+
+Tour 18 : Groupe 5
+Joue Bureaucrate
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Rénovation
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 6
+
+Tour 19 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 8
+
+Tour 19 : Gros boulet
+Achète Domaine
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -1
+
+Tour 19 : Mini boulet
+Joue Milice
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Curse, Curse, Silver])
+
+"Monty_Python" a répondu Estate
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Copper, Curse, Curse, Silver])
+
+"Monty_Python" a répondu Copper
+
+Gros boulet: discard_card_from_hand
+
+Hand(hand=[Estate, Estate, Silver, Fortuneteller, Curse])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/discard_card_from_hand
+
+Gros boulet a répondu Estate
+
+Gros boulet: discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Fortuneteller, Curse])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/discard_card_from_hand
+
+Gros boulet a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Silver, Estate])
+
+Groupe 5 a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Silver])
+
+Groupe 5 a répondu Copper
+
+Achète Argent
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 6
+
+Tour 19 : Groupe 5
+Achète Duché
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 9
+
+Tour 20 : "Monty_Python"
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 8
+
+Tour 20 : Gros boulet
+Joue Diseuse de bonne aventure
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Malédiction
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 20 : Mini boulet
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 6
+
+Tour 20 : Groupe 5
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 15
+
+Tour 21 : "Monty_Python"
+Achète Or
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 8
+
+Tour 21 : Gros boulet
+Joue Sorcière
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Diseuse de bonne aventure
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 21 : Mini boulet
+Joue Milice
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Copper, Copper, Gold])
+
+"Monty_Python" a répondu Estate
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Gold])
+
+"Monty_Python" a répondu Silver
+
+Gros boulet: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Curse, Copper, Copper])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/discard_card_from_hand
+
+Gros boulet a répondu Copper
+
+Gros boulet: discard_card_from_hand
+
+Hand(hand=[Estate, Curse, Copper, Copper])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/discard_card_from_hand
+
+Gros boulet a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Curse, Province, Copper, Gold, Curse])
+
+Groupe 5 a répondu Curse
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Province, Copper, Gold, Curse])
+
+Groupe 5 a répondu Curse
+
+Achète Domaine
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 6
+
+Tour 21 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 14
+
+Tour 22 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 7
+
+Tour 22 : Gros boulet
+Achète Domaine
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -1
+
+Tour 22 : Mini boulet
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 6
+
+Tour 22 : Groupe 5
+Joue Laboratoire
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 20
+
+Tour 23 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 6
+
+Tour 23 : Gros boulet
+Joue Diseuse de bonne aventure
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 23 : Mini boulet
+Achète Magnat
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 6
+
+Tour 23 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 20
+
+Tour 24 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 6
+
+Tour 24 : Gros boulet
+Achète Diseuse de bonne aventure
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 24 : Mini boulet
+Joue Bucheron
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 6
+
+Tour 24 : Groupe 5
+Joue Laboratoire
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Joue Milice
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Curse, Gold, Gold, Silver, Gold])
+
+"Monty_Python" a répondu Curse
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Gold, Gold, Silver, Gold])
+
+"Monty_Python" a répondu Gold
+
+Gros boulet: discard_card_from_hand
+
+Hand(hand=[Militia, Estate, Militia, Curse, Copper])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/discard_card_from_hand
+
+Gros boulet a répondu Militia
+
+Gros boulet: discard_card_from_hand
+
+Hand(hand=[Estate, Militia, Curse, Copper])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/discard_card_from_hand
+
+Gros boulet a répondu Estate
+
+Mini boulet: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Silver, Curse, Curse])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/discard_card_from_hand
+
+Mini boulet a répondu Copper
+
+Mini boulet: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Curse, Curse])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/discard_card_from_hand
+
+Mini boulet a répondu Copper
+
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 26
+
+Tour 25 : "Monty_Python"
+Achète Province
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 12
+
+Tour 25 : Gros boulet
+Joue Milice
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Silver, Curse, Estate, Curse, Curse])
+
+"Monty_Python" a répondu Silver
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Curse, Estate, Curse, Curse])
+
+"Monty_Python" a répondu Curse
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Gold, Curse, Estate, Estate])
+
+Groupe 5 a répondu Curse
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Gold, Estate, Estate])
+
+Groupe 5 a répondu Estate
+
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 25 : Mini boulet
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 6
+
+Tour 25 : Groupe 5
+Achète Duché
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 29
+
+Tour 26 : "Monty_Python"
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 12
+
+Tour 26 : Gros boulet
+Joue Bucheron
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 26 : Mini boulet
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 6
+
+Tour 26 : Groupe 5
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 35
+
+Tour 27 : "Monty_Python"
+Achète Duché
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 15
+
+Tour 27 : Gros boulet
+Joue Milice
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Curse, Curse, Curse])
+
+"Monty_Python" a répondu Copper
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Copper, Curse, Curse, Curse])
+
+"Monty_Python" a répondu Copper
+
+Mini boulet: discard_card_from_hand
+
+Hand(hand=[Copper, Curse, Copper, Estate, Estate])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/discard_card_from_hand
+
+Mini boulet a répondu Copper
+
+Mini boulet: discard_card_from_hand
+
+Hand(hand=[Curse, Copper, Estate, Estate])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/discard_card_from_hand
+
+Mini boulet a répondu Curse
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Witch, Copper, Province, Witch, Estate])
+
+Groupe 5 a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Witch, Copper, Province, Witch])
+
+Groupe 5 a répondu Province
+
+Achète Laboratoire
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 27 : Mini boulet
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 6
+
+Tour 27 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 35
+
+Tour 28 : "Monty_Python"
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 15
+
+Tour 28 : Gros boulet
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 28 : Mini boulet
+Joue Bucheron
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 6
+
+Tour 28 : Groupe 5
+Joue Rénovation
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: trash_card_from_hand
+
+Hand(hand=[Province, Silver, Copper, Silver])
+
+Groupe 5 a répondu Copper
+
+Groupe 5: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Copper])
+
+Groupe 5 a répondu Copper
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 35
+
+Tour 29 : "Monty_Python"
+Achète Province
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 21
+
+Tour 29 : Gros boulet
+Joue Milice
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Estate, Silver])
+
+"Monty_Python" a répondu Silver
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Estate, Silver])
+
+"Monty_Python" a répondu Copper
+
+Mini boulet: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Estate, Curse])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/discard_card_from_hand
+
+Mini boulet a répondu Copper
+
+Mini boulet: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Estate, Curse])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/discard_card_from_hand
+
+Mini boulet a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Gold, Silver, Bureaucrat, Curse, Province])
+
+Groupe 5 a répondu Curse
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Gold, Silver, Bureaucrat, Province])
+
+Groupe 5 a répondu Province
+
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 29 : Mini boulet
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 6
+
+Tour 29 : Groupe 5
+Joue Bureaucrate
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Duché
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 38
+
+Tour 30 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 21
+
+Tour 30 : Gros boulet
+Joue Diseuse de bonne aventure
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 30 : Mini boulet
+Achète Duché
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a pour l'instant un score de 9
+
+Tour 30 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 38
+
+Tour 31 : "Monty_Python"
+Achète Argent
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 21
+
+Tour 31 : Gros boulet
+Joue Bucheron
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 31 : Mini boulet
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 9
+
+Tour 31 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 38
+
+Tour 32 : "Monty_Python"
+Achète Province
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 27
+
+Tour 32 : Gros boulet
+Joue Diseuse de bonne aventure
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 32 : Mini boulet
+Joue Magnat
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+Achète Magnat
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 9
+
+Tour 32 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 38
+
+Tour 33 : "Monty_Python"
+Achète Duché
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 30
+
+Tour 33 : Gros boulet
+Joue Diseuse de bonne aventure
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Bucheron
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 33 : Mini boulet
+Joue Milice
+
+Mini boulet a ces cartes :
+
+Mini boulet joue
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Gold, Copper, Copper])
+
+"Monty_Python" a répondu Estate
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Silver, Gold, Copper, Copper])
+
+"Monty_Python" a répondu Silver
+
+Gros boulet: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Witch, Curse, Curse])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/discard_card_from_hand
+
+Gros boulet a répondu Copper
+
+Gros boulet: discard_card_from_hand
+
+Hand(hand=[Copper, Witch, Curse, Curse])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/discard_card_from_hand
+
+Gros boulet a répondu Copper
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Estate, Curse, Silver, Copper, Estate])
+
+Groupe 5 a répondu Curse
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Copper, Estate])
+
+Groupe 5 a répondu Estate
+
+Achète Argent
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 9
+
+Tour 33 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 38
+
+Tour 34 : "Monty_Python"
+Achète Duché
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" achète
+
+Fin Du Tour
+
+"Monty_Python" a pour l'instant un score de 33
+
+Tour 34 : Gros boulet
+Joue Sorcière
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 34 : Mini boulet
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 9
+
+Tour 34 : Groupe 5
+Achète Duché
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 41
+
+Tour 35 : "Monty_Python"
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 33
+
+Tour 35 : Gros boulet
+Joue Diseuse de bonne aventure
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Cuivre
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 35 : Mini boulet
+Achète Milice
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 9
+
+Tour 35 : Groupe 5
+Joue Milice
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Silver, Gold, Province, Copper, Copper])
+
+"Monty_Python" a répondu Silver
+
+"Monty_Python": discard_card_from_hand
+
+Hand(hand=[Gold, Province, Copper, Copper])
+
+"Monty_Python" a répondu Gold
+
+Gros boulet: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Silver, Curse, Witch])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/discard_card_from_hand
+
+Gros boulet a répondu Copper
+
+Gros boulet: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Curse, Witch])
+
+Erreur de Gros boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy/discard_card_from_hand
+
+Gros boulet a répondu Copper
+
+Mini boulet: discard_card_from_hand
+
+Hand(hand=[Curse, Copper, Copper, Copper, Copper])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/discard_card_from_hand
+
+Mini boulet a répondu Curse
+
+Mini boulet: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper])
+
+Erreur de Mini boulet
+
+Not implemented hook: https://dopynion.lecalamar.fr/random_strategy_but_better/discard_card_from_hand
+
+Mini boulet a répondu Copper
+
+Achète Duché
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 44
+
+Tour 36 : "Monty_Python"
+Fin Du Tour
+
+"Monty_Python" a ces cartes :
+
+"Monty_Python" a pour l'instant un score de 33
+
+Tour 36 : Gros boulet
+Joue Sorcière
+
+Gros boulet a ces cartes :
+
+Gros boulet joue
+
+Achète Bucheron
+
+Gros boulet a ces cartes :
+
+Gros boulet achète
+
+Fin Du Tour
+
+Gros boulet a ces cartes :
+
+Gros boulet a pour l'instant un score de -2
+
+Tour 36 : Mini boulet
+Achète Cuivre
+
+Mini boulet a ces cartes :
+
+Mini boulet achète
+
+Fin Du Tour
+
+Mini boulet a ces cartes :
+
+Mini boulet a pour l'instant un score de 9
+
+Tour 36 : Groupe 5
+Joue Laboratoire
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 44
+
+Score
+Groupe 5 a un score de 44
+"Monty_Python" a un score de 33
+Mini boulet a un score de 9
+Gros boulet a un score de -2

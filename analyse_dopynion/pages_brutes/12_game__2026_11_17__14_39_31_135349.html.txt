@@ -1,0 +1,616 @@
+Partie du 2026-11-17T14:39:31.135349+01:00
+Réserve initiale
+Tour 1 : Vincent bm
+Achète Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 1 : We Are The People
+Achète Forgeron
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 2 : Vincent bm
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 2 : We Are The People
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 3 : Vincent bm
+Achète Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 3 : We Are The People
+Achète Village agricole
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 4 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Copper, Estate, Estate, Estate])
+
+Vincent bm a répondu Estate
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Farmingvillage, Remodel, Curse, Copper, Moneylender, Bureaucrat, Estate, Fortuneteller, Woodcutter, Silver, Smithy])
+
+Vincent bm a répondu Silver
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 2
+
+Tour 4 : We Are The People
+Joue Forgeron
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Achète Argent
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 5 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Or
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 2
+
+Tour 5 : We Are The People
+Joue Village agricole
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Joue Forgeron
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Achète Or
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 6 : Vincent bm
+Achète Or
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 2
+
+Tour 6 : We Are The People
+Achète Argent
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 3
+
+Tour 7 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Or
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 2
+
+Tour 7 : We Are The People
+Joue Village agricole
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Joue Forgeron
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Achète Province
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 9
+
+Tour 8 : Vincent bm
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 8
+
+Tour 8 : We Are The People
+Joue Village agricole
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Joue Forgeron
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Achète Or
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 9
+
+Tour 9 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Estate, Copper, Copper, Copper])
+
+Vincent bm a répondu Estate
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Farmingvillage, Remodel, Curse, Copper, Moneylender, Bureaucrat, Estate, Fortuneteller, Woodcutter, Silver, Smithy])
+
+Vincent bm a répondu Silver
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 7
+
+Tour 9 : We Are The People
+Achète Argent
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 9
+
+Tour 10 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 13
+
+Tour 10 : We Are The People
+Achète Argent
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 9
+
+Tour 11 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Gold, Silver, Province, Copper])
+
+Vincent bm a répondu Gold
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Farmingvillage, Remodel, Library, Mine, Curse, Copper, Duchy, Moneylender, Bureaucrat, Estate, Fortuneteller, Gold, Woodcutter, Silver, Smithy, Province, Councilroom])
+
+Vincent bm a répondu Province
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 19
+
+Tour 11 : We Are The People
+Joue Village agricole
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Achète Duché
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 12
+
+Tour 12 : Vincent bm
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 25
+
+Tour 12 : We Are The People
+Joue Forgeron
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Achète Province
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 18
+
+Tour 13 : Vincent bm
+Achète Duché
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 28
+
+Tour 13 : We Are The People
+Achète Duché
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 21
+
+Tour 14 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Estate, Gold, Copper, Silver])
+
+Vincent bm a répondu Gold
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Farmingvillage, Remodel, Library, Mine, Curse, Copper, Duchy, Moneylender, Bureaucrat, Estate, Fortuneteller, Gold, Woodcutter, Silver, Smithy, Province, Councilroom])
+
+Vincent bm a répondu Province
+
+Achète Domaine
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 35
+
+Tour 14 : We Are The People
+Joue Village agricole
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Achète Duché
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 24
+
+Tour 15 : Vincent bm
+Joue Forgeron
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Duché
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 38
+
+Tour 15 : We Are The People
+Achète Domaine
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 25
+
+Tour 16 : Vincent bm
+Achète Duché
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 41
+
+Tour 16 : We Are The People
+Joue Forgeron
+
+We Are The People a ces cartes :
+
+We Are The People joue
+
+Achète Duché
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 28
+
+Tour 17 : Vincent bm
+Achète Duché
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 44
+
+Tour 17 : We Are The People
+Achète Domaine
+
+We Are The People a ces cartes :
+
+We Are The People achète
+
+Fin Du Tour
+
+We Are The People a ces cartes :
+
+We Are The People a pour l'instant un score de 29
+
+Tour 18 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Province, Copper, Silver, Gold])
+
+Vincent bm a répondu Gold
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Farmingvillage, Remodel, Library, Mine, Curse, Copper, Moneylender, Bureaucrat, Estate, Fortuneteller, Gold, Woodcutter, Silver, Smithy, Province, Councilroom])
+
+Vincent bm a répondu Province
+
+Achète Domaine
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 51
+
+Score
+Vincent bm a un score de 51
+We Are The People a un score de 29
