@@ -1,4 +1,9 @@
-"""API FastAPI de Toulousain test, avec stratégie séparée en modules."""
+"""API FastAPI de Toulousain test, avec stratégie séparée en modules.
+
+Cette version adapte les achats et les réactions aux cartes Chapelle, Mine,
+Prêteur sur gages et Rénovation. La logique de jeu des actions reste dans
+'action.py' et n'est volontairement pas modifiée ici.
+"""
 
 import logging
 from collections import Counter
@@ -63,13 +68,15 @@ def _new_state() -> dict[str, Any]:
         "actions": 1,
         "buys": 1,
         "bonus_money": 0,
-        # Budget restant après chaque achat du tour : les trésors ne peuvent
-        # pas être dépensés plusieurs fois si /play est rappelé.
+        # Budget restant après les achats afin de ne pas dépenser deux fois
+        # les mêmes trésors lorsque /play est rappelé.
         "money_remaining": None,
         "purchased": Counter(),
-        # Cartes gagnées par les effets (ex. Workshop, Bureaucrat), en plus
-        # des cartes explicitement achetées pendant la phase d'achat.
         "gained": Counter(),
+        # Cartes réellement épurées : utilisé pour estimer si Chapel reste utile.
+        "trashed": Counter(),
+        "known_piles": set(),
+        "last_stock": {},
     }
 
 
@@ -104,40 +111,8 @@ def _safe_card_cost(carte: CardName) -> int:
             return 0
 
 
-def _piles_vides(stock: Any) -> int:
-    quantities = getattr(stock, "quantities", {}) or {}
-    # Le moteur peut omettre les piles épuisées de stock.quantities.
-    # Le comptage exact est donc fait dans _maj_piles_vides avec l'historique.
-    return sum(1 for quantity in quantities.values() if int(quantity) == 0)
-
-
-def _maj_piles_vides(state: dict[str, Any], stock: Any) -> int:
-    quantities = getattr(stock, "quantities", {}) or {}
-    known = state.setdefault("known_piles", set())
-    previous = state.setdefault("last_stock", {})
-    current_names = set(quantities.keys())
-    known.update(current_names)
-    for name, quantity in quantities.items():
-        try:
-            if int(quantity) > 0:
-                previous[name] = int(quantity)
-            else:
-                previous[name] = 0
-        except (TypeError, ValueError):
-            continue
-    # Une pile connue auparavant mais absente du stock est considérée vide.
-    empty = 0
-    for name in known:
-        if name not in current_names:
-            empty += 1
-        elif previous.get(name, 1) == 0:
-            empty += 1
-    state["piles_vides"] = empty
-    return empty
-
-
 def _cartes_connues(state: dict[str, Any]) -> Counter:
-    """Fusionne les achats et les cartes gagnées par les effets du jeu."""
+    """Fusionne les achats et les cartes obtenues via les effets du jeu."""
     result = Counter(state.get("purchased", Counter()))
     result.update(state.get("gained", Counter()))
     return result
@@ -146,6 +121,46 @@ def _cartes_connues(state: dict[str, Any]) -> Counter:
 def _enregistrer_carte_gagnee(game_id: str, carte: CardName) -> None:
     state = turn_state.setdefault(game_id, _new_state())
     state.setdefault("gained", Counter())[carte] += 1
+
+
+def _enregistrer_carte_epuree(game_id: str, carte: CardName | None) -> None:
+    if carte is None:
+        return
+    state = turn_state.setdefault(game_id, _new_state())
+    state.setdefault("trashed", Counter())[carte] += 1
+    logger.info(
+        "game=%s carte_epuree=%s total_epure=%s",
+        game_id,
+        carte.value,
+        sum(state["trashed"].values()),
+    )
+
+
+def _maj_piles_vides(state: dict[str, Any], stock: Any) -> int:
+    """Compte les piles à zéro, y compris celles qui disparaissent du snapshot.
+
+    Hypothèse à confirmer avec le modèle Dopynion : une pile épuisée peut être
+    omise de stock.quantities. Si le moteur conserve les piles à zéro, elles
+    sont également comptées.
+    """
+    quantities = getattr(stock, "quantities", {}) or {}
+    known = state.setdefault("known_piles", set())
+    previous = state.setdefault("last_stock", {})
+    current_names = set(quantities.keys())
+    known.update(current_names)
+
+    for name, quantity in quantities.items():
+        try:
+            previous[name] = max(0, int(quantity))
+        except (TypeError, ValueError):
+            continue
+
+    empty = 0
+    for name in known:
+        if name not in current_names or previous.get(name, 1) == 0:
+            empty += 1
+    state["piles_vides"] = empty
+    return empty
 
 
 @app.exception_handler(Exception)
@@ -199,8 +214,8 @@ def play(game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
     main = player.hand
     stock = game.stock
 
-    # Les cartes donnant des actions sont placées avant les actions terminales.
-    # L'arbitre résout leurs effets complets ; le bot actualise ici ses compteurs.
+    # Les nouvelles actions sont jouées par action.py : on ne duplique pas ici
+    # leur résolution. action.py doit renvoyer les bons bonus/compteurs.
     if int(state.get("actions", 0)) > 0:
         for carte_action in ACTION_PRIORITY:
             resultat_action = action(
@@ -238,16 +253,19 @@ def play(game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
         priorites = priorites_achat(
             stock,
             achats=_cartes_connues(state),
+            trashed=state.get("trashed", Counter()),
             tour=int(state.get("turn", 1)),
             provinces_restantes=provinces_restantes,
             piles_vides=piles_vides,
             budget=budget,
+            main=main,
         )
         for carte_cible in priorites:
             decision_achat = achat(
                 main=main,
                 carte=carte_cible,
                 stock=stock,
+                # Le budget restant comprend déjà les bonus et achats précédents.
                 monnaie_disponible=budget - monnaie_en_main(main),
                 achats_restants=int(state.get("buys", 0)),
             )
@@ -295,15 +313,22 @@ def confirm_trash_card_from_hand(
     game_id: GameIdDependency, decision_input: CardNameAndHand
 ) -> DopynionResponseBool:
     card = _extract_card_name(decision_input)
-    return DopynionResponseBool(game_id=game_id, decision=confirmer_destruction(card))
+    decision = confirmer_destruction(card)
+    if decision:
+        _enregistrer_carte_epuree(game_id, card)
+    return DopynionResponseBool(game_id=game_id, decision=decision)
 
 
 @app.post("/trash_card_from_hand")
 def trash_card_from_hand(
     game_id: GameIdDependency, decision_input: Hand
 ) -> DopynionResponseCardName:
+    state = turn_state.setdefault(game_id, _new_state())
     cards = list(decision_input.hand)
-    return DopynionResponseCardName(game_id=game_id, decision=choisir_destruction(cards))
+    chosen = choisir_destruction(cards, tour=int(state.get("turn", 1)))
+    if cards:
+        _enregistrer_carte_epuree(game_id, chosen)
+    return DopynionResponseCardName(game_id=game_id, decision=chosen)
 
 
 @app.post("/confirm_discard_deck")
@@ -316,8 +341,15 @@ def confirm_discard_deck(game_id: GameIdDependency) -> DopynionResponseBool:
 def choose_card_to_receive_in_discard(
     game_id: GameIdDependency, decision_input: PossibleCards
 ) -> DopynionResponseCardName:
+    state = turn_state.setdefault(game_id, _new_state())
     possibles = list(decision_input.possible_cards)
-    chosen = choisir_carte_recue(possibles, destination="discard")
+    chosen = choisir_carte_recue(
+        possibles,
+        destination="discard",
+        tour=int(state.get("turn", 1)),
+        achats=_cartes_connues(state),
+        trashed=state.get("trashed", Counter()),
+    )
     if possibles:
         _enregistrer_carte_gagnee(game_id, chosen)
     return DopynionResponseCardName(game_id=game_id, decision=chosen)
@@ -327,8 +359,15 @@ def choose_card_to_receive_in_discard(
 def choose_card_to_receive_in_deck(
     game_id: GameIdDependency, decision_input: PossibleCards
 ) -> DopynionResponseCardName:
+    state = turn_state.setdefault(game_id, _new_state())
     possibles = list(decision_input.possible_cards)
-    chosen = choisir_carte_recue(possibles, destination="deck")
+    chosen = choisir_carte_recue(
+        possibles,
+        destination="deck",
+        tour=int(state.get("turn", 1)),
+        achats=_cartes_connues(state),
+        trashed=state.get("trashed", Counter()),
+    )
     if possibles:
         _enregistrer_carte_gagnee(game_id, chosen)
     return DopynionResponseCardName(game_id=game_id, decision=chosen)
@@ -345,5 +384,9 @@ def skip_card_reception_in_hand(
 def trash_money_card_for_better_money_card(
     game_id: GameIdDependency, decision_input: MoneyCardsInHand
 ) -> DopynionResponseCardName:
-    chosen = choisir_monnaie_a_detruire(list(decision_input.money_in_hand))
+    state = turn_state.setdefault(game_id, _new_state())
+    monies = list(decision_input.money_in_hand)
+    chosen = choisir_monnaie_a_detruire(monies, tour=int(state.get("turn", 1)))
+    if monies:
+        _enregistrer_carte_epuree(game_id, chosen)
     return DopynionResponseCardName(game_id=game_id, decision=chosen)

@@ -25,7 +25,7 @@ class ActionTests(unittest.TestCase):
                 )
 
     def test_carte_tresor_ou_victoire_refusee(self):
-        for carte in (CardName.COPPER, CardName.SILVER, CardName.ESTATE):
+        for carte in (CardName.COPPER, CardName.SILVER, CardName.ESTATE, CardName.GARDENS):
             with self.subTest(carte=carte):
                 main = Cards(quantities={carte: 1})
                 self.assertIs(action(main, carte), False)
@@ -99,7 +99,7 @@ class ActionTests(unittest.TestCase):
         self.assertEqual(joueur.actions_left, 2)
         self.assertEqual(joueur.hand.state.quantities, {CardName.SMITHY: 1})
 
-    def test_retours_des_six_cartes(self):
+    def test_retours_des_cartes_action(self):
         for carte, actions, buys, bonus_money in (
             (CardName.VILLAGE, 2, 0, 0),
             (CardName.WOODCUTTER, 0, 1, 2),
@@ -115,14 +115,18 @@ class ActionTests(unittest.TestCase):
             (CardName.BANDIT, 0, 0, 0), 
             (CardName.BUREAUCRAT, 0, 0, 0),
             (CardName.CHANCELLOR, 0, 0, 2),
-            (CardName.GARDENS, 0, 0, 0),
             (CardName.MILITIA, 0, 0, 2),
             (CardName.ADVENTURER, 0, 0, 0),
             (CardName.CELLAR, 1, 0, 0),
             (CardName.FORTUNETELLER, 0, 0, 2),
             (CardName.LIBRARY, 0, 0, 0),
             (CardName.MAGNATE, 0, 0, 0),
-            (CardName.WORKSHOP, 0, 0, 0)
+            (CardName.WORKSHOP, 0, 0, 0),
+            (CardName.CHAPEL, 0, 0, 0),
+            (CardName.MINE, 0, 0, 0),
+            (CardName.MONEYLENDER, 0, 0, 0),
+            (CardName.REMODEL, 0, 0, 0),
+            (CardName.SWAP, 1, 0, 0),
         ):
             with self.subTest(carte=carte):
                 resultat = action(Cards(quantities={carte: 1}), carte)
@@ -151,11 +155,37 @@ class ActionTests(unittest.TestCase):
         )
 
     def test_carte_action_hors_catalogue_refusee(self):
-        self.assertIs(action(Cards(quantities={CardName.MINE: 1}), CardName.MINE), False)
+        self.assertIs(action(Cards(quantities={CardName.FEAST: 1}), CardName.FEAST), False)
+
+    def test_preteur_bonus_uniquement_si_un_cuivre_est_ecarte(self):
+        for nb_cuivres, accepte, bonus_attendu in (
+            (0, True, 0),
+            (1, False, 0),
+            (2, True, 3),
+        ):
+            with self.subTest(nb_cuivres=nb_cuivres, accepte=accepte):
+                joueur = self.creer_joueur()
+                joueur.hand.append(CardName.MONEYLENDER)
+                joueur.hand.append_several(nb_cuivres, CardName.COPPER)
+                joueur.start_turn()
+
+                resultat = action(joueur.hand.state, CardName.MONEYLENDER)
+                self.assertEqual(resultat.bonus_money, 0)
+                with patch.object(
+                    joueur.hooks,
+                    "confirm_trash_card_from_hand",
+                    autospec=True,
+                    return_value=accepte,
+                ) as confirmation:
+                    joueur.action(CardName.MONEYLENDER)
+
+                self.assertEqual(confirmation.call_count, int(nb_cuivres > 0))
+                self.assertEqual(joueur.money, bonus_attendu)
+                self.assertEqual(joueur.hand.copper_qty, nb_cuivres - int(bonus_attendu > 0))
 
 
 class EffetsActionTests(unittest.TestCase):
-    def test_catalogue_des_onze_cartes_du_client(self):
+    def test_catalogue_des_cartes_action_du_client(self):
         self.assertEqual(
             set(EFFETS_ACTION),
             {
@@ -173,14 +203,18 @@ class EffetsActionTests(unittest.TestCase):
                 CardName.BANDIT,
                 CardName.BUREAUCRAT,
                 CardName.CHANCELLOR,
-                CardName.GARDENS,
                 CardName.MILITIA,
                 CardName.ADVENTURER,
                 CardName.CELLAR,
                 CardName.FORTUNETELLER,
                 CardName.LIBRARY,
                 CardName.MAGNATE,
-                CardName.WORKSHOP
+                CardName.WORKSHOP,
+                CardName.CHAPEL,
+                CardName.MINE,
+                CardName.MONEYLENDER,
+                CardName.REMODEL,
+                CardName.SWAP,
             }
         )
 
@@ -195,9 +229,9 @@ class EffetsActionTests(unittest.TestCase):
 
     def test_carte_hors_catalogue_non_devinee(self):
         with self.assertRaises(ValueError):
-            effets_action(CardName.MINE)
+            effets_action(CardName.FEAST)
 
-    def test_bonus_contre_execution_reelle_des_six_cartes(self):
+    def test_bonus_contre_execution_reelle_des_cartes_action(self):
         dossier = self.enterContext(TemporaryDirectory())
         self.enterContext(patch("dopynion.record.records_dir", Path(dossier)))
         for carte in EFFETS_ACTION:
@@ -209,6 +243,8 @@ class EffetsActionTests(unittest.TestCase):
                 joueur.hand.append(carte)
                 # Une autre action reste en main après la résolution.
                 joueur.hand.append(CardName.VILLAGE)
+                if carte == CardName.REMODEL:
+                    joueur.hand.append(CardName.ESTATE)
                 joueur.deck = CardContainer()
                 joueur.deck.append_several(5, CardName.COPPER)
                 joueur.discard = CardContainer()
@@ -216,7 +252,18 @@ class EffetsActionTests(unittest.TestCase):
                 joueur.actions_left = 3
                 effets = effets_action(carte)
 
-                joueur.action(carte)
+                if carte == CardName.REMODEL:
+                    with patch.object(
+                        joueur.hooks,
+                        "trash_card_from_hand",
+                        autospec=True,
+                        return_value=CardName.ESTATE,
+                    ):
+                        joueur.action(carte)
+                    self.assertNotIn(CardName.ESTATE, joueur.hand)
+                    self.assertIn(CardName.VILLAGE, joueur.hand)
+                else:
+                    joueur.action(carte)
 
                 self.assertEqual(joueur.actions_left, 3 - 1 + effets.actions)
                 self.assertEqual(joueur.purchases_left, 1 + effets.buys)
