@@ -33,7 +33,6 @@ EFFETS_ACTION: dict[CardName, EffetsAction] = {
     CardName.BANDIT: EffetsAction(),
     CardName.BUREAUCRAT: EffetsAction(),
     CardName.CHANCELLOR: EffetsAction(bonus_money=2),
-    CardName.GARDENS: EffetsAction(),
     CardName.MILITIA: EffetsAction(bonus_money=2),
     CardName.ADVENTURER : EffetsAction(),
     CardName.CELLAR : EffetsAction(actions=1),
@@ -41,11 +40,12 @@ EFFETS_ACTION: dict[CardName, EffetsAction] = {
     CardName.LIBRARY : EffetsAction(),
     CardName.MAGNATE : EffetsAction(),
     CardName.WORKSHOP : EffetsAction(),
-    CardName.CHAPEL : EffetsAction(),
-    CardName.MINE : EffetsAction(),
-    CardName.MONEYLENDER : EffetsAction(bonus_money=3),
-    CardName.REMODEL : EffetsAction(),
-    CardName.SWAP : EffetsAction(actions=1)
+    CardName.CHAPEL: EffetsAction(),
+    CardName.MINE: EffetsAction(),
+    # Les 3 pièces ne sont acquises qu'après avoir écarté un Cuivre.
+    CardName.MONEYLENDER: EffetsAction(),
+    CardName.REMODEL: EffetsAction(),
+    CardName.SWAP: EffetsAction(actions=1),
 }
 
 
