@@ -1,0 +1,1135 @@
+Partie du 2026-11-17T11:47:06.285490+01:00
+Réserve initiale
+Tour 1 : KOOPA DOMINION test
+Achète Milice
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 1 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 1 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 2 : KOOPA DOMINION test
+Achète Argent
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 2 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 2 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 3 : KOOPA DOMINION test
+Joue Milice
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Shortest (27 lines of Python): discard_card_from_hand
+
+Hand(hand=[Silver, Estate, Copper, Copper, Estate])
+
+Erreur de Shortest (27 lines of Python)
+
+Not implemented hook: https://dopynion.lecalamar.fr/shortest_strategy/discard_card_from_hand
+
+Shortest (27 lines of Python) a répondu Silver
+
+Shortest (27 lines of Python): discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Copper, Estate])
+
+Erreur de Shortest (27 lines of Python)
+
+Not implemented hook: https://dopynion.lecalamar.fr/shortest_strategy/discard_card_from_hand
+
+Shortest (27 lines of Python) a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper, Copper])
+
+Vincent Glicko a répondu Copper
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Copper])
+
+Vincent Glicko a répondu Copper
+
+Achète Argent
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 3 : Shortest (27 lines of Python)
+Achète Cuivre
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 3 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 4 : KOOPA DOMINION test
+Achète Festival
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 4 : Shortest (27 lines of Python)
+Achète Or
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 4 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 5 : KOOPA DOMINION test
+Joue Festival
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Argent
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 5 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 5 : Vincent Glicko
+Achète Or
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 6 : KOOPA DOMINION test
+Joue Milice
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Shortest (27 lines of Python): discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Gold, Copper])
+
+Erreur de Shortest (27 lines of Python)
+
+Not implemented hook: https://dopynion.lecalamar.fr/shortest_strategy/discard_card_from_hand
+
+Shortest (27 lines of Python) a répondu Copper
+
+Shortest (27 lines of Python): discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Gold, Copper])
+
+Erreur de Shortest (27 lines of Python)
+
+Not implemented hook: https://dopynion.lecalamar.fr/shortest_strategy/discard_card_from_hand
+
+Shortest (27 lines of Python) a répondu Copper
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Silver, Copper, Silver])
+
+Vincent Glicko a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Silver])
+
+Vincent Glicko a répondu Copper
+
+Achète Recrue
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 6 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 6 : Vincent Glicko
+Achète Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 7 : KOOPA DOMINION test
+Achète Argent
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 7 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 7 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 8 : KOOPA DOMINION test
+Joue Recrue
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Argent
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 8 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 8 : Vincent Glicko
+Achète Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 9 : KOOPA DOMINION test
+Joue Festival
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Joue Milice
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Shortest (27 lines of Python): discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Copper, Gold])
+
+Erreur de Shortest (27 lines of Python)
+
+Not implemented hook: https://dopynion.lecalamar.fr/shortest_strategy/discard_card_from_hand
+
+Shortest (27 lines of Python) a répondu Copper
+
+Shortest (27 lines of Python): discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Gold])
+
+Erreur de Shortest (27 lines of Python)
+
+Not implemented hook: https://dopynion.lecalamar.fr/shortest_strategy/discard_card_from_hand
+
+Shortest (27 lines of Python) a répondu Silver
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Festival, Copper, Copper])
+
+Vincent Glicko a répondu Copper
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Festival, Copper])
+
+Vincent Glicko a répondu Copper
+
+Achète Recrue
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Achète Argent
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 9 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 9 : Vincent Glicko
+Joue Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Achète Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Achète Cuivre
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 10 : KOOPA DOMINION test
+Achète Argent
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 10 : Shortest (27 lines of Python)
+Achète Or
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 10 : Vincent Glicko
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 9
+
+Tour 11 : KOOPA DOMINION test
+Achète Or
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 11 : Shortest (27 lines of Python)
+Achète Or
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 11 : Vincent Glicko
+Joue Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Achète Atelier
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 9
+
+Tour 12 : KOOPA DOMINION test
+Joue Festival
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Joue Milice
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Shortest (27 lines of Python): discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Estate, Copper, Copper])
+
+Erreur de Shortest (27 lines of Python)
+
+Not implemented hook: https://dopynion.lecalamar.fr/shortest_strategy/discard_card_from_hand
+
+Shortest (27 lines of Python) a répondu Silver
+
+Shortest (27 lines of Python): discard_card_from_hand
+
+Hand(hand=[Silver, Estate, Copper, Copper])
+
+Erreur de Shortest (27 lines of Python)
+
+Not implemented hook: https://dopynion.lecalamar.fr/shortest_strategy/discard_card_from_hand
+
+Shortest (27 lines of Python) a répondu Silver
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Copper, Copper])
+
+Vincent Glicko a répondu Copper
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Copper])
+
+Vincent Glicko a répondu Copper
+
+Achète Or
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 12 : Shortest (27 lines of Python)
+Achète Cuivre
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 12 : Vincent Glicko
+Achète Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 9
+
+Tour 13 : KOOPA DOMINION test
+Joue Recrue
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Province
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 9
+
+Tour 13 : Shortest (27 lines of Python)
+Achète Or
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 13 : Vincent Glicko
+Joue Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Achète Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Achète Cuivre
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 9
+
+Tour 14 : KOOPA DOMINION test
+Achète Province
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 15
+
+Tour 14 : Shortest (27 lines of Python)
+Achète Or
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a pour l'instant un score de 3
+
+Tour 14 : Vincent Glicko
+Joue Atelier
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Vincent Glicko: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Woodcutter, Farmingvillage, Workshop, Remodel, Militia, Chancellor, Estate, Bureaucrat, Silver, Curse, Copper])
+
+Vincent Glicko a répondu Silver
+
+Achète Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 9
+
+Tour 15 : KOOPA DOMINION test
+Achète Recrue
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 15
+
+Tour 15 : Shortest (27 lines of Python)
+Achète Province
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 9
+
+Tour 15 : Vincent Glicko
+Joue Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 15
+
+Tour 16 : KOOPA DOMINION test
+Joue Festival
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Province
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Achète Duché
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 24
+
+Tour 16 : Shortest (27 lines of Python)
+Achète Province
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 15
+
+Tour 16 : Vincent Glicko
+Joue Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Joue Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+KOOPA DOMINION test: discard_card_from_hand
+
+Hand(hand=[Militia, Estate, Copper, Copper, Copper])
+
+KOOPA DOMINION test a répondu Estate
+
+KOOPA DOMINION test: discard_card_from_hand
+
+Hand(hand=[Militia, Copper, Copper, Copper])
+
+KOOPA DOMINION test a répondu Copper
+
+Shortest (27 lines of Python): discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Gold, Gold, Copper])
+
+Erreur de Shortest (27 lines of Python)
+
+Not implemented hook: https://dopynion.lecalamar.fr/shortest_strategy/discard_card_from_hand
+
+Shortest (27 lines of Python) a répondu Copper
+
+Shortest (27 lines of Python): discard_card_from_hand
+
+Hand(hand=[Silver, Gold, Gold, Copper])
+
+Erreur de Shortest (27 lines of Python)
+
+Not implemented hook: https://dopynion.lecalamar.fr/shortest_strategy/discard_card_from_hand
+
+Shortest (27 lines of Python) a répondu Silver
+
+Joue Atelier
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Vincent Glicko: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Woodcutter, Farmingvillage, Workshop, Remodel, Militia, Chancellor, Estate, Bureaucrat, Silver, Curse, Copper])
+
+Vincent Glicko a répondu Silver
+
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Achète Cuivre
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 21
+
+Tour 17 : KOOPA DOMINION test
+Joue Milice
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Festival, Silver, Estate, Copper])
+
+Vincent Glicko a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Festival, Silver, Copper])
+
+Vincent Glicko a répondu Copper
+
+Achète Duché
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 27
+
+Tour 17 : Shortest (27 lines of Python)
+Achète Or
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a pour l'instant un score de 15
+
+Tour 17 : Vincent Glicko
+Joue Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Achète Cuivre
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 27
+
+Tour 18 : KOOPA DOMINION test
+Achète Province
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 33
+
+Tour 18 : Shortest (27 lines of Python)
+Achète Argent
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 15
+
+Tour 18 : Vincent Glicko
+Joue Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+KOOPA DOMINION test: discard_card_from_hand
+
+Hand(hand=[Silver, Festival, Copper, Copper, Copper])
+
+KOOPA DOMINION test a répondu Copper
+
+KOOPA DOMINION test: discard_card_from_hand
+
+Hand(hand=[Silver, Festival, Copper, Copper])
+
+KOOPA DOMINION test a répondu Copper
+
+Shortest (27 lines of Python): discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Gold, Silver])
+
+Erreur de Shortest (27 lines of Python)
+
+Not implemented hook: https://dopynion.lecalamar.fr/shortest_strategy/discard_card_from_hand
+
+Shortest (27 lines of Python) a répondu Copper
+
+Shortest (27 lines of Python): discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Gold, Silver])
+
+Erreur de Shortest (27 lines of Python)
+
+Not implemented hook: https://dopynion.lecalamar.fr/shortest_strategy/discard_card_from_hand
+
+Shortest (27 lines of Python) a répondu Copper
+
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 33
+
+Tour 19 : KOOPA DOMINION test
+Joue Festival
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Duché
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Achète Domaine
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 37
+
+Tour 19 : Shortest (27 lines of Python)
+Achète Or
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a pour l'instant un score de 15
+
+Tour 19 : Vincent Glicko
+Achète Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 33
+
+Tour 20 : KOOPA DOMINION test
+Joue Recrue
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Duché
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 40
+
+Tour 20 : Shortest (27 lines of Python)
+Achète Province
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) achète
+
+Fin Du Tour
+
+Shortest (27 lines of Python) a ces cartes :
+
+Shortest (27 lines of Python) a pour l'instant un score de 21
+
+Score
+KOOPA DOMINION test a un score de 40
+Vincent Glicko a un score de 33
+Shortest (27 lines of Python) a un score de 21

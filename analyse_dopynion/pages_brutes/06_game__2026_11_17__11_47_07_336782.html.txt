@@ -1,0 +1,1274 @@
+Partie du 2026-11-17T11:47:07.336782+01:00
+Réserve initiale
+Tour 1 : KOOPA DOMINION test
+Achète Argent
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 1 : Vincent
+Achète Cave
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 3
+
+Tour 2 : KOOPA DOMINION test
+Achète Argent
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 2 : Vincent
+Achète Bucheron
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 3
+
+Tour 3 : KOOPA DOMINION test
+Achète Argent
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 3 : Vincent
+Joue Bucheron
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Achète Cuivre
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 6
+
+Tour 4 : KOOPA DOMINION test
+Achète Sorcière
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 4 : Vincent
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 6
+
+Tour 5 : KOOPA DOMINION test
+Achète Or
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 5 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Copper, Copper, Estate])
+
+Vincent a répondu True
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper, Estate])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper, Estate])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Copper, Copper, Estate])
+
+Vincent a répondu True
+
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 6
+
+Tour 6 : KOOPA DOMINION test
+Joue Sorcière
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Sorcière
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 6 : Vincent
+Joue Bucheron
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Achète Cuivre
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 8
+
+Tour 7 : KOOPA DOMINION test
+Achète Laboratoire
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 3
+
+Tour 7 : Vincent
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 11
+
+Tour 8 : KOOPA DOMINION test
+Achète Province
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a pour l'instant un score de 9
+
+Tour 8 : Vincent
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 11
+
+Tour 9 : KOOPA DOMINION test
+Joue Sorcière
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Argent
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 9
+
+Tour 9 : Vincent
+Joue Bucheron
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Cave
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Achète Cave
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 10
+
+Tour 10 : KOOPA DOMINION test
+Joue Laboratoire
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Province
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 15
+
+Tour 10 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Duchy, Copper, Copper])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Duchy, hand=[Silver, Duchy, Copper, Copper])
+
+Vincent a répondu True
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Copper, Copper])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Copper, Copper])
+
+Vincent a répondu False
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a pour l'instant un score de 13
+
+Tour 11 : KOOPA DOMINION test
+Achète Or
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 15
+
+Tour 11 : Vincent
+Joue Bucheron
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Achète Cuivre
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 16
+
+Tour 12 : KOOPA DOMINION test
+Joue Laboratoire
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Or
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 15
+
+Tour 12 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Curse, hand=[Curse, Silver, Curse, Estate])
+
+Vincent a répondu True
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Curse, Estate])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Curse, hand=[Silver, Curse, Estate])
+
+Vincent a répondu True
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Silver, Estate])
+
+Vincent a répondu True
+
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Copper, Copper])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Copper, Copper])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Copper, Copper])
+
+Vincent a répondu False
+
+Achète Bucheron
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a pour l'instant un score de 16
+
+Tour 13 : KOOPA DOMINION test
+Joue Sorcière
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Argent
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 15
+
+Tour 13 : Vincent
+Achète Cave
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 15
+
+Tour 14 : KOOPA DOMINION test
+Achète Or
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 15
+
+Tour 14 : Vincent
+Joue Bucheron
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Achète Cuivre
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 18
+
+Tour 15 : KOOPA DOMINION test
+Joue Sorcière
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Province
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 21
+
+Tour 15 : Vincent
+Achète Cave
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 17
+
+Tour 16 : KOOPA DOMINION test
+Joue Laboratoire
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Duché
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 24
+
+Tour 16 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Copper, Cellar, Cellar])
+
+Vincent a répondu True
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Cellar, Cellar])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Cellar, hand=[Copper, Cellar, Cellar])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Cellar, hand=[Copper, Cellar, Cellar])
+
+Vincent a répondu False
+
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Cellar, Silver])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Cellar, hand=[Copper, Cellar, Silver])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Copper, Cellar, Silver])
+
+Vincent a répondu False
+
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Silver])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Copper, Silver])
+
+Vincent a répondu False
+
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a pour l'instant un score de 17
+
+Tour 17 : KOOPA DOMINION test
+Joue Sorcière
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Province
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 30
+
+Tour 17 : Vincent
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 16
+
+Tour 18 : KOOPA DOMINION test
+Achète Province
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 36
+
+Tour 18 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Woodcutter, Copper, Curse])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Woodcutter, hand=[Copper, Woodcutter, Copper, Curse])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Woodcutter, Copper, Curse])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Curse, hand=[Copper, Woodcutter, Copper, Curse])
+
+Vincent a répondu True
+
+Joue Bucheron
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Achète Cuivre
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a pour l'instant un score de 19
+
+Tour 19 : KOOPA DOMINION test
+Achète Domaine
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 37
+
+Tour 19 : Vincent
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 19
+
+Tour 20 : KOOPA DOMINION test
+Joue Sorcière
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Domaine
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 38
+
+Tour 20 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Duchy, Copper, Estate])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Duchy, hand=[Silver, Duchy, Copper, Estate])
+
+Vincent a répondu True
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Copper, Estate])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Silver, Copper, Estate])
+
+Vincent a répondu True
+
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 18
+
+Tour 21 : KOOPA DOMINION test
+Joue Laboratoire
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Domaine
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 39
+
+Tour 21 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Curse, hand=[Curse, Copper, Curse, Cellar])
+
+Vincent a répondu True
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Curse, Cellar])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Curse, hand=[Copper, Curse, Cellar])
+
+Vincent a répondu True
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Cellar, hand=[Copper, Cellar])
+
+Vincent a répondu False
+
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Curse, Copper])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Curse, hand=[Copper, Curse, Copper])
+
+Vincent a répondu True
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper])
+
+Vincent a répondu False
+
+Achète Cave
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 18
+
+Tour 22 : KOOPA DOMINION test
+Achète Domaine
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 40
+
+Tour 22 : Vincent
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 18
+
+Tour 23 : KOOPA DOMINION test
+Achète Domaine
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 41
+
+Tour 23 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Woodcutter, hand=[Woodcutter, Copper, Estate, Cellar])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Woodcutter, Copper, Estate, Cellar])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Woodcutter, Copper, Estate, Cellar])
+
+Vincent a répondu True
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Cellar, hand=[Woodcutter, Copper, Cellar])
+
+Vincent a répondu False
+
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Woodcutter, hand=[Woodcutter, Copper, Copper])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Woodcutter, Copper, Copper])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Woodcutter, Copper, Copper])
+
+Vincent a répondu False
+
+Joue Bucheron
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Achète Cuivre
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 18
+
+Tour 24 : KOOPA DOMINION test
+Joue Sorcière
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Domaine
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 42
+
+Tour 24 : Vincent
+Joue Bucheron
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Laboratoire
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Achète Cuivre
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 17
+
+Tour 25 : KOOPA DOMINION test
+Joue Sorcière
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Province
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 48
+
+Tour 25 : Vincent
+Joue Cave
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper, Silver, Silver])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper, Silver, Silver])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Copper, Copper, Silver, Silver])
+
+Vincent a répondu False
+
+Vincent: confirm_discard_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Copper, Copper, Silver, Silver])
+
+Vincent a répondu False
+
+Achète Rivage lointain
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a pour l'instant un score de 18
+
+Tour 26 : KOOPA DOMINION test
+Achète Domaine
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 49
+
+Tour 26 : Vincent
+Joue Bucheron
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Achète Bucheron
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Achète Cuivre
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 18
+
+Tour 27 : KOOPA DOMINION test
+Joue Sorcière
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test joue
+
+Achète Domaine
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 50
+
+Tour 27 : Vincent
+Achète Laboratoire
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 17
+
+Tour 28 : KOOPA DOMINION test
+Achète Malédiction
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test achète
+
+Fin Du Tour
+
+KOOPA DOMINION test a ces cartes :
+
+KOOPA DOMINION test a pour l'instant un score de 49
+
+Score
+KOOPA DOMINION test a un score de 49
+Vincent a un score de 17

@@ -1,0 +1,655 @@
+Partie du 2026-11-17T11:47:08.314783+01:00
+Réserve initiale
+Tour 1 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 1 : Groupe 5
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 2 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 2 : Groupe 5
+Achète Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 3 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 3 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 4 : Vincent Glicko
+Achète Or
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 4 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 5 : Vincent Glicko
+Achète Or
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 2
+
+Tour 5 : Groupe 5
+Achète Milice
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 6 : Vincent Glicko
+Achète Or
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 2
+
+Tour 6 : Groupe 5
+Achète Village
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 7 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 2
+
+Tour 7 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 8 : Vincent Glicko
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 7
+
+Tour 8 : Groupe 5
+Joue Village
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 9
+
+Tour 9 : Vincent Glicko
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 12
+
+Tour 9 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Domaine
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 10
+
+Tour 10 : Vincent Glicko
+Achète Village
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 11
+
+Tour 10 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 10
+
+Tour 11 : Vincent Glicko
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 16
+
+Tour 11 : Groupe 5
+Joue Village
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Joue Milice
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Curse, Copper, Province])
+
+Vincent Glicko a répondu Curse
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Province])
+
+Vincent Glicko a répondu Estate
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 10
+
+Tour 12 : Vincent Glicko
+Achète Cuivre
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 15
+
+Tour 12 : Groupe 5
+Joue Village
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 10
+
+Tour 13 : Vincent Glicko
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 21
+
+Tour 13 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Jardins
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 12
+
+Tour 14 : Vincent Glicko
+Achète Cuivre
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 20
+
+Tour 14 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 12
+
+Tour 15 : Vincent Glicko
+Achète Cuivre
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 19
+
+Tour 15 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 12
+
+Tour 16 : Vincent Glicko
+Joue Village
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Achète Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 19
+
+Tour 16 : Groupe 5
+Joue Village
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 18
+
+Tour 17 : Vincent Glicko
+Achète Jardins
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 21
+
+Tour 17 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 18
+
+Tour 18 : Vincent Glicko
+Achète Rivage lointain
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 22
+
+Tour 18 : Groupe 5
+Achète Duché
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 21
+
+Tour 19 : Vincent Glicko
+Achète Jardins
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 25
+
+Tour 19 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Duché
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 24
+
+Tour 20 : Vincent Glicko
+Achète Rivage lointain
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 29
+
+Tour 20 : Groupe 5
+Joue Village
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 30
+
+Tour 21 : Vincent Glicko
+Achète Cuivre
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 29
+
+Tour 21 : Groupe 5
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 37
+
+Score
+Groupe 5 a un score de 37
+Vincent Glicko a un score de 29

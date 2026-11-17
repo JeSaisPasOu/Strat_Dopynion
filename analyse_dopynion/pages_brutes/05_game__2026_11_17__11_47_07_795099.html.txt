@@ -1,0 +1,2349 @@
+Partie du 2026-11-17T11:47:07.795099+01:00
+Réserve initiale
+Tour 1 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 1 : Vincent
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 3
+
+Tour 1 : Groupe 5
+Achète Chapelle
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 2 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 2 : Vincent
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 3
+
+Tour 2 : Groupe 5
+Achète Milice
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 3 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 3 : Vincent
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 6
+
+Tour 3 : Groupe 5
+Joue Milice
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Copper, Copper, Copper])
+
+Vincent Glicko a répondu Copper
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Copper])
+
+Vincent Glicko a répondu Copper
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Militia, Copper, Copper, Copper, Estate])
+
+Vincent a répondu Estate
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Militia, Copper, Copper, Copper])
+
+Vincent a répondu Copper
+
+Achète Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 4 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 4 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Silver, Copper])
+
+Vincent Glicko a répondu Copper
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Silver, Copper])
+
+Vincent Glicko a répondu Copper
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Estate, Copper, Copper])
+
+Groupe 5 a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Copper])
+
+Groupe 5 a répondu Estate
+
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a pour l'instant un score de 6
+
+Tour 4 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 5 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 5 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Copper, Silver, Silver])
+
+Vincent Glicko a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Silver, Silver])
+
+Vincent Glicko a répondu Copper
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Chapel, Copper, Copper, Silver, Copper])
+
+Groupe 5 a répondu Copper
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Chapel, Copper, Silver, Copper])
+
+Groupe 5 a répondu Copper
+
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 6
+
+Tour 5 : Groupe 5
+Joue Chapelle
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Copper])
+
+Groupe 5 a répondu False
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Copper])
+
+Groupe 5 a répondu True
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 6 : Vincent Glicko
+Achète Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 6 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Copper, Estate, Copper])
+
+Vincent Glicko a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Estate, Copper])
+
+Vincent Glicko a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Copper, Militia, Estate, Estate, Copper])
+
+Groupe 5 a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Copper, Militia, Estate, Copper])
+
+Groupe 5 a répondu Estate
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 9
+
+Tour 6 : Groupe 5
+Joue Milice
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Copper, Estate, Copper])
+
+Vincent a répondu Estate
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Estate, Copper])
+
+Vincent a répondu Estate
+
+Achète Village agricole
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 7 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 7 : Vincent
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a pour l'instant un score de 9
+
+Tour 7 : Groupe 5
+Joue Chapelle
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Estate, Copper, Witch])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Estate, Copper, Witch])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Witch])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Witch, hand=[Witch])
+
+Groupe 5 a répondu False
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 2
+
+Tour 8 : Vincent Glicko
+Achète Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 8 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Silver, Copper, Festival])
+
+Vincent Glicko a répondu Copper
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Copper, Festival])
+
+Vincent Glicko a répondu Copper
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Copper, Estate, Farmingvillage, Copper, Estate])
+
+Groupe 5 a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Copper, Farmingvillage, Copper, Estate])
+
+Groupe 5 a répondu Estate
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 12
+
+Tour 8 : Groupe 5
+Joue Village agricole
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 2
+
+Tour 9 : Vincent Glicko
+Joue Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Achète Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Achète Cuivre
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 9 : Vincent
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 12
+
+Tour 9 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 2
+
+Tour 10 : Vincent Glicko
+Achète Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 2
+
+Tour 10 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Festival, Copper, Copper, Hireling, Estate])
+
+Vincent Glicko a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Festival, Copper, Copper, Hireling])
+
+Vincent Glicko a répondu Copper
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Chapel, Silver, Estate, Copper, Farmingvillage])
+
+Groupe 5 a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Chapel, Silver, Copper, Farmingvillage])
+
+Groupe 5 a répondu Copper
+
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 11
+
+Tour 10 : Groupe 5
+Joue Village agricole
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Joue Chapelle
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Estate, Militia])
+
+Groupe 5 a répondu False
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Silver, Estate, Militia])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Militia, hand=[Silver, Militia])
+
+Groupe 5 a répondu False
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 1
+
+Tour 11 : Vincent Glicko
+Joue Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Joue Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Achète Chapelle
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Achète Chapelle
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 1
+
+Tour 11 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Copper, Festival, Silver])
+
+Vincent Glicko a répondu Estate
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Festival, Silver])
+
+Vincent Glicko a répondu Copper
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Copper, Copper, Witch])
+
+Groupe 5 a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Witch])
+
+Groupe 5 a répondu Copper
+
+Achète Province
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 16
+
+Tour 11 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 1
+
+Tour 12 : Vincent Glicko
+Joue Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Achète Cuivre
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 6
+
+Tour 12 : Vincent
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 15
+
+Tour 12 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 1
+
+Tour 13 : Vincent Glicko
+Joue Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Achète Chapelle
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 5
+
+Tour 13 : Vincent
+Achète Chapelle
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 14
+
+Tour 13 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 1
+
+Tour 14 : Vincent Glicko
+Joue Chapelle
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Silver, Curse, Copper, Silver])
+
+Vincent Glicko a répondu True
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Curse, Copper, Silver])
+
+Vincent Glicko a répondu False
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Curse, hand=[Silver, Curse, Copper, Silver])
+
+Vincent Glicko a répondu True
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Copper, Silver])
+
+Vincent Glicko a répondu True
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Silver])
+
+Vincent Glicko a répondu False
+
+Achète Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 5
+
+Tour 14 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Curse, Chapel, Silver, Silver])
+
+Vincent Glicko a répondu Curse
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Chapel, Silver, Silver])
+
+Vincent Glicko a répondu Copper
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Gold, Estate, Copper, Farmingvillage])
+
+Groupe 5 a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Gold, Copper, Farmingvillage])
+
+Groupe 5 a répondu Copper
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 16
+
+Tour 14 : Groupe 5
+Joue Village agricole
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 7
+
+Tour 15 : Vincent Glicko
+Joue Chapelle
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Silver, Estate])
+
+Vincent Glicko a répondu False
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Silver, Estate])
+
+Vincent Glicko a répondu False
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Silver, Silver, Estate])
+
+Vincent Glicko a répondu True
+
+Achète Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 15 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Festival, Curse, Hireling, Silver])
+
+Vincent Glicko a répondu Curse
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Festival, Hireling, Silver])
+
+Vincent Glicko a répondu Copper
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Witch, Copper, Estate, Silver])
+
+Groupe 5 a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Witch, Copper, Silver])
+
+Groupe 5 a répondu Copper
+
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 15
+
+Tour 15 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Duché
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 10
+
+Tour 16 : Vincent Glicko
+Joue Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Joue Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Achète Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Achète Cuivre
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 2
+
+Tour 16 : Vincent
+Achète Chapelle
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 14
+
+Tour 16 : Groupe 5
+Joue Chapelle
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Witch, Gold, Silver])
+
+Groupe 5 a répondu True
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Witch, hand=[Witch, Gold, Silver])
+
+Groupe 5 a répondu False
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Gold, hand=[Witch, Gold, Silver])
+
+Groupe 5 a répondu False
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Witch, Gold, Silver])
+
+Groupe 5 a répondu False
+
+Achète Duché
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 13
+
+Tour 17 : Vincent Glicko
+Joue Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 2
+
+Tour 17 : Vincent
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 17
+
+Tour 17 : Groupe 5
+Joue Village agricole
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 13
+
+Tour 18 : Vincent Glicko
+Joue Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Joue Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Militia, Province, Copper, Militia, Militia])
+
+Vincent a répondu Province
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Militia, Copper, Militia, Militia])
+
+Vincent a répondu Copper
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Militia, Copper, Silver, Province])
+
+Groupe 5 a répondu Province
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Militia, Copper, Silver])
+
+Groupe 5 a répondu Copper
+
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Achète Cuivre
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 7
+
+Tour 18 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Curse, Silver, Chapel, Silver, Militia])
+
+Vincent Glicko a répondu Curse
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Chapel, Silver, Militia])
+
+Vincent Glicko a répondu Chapel
+
+Achète Chapelle
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 16
+
+Tour 18 : Groupe 5
+Joue Milice
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Curse, Militia, Curse, Estate, Chapel])
+
+Vincent a répondu Curse
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Militia, Curse, Estate, Chapel])
+
+Vincent a répondu Curse
+
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 13
+
+Tour 19 : Vincent Glicko
+Joue Chapelle
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Silver, Militia, Copper, Curse])
+
+Vincent Glicko a répondu False
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Silver, Militia, Copper, Curse])
+
+Vincent Glicko a répondu False
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Militia, hand=[Silver, Silver, Militia, Copper, Curse])
+
+Vincent Glicko a répondu False
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Silver, Militia, Copper, Curse])
+
+Vincent Glicko a répondu True
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Curse, hand=[Silver, Silver, Militia, Curse])
+
+Vincent Glicko a répondu True
+
+Achète Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 8
+
+Tour 19 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Curse, Silver, Curse])
+
+Vincent Glicko a répondu Curse
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Silver, Curse])
+
+Vincent Glicko a répondu Curse
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Estate, Silver, Gold, Chapel, Copper])
+
+Groupe 5 a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Gold, Chapel, Copper])
+
+Groupe 5 a répondu Copper
+
+Achète Domaine
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 17
+
+Tour 19 : Groupe 5
+Achète Duché
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 16
+
+Tour 20 : Vincent Glicko
+Joue Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Achète Cuivre
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 14
+
+Tour 20 : Vincent
+Achète Chapelle
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 17
+
+Tour 20 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Duché
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 19
+
+Tour 21 : Vincent Glicko
+Joue Chapelle
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Estate, Copper, Copper, Province, Copper, Copper])
+
+Vincent Glicko a répondu False
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Silver, Estate, Copper, Copper, Province, Copper, Copper])
+
+Vincent Glicko a répondu True
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Copper, Copper, Province, Copper, Copper])
+
+Vincent Glicko a répondu True
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Copper, Province, Copper, Copper])
+
+Vincent Glicko a répondu True
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Province, hand=[Silver, Province, Copper, Copper])
+
+Vincent Glicko a répondu False
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Province, Copper, Copper])
+
+Vincent Glicko a répondu True
+
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 12
+
+Tour 21 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Curse, Copper, Curse, Silver, Chapel])
+
+Vincent Glicko a répondu Curse
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Curse, Silver, Chapel])
+
+Vincent Glicko a répondu Curse
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Duchy, Gold, Province])
+
+Groupe 5 a répondu Duchy
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Copper, Silver, Gold, Province])
+
+Groupe 5 a répondu Province
+
+Achète Milice
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 16
+
+Tour 21 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 19
+
+Tour 22 : Vincent Glicko
+Joue Chapelle
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Silver, Chapel, Estate, Copper])
+
+Vincent Glicko a répondu True
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Chapel, Estate, Copper])
+
+Vincent Glicko a répondu False
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Chapel, hand=[Silver, Chapel, Estate, Copper])
+
+Vincent Glicko a répondu False
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Silver, Chapel, Estate, Copper])
+
+Vincent Glicko a répondu True
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Chapel, Copper])
+
+Vincent Glicko a répondu True
+
+Achète Cuivre
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 11
+
+Tour 22 : Vincent
+Achète Village agricole
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 16
+
+Tour 22 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 19
+
+Tour 23 : Vincent Glicko
+Joue Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Joue Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Duchy, Copper, Copper])
+
+Vincent a répondu Duchy
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Silver, Copper, Copper, Copper])
+
+Vincent a répondu Copper
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Witch, Farmingvillage, Duchy, Copper, Gold])
+
+Groupe 5 a répondu Duchy
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Witch, Farmingvillage, Copper, Gold])
+
+Groupe 5 a répondu Copper
+
+Joue Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Achète Cuivre
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 16
+
+Tour 23 : Vincent
+Achète Forgeron
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a pour l'instant un score de 15
+
+Tour 23 : Groupe 5
+Joue Village agricole
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 25
+
+Tour 24 : Vincent Glicko
+Joue Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Curse, Duchy, Silver])
+
+Vincent a répondu Curse
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Estate, Copper, Duchy, Silver])
+
+Vincent a répondu Estate
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Duchy, Gold, Farmingvillage, Silver])
+
+Groupe 5 a répondu Duchy
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Silver, Gold, Farmingvillage, Silver])
+
+Groupe 5 a répondu Farmingvillage
+
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 22
+
+Tour 24 : Vincent
+Achète Argent
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 15
+
+Tour 24 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 25
+
+Tour 25 : Vincent Glicko
+Joue Chapelle
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Curse, Silver, Province, Curse, Copper, Province])
+
+Vincent Glicko a répondu False
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Curse, hand=[Silver, Curse, Silver, Province, Curse, Copper, Province])
+
+Vincent Glicko a répondu True
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Silver, Province, Curse, Copper, Province])
+
+Vincent Glicko a répondu False
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Province, hand=[Silver, Silver, Province, Curse, Copper, Province])
+
+Vincent Glicko a répondu False
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Curse, hand=[Silver, Silver, Province, Curse, Copper, Province])
+
+Vincent Glicko a répondu True
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Silver, Province, Copper, Province])
+
+Vincent Glicko a répondu True
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Province, hand=[Silver, Silver, Province, Province])
+
+Vincent Glicko a répondu False
+
+Achète Forgeron
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 24
+
+Tour 25 : Vincent
+Joue Chapelle
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Curse, hand=[Curse, Copper, Chapel, Estate])
+
+Vincent a répondu True
+
+Vincent: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Chapel, Estate])
+
+Vincent a répondu True
+
+Vincent: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Chapel, hand=[Chapel, Estate])
+
+Vincent a répondu False
+
+Vincent: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Estate, hand=[Chapel, Estate])
+
+Vincent a répondu True
+
+Achète Cuivre
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 15
+
+Tour 25 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 25
+
+Tour 26 : Vincent Glicko
+Joue Chapelle
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Curse, Copper, Province, Silver, Curse, Copper])
+
+Vincent Glicko a répondu True
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Curse, hand=[Curse, Copper, Province, Silver, Curse, Copper])
+
+Vincent Glicko a répondu True
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Province, Silver, Curse, Copper])
+
+Vincent Glicko a répondu True
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Province, hand=[Province, Silver, Curse, Copper])
+
+Vincent Glicko a répondu False
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Province, Silver, Curse, Copper])
+
+Vincent Glicko a répondu False
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Curse, hand=[Province, Silver, Curse, Copper])
+
+Vincent Glicko a répondu True
+
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 26
+
+Tour 26 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Province, Festival, Province, Curse])
+
+Vincent Glicko a répondu Curse
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Copper, Province, Festival, Province])
+
+Vincent Glicko a répondu Province
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Chapel, Silver, Duchy, Duchy, Copper])
+
+Groupe 5 a répondu Duchy
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Chapel, Silver, Duchy, Copper])
+
+Groupe 5 a répondu Duchy
+
+Achète Village agricole
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 15
+
+Tour 26 : Groupe 5
+Joue Chapelle
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Copper])
+
+Groupe 5 a répondu False
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Copper])
+
+Groupe 5 a répondu True
+
+Achète Domaine
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 26
+
+Tour 27 : Vincent Glicko
+Joue Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Joue Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Chapel, Militia, Estate, Militia, Militia])
+
+Vincent a répondu Estate
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Chapel, Militia, Militia, Militia])
+
+Vincent a répondu Chapel
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Gold, Witch, Militia, Copper, Gold])
+
+Groupe 5 a répondu Copper
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Gold, Witch, Militia, Gold])
+
+Groupe 5 a répondu Militia
+
+Joue Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Achète Cuivre
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 32
+
+Tour 27 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Chapel, Festival, Silver, Militia, Silver])
+
+Vincent Glicko a répondu Chapel
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Festival, Silver, Militia, Silver])
+
+Vincent Glicko a répondu Silver
+
+Achète Chapelle
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a ces cartes :
+
+Vincent a pour l'instant un score de 15
+
+Tour 27 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 32
+
+Tour 28 : Vincent Glicko
+Joue Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Joue Milice
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Militia, Curse, Curse])
+
+Vincent a répondu Curse
+
+Vincent: discard_card_from_hand
+
+Hand(hand=[Silver, Silver, Militia, Curse])
+
+Vincent a répondu Curse
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Province, Gold, Duchy, Duchy, Gold])
+
+Groupe 5 a répondu Duchy
+
+Groupe 5: discard_card_from_hand
+
+Hand(hand=[Province, Gold, Duchy, Gold])
+
+Groupe 5 a répondu Duchy
+
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 38
+
+Tour 28 : Vincent
+Joue Milice
+
+Vincent a ces cartes :
+
+Vincent joue
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Curse, Silver, Curse, Silver, Curse])
+
+Vincent Glicko a répondu Curse
+
+Vincent Glicko: discard_card_from_hand
+
+Hand(hand=[Silver, Curse, Silver, Curse])
+
+Vincent Glicko a répondu Curse
+
+Achète Duché
+
+Vincent a ces cartes :
+
+Vincent achète
+
+Fin Du Tour
+
+Vincent a pour l'instant un score de 18
+
+Tour 28 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 32
+
+Tour 29 : Vincent Glicko
+Joue Festival
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Joue Chapelle
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Silver, Curse, Silver])
+
+Vincent Glicko a répondu False
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Silver, Curse, Silver])
+
+Vincent Glicko a répondu False
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Curse, hand=[Silver, Silver, Curse, Silver])
+
+Vincent Glicko a répondu True
+
+Vincent Glicko: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Silver, hand=[Silver, Silver, Silver])
+
+Vincent Glicko a répondu False
+
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Achète Cuivre
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 45
+
+Score
+Vincent Glicko a un score de 45
+Groupe 5 a un score de 32
+Vincent a un score de 18

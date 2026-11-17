@@ -1,0 +1,410 @@
+<!DOCTYPE html><html><head>
+        <title>Dopynion</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="static/main.css" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Dopynion</h1>
+        <h2>Leaderboard</h2>
+        <table id="leaderboard">
+<tbody><tr><th>URL</th><th>Score</th><th>Nb games</th></tr>
+<tr><td>https://royaume.ahliko.fr/</td><td>1491</td><td>46519</td></tr>
+<tr><td>https://bowser.alwaysdata.net/</td><td>1463</td><td>46498</td></tr>
+<tr><td>https://le-4eme-empire.alwaysdata.net/</td><td>1456</td><td>45166</td></tr>
+<tr><td>https://marioluigi.alwaysdata.net/</td><td>1456</td><td>42740</td></tr>
+<tr><td>https://royaume.ahliko.fr/dev/</td><td>1414</td><td>42893</td></tr>
+<tr><td>https://le-4eme-empire-le-remake.alwaysdata.net/</td><td>1373</td><td>42899</td></tr>
+<tr><td>https://befre.alwaysdata.net/</td><td>1357</td><td>46613</td></tr>
+<tr><td>https://einstein.alwaysdata.net/</td><td>1229</td><td>42817</td></tr>
+<tr><td>https://dopynion.lecalamar.fr/vincent_bm/</td><td>1225</td><td>52408</td></tr>
+<tr><td>https://ricardo2026.alwaysdata.net/</td><td>1176</td><td>46609</td></tr>
+<tr><td>https://dopynion.lecalamar.fr/vincent_glicko/</td><td>1164</td><td>57128</td></tr>
+<tr><td>https://dopynion.lecalamar.fr/vincent_basic/</td><td>1046</td><td>54149</td></tr>
+<tr><td>https://macalaurien.alwaysdata.net/</td><td>1044</td><td>53920</td></tr>
+<tr><td>https://rdubourgeois.alwaysdata.net/</td><td>1043</td><td>54122</td></tr>
+<tr><td>https://dopynion.lecalamar.fr/shortest_strategy/</td><td>989</td><td>46559</td></tr>
+<tr><td>https://dopynion.lecalamar.fr/vincent/</td><td>965</td><td>57487</td></tr>
+<tr><td>https://dopynion.lecalamar.fr/chloe/</td><td>949</td><td>57289</td></tr>
+<tr><td>https://alves.alwaysdata.net/</td><td>925</td><td>42941</td></tr>
+<tr><td>https://dopynion.lecalamar.fr/random_strategy_but_better/</td><td>702</td><td>57458</td></tr>
+<tr><td>https://dopynion.lecalamar.fr/random_strategy/</td><td>507</td><td>57588</td></tr>
+<tr><td>https://dopynion-template.lecalamar.fr/</td><td>507</td><td>57364</td></tr>
+</tbody></table>
+
+        <h2>History</h2>
+        <div>
+            <canvas id="myChart" style="height: 1000px; display: block; box-sizing: border-box; width: 1133.8px;" width="1133" height="1000"></canvas>
+        </div>
+        <h2>Last games</h2>
+        <ul>
+<li><a href="games/game__2026_11_17__11_47_10_678649.html">2026/11/17 11:47:10</a><a> Le 4ème Empire le Remake, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_47_10_068149.html">2026/11/17 11:47:10</a><a> KOOPA DOMINION test, Le 4ème Empire le Remake, Vincent Glicko, Toulousain test</a></li><li><a href="games/game__2026_11_17__11_47_08_643241.html">2026/11/17 11:47:08</a><a> Groupe 5, Vincent bm, Vincent Glicko, Vincent basique</a></li><li><a href="games/game__2026_11_17__11_47_08_314783.html">2026/11/17 11:47:08</a><a> Groupe 5, Vincent Glicko</a></li><li><a href="games/game__2026_11_17__11_47_07_795099.html">2026/11/17 11:47:07</a><a> Vincent Glicko, Groupe 5, Vincent</a></li><li><a href="games/game__2026_11_17__11_47_07_336782.html">2026/11/17 11:47:07</a><a> KOOPA DOMINION test, Vincent</a></li><li><a href="games/game__2026_11_17__11_47_06_984428.html">2026/11/17 11:47:06</a><a> Toulousain, Chloé</a></li><li><a href="games/game__2026_11_17__11_47_06_285490.html">2026/11/17 11:47:06</a><a> KOOPA DOMINION test, Vincent Glicko, Shortest (27 lines of Python)</a></li><li><a href="games/game__2026_11_17__11_47_05_641520.html">2026/11/17 11:47:05</a><a> Vincent basique, Chloé, Default player name</a></li><li><a href="games/game__2026_11_17__11_47_04_972712.html">2026/11/17 11:47:04</a><a> Toulousain, Vincent basique, Vincent bm, Chloé</a></li><li><a href="games/game__2026_11_17__11_47_03_311372.html">2026/11/17 11:47:03</a><a> Le 4ème Empire le Remake, KOOPA DOMINION test, Toulousain test, Vincent basique</a></li><li><a href="games/game__2026_11_17__11_47_00_360549.html">2026/11/17 11:47:00</a><a> Toulousain, Groupe 5, "Monty_Python"</a></li><li><a href="games/game__2026_11_17__11_46_59_928850.html">2026/11/17 11:46:59</a><a> Empire Of The Sun, Vincent, Vincent bm, "Monty_Python_Test"</a></li><li><a href="games/game__2026_11_17__11_46_53_795938.html">2026/11/17 11:46:53</a><a> Vincent Glicko, Vincent basique, BOWSER, Default player name</a></li><li><a href="games/game__2026_11_17__11_46_51_720288.html">2026/11/17 11:46:51</a><a> We Are The People, Vincent bm, Vincent basique, Toulousain test</a></li><li><a href="games/game__2026_11_17__11_46_51_254192.html">2026/11/17 11:46:51</a><a> Vincent bm, Le 4ème Empire le Remake, Vincent Glicko, Default player name</a></li><li><a href="games/game__2026_11_17__11_46_48_150077.html">2026/11/17 11:46:48</a><a> Empire Of The Sun, Toulousain test, Mini boulet</a></li><li><a href="games/game__2026_11_17__11_46_45_851645.html">2026/11/17 11:46:45</a><a> Empire Of The Sun, "Monty_Python", Gros boulet</a></li><li><a href="games/game__2026_11_17__11_46_45_674666.html">2026/11/17 11:46:45</a><a> "Monty_Python_Test", Le 4ème Empire le Remake, Toulousain</a></li><li><a href="games/game__2026_11_17__11_46_45_126447.html">2026/11/17 11:46:45</a><a> "Monty_Python", Toulousain test</a></li><li><a href="games/game__2026_11_17__11_46_39_366965.html">2026/11/17 11:46:39</a><a> Empire Of The Sun, "Monty_Python_Test"</a></li><li><a href="games/game__2026_11_17__11_46_39_052593.html">2026/11/17 11:46:39</a><a> Empire Of The Sun, Le 4ème Empire "Vrai", Toulousain test, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_46_38_610602.html">2026/11/17 11:46:38</a><a> "Monty_Python_Test", Groupe 5, Default player name</a></li><li><a href="games/game__2026_11_17__11_46_38_261890.html">2026/11/17 11:46:38</a><a> Empire Of The Sun, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_46_37_786726.html">2026/11/17 11:46:37</a><a> Le 4ème Empire "Vrai", Vincent bm, Toulousain test, Mini boulet</a></li><li><a href="games/game__2026_11_17__11_46_36_319602.html">2026/11/17 11:46:36</a><a> BOWSER, Chloé, Vincent basique</a></li><li><a href="games/game__2026_11_17__11_46_36_251454.html">2026/11/17 11:46:36</a><a> KOOPA DOMINION test, Le 4ème Empire le Remake, Shortest (27 lines of Python)</a></li><li><a href="games/game__2026_11_17__11_46_36_202476.html">2026/11/17 11:46:36</a><a> Groupe 5, Vincent, Vincent basique, Toulousain test</a></li><li><a href="games/game__2026_11_17__11_46_34_648656.html">2026/11/17 11:46:34</a><a> KOOPA DOMINION test, Vincent bm, Chloé, Toulousain test</a></li><li><a href="games/game__2026_11_17__11_46_34_637164.html">2026/11/17 11:46:34</a><a> We Are The People, Toulousain, Vincent</a></li><li><a href="games/game__2026_11_17__11_46_32_104095.html">2026/11/17 11:46:32</a><a> BOWSER, Groupe 5, Shortest (27 lines of Python), Toulousain test</a></li><li><a href="games/game__2026_11_17__11_46_31_571299.html">2026/11/17 11:46:31</a><a> BOWSER, Toulousain test, "Monty_Python_Test", Gros boulet</a></li><li><a href="games/game__2026_11_17__11_46_29_698931.html">2026/11/17 11:46:29</a><a> Chloé, Vincent Glicko, Vincent</a></li><li><a href="games/game__2026_11_17__11_46_23_511603.html">2026/11/17 11:46:23</a><a> Toulousain test, Groupe 5</a></li><li><a href="games/game__2026_11_17__11_46_22_164654.html">2026/11/17 11:46:22</a><a> KOOPA DOMINION test, Vincent</a></li><li><a href="games/game__2026_11_17__11_46_19_005176.html">2026/11/17 11:46:19</a><a> We Are The People, Toulousain, Default player name, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_46_16_043941.html">2026/11/17 11:46:16</a><a> Empire Of The Sun, Toulousain test</a></li><li><a href="games/game__2026_11_17__11_46_15_909884.html">2026/11/17 11:46:15</a><a> BOWSER, "Monty_Python_Test", Gros boulet</a></li><li><a href="games/game__2026_11_17__11_46_14_785104.html">2026/11/17 11:46:14</a><a> Empire Of The Sun, Groupe 5, Toulousain test</a></li><li><a href="games/game__2026_11_17__11_46_14_254045.html">2026/11/17 11:46:14</a><a> Le 4ème Empire le Remake, Shortest (27 lines of Python)</a></li><li><a href="games/game__2026_11_17__11_46_13_693842.html">2026/11/17 11:46:13</a><a> KOOPA DOMINION test, Vincent Glicko, Mini boulet</a></li><li><a href="games/game__2026_11_17__11_46_13_482474.html">2026/11/17 11:46:13</a><a> Vincent basique, BOWSER, Le 4ème Empire "Vrai", KOOPA DOMINION test</a></li><li><a href="games/game__2026_11_17__11_46_12_825721.html">2026/11/17 11:46:12</a><a> Vincent bm, Le 4ème Empire "Vrai"</a></li><li><a href="games/game__2026_11_17__11_46_12_478101.html">2026/11/17 11:46:12</a><a> We Are The People, BOWSER, Le 4ème Empire "Vrai", Vincent basique</a></li><li><a href="games/game__2026_11_17__11_46_11_513385.html">2026/11/17 11:46:11</a><a> Toulousain, Vincent bm, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_46_10_602355.html">2026/11/17 11:46:10</a><a> Toulousain test, Vincent bm</a></li><li><a href="games/game__2026_11_17__11_46_09_542587.html">2026/11/17 11:46:09</a><a> We Are The People, "Monty_Python_Test", Chloé, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_46_08_429027.html">2026/11/17 11:46:08</a><a> KOOPA DOMINION test, Groupe 5, Groupe 5</a></li><li><a href="games/game__2026_11_17__11_46_06_523794.html">2026/11/17 11:46:06</a><a> Toulousain test, Mini boulet, Gros boulet, Default player name</a></li><li><a href="games/game__2026_11_17__11_46_06_318488.html">2026/11/17 11:46:06</a><a> Le 4ème Empire "Vrai", Default player name</a></li><li><a href="games/game__2026_11_17__11_46_05_358404.html">2026/11/17 11:46:05</a><a> Le 4ème Empire le Remake, Groupe 5</a></li><li><a href="games/game__2026_11_17__11_46_05_056843.html">2026/11/17 11:46:05</a><a> Toulousain, "Monty_Python_Test", Mini boulet</a></li><li><a href="games/game__2026_11_17__11_46_04_112757.html">2026/11/17 11:46:04</a><a> Vincent Glicko, "Monty_Python", Default player name, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_46_04_020674.html">2026/11/17 11:46:04</a><a> Vincent basique, Vincent, Chloé, Mini boulet</a></li><li><a href="games/game__2026_11_17__11_46_03_084461.html">2026/11/17 11:46:03</a><a> Vincent bm, Vincent</a></li><li><a href="games/game__2026_11_17__11_46_03_029307.html">2026/11/17 11:46:03</a><a> Le 4ème Empire "Vrai", Groupe 5</a></li><li><a href="games/game__2026_11_17__11_46_02_745073.html">2026/11/17 11:46:02</a><a> We Are The People, Toulousain, Toulousain test</a></li><li><a href="games/game__2026_11_17__11_46_01_415662.html">2026/11/17 11:46:01</a><a> Groupe 5, "Monty_Python_Test"</a></li><li><a href="games/game__2026_11_17__11_45_58_980527.html">2026/11/17 11:45:58</a><a> Le 4ème Empire le Remake, Vincent bm</a></li><li><a href="games/game__2026_11_17__11_45_57_899739.html">2026/11/17 11:45:57</a><a> Toulousain, "Monty_Python", Chloé</a></li><li><a href="games/game__2026_11_17__11_45_57_616166.html">2026/11/17 11:45:57</a><a> We Are The People, KOOPA DOMINION test</a></li><li><a href="games/game__2026_11_17__11_45_57_268703.html">2026/11/17 11:45:57</a><a> Empire Of The Sun, Groupe 5, Vincent</a></li><li><a href="games/game__2026_11_17__11_45_54_313524.html">2026/11/17 11:45:54</a><a> Le 4ème Empire le Remake, "Monty_Python", Vincent bm</a></li><li><a href="games/game__2026_11_17__11_45_54_043546.html">2026/11/17 11:45:54</a><a> BOWSER, Toulousain</a></li><li><a href="games/game__2026_11_17__11_45_53_861862.html">2026/11/17 11:45:53</a><a> Vincent bm, Shortest (27 lines of Python), Mini boulet, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_45_52_789714.html">2026/11/17 11:45:52</a><a> Vincent basique, Chloé</a></li><li><a href="games/game__2026_11_17__11_45_52_528675.html">2026/11/17 11:45:52</a><a> KOOPA DOMINION test, Toulousain, Vincent basique, Chloé</a></li><li><a href="games/game__2026_11_17__11_45_51_840845.html">2026/11/17 11:45:51</a><a> Vincent bm, Shortest (27 lines of Python), Vincent basique</a></li><li><a href="games/game__2026_11_17__11_45_47_928534.html">2026/11/17 11:45:47</a><a> Chloé, Mini boulet, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_45_44_682244.html">2026/11/17 11:45:44</a><a> BOWSER, Le 4ème Empire le Remake, "Monty_Python", Mini boulet</a></li><li><a href="games/game__2026_11_17__11_45_38_177299.html">2026/11/17 11:45:38</a><a> Toulousain, BOWSER, "Monty_Python", Default player name</a></li><li><a href="games/game__2026_11_17__11_45_36_667218.html">2026/11/17 11:45:36</a><a> "Monty_Python_Test", Gros boulet, Groupe 5</a></li><li><a href="games/game__2026_11_17__11_45_36_563749.html">2026/11/17 11:45:36</a><a> Le 4ème Empire "Vrai", KOOPA DOMINION test, BOWSER, Groupe 5</a></li><li><a href="games/game__2026_11_17__11_45_36_427072.html">2026/11/17 11:45:36</a><a> We Are The People, Toulousain test, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_45_36_368968.html">2026/11/17 11:45:36</a><a> Shortest (27 lines of Python), Default player name</a></li><li><a href="games/game__2026_11_17__11_45_36_361339.html">2026/11/17 11:45:36</a><a> Vincent Glicko, Toulousain, KOOPA DOMINION test, Vincent basique</a></li><li><a href="games/game__2026_11_17__11_45_36_215842.html">2026/11/17 11:45:36</a><a> Le 4ème Empire le Remake, Groupe 5, "Monty_Python_Test", Gros boulet</a></li><li><a href="games/game__2026_11_17__11_45_35_744040.html">2026/11/17 11:45:35</a><a> We Are The People, Toulousain</a></li><li><a href="games/game__2026_11_17__11_45_35_635402.html">2026/11/17 11:45:35</a><a> Toulousain, Shortest (27 lines of Python)</a></li><li><a href="games/game__2026_11_17__11_45_35_251976.html">2026/11/17 11:45:35</a><a> Toulousain, Le 4ème Empire le Remake, Toulousain test</a></li><li><a href="games/game__2026_11_17__11_45_34_494724.html">2026/11/17 11:45:34</a><a> BOWSER, Vincent Glicko, Le 4ème Empire le Remake</a></li><li><a href="games/game__2026_11_17__11_45_33_462335.html">2026/11/17 11:45:33</a><a> Le 4ème Empire "Vrai", Vincent bm</a></li><li><a href="games/game__2026_11_17__11_45_32_994835.html">2026/11/17 11:45:32</a><a> KOOPA DOMINION test, Empire Of The Sun, "Monty_Python", "Monty_Python_Test"</a></li><li><a href="games/game__2026_11_17__11_45_32_105860.html">2026/11/17 11:45:32</a><a> Groupe 5, Vincent bm, We Are The People, "Monty_Python"</a></li><li><a href="games/game__2026_11_17__11_45_31_994840.html">2026/11/17 11:45:31</a><a> Groupe 5, Toulousain test, Groupe 5, Mini boulet</a></li><li><a href="games/game__2026_11_17__11_45_30_843710.html">2026/11/17 11:45:30</a><a> KOOPA DOMINION test, Toulousain test, Vincent bm</a></li><li><a href="games/game__2026_11_17__11_45_30_651345.html">2026/11/17 11:45:30</a><a> Chloé, Shortest (27 lines of Python)</a></li><li><a href="games/game__2026_11_17__11_45_30_016691.html">2026/11/17 11:45:30</a><a> Le 4ème Empire le Remake, Chloé, Vincent basique</a></li><li><a href="games/game__2026_11_17__11_45_29_868222.html">2026/11/17 11:45:29</a><a> We Are The People, Default player name</a></li><li><a href="games/game__2026_11_17__11_45_25_989898.html">2026/11/17 11:45:25</a><a> Toulousain, Vincent Glicko, Default player name</a></li><li><a href="games/game__2026_11_17__11_45_25_306701.html">2026/11/17 11:45:25</a><a> Shortest (27 lines of Python), Mini boulet</a></li><li><a href="games/game__2026_11_17__11_45_22_748514.html">2026/11/17 11:45:22</a><a> Toulousain, We Are The People</a></li><li><a href="games/game__2026_11_17__11_45_17_155028.html">2026/11/17 11:45:17</a><a> Le 4ème Empire "Vrai", Toulousain, We Are The People, Vincent</a></li><li><a href="games/game__2026_11_17__11_45_16_145218.html">2026/11/17 11:45:16</a><a> KOOPA DOMINION test, Mini boulet</a></li><li><a href="games/game__2026_11_17__11_45_15_094362.html">2026/11/17 11:45:15</a><a> Toulousain, Le 4ème Empire le Remake</a></li><li><a href="games/game__2026_11_17__11_45_11_684296.html">2026/11/17 11:45:11</a><a> We Are The People, Vincent basique, Shortest (27 lines of Python)</a></li><li><a href="games/game__2026_11_17__11_45_11_277833.html">2026/11/17 11:45:11</a><a> BOWSER, Mini boulet</a></li><li><a href="games/game__2026_11_17__11_45_09_489418.html">2026/11/17 11:45:09</a><a> Groupe 5, "Monty_Python", Vincent basique, Shortest (27 lines of Python)</a></li><li><a href="games/game__2026_11_17__11_45_08_343470.html">2026/11/17 11:45:08</a><a> Empire Of The Sun, "Monty_Python", Mini boulet</a></li><li><a href="games/game__2026_11_17__11_45_07_482045.html">2026/11/17 11:45:07</a><a> Vincent bm, "Monty_Python_Test", Toulousain test</a></li><li><a href="games/game__2026_11_17__11_44_13_855285.html">2026/11/17 11:44:13</a><a> Empire Of The Sun, Chloé, Groupe 5</a></li><li><a href="games/game__2026_11_17__11_44_13_574133.html">2026/11/17 11:44:13</a><a> Le 4ème Empire le Remake, "Monty_Python", Vincent bm, Mini boulet</a></li><li><a href="games/game__2026_11_17__11_44_12_902241.html">2026/11/17 11:44:12</a><a> Vincent basique, "Monty_Python", Groupe 5</a></li><li><a href="games/game__2026_11_17__11_44_10_807636.html">2026/11/17 11:44:10</a><a> Empire Of The Sun, Toulousain test</a></li><li><a href="games/game__2026_11_17__11_44_08_517337.html">2026/11/17 11:44:08</a><a> We Are The People, Toulousain</a></li><li><a href="games/game__2026_11_17__11_44_05_265480.html">2026/11/17 11:44:05</a><a> Toulousain, Vincent bm, Vincent, "Monty_Python"</a></li><li><a href="games/game__2026_11_17__11_44_04_721201.html">2026/11/17 11:44:04</a><a> We Are The People, Le 4ème Empire le Remake, Mini boulet</a></li><li><a href="games/game__2026_11_17__11_44_04_253372.html">2026/11/17 11:44:04</a><a> Toulousain, Toulousain test</a></li><li><a href="games/game__2026_11_17__11_44_03_320806.html">2026/11/17 11:44:03</a><a> Empire Of The Sun, "Monty_Python", Mini boulet</a></li><li><a href="games/game__2026_11_17__11_44_02_488672.html">2026/11/17 11:44:02</a><a> Le 4ème Empire "Vrai", Empire Of The Sun, Toulousain test, Chloé</a></li><li><a href="games/game__2026_11_17__11_43_59_479765.html">2026/11/17 11:43:59</a><a> Le 4ème Empire le Remake, "Monty_Python_Test", Vincent Glicko</a></li><li><a href="games/game__2026_11_17__11_43_57_565458.html">2026/11/17 11:43:57</a><a> Groupe 5, Toulousain test, Default player name</a></li><li><a href="games/game__2026_11_17__11_43_48_351496.html">2026/11/17 11:43:48</a><a> KOOPA DOMINION test, Le 4ème Empire "Vrai", "Monty_Python"</a></li><li><a href="games/game__2026_11_17__11_43_48_265605.html">2026/11/17 11:43:48</a><a> KOOPA DOMINION test, "Monty_Python_Test"</a></li><li><a href="games/game__2026_11_17__11_43_47_256004.html">2026/11/17 11:43:47</a><a> Empire Of The Sun, We Are The People, Vincent basique, Groupe 5</a></li><li><a href="games/game__2026_11_17__11_43_46_710187.html">2026/11/17 11:43:46</a><a> Groupe 5, Vincent</a></li><li><a href="games/game__2026_11_17__11_43_46_069832.html">2026/11/17 11:43:46</a><a> BOWSER, Toulousain, Shortest (27 lines of Python)</a></li><li><a href="games/game__2026_11_17__11_43_44_635833.html">2026/11/17 11:43:44</a><a> Le 4ème Empire le Remake, "Monty_Python_Test", "Monty_Python"</a></li><li><a href="games/game__2026_11_17__11_43_44_001588.html">2026/11/17 11:43:44</a><a> "Monty_Python", Vincent basique, Vincent Glicko, Default player name</a></li><li><a href="games/game__2026_11_17__11_43_43_444710.html">2026/11/17 11:43:43</a><a> Toulousain, Empire Of The Sun, Vincent Glicko, Default player name</a></li><li><a href="games/game__2026_11_17__11_43_42_067757.html">2026/11/17 11:43:42</a><a> Vincent basique, Chloé</a></li><li><a href="games/game__2026_11_17__11_43_41_989997.html">2026/11/17 11:43:41</a><a> Le 4ème Empire le Remake, "Monty_Python", Vincent bm, Vincent Glicko</a></li><li><a href="games/game__2026_11_17__11_43_40_940381.html">2026/11/17 11:43:40</a><a> Le 4ème Empire le Remake, Toulousain test</a></li><li><a href="games/game__2026_11_17__11_43_40_309149.html">2026/11/17 11:43:40</a><a> KOOPA DOMINION test, "Monty_Python"</a></li><li><a href="games/game__2026_11_17__11_43_40_086976.html">2026/11/17 11:43:40</a><a> KOOPA DOMINION test, "Monty_Python", Groupe 5, Vincent basique</a></li><li><a href="games/game__2026_11_17__11_43_38_883647.html">2026/11/17 11:43:38</a><a> Vincent Glicko, Vincent bm, Vincent</a></li><li><a href="games/game__2026_11_17__11_43_38_444499.html">2026/11/17 11:43:38</a><a> Le 4ème Empire "Vrai", Shortest (27 lines of Python), KOOPA DOMINION test, Vincent bm</a></li><li><a href="games/game__2026_11_17__11_43_38_329232.html">2026/11/17 11:43:38</a><a> KOOPA DOMINION test, We Are The People, Vincent, Default player name</a></li><li><a href="games/game__2026_11_17__11_43_37_902958.html">2026/11/17 11:43:37</a><a> Le 4ème Empire "Vrai", Empire Of The Sun, "Monty_Python_Test", Vincent</a></li><li><a href="games/game__2026_11_17__11_43_36_113871.html">2026/11/17 11:43:36</a><a> Gros boulet, Toulousain test</a></li><li><a href="games/game__2026_11_17__11_43_34_047828.html">2026/11/17 11:43:34</a><a> BOWSER, Shortest (27 lines of Python)</a></li><li><a href="games/game__2026_11_17__11_43_33_191192.html">2026/11/17 11:43:33</a><a> KOOPA DOMINION test, Groupe 5, Toulousain, Mini boulet</a></li><li><a href="games/game__2026_11_17__11_43_32_622279.html">2026/11/17 11:43:32</a><a> Empire Of The Sun, Groupe 5, "Monty_Python_Test"</a></li><li><a href="games/game__2026_11_17__11_43_30_023005.html">2026/11/17 11:43:30</a><a> Le 4ème Empire le Remake, Groupe 5, Groupe 5</a></li><li><a href="games/game__2026_11_17__11_43_29_893024.html">2026/11/17 11:43:29</a><a> BOWSER, Vincent Glicko, Toulousain, Shortest (27 lines of Python)</a></li><li><a href="games/game__2026_11_17__11_43_29_069179.html">2026/11/17 11:43:29</a><a> Le 4ème Empire le Remake, Vincent bm, Vincent, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_43_28_895757.html">2026/11/17 11:43:28</a><a> Toulousain, We Are The People</a></li><li><a href="games/game__2026_11_17__11_43_28_490799.html">2026/11/17 11:43:28</a><a> Empire Of The Sun, Default player name</a></li><li><a href="games/game__2026_11_17__11_43_28_351303.html">2026/11/17 11:43:28</a><a> Vincent Glicko, Shortest (27 lines of Python), Chloé</a></li><li><a href="games/game__2026_11_17__11_43_27_205134.html">2026/11/17 11:43:27</a><a> Toulousain test, Vincent basique, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_43_26_792533.html">2026/11/17 11:43:26</a><a> We Are The People, Groupe 5, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_43_25_624737.html">2026/11/17 11:43:25</a><a> Le 4ème Empire le Remake, "Monty_Python_Test", Vincent basique</a></li><li><a href="games/game__2026_11_17__11_43_23_263656.html">2026/11/17 11:43:23</a><a> Le 4ème Empire le Remake, Groupe 5, Mini boulet</a></li><li><a href="games/game__2026_11_17__11_43_22_253306.html">2026/11/17 11:43:22</a><a> BOWSER, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_43_21_800789.html">2026/11/17 11:43:21</a><a> Empire Of The Sun, Le 4ème Empire le Remake, Groupe 5, BOWSER</a></li><li><a href="games/game__2026_11_17__11_43_20_836719.html">2026/11/17 11:43:20</a><a> Toulousain test, Default player name</a></li><li><a href="games/game__2026_11_17__11_43_20_194864.html">2026/11/17 11:43:20</a><a> KOOPA DOMINION test, Vincent basique</a></li><li><a href="games/game__2026_11_17__11_43_19_646184.html">2026/11/17 11:43:19</a><a> Empire Of The Sun, Vincent Glicko, Le 4ème Empire le Remake, Toulousain test</a></li><li><a href="games/game__2026_11_17__11_43_18_513950.html">2026/11/17 11:43:18</a><a> KOOPA DOMINION test, Le 4ème Empire le Remake, Vincent basique</a></li><li><a href="games/game__2026_11_17__11_43_18_147386.html">2026/11/17 11:43:18</a><a> Le 4ème Empire "Vrai", Groupe 5, Vincent bm</a></li><li><a href="games/game__2026_11_17__11_43_15_180207.html">2026/11/17 11:43:15</a><a> Toulousain, Le 4ème Empire le Remake</a></li><li><a href="games/game__2026_11_17__11_43_15_165456.html">2026/11/17 11:43:15</a><a> Le 4ème Empire le Remake, KOOPA DOMINION test, Chloé, "Monty_Python"</a></li><li><a href="games/game__2026_11_17__11_43_14_430144.html">2026/11/17 11:43:14</a><a> Toulousain, Le 4ème Empire le Remake, Vincent basique, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_43_14_395990.html">2026/11/17 11:43:14</a><a> KOOPA DOMINION test, We Are The People, Vincent</a></li><li><a href="games/game__2026_11_17__11_43_13_099059.html">2026/11/17 11:43:13</a><a> Groupe 5, Gros boulet, Default player name</a></li><li><a href="games/game__2026_11_17__11_43_12_728061.html">2026/11/17 11:43:12</a><a> Groupe 5, Chloé, Vincent basique</a></li><li><a href="games/game__2026_11_17__11_43_12_343559.html">2026/11/17 11:43:12</a><a> "Monty_Python_Test", Vincent, Default player name, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_43_11_438250.html">2026/11/17 11:43:11</a><a> Toulousain, Shortest (27 lines of Python), Default player name</a></li><li><a href="games/game__2026_11_17__11_43_10_130164.html">2026/11/17 11:43:10</a><a> Le 4ème Empire "Vrai", Vincent Glicko, Groupe 5, Toulousain test</a></li><li><a href="games/game__2026_11_17__11_43_08_548598.html">2026/11/17 11:43:08</a><a> Le 4ème Empire "Vrai", Vincent bm, Chloé</a></li><li><a href="games/game__2026_11_17__11_43_07_155429.html">2026/11/17 11:43:07</a><a> KOOPA DOMINION test, Vincent, Toulousain test, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_43_06_004945.html">2026/11/17 11:43:06</a><a> BOWSER, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_43_04_768793.html">2026/11/17 11:43:04</a><a> Le 4ème Empire "Vrai", Toulousain, Vincent bm, "Monty_Python"</a></li><li><a href="games/game__2026_11_17__11_43_03_719173.html">2026/11/17 11:43:03</a><a> Shortest (27 lines of Python), Mini boulet</a></li><li><a href="games/game__2026_11_17__11_43_03_448825.html">2026/11/17 11:43:03</a><a> BOWSER, Le 4ème Empire "Vrai"</a></li><li><a href="games/game__2026_11_17__11_43_02_659791.html">2026/11/17 11:43:02</a><a> Vincent basique, Vincent, Shortest (27 lines of Python)</a></li><li><a href="games/game__2026_11_17__11_43_02_464805.html">2026/11/17 11:43:02</a><a> Toulousain test, Mini boulet, "Monty_Python_Test", Default player name</a></li><li><a href="games/game__2026_11_17__11_43_01_924149.html">2026/11/17 11:43:01</a><a> KOOPA DOMINION test, BOWSER, "Monty_Python_Test", Default player name</a></li><li><a href="games/game__2026_11_17__11_43_01_919038.html">2026/11/17 11:43:01</a><a> Le 4ème Empire "Vrai", Chloé, Shortest (27 lines of Python)</a></li><li><a href="games/game__2026_11_17__11_43_01_714533.html">2026/11/17 11:43:01</a><a> Toulousain, "Monty_Python", Chloé, Mini boulet</a></li><li><a href="games/game__2026_11_17__11_43_01_466973.html">2026/11/17 11:43:01</a><a> Empire Of The Sun, Groupe 5, We Are The People, Shortest (27 lines of Python)</a></li><li><a href="games/game__2026_11_17__11_43_00_531950.html">2026/11/17 11:43:00</a><a> KOOPA DOMINION test, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_43_00_494153.html">2026/11/17 11:43:00</a><a> We Are The People, Chloé</a></li><li><a href="games/game__2026_11_17__11_43_00_124041.html">2026/11/17 11:43:00</a><a> BOWSER, Vincent Glicko, KOOPA DOMINION test</a></li><li><a href="games/game__2026_11_17__11_42_59_749997.html">2026/11/17 11:42:59</a><a> Le 4ème Empire "Vrai", We Are The People, Toulousain, Groupe 5</a></li><li><a href="games/game__2026_11_17__11_42_57_789431.html">2026/11/17 11:42:57</a><a> Groupe 5, Le 4ème Empire "Vrai", Mini boulet</a></li><li><a href="games/game__2026_11_17__11_42_57_177923.html">2026/11/17 11:42:57</a><a> We Are The People, KOOPA DOMINION test</a></li><li><a href="games/game__2026_11_17__11_42_56_887926.html">2026/11/17 11:42:56</a><a> KOOPA DOMINION test, Vincent, Mini boulet, Toulousain test</a></li><li><a href="games/game__2026_11_17__11_42_56_526678.html">2026/11/17 11:42:56</a><a> Toulousain test, Default player name</a></li><li><a href="games/game__2026_11_17__11_42_56_040466.html">2026/11/17 11:42:56</a><a> Groupe 5, Vincent basique</a></li><li><a href="games/game__2026_11_17__11_42_55_477345.html">2026/11/17 11:42:55</a><a> Le 4ème Empire le Remake, Vincent Glicko</a></li><li><a href="games/game__2026_11_17__11_42_54_750019.html">2026/11/17 11:42:54</a><a> Empire Of The Sun, Groupe 5, "Monty_Python_Test"</a></li><li><a href="games/game__2026_11_17__11_42_53_731748.html">2026/11/17 11:42:53</a><a> Vincent bm, Le 4ème Empire le Remake, Toulousain</a></li><li><a href="games/game__2026_11_17__11_42_51_947205.html">2026/11/17 11:42:51</a><a> Vincent basique, Vincent</a></li><li><a href="games/game__2026_11_17__11_42_51_207383.html">2026/11/17 11:42:51</a><a> BOWSER, Toulousain, Le 4ème Empire le Remake, Chloé</a></li><li><a href="games/game__2026_11_17__11_42_49_497744.html">2026/11/17 11:42:49</a><a> We Are The People, Le 4ème Empire le Remake, Empire Of The Sun, Mini boulet</a></li><li><a href="games/game__2026_11_17__11_42_48_862687.html">2026/11/17 11:42:48</a><a> "Monty_Python_Test", Vincent bm</a></li><li><a href="games/game__2026_11_17__11_42_47_532516.html">2026/11/17 11:42:47</a><a> Empire Of The Sun, We Are The People, Vincent bm, Shortest (27 lines of Python)</a></li><li><a href="games/game__2026_11_17__11_42_46_995583.html">2026/11/17 11:42:46</a><a> Groupe 5, Vincent basique, Vincent</a></li><li><a href="games/game__2026_11_17__11_42_46_242212.html">2026/11/17 11:42:46</a><a> Le 4ème Empire "Vrai", Groupe 5, Mini boulet, Default player name</a></li><li><a href="games/game__2026_11_17__11_42_45_781564.html">2026/11/17 11:42:45</a><a> Vincent basique, Groupe 5, Toulousain test</a></li><li><a href="games/game__2026_11_17__11_42_45_415290.html">2026/11/17 11:42:45</a><a> We Are The People, Vincent bm</a></li><li><a href="games/game__2026_11_17__11_42_44_726161.html">2026/11/17 11:42:44</a><a> Vincent bm, Default player name, Toulousain test</a></li><li><a href="games/game__2026_11_17__11_42_44_246138.html">2026/11/17 11:42:44</a><a> Le 4ème Empire le Remake, Shortest (27 lines of Python)</a></li><li><a href="games/game__2026_11_17__11_42_43_533276.html">2026/11/17 11:42:43</a><a> KOOPA DOMINION test, Vincent</a></li><li><a href="games/game__2026_11_17__11_42_43_113228.html">2026/11/17 11:42:43</a><a> Vincent bm, Default player name, Toulousain test</a></li><li><a href="games/game__2026_11_17__11_42_42_093185.html">2026/11/17 11:42:42</a><a> KOOPA DOMINION test, Vincent basique</a></li><li><a href="games/game__2026_11_17__11_42_41_267744.html">2026/11/17 11:42:41</a><a> Vincent bm, Shortest (27 lines of Python)</a></li><li><a href="games/game__2026_11_17__11_42_40_343106.html">2026/11/17 11:42:40</a><a> Vincent basique, Gros boulet</a></li><li><a href="games/game__2026_11_17__11_41_40_645639.html">2026/11/17 11:41:40</a><a> Le 4ème Empire "Vrai", Mini boulet</a></li></ul><a>
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/luxon"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon"></script>
+        <script>
+            const { DateTime } = luxon;
+
+            const ctx = document.getElementById("myChart").getContext("2d");
+
+            const data = {
+                labels: [
+                    DateTime.fromISO("2026-11-09").toISO(),
+                    DateTime.now().toISO(),
+                ],
+                datasets: [          {
+            label: 'https://dopynion.lecalamar.fr/random_strategy_but_better/',
+            backgroundColor: "#40E0D0",
+            borderColor: "#40E0D0",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 749}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 725}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 732}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 703}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 714}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 743}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 702}
+            ],
+          },
+          {
+            label: 'https://dopynion.lecalamar.fr/random_strategy/',
+            backgroundColor: "#4B0082",
+            borderColor: "#4B0082",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 570}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 523}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 537}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 510}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 528}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 561}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 507}
+            ],
+          },
+          {
+            label: 'https://dopynion.lecalamar.fr/chloe/',
+            backgroundColor: "#cb4b16",
+            borderColor: "#cb4b16",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 1158}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 1123}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 1130}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 1112}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 1104}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 991}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 949}
+            ],
+          },
+          {
+            label: 'https://dopynion.lecalamar.fr/vincent/',
+            backgroundColor: "#708090",
+            borderColor: "#708090",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 981}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 1004}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 948}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 1008}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 982}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 981}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 965}
+            ],
+          },
+          {
+            label: 'https://dopynion-template.lecalamar.fr/',
+            backgroundColor: "#FF7F50",
+            borderColor: "#FF7F50",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 530}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 479}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 483}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 535}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 497}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 565}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 507}
+            ],
+          },
+          {
+            label: 'https://dopynion.lecalamar.fr/vincent_glicko/',
+            backgroundColor: "#B22222",
+            borderColor: "#B22222",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 1251}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 1262}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 1298}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 1296}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 1250}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 1113}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 1164}
+            ],
+          },
+          {
+            label: 'https://macalaurien.alwaysdata.net/',
+            backgroundColor: "#6c71c4",
+            borderColor: "#6c71c4",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 993}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 983}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 989}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 996}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 963}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 1016}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 1044}
+            ],
+          },
+          {
+            label: 'https://rdubourgeois.alwaysdata.net/',
+            backgroundColor: "#859900",
+            borderColor: "#859900",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 989}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 978}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 1011}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 994}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 990}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 1005}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 1043}
+            ],
+          },
+          {
+            label: 'https://dopynion.lecalamar.fr/vincent_basic/',
+            backgroundColor: "#FF00FF",
+            borderColor: "#FF00FF",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 1168}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 1208}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 1171}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 1116}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 1176}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 1086}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 1046}
+            ],
+          },
+          {
+            label: 'https://dopynion.lecalamar.fr/vincent_bm/',
+            backgroundColor: "#40E0D0",
+            borderColor: "#40E0D0",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 1318}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 1250}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 1303}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 1219}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 1322}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 1206}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 1225}
+            ],
+          },
+          {
+            label: 'https://dopynion.lecalamar.fr/shortest_strategy/',
+            backgroundColor: "#2E8B57",
+            borderColor: "#2E8B57",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 876}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 928}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 929}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 908}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 917}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 962}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 989}
+            ],
+          },
+          {
+            label: 'https://le-4eme-empire.alwaysdata.net/',
+            backgroundColor: "#6c71c4",
+            borderColor: "#6c71c4",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 1395}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 1466}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 1455}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 1522}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 1478}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 1429}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 1456}
+            ],
+          },
+          {
+            label: 'https://befre.alwaysdata.net/',
+            backgroundColor: "#B22222",
+            borderColor: "#B22222",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 1337}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 1326}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 1342}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 1308}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 1328}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 1302}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 1357}
+            ],
+          },
+          {
+            label: 'https://bowser.alwaysdata.net/',
+            backgroundColor: "#00BFFF",
+            borderColor: "#00BFFF",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 1003}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 969}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 1024}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 1033}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 1009}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 1428}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 1463}
+            ],
+          },
+          {
+            label: 'https://ricardo2026.alwaysdata.net/',
+            backgroundColor: "#E6E6FA",
+            borderColor: "#E6E6FA",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 1241}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 1268}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 1212}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 1273}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 1234}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 1119}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 1176}
+            ],
+          },
+          {
+            label: 'https://royaume.ahliko.fr/',
+            backgroundColor: "#2E8B57",
+            borderColor: "#2E8B57",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 1413}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 1336}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 1360}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 1351}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 1382}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 1375}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 1491}
+            ],
+          },
+          {
+            label: 'https://alves.alwaysdata.net/',
+            backgroundColor: "#D2691E",
+            borderColor: "#D2691E",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 1409}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 1369}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 1348}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 1375}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 1388}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 1139}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 925}
+            ],
+          },
+          {
+            label: 'https://einstein.alwaysdata.net/',
+            backgroundColor: "#708090",
+            borderColor: "#708090",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 1235}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 1268}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 1223}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 1223}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 1251}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 1264}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 1229}
+            ],
+          },
+          {
+            label: 'https://le-4eme-empire-le-remake.alwaysdata.net/',
+            backgroundColor: "#DC143C",
+            borderColor: "#DC143C",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 1336}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 1438}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 1418}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 1422}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 1407}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 1396}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 1373}
+            ],
+          },
+          {
+            label: 'https://marioluigi.alwaysdata.net/',
+            backgroundColor: "#2E8B57",
+            borderColor: "#2E8B57",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 1199}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 1200}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 1219}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 1244}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 1222}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 1441}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 1456}
+            ],
+          },
+          {
+            label: 'https://royaume.ahliko.fr/dev/',
+            backgroundColor: "#40E0D0",
+            borderColor: "#40E0D0",
+            fill: false,
+            data: [
+              {x: DateTime.fromISO("2026-11-09").toISO(), y: 1330}, 
+              {x: DateTime.fromISO("2026-11-10").toISO(), y: 1378}, 
+              {x: DateTime.fromISO("2026-11-11").toISO(), y: 1349}, 
+              {x: DateTime.fromISO("2026-11-14").toISO(), y: 1333}, 
+              {x: DateTime.fromISO("2026-11-15").toISO(), y: 1339}, 
+              {x: DateTime.fromISO("2026-11-16").toISO(), y: 1359}, 
+              {x: DateTime.fromISO("2026-11-17").toISO(), y: 1414}
+            ],
+          }],
+            };
+            const config = {
+                type: "line",
+                data: data,
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        title: {
+                            text: "Scores",
+                            display: true,
+                        },
+                    },
+                    scales: {
+                        x: {
+                            type: "time",
+                            time: {
+                                unit: "week", // Set the unit to 'day'
+                                tooltipFormat: "yyyy-MM-dd", // Format for tooltips
+                                displayFormats: {
+                                    day: "yyyy-MM-dd", // Format for x-axis ticks
+                                },
+                            },
+                            title: {
+                                display: true,
+                                text: "Date",
+                            },
+                        },
+                        y: {
+                            title: {
+                                display: true,
+                                text: "Score",
+                            },
+                        },
+                    },
+                },
+            };
+            new Chart(ctx, config);
+        </script>
+    
+</a></body></html>

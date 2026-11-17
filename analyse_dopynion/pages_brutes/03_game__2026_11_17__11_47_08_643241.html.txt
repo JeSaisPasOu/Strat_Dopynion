@@ -1,0 +1,907 @@
+Partie du 2026-11-17T11:47:08.643241+01:00
+Réserve initiale
+Tour 1 : Vincent bm
+Achète Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 1 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 1 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 1 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 2 : Vincent bm
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 3
+
+Tour 2 : Vincent basique
+Achète Rénovation
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 2 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 2 : Groupe 5
+Achète Prêteur sur gages
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 3 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Estate])
+
+Vincent bm a répondu Estate
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Estate, Curse, Copper, Bureaucrat, Fortuneteller, Moneylender, Silver, Remodel, Cellar])
+
+Vincent bm a répondu Silver
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 2
+
+Tour 3 : Vincent basique
+Joue Rénovation
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Vincent basique: trash_card_from_hand
+
+Hand(hand=[Estate, Estate, Copper, Estate])
+
+Vincent basique a répondu Estate
+
+Vincent basique: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Estate, Curse, Copper, Bureaucrat, Fortuneteller, Moneylender, Silver, Remodel, Cellar])
+
+Vincent basique a répondu Silver
+
+Achète Cuivre
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 2
+
+Tour 3 : Vincent Glicko
+Achète Or
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 3 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 4 : Vincent bm
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 2
+
+Tour 4 : Vincent basique
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 2
+
+Tour 4 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 4 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 5 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Copper, Copper, Copper, Estate])
+
+Vincent bm a répondu Estate
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Estate, Curse, Copper, Bureaucrat, Fortuneteller, Moneylender, Silver, Remodel, Cellar])
+
+Vincent bm a répondu Silver
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 1
+
+Tour 5 : Vincent basique
+Achète Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 2
+
+Tour 5 : Vincent Glicko
+Achète Argent
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 5 : Groupe 5
+Joue Prêteur sur gages
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Silver, Estate, Copper, Estate])
+
+Groupe 5 a répondu True
+
+Achète Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 6 : Vincent bm
+Achète Sorcière
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 1
+
+Tour 6 : Vincent basique
+Joue Rénovation
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Vincent basique: trash_card_from_hand
+
+Hand(hand=[Estate, Estate, Silver, Copper])
+
+Vincent basique a répondu Estate
+
+Vincent basique: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Estate, Curse, Copper, Bureaucrat, Fortuneteller, Moneylender, Silver, Remodel, Cellar])
+
+Vincent basique a répondu Silver
+
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 1
+
+Tour 6 : Vincent Glicko
+Achète Or
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 3
+
+Tour 6 : Groupe 5
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 7 : Vincent bm
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 7
+
+Tour 7 : Vincent basique
+Achète Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 1
+
+Tour 7 : Vincent Glicko
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a pour l'instant un score de 9
+
+Tour 7 : Groupe 5
+Achète Or
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 8 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Witch, Copper, Estate, Silver])
+
+Vincent bm a répondu Estate
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Estate, Curse, Copper, Bureaucrat, Fortuneteller, Moneylender, Silver, Remodel, Cellar])
+
+Vincent bm a répondu Silver
+
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 6
+
+Tour 8 : Vincent basique
+Joue Rénovation
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Vincent basique: trash_card_from_hand
+
+Hand(hand=[Copper, Silver, Estate, Silver])
+
+Vincent basique a répondu Estate
+
+Vincent basique: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Estate, Curse, Copper, Bureaucrat, Fortuneteller, Moneylender, Silver, Remodel, Cellar])
+
+Vincent basique a répondu Silver
+
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 0
+
+Tour 8 : Vincent Glicko
+Achète Or
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 9
+
+Tour 8 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Argent
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 3
+
+Tour 9 : Vincent bm
+Achète Or
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a pour l'instant un score de 5
+
+Tour 9 : Vincent basique
+Achète Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de -1
+
+Tour 9 : Vincent Glicko
+Achète Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 8
+
+Tour 9 : Groupe 5
+Joue Prêteur sur gages
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Copper, Silver, Silver])
+
+Groupe 5 a répondu True
+
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 9
+
+Tour 10 : Vincent bm
+Achète Argent
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 5
+
+Tour 10 : Vincent basique
+Joue Rénovation
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Vincent basique: trash_card_from_hand
+
+Hand(hand=[Hireling, Copper, Silver, Silver])
+
+Vincent basique a répondu Hireling
+
+Vincent basique: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Province, Estate, Curse, Copper, Witch, Councilroom, Bureaucrat, Festival, Mine, Fortuneteller, Moneylender, Silver, Hireling, Duchy, Gold, Remodel, Cellar])
+
+Vincent basique a répondu Province
+
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 5
+
+Tour 10 : Vincent Glicko
+Joue Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Achète Cave
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 8
+
+Tour 10 : Groupe 5
+Joue Sorcière
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 15
+
+Tour 11 : Vincent bm
+Joue Sorcière
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 10
+
+Tour 11 : Vincent basique
+Joue Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Argent
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 3
+
+Tour 11 : Vincent Glicko
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 12
+
+Tour 11 : Groupe 5
+Achète Duché
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 17
+
+Tour 12 : Vincent bm
+Achète Province
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 16
+
+Tour 12 : Vincent basique
+Joue Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique joue
+
+Achète Province
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a pour l'instant un score de 9
+
+Tour 12 : Vincent Glicko
+Achète Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 12
+
+Tour 12 : Groupe 5
+Joue Prêteur sur gages
+
+Groupe 5 a ces cartes :
+
+Groupe 5 joue
+
+Groupe 5: confirm_trash_card_from_hand
+
+CardNameAndHand(card_name=Copper, hand=[Copper, Silver, Silver, Copper])
+
+Groupe 5 a répondu True
+
+Achète Province
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a pour l'instant un score de 23
+
+Tour 13 : Vincent bm
+Joue Rénovation
+
+Vincent bm a ces cartes :
+
+Vincent bm joue
+
+Vincent bm: trash_card_from_hand
+
+Hand(hand=[Copper, Copper, Curse, Province])
+
+Vincent bm a répondu Curse
+
+Vincent bm: choose_card_to_receive_in_discard
+
+PossibleCards(possible_cards=[Copper, Cellar, Estate, Curse])
+
+Vincent bm a répondu Copper
+
+Achète Domaine
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 18
+
+Tour 13 : Vincent basique
+Achète Recrue
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 9
+
+Tour 13 : Vincent Glicko
+Joue Recrue
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko joue
+
+Achète Province
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko achète
+
+Fin Du Tour
+
+Vincent Glicko a ces cartes :
+
+Vincent Glicko a pour l'instant un score de 18
+
+Tour 13 : Groupe 5
+Achète Domaine
+
+Groupe 5 a ces cartes :
+
+Groupe 5 achète
+
+Fin Du Tour
+
+Groupe 5 a ces cartes :
+
+Groupe 5 a pour l'instant un score de 24
+
+Tour 14 : Vincent bm
+Achète Duché
+
+Vincent bm a ces cartes :
+
+Vincent bm achète
+
+Fin Du Tour
+
+Vincent bm a ces cartes :
+
+Vincent bm a pour l'instant un score de 21
+
+Tour 14 : Vincent basique
+Achète Province
+
+Vincent basique a ces cartes :
+
+Vincent basique achète
+
+Fin Du Tour
+
+Vincent basique a ces cartes :
+
+Vincent basique a pour l'instant un score de 15
+
+Score
+Groupe 5 a un score de 24
+Vincent bm a un score de 21
+Vincent Glicko a un score de 18
+Vincent basique a un score de 15
