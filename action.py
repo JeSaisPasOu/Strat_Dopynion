@@ -40,7 +40,12 @@ EFFETS_ACTION: dict[CardName, EffetsAction] = {
     CardName.FORTUNETELLER : EffetsAction(bonus_money=2),
     CardName.LIBRARY : EffetsAction(),
     CardName.MAGNATE : EffetsAction(),
-    CardName.WORKSHOP : EffetsAction()
+    CardName.WORKSHOP : EffetsAction(),
+    CardName.CHAPEL : EffetsAction(),
+    CardName.MINE : EffetsAction(),
+    CardName.MONEYLENDER : EffetsAction(bonus_money=3),
+    CardName.REMODEL : EffetsAction(),
+    CardName.SWAP : EffetsAction(actions=1)
 }
 
 
