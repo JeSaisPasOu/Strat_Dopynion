@@ -26,7 +26,6 @@ def recuperer_statistiques():
 
     liste_globale = titre_last_games.find_next('ul')
     
-    # Récupérer les liens contenant le nom du bot
     liens_parties = []
     for li in liste_globale.find_all('li'):
         a_tag = li.find('a')
@@ -54,38 +53,47 @@ def recuperer_statistiques():
             req = requests.get(url_partie)
             game_soup = BeautifulSoup(req.text, 'html.parser')
             
-            # Recherche plus souple du titre "Score"
-            titre_score = game_soup.find(lambda tag: tag.name in ['h1', 'h2', 'h3', 'h4'] and 'Score' in tag.get_text(strip=True))
+            # Utiliser un dictionnaire pour écraser les scores intermédiaires et garder le score final
+            scores_finaux_dict = {}
             
-            if not titre_score:
-                print(f"⚠️ Pas de section 'Score' trouvée dans {url_partie} (Partie peut-être en cours ou plantée)")
-                continue
-
-            liste_scores = titre_score.find_next('ul')
-            if not liste_scores:
-                print(f"⚠️ Impossible de trouver la liste à puces des scores dans {url_partie}")
-                continue
-
-            scores_partie = []
-            for item in liste_scores.find_all('li'):
-                texte = item.get_text(strip=True)
-                # Expression régulière plus permissive pour pallier les espaces invisibles
+            # On scanne directement TOUS les éléments <li> de la page
+            for li in game_soup.find_all('li'):
+                # Nettoyage vital : on remplace les espaces HTML invisibles (\xa0) par des espaces standards
+                texte = li.get_text(strip=True).replace('\xa0', ' ')
+                
+                # On ignore les annonces de score en cours de jeu
+                if "pour l'instant" in texte:
+                    continue
+                    
+                # Recherche du pattern du score final
                 match = re.search(r'(.*?)\s+a un score de\s+(-?\d+)', texte, re.IGNORECASE)
                 if match:
                     joueur = match.group(1).strip()
                     score = int(match.group(2))
-                    scores_partie.append({'joueur': joueur, 'score': score})
+                    scores_finaux_dict[joueur] = score
 
-            if not scores_partie:
-                print(f"⚠️ Impossible de lire le texte des scores dans {url_partie}. Format inattendu.")
+            if not scores_finaux_dict:
+                print(f"⚠️ Impossible d'extraire les scores dans {url_partie}")
                 continue
 
-            # Trier les scores pour déterminer le classement
+            # Convertir le dictionnaire final en liste et le trier du meilleur au pire score
+            scores_partie = [{'joueur': j, 'score': s} for j, s in scores_finaux_dict.items()]
             scores_partie.sort(key=lambda x: x['score'], reverse=True)
+
+            # S'assurer que le nom du bot correspond bien (parfois il y a des espaces en trop)
+            bot_exact_name = None
+            for d in scores_partie:
+                if BOT_NAME in d['joueur']:
+                    bot_exact_name = d['joueur']
+                    break
+
+            if not bot_exact_name:
+                print(f"⚠️ Le bot '{BOT_NAME}' n'a pas été trouvé dans le classement final de {url_partie}")
+                continue
 
             # 4. Enregistrer la performance
             for rang, data in enumerate(scores_partie):
-                if data['joueur'] == BOT_NAME:
+                if data['joueur'] == bot_exact_name:
                     stats["jouees"] += 1
                     stats["total_points"] += data['score']
                     
@@ -113,7 +121,7 @@ def recuperer_statistiques():
         print(f"🎯 Score moyen     : {avg_score:.1f} points par partie")
         print("========================================")
     else:
-        print("\n❌ Aucune statistique n'a pu être extraite. Vérifie les alertes ⚠️ ci-dessus pour comprendre ce qui bloque.")
+        print("\n❌ Aucune statistique n'a pu être extraite.")
 
 if __name__ == "__main__":
     recuperer_statistiques()
