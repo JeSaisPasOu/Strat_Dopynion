@@ -8,7 +8,7 @@ from __future__ import annotations
 
 from collections import Counter
 from dataclasses import dataclass, field
-from math import prod
+from math import comb, prod
 from typing import Any, Mapping
 
 from dopynion.cards import Card
@@ -110,6 +110,8 @@ class Contexte:
     actions: int = 1
     achats_restants: int = 1
     budget: int = 0
+    # Hirelings jouées : elles restent en jeu, hors du paquet à mélanger.
+    hirelings_jouees: int = 0
     # Champ facultatif : valeurs visibles, et jamais points supposés.
     score_relatif_connu: float | None = None
 
@@ -125,7 +127,11 @@ class Contexte:
             return 1.5
         if self.piles_vides == 1 or self.provinces <= 3:
             return 3.2
-        return max(2.5, min(11.0, 18.0 - 0.65 * max(0, self.tour - 1)))
+        # Calibration prudente : dans les neuf matchs de la collecte du
+        # 17 novembre, la durée moyenne de Toulousain est ~20 tours.
+        # Ce n'est qu'un horizon heuristique, pas une information de l'arbitre.
+        estimation = 21.5 - 0.7 * max(0, self.joueurs_actifs - 2) - self.tour
+        return max(2.0, min(9.5, estimation))
 
     @property
     def deck(self) -> Counter:
@@ -135,6 +141,11 @@ class Contexte:
         cards.update({k: int(v) for k, v in self.achats.items() if int(v) > 0})
         cards.update({k: int(v) for k, v in self.gains.items() if int(v) > 0})
         cards.subtract({k: int(v) for k, v in self.detruits.items() if int(v) > 0})
+        # Hireling jouée demeure sur table : elle continue à faire piocher,
+        # mais n'encombre plus les prochaines mains. Nombre observé par /play.
+        hir = carte('HIRELING')
+        if hir is not None:
+            cards[hir] -= min(max(0, self.hirelings_jouees), max(0, cards[hir]))
         for k in list(cards):
             cards[k] = max(0, cards[k])
         # Les observations en main sont des bornes inférieures, pas une preuve
@@ -147,6 +158,12 @@ class Contexte:
 
     def copies(self, c) -> int:
         return nombre(self.deck, c)
+
+    def acquis(self, c) -> int:
+        """Exemplaires connus, y compris les durées déjà jouées."""
+        debut = 7 if c == carte('COPPER') else 3 if c == carte('ESTATE') else 0
+        return max(0, debut + nombre(self.achats, c) + nombre(self.gains, c)
+                   - nombre(self.detruits, c))
 
     @property
     def taille(self) -> int:
@@ -195,6 +212,31 @@ class Contexte:
         return 1.0 - prod((n - k - i) / (n - i) for i in range(tirages)) if n > tirages and n-k>=tirages else 1.0
 
 
+def chance_achat_avec_tresors(deck: Mapping, minimum: int = 8, cartes: int = 5) -> float:
+    """P(atteindre minimum pièces en tirant cartes sans remise).
+
+    Référence économique volontairement simple : ignore les bonus d'actions,
+    les cartes durées et les choix de défausse. Sert seulement comme signal
+    supplémentaire, jamais comme simulation exacte d'une partie.
+    """
+    cuivre = nombre(deck, carte('COPPER'))
+    argent_ = nombre(deck, carte('SILVER'))
+    or_ = nombre(deck, carte('GOLD'))
+    total = max(0, sum(max(0, int(v)) for v in deck.values()))
+    autres = max(0, total - cuivre - argent_ - or_)
+    tirages = min(total, max(0, cartes))
+    if tirages == 0: return 0.0
+    denom = comb(total, tirages)
+    favorable = 0
+    for a in range(min(cuivre,tirages)+1):
+        for b in range(min(argent_,tirages-a)+1):
+            for c in range(min(or_,tirages-a-b)+1):
+                d = tirages-a-b-c
+                if d > autres or a + 2*b + 3*c < minimum: continue
+                favorable += comb(cuivre,a)*comb(argent_,b)*comb(or_,c)*comb(autres,d)
+    return favorable / denom if denom else 0.0
+
+
 def seuil_cuivre(ctx: Contexte) -> int:
     """Empêche le piège observé dans l'historique : zéro trésor après Chapelle."""
     argent_, or_ = ctx.copies(carte('SILVER')), ctx.copies(carte('GOLD'))
@@ -213,7 +255,7 @@ def valeur_achat(c, ctx: Contexte) -> float:
     """
     if c is None or nombre(ctx.stock, c) <= 0 or cout(c) > ctx.budget:
         return float('-inf')
-    copies = ctx.copies(c)
+    copies = ctx.acquis(c) if c == carte('HIRELING') else ctx.copies(c)
     horizon = ctx.tours_restants
     fin = ctx.fin_proche
     n_joueurs = max(2, ctx.joueurs_actifs)
@@ -223,7 +265,11 @@ def valeur_achat(c, ctx: Contexte) -> float:
     if c == carte('PROVINCE'):
         return 205 + (12 if fin else 0)
     if c == carte('DUCHY'):
-        return 117 if fin and (ctx.provinces <= 2 or ctx.piles_vides >= 2) else 15
+        if ctx.provinces <= 2 or ctx.piles_vides >= 2:
+            return 120.0
+        if horizon <= 2.5 and ctx.tour >= 14:
+            return 97.0
+        return 12.0
     if c == carte('ESTATE'):
         return 87 if ctx.piles_vides >= 2 or ctx.provinces <= 1 else 0
     if c == carte('GARDENS'):
@@ -235,13 +281,31 @@ def valeur_achat(c, ctx: Contexte) -> float:
     if c == carte('SILVER'):
         score = 67 + 39 * max(0.0, (5.1 - ctx.puissance_main_moyenne)/5.1)
         score += 12 if ctx.economies_ameliorees == 0 else 0
-        score -= max(0, copies-3)*6
+        # Mesure de la progression vers les achats à 8 pièces. Une amélioration
+        # financière marginale est utile surtout quand il reste des tours.
+        avant = chance_achat_avec_tresors(ctx.deck, 8)
+        apres = Counter(ctx.deck)
+        apres[c] += 1
+        score += 75.0 * max(0, chance_achat_avec_tresors(apres, 8) - avant)
+        score -= max(0, copies-3)*9
         score -= 18 if fin else 0
+        # La collecte comporte des achats de 6e/7e Argent très tardifs.
+        # Éviter de diluer inutilement le deck à quelques tours du terme.
+        if ctx.tour >= 12 and copies >= 4:
+            score -= 20 + 7 * (copies - 4)
+        if horizon <= 4:
+            score -= 26
+        if horizon <= 2.5 and copies >= 3:
+            score = min(score, 12.0)
         return score
     if c == carte('GOLD'):
         score = 94 + 14 * max(0.0, (7.0 - ctx.puissance_main_moyenne)/7.0)
+        avant = chance_achat_avec_tresors(ctx.deck, 8)
+        apres = Counter(ctx.deck)
+        apres[c] += 1
+        score += 75.0 * max(0, chance_achat_avec_tresors(apres, 8) - avant)
         score -= max(0, copies-4)*5
-        score -= 12 if horizon <= 2 else 0
+        if horizon <= 2: score -= 20
         return score
 
     base = {
@@ -278,6 +342,8 @@ def valeur_achat(c, ctx: Contexte) -> float:
         surcharge = max(0, ctx.terminales - ctx.villages - 1)
         score -= min(48, surcharge * 11)
     if c in VILLAGES:
+        # Les Hirelings déjà jouées sont retirées des actions terminales :
+        # une durée en jeu n'a plus besoin d'un Village pour être jouée.
         besoin = max(0, ctx.terminales - ctx.villages - 1)
         score += min(47, 19 * besoin)
         if besoin == 0:
@@ -331,6 +397,11 @@ def valeur_action(c, ctx: Contexte) -> float:
     n_terminales = sum(nombre(ctx.main, k) for k in TERMINALES)
     bonus_actions = 2 if c in VILLAGES else 1 if c in CONTINUATIONS else 0
     score = 35 + 6*bonus_actions
+    # Avec une seule Action disponible, un Laboratoire/Village/Cellar jouable
+    # doit précéder l'action terminale : sinon on bloque la chaîne entière.
+    # Bonus limité aux mains où plusieurs Actions sont réellement présentes.
+    if c in CONTINUATIONS and n_actions >= 2 and ctx.actions <= max(1, n_terminales):
+        score += 28
     if c in VILLAGES:
         score += 22 if n_terminales>0 else 3
         if ctx.actions>=n_actions: score -= 12
@@ -354,7 +425,10 @@ def valeur_action(c, ctx: Contexte) -> float:
             return float('-inf')
         score += 14
     if c == CHAPEL:
-        dechets = sum(nombre(ctx.main, x) for x in (carte('ESTATE'),carte('CURSE')))
+        # Ne pas jouer une Chapelle tardive simplement parce qu'un Domaine
+        # est en main : la perte de points peut être supérieure au bénéfice.
+        dechets = sum(nombre(ctx.main, x) for x in (carte('ESTATE'),carte('CURSE'))
+                      if valeur_destruction(x,ctx)>0)
         if ctx.copies(carte('COPPER'))>seuil_cuivre(ctx):
             dechets += nombre(ctx.main,carte('COPPER'))
         if dechets == 0: return float('-inf')

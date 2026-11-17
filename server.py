@@ -63,7 +63,7 @@ def _new_state():
         'turn': 0, 'actions': 1, 'buys': 1, 'bonus_money': 0,
         'money_remaining': None, 'purchased': {}, 'gained': {},
         'trashed': {}, 'observed': {}, 'piles': {}, 'joueurs_actifs': 2,
-        'events': [],
+        'events': [], 'hirelings_jouees': 0,
     }
 
 
@@ -139,6 +139,7 @@ def _contexte(state, *, main=None, stock=None, player_count=None) -> Contexte:
         joueurs_actifs=int(player_count or state.get('joueurs_actifs',2)),
         actions=int(state.get('actions',1)),
         achats_restants=int(state.get('buys',1)),
+        hirelings_jouees=int(state.get('hirelings_jouees',0)),
         budget=int(state.get('money_remaining') if state.get('money_remaining') is not None
                    else (monnaie_en_main(main) if main is not None else 0)
                        +int(state.get('bonus_money',0))),
@@ -245,6 +246,9 @@ def play(game:Game,game_id:GameIdDependency)->DopynionResponseStr:
             s['actions']=max(0,int(s['actions'])-1+selection.actions)
             s['buys']+=selection.buys
             s['bonus_money']+=selection.bonus_money
+            hireling = carte('HIRELING')
+            if hireling is not None and selection.decision == f'ACTION {hireling.value}':
+                s['hirelings_jouees'] = int(s.get('hirelings_jouees',0)) + 1
             # Encore en phase Actions : le budget n'a normalement pas été figé.
             s['money_remaining']=None
             event=_evenement(s,'ACTION',selection.decision.split()[-1])
