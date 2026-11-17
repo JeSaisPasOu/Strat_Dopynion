@@ -1,231 +1,51 @@
-"""Évaluation et validation des achats pour Toulousain test."""
-
-from typing import Iterable, Mapping
-
-from dopynion.cards import Card
-from dopynion.data_model import CardName, Cards
-
-
-# Cartes gérées explicitement par la stratégie fournie. Silver est gardé comme
-# solution de repli économique quand aucune carte plus rentable n'est disponible.
-CARTES_STRATEGIE: tuple[CardName, ...] = (
-    CardName.PROVINCE,
-    CardName.GOLD,
-    CardName.HIRELING,
-    CardName.WITCH,
-    CardName.BANDIT,
-    CardName.LABORATORY,
-    CardName.FESTIVAL,
-    CardName.MILITIA,
-    CardName.COUNCILROOM,
-    CardName.MARKET,
-    CardName.SMITHY,
-    CardName.DISTANTSHORE,
-    CardName.SILVER,
-    CardName.WOODCUTTER,
-    CardName.FARMINGVILLAGE,
-    CardName.VILLAGE,
-    CardName.BUREAUCRAT,
-    CardName.CHANCELLOR,
-    CardName.GARDENS,
-    CardName.DUCHY,
-    CardName.ESTATE,
-)
+"""Achats de Toulousain V5, classés par le moteur central strategie.py."""
+from dataclasses import replace
+from dopynion.data_model import CardName
+from strategie import (CARTES_STRATEGIE, Contexte, cout as cout_carte,
+                       nombre, quantites, argent, valeur_achat)
 
 
-def type_carte(carte: CardName):
-    try:
-        return Card.class_(carte)
-    except (AttributeError, TypeError, ValueError, KeyError):
-        return Card
+def monnaie_en_main(main) -> int:
+    return sum(nombre(quantites(main), c)*argent(c) for c in CARTES_STRATEGIE)
 
 
-def cout_carte(carte: CardName) -> int:
-    """Coût entier de la carte, ou un coût impossible si elle est inconnue."""
-    classe = type_carte(carte)
-    if classe is Card:
-        return 10**6
-    try:
-        return int(classe.cost)
-    except (AttributeError, TypeError, ValueError):
-        return 10**6
-
-
-def monnaie_en_main(main: Cards) -> int:
-    """Valeur des trésors en main, indépendamment des bonus d'actions."""
-    total = 0
-    quantites = getattr(main, "quantities", {}) or {}
-    for nom, quantite in quantites.items():
-        classe = type_carte(nom)
-        try:
-            total += int(getattr(classe, "money", 0)) * int(quantite)
-        except (AttributeError, TypeError, ValueError):
-            continue
-    return total
-
-
-def _n_achete(achats: Mapping[CardName, int] | None, carte: CardName) -> int:
-    if not achats:
-        return 0
-    try:
-        return int(achats.get(carte, 0))
-    except (TypeError, ValueError):
-        return 0
-
-
-def _score_achat(
-    carte: CardName,
-    *,
-    achats: Mapping[CardName, int] | None,
-    tour: int,
-    provinces_restantes: int,
-    piles_vides: int,
-    budget: int,
-    stock: Cards,
-) -> float:
-    """Score heuristique : priorité économique tôt, points en fin de partie."""
-    achetee = _n_achete(achats, carte)
-    quantites_stock = getattr(stock, "quantities", {}) or {}
-
-    if carte == CardName.PROVINCE:
-        return 150.0
-    if carte == CardName.DUCHY:
-        return 118.0 if provinces_restantes <= 3 or piles_vides >= 2 else 18.0
-    if carte == CardName.ESTATE:
-        return 86.0 if provinces_restantes <= 1 or piles_vides >= 2 else 2.0
-    if carte == CardName.GARDENS:
-        return 72.0 if tour >= 13 and (provinces_restantes <= 4 or piles_vides >= 2) else 24.0
-
-    if carte == CardName.HIRELING:
-        return 104.0 if achetee == 0 else 92.0 if achetee == 1 else 58.0
-    if carte == CardName.GOLD:
-        return 100.0
-    if carte == CardName.WITCH:
-        maledictions = int(quantites_stock.get(CardName.CURSE, 0))
-        if maledictions > 0 and achetee < 2 and tour <= 18:
-            return 94.0 if achetee == 0 else 87.0
-        return 69.0 if achetee == 0 else 48.0
-    if carte == CardName.BANDIT:
-        return 91.0 if achetee < 2 and tour <= 18 else 68.0 if achetee < 3 else 45.0
-    if carte == CardName.LABORATORY:
-        return 93.0 if achetee < 3 else 72.0 if achetee < 4 else 45.0
-    if carte == CardName.FESTIVAL:
-        return 88.0 if achetee < 2 else 70.0 if achetee < 3 else 44.0
-    if carte == CardName.MILITIA:
-        return 84.0 if achetee < 2 else 65.0 if achetee < 3 else 42.0
-    if carte == CardName.COUNCILROOM:
-        return 79.0 if achetee < 2 else 60.0 if achetee < 3 else 40.0
-    if carte == CardName.MARKET:
-        return 78.0 if achetee < 3 else 60.0 if achetee < 4 else 40.0
-    if carte == CardName.SMITHY:
-        return 74.0 if achetee < 2 else 58.0 if achetee < 3 else 38.0
-    if carte == CardName.DISTANTSHORE:
-        return 70.0 if achetee < 2 else 52.0
-    if carte == CardName.SILVER:
-        # L'argent est la base économique : il passe avant les villages peu utiles.
-        return 67.0 if tour <= 12 else 59.0
-    if carte == CardName.WOODCUTTER:
-        return 55.0 if achetee < 2 else 38.0
-    if carte == CardName.VILLAGE:
-        cartes_terminales = sum(
-            _n_achete(achats, nom)
-            for nom in (
-                CardName.SMITHY,
-                CardName.WITCH,
-                CardName.BANDIT,
-                CardName.MILITIA,
-                CardName.COUNCILROOM,
-                CardName.BUREAUCRAT,
-                CardName.CHANCELLOR,
-                CardName.WOODCUTTER,
-            )
-        )
-        return 61.0 if cartes_terminales >= 2 and achetee < 2 else 43.0 if achetee < 3 else 28.0
-    if carte == CardName.FARMINGVILLAGE:
-        cartes_terminales = sum(
-            _n_achete(achats, nom)
-            for nom in (
-                CardName.SMITHY,
-                CardName.WITCH,
-                CardName.BANDIT,
-                CardName.MILITIA,
-                CardName.COUNCILROOM,
-                CardName.BUREAUCRAT,
-                CardName.CHANCELLOR,
-                CardName.WOODCUTTER,
-            )
-        )
-        return 58.0 if cartes_terminales >= 2 and achetee == 0 else 39.0 if achetee < 2 else 25.0
-    if carte == CardName.BUREAUCRAT:
-        return 62.0 if achetee == 0 and tour < 12 else 43.0
-    if carte == CardName.CHANCELLOR:
-        return 49.0 if achetee == 0 else 32.0
-    return 0.0
-
-
-def priorites_achat(
-    stock: Cards,
-    *,
-    achats: Mapping[CardName, int] | None = None,
-    tour: int = 1,
-    provinces_restantes: int = 8,
-    piles_vides: int = 0,
-    budget: int = 0,
-) -> list[CardName]:
-    """Classe les achats disponibles selon la situation de la partie."""
-    quantites = getattr(stock, "quantities", {}) or {}
-    fin_proche = provinces_restantes <= 3 or piles_vides >= 2
-    candidates = []
-    for carte in CARTES_STRATEGIE:
-        if int(quantites.get(carte, 0)) <= 0 or cout_carte(carte) >= 10**6:
-            continue
-        # Ne pas acheter des cartes de points mortes au milieu de la partie.
-        if carte == CardName.DUCHY and not fin_proche:
-            continue
-        if carte == CardName.ESTATE and not (provinces_restantes <= 1 or piles_vides >= 2):
-            continue
-        if carte == CardName.GARDENS and not (
-            tour >= 13 and (provinces_restantes <= 4 or piles_vides >= 2)
-        ):
-            continue
-        candidates.append(carte)
-    return sorted(
-        candidates,
-        key=lambda carte: _score_achat(
-            carte,
-            achats=achats,
-            tour=tour,
-            provinces_restantes=provinces_restantes,
-            piles_vides=piles_vides,
-            budget=budget,
-            stock=stock,
-        ),
-        reverse=True,
+def priorites_achat(stock, *, achats=None, gains=None, trashed=None,
+                    tour=1, provinces_restantes=8, piles_vides=0, budget=0,
+                    main=None, joueurs_actifs=2, achats_restants=1,
+                    observation=None, contexte=None):
+    """Compare toutes les cartes gérées, avec un second achat en regard si possible."""
+    ctx = contexte or Contexte(
+        tour=tour, stock=quantites(stock), main=quantites(main),
+        achats=achats or {}, gains=gains or {}, detruits=trashed or {},
+        observation=observation or {}, provinces=provinces_restantes,
+        piles_vides=piles_vides, budget=budget,
+        joueurs_actifs=joueurs_actifs, achats_restants=achats_restants,
     )
+    candidates = [c for c in CARTES_STRATEGIE if nombre(ctx.stock,c)>0 and cout_carte(c)<=ctx.budget]
+
+    def valeur_totale(c):
+        value = valeur_achat(c,ctx)
+        if achats_restants < 2 or value==float('-inf'):
+            return value
+        restant = ctx.budget-cout_carte(c)
+        # Exploration limitée : un second achat, sans simulation coûteuse.
+        achats_suivants=dict(ctx.achats)
+        achats_suivants[c] = achats_suivants.get(c,0)+1
+        stock_suivant=dict(ctx.stock)
+        stock_suivant[c] -= 1
+        ctx2 = replace(ctx, achats=achats_suivants, stock=stock_suivant,
+                       budget=restant, achats_restants=achats_restants-1)
+        suivantes = [x for x in CARTES_STRATEGIE if nombre(stock_suivant,x)>0 and cout_carte(x)<=restant]
+        meilleur_second=max((valeur_achat(x,ctx2) for x in suivantes),default=0)
+        return value + 0.45 * max(0,meilleur_second)
+
+    return [c for c in sorted(candidates,key=valeur_totale,reverse=True)
+            if valeur_achat(c,ctx) >= 20]
 
 
-def achat(
-    main: Cards,
-    carte: CardName,
-    stock: Cards,
-    *,
-    monnaie_disponible: int = 0,
-    achats_restants: int = 1,
-) -> str | bool:
-    """Vérifie que l'achat est disponible et que le budget restant suffit."""
-    if achats_restants <= 0:
+def achat(main, carte, stock, *, monnaie_disponible=0, achats_restants=1):
+    if achats_restants<=0 or nombre(quantites(stock),carte)<=0:
         return False
-
-    quantites_stock = getattr(stock, "quantities", {}) or {}
-    if int(quantites_stock.get(carte, 0)) <= 0:
+    if cout_carte(carte)>monnaie_en_main(main)+int(monnaie_disponible):
         return False
-
-    cout = cout_carte(carte)
-    if cout >= 10**6:
-        return False
-
-    budget = monnaie_en_main(main) + int(monnaie_disponible)
-    if budget < cout:
-        return False
-
-    return f"BUY {carte.value}"
+    return f'BUY {carte.value}'

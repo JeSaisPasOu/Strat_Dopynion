@@ -1,130 +1,74 @@
-"""Décisions de réaction : défausse, destruction et cartes reçues."""
-
-from typing import Iterable
-
-from dopynion.data_model import CardName
-
-
-def confirmer_defausse(carte: CardName | None) -> bool:
-    """Accepte surtout de défausser les cartes peu utiles pour les pièces du tour."""
-    return carte in {
-        CardName.CURSE,
-        CardName.ESTATE,
-        CardName.DUCHY,
-        CardName.PROVINCE,
-        CardName.GARDENS,
-        CardName.COPPER,
-    }
+"""Réactions V5 : même moteur de valeur que les achats et les actions."""
+from dataclasses import replace
+from strategie import (Contexte, TRESORS, VICTOIRES, ACTIONS_CONNUES, carte,
+                       argent, valeur_action, valeur_achat, valeur_conservation,
+                       valeur_destruction, valeur_gain, seuil_cuivre, nombre, cout)
 
 
-def choisir_defausse(main: list[CardName]) -> CardName:
-    """Défausse d'abord les cartes mortes, en préservant les trésors forts."""
-    ordre = [
-        CardName.CURSE,
-        CardName.ESTATE,
-        CardName.DUCHY,
-        CardName.PROVINCE,
-        CardName.GARDENS,
-        CardName.COPPER,
-        CardName.CHANCELLOR,
-        CardName.WOODCUTTER,
-        CardName.BUREAUCRAT,
-        CardName.VILLAGE,
-        CardName.FARMINGVILLAGE,
-        CardName.SMITHY,
-        CardName.SILVER,
-        CardName.GOLD,
-    ]
-    for card in ordre:
-        if card in main:
-            return card
-    return main[0] if main else CardName.COPPER
+def contexte_defaut(main=(), **kwargs):
+    return Contexte(main={x:main.count(x) for x in set(main)}, **kwargs)
 
 
-def confirmer_destruction(carte: CardName | None) -> bool:
-    """Ne détruit volontairement que les cartes généralement nuisibles."""
-    return carte in {CardName.CURSE, CardName.ESTATE, CardName.COPPER}
+def confirmer_defausse(carte_choisie, main=None, *, contexte=None):
+    ctx=contexte or contexte_defaut(main or [])
+    if carte_choisie is None: return False
+    if carte_choisie in VICTOIRES or carte_choisie==carte('CURSE'):
+        return True
+    if carte_choisie==carte('COPPER'):
+        # Avec Cellar, échanger un cuivre faible est utile si d'autres trésors
+        # suffisent déjà au tour ou si les cartes mortes dominent la main.
+        autres = sum(nombre(ctx.main,c)*argent(c) for c in TRESORS if c!=carte_choisie)
+        return autres >= 3
+    return valeur_conservation(carte_choisie,ctx)<-20
 
 
-def choisir_destruction(main: list[CardName]) -> CardName:
-    """Choisit les cartes à détruire dans l'ordre le moins coûteux."""
-    ordre = [CardName.CURSE, CardName.ESTATE, CardName.COPPER]
-    for card in ordre:
-        if card in main:
-            return card
-    # Pas de carte que l'on souhaite détruire : renvoie une carte disponible.
-    # confirmer_destruction() refusera ensuite une destruction coûteuse.
-    return main[0] if main else CardName.COPPER
+def choisir_defausse(main, *, contexte=None):
+    if not main: return carte('COPPER')
+    ctx=contexte or contexte_defaut(main)
+    return min(main, key=lambda c: valeur_conservation(c,ctx))
 
 
-def _cost(card: CardName) -> int:
-    try:
-        from dopynion.cards import Card
-        card_type = Card.class_(card)
-        return int(card_type.cost) if card_type is not Card else 0
-    except (AttributeError, TypeError, ValueError, KeyError):
-        return 0
+def confirmer_destruction(carte_choisie, *, achats=None, trashed=None, tour=1,
+                           main=None, contexte=None):
+    ctx=contexte or Contexte(tour=tour,achats=achats or {},detruits=trashed or {},
+                            main={c: (main or []).count(c) for c in set(main or [])})
+    return carte_choisie is not None and valeur_destruction(carte_choisie,ctx)>0
 
 
-def choisir_carte_recue(possibles: list[CardName], destination: str = "discard") -> CardName:
-    """Préfère les cartes utiles, et évite les points de victoire au-dessus du deck."""
-    if not possibles:
-        return CardName.COPPER
-
-    valeurs = {
-        CardName.PROVINCE: 82,
-        CardName.GOLD: 80,
-        CardName.HIRELING: 79,
-        CardName.LABORATORY: 77,
-        CardName.FESTIVAL: 74,
-        CardName.WITCH: 73,
-        CardName.BANDIT: 72,
-        CardName.MARKET: 70,
-        CardName.COUNCILROOM: 69,
-        CardName.MILITIA: 68,
-        CardName.DISTANTSHORE: 64,
-        CardName.SMITHY: 63,
-        CardName.DUCHY: 45,
-        CardName.FARMINGVILLAGE: 45,
-        CardName.BUREAUCRAT: 43,
-        CardName.SILVER: 42,
-        CardName.CHANCELLOR: 38,
-        CardName.VILLAGE: 38,
-        CardName.WOODCUTTER: 36,
-        CardName.GARDENS: 30,
-        CardName.ESTATE: 18,
-        CardName.COPPER: 5,
-        CardName.CURSE: -100,
-    }
-
-    def score(card: CardName) -> float:
-        value = float(valeurs.get(card, 20 + 2 * _cost(card)))
-        if destination == "deck":
-            if card in (CardName.PROVINCE, CardName.DUCHY, CardName.ESTATE, CardName.GARDENS):
-                value -= 35
-            if card in (
-                CardName.LABORATORY,
-                CardName.FESTIVAL,
-                CardName.MARKET,
-                CardName.HIRELING,
-                CardName.GOLD,
-                CardName.WITCH,
-                CardName.BANDIT,
-            ):
-                value += 7
-        return value
-
-    return max(possibles, key=score)
+def choisir_destruction(main, *, tour=1, achats=None, trashed=None, contexte=None):
+    if not main: return carte('COPPER')
+    ctx=contexte or Contexte(tour=tour, achats=achats or {}, detruits=trashed or {},
+                            main={c: main.count(c) for c in set(main)})
+    # L'arbitre donne une liste légale. On minimise la perte si on est forcé.
+    return max(main, key=lambda c: valeur_destruction(c,ctx))
 
 
-def sauter_reception_en_main() -> bool:
-    """False : accepte par défaut de recevoir la carte dans la main."""
-    return False
+def choisir_carte_recue(possibles, destination='discard', *, tour=1,
+                         achats=None, trashed=None, contexte=None):
+    if not possibles: return carte('COPPER')
+    ctx=contexte or Contexte(tour=tour,achats=achats or {},detruits=trashed or {},
+                            stock={c:1 for c in possibles})
+    return max(possibles,key=lambda c: valeur_gain(c,ctx,destination))
 
 
-def choisir_monnaie_a_detruire(monnaies: list[CardName]) -> CardName:
-    """Détruit en priorité le cuivre pour obtenir une meilleure carte de monnaie."""
-    for card in (CardName.COPPER, CardName.SILVER):
-        if card in monnaies:
-            return card
-    return monnaies[0] if monnaies else CardName.COPPER
+def sauter_reception_en_main(carte_choisie=None, *, actions_restantes=0,
+                              main=None, contexte=None):
+    # Bibliothèque : mettre de côté une carte Action non jouable.
+    ctx=contexte or Contexte(actions=actions_restantes,
+          main={c:(main or []).count(c) for c in set(main or [])})
+    if carte_choisie not in ACTIONS_CONNUES:
+        return False
+    if ctx.actions<=0:
+        return True
+    # Avec déjà plusieurs meilleures actions terminales à jouer, renouveler la pioche.
+    n_actions=sum(nombre(ctx.main,c) for c in ACTIONS_CONNUES)
+    return ctx.actions==1 and n_actions>=2 and valeur_action(carte_choisie,
+        replace(ctx, main={**ctx.main,carte_choisie: max(1,nombre(ctx.main,carte_choisie))}))<55
+
+
+def choisir_monnaie_a_detruire(monnaies, *, tour=1, contexte=None):
+    if not monnaies: return carte('COPPER')
+    ctx=contexte or Contexte(tour=tour)
+    # Mine : privilégie Argent -> Or si la liste donnée par le moteur l'autorise.
+    return max(monnaies, key=lambda c: (c==carte('SILVER'),
+                                         valeur_destruction(c,ctx)))

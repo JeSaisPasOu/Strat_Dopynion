@@ -1,0 +1,226 @@
+Dopynion
+Leaderboard
+URL	Score	Nb games
+https://bowser.alwaysdata.net/	1506	47892
+https://le-4eme-empire.alwaysdata.net/	1504	46568
+https://le-4eme-empire-le-remake.alwaysdata.net/	1397	44349
+https://royaume.ahliko.fr/	1371	47861
+https://royaume.ahliko.fr/dev/	1358	44349
+https://alves.alwaysdata.net/	1349	44349
+https://marioluigi.alwaysdata.net/	1324	44124
+https://befre.alwaysdata.net/	1313	47955
+https://einstein.alwaysdata.net/	1257	44311
+https://dopynion.lecalamar.fr/vincent_bm/	1202	53591
+https://ricardo2026.alwaysdata.net/	1183	47974
+https://dopynion.lecalamar.fr/vincent_basic/	1084	55321
+https://dopynion.lecalamar.fr/vincent_glicko/	1059	58223
+https://dopynion.lecalamar.fr/shortest_strategy/	1055	47956
+https://macalaurien.alwaysdata.net/	1044	55080
+https://rdubourgeois.alwaysdata.net/	1040	55308
+https://dopynion.lecalamar.fr/vincent/	938	58602
+https://dopynion.lecalamar.fr/chloe/	916	58378
+https://dopynion.lecalamar.fr/random_strategy_but_better/	645	58589
+https://dopynion-template.lecalamar.fr/	480	58418
+https://dopynion.lecalamar.fr/random_strategy/	456	58681
+History
+Last games
+2026/11/17 15:53:33 Le 4ème Empire le Remake, Vincent bm, Empire Of The Sun, "Monty_Python"
+2026/11/17 15:53:33 Vincent Glicko, Vincent bm, Groupe 5
+2026/11/17 15:53:32 KOOPA DOMINION test, "Monty_Python", Vincent Glicko
+2026/11/17 15:53:32 Groupe 5, "Monty_Python", Mini boulet
+2026/11/17 15:53:32 "Monty_Python_Test", Groupe 5, Groupe 5, Gros boulet
+2026/11/17 15:53:32 Vincent bm, Groupe 5, Chloé, Mini boulet
+2026/11/17 15:53:31 We Are The People, "Monty_Python", Chloé
+2026/11/17 15:53:30 Le 4ème Empire le Remake, Vincent, We Are The People, Gros boulet
+2026/11/17 15:53:30 Toulousain test, Vincent bm
+2026/11/17 15:53:29 "Monty_Python_Test", Groupe 5, Default player name
+2026/11/17 15:53:28 Le 4ème Empire "Vrai", Empire Of The Sun, Le 4ème Empire le Remake
+2026/11/17 15:53:27 Le 4ème Empire "Vrai", Vincent basique, Vincent, Gros boulet
+2026/11/17 15:53:26 "Monty_Python_Test", Shortest (27 lines of Python), Mini boulet
+2026/11/17 15:53:26 Toulousain, Shortest (27 lines of Python), Vincent basique, "Monty_Python_Test"
+2026/11/17 15:53:24 BOWSER, Vincent, Shortest (27 lines of Python), KOOPA DOMINION test
+2026/11/17 15:53:24 Toulousain, Vincent basique, Shortest (27 lines of Python)
+2026/11/17 15:53:22 Empire Of The Sun, Le 4ème Empire le Remake, KOOPA DOMINION test
+2026/11/17 15:53:20 BOWSER, KOOPA DOMINION test
+2026/11/17 15:53:20 We Are The People, KOOPA DOMINION test
+2026/11/17 15:53:19 Toulousain, KOOPA DOMINION test, Default player name
+2026/11/17 15:53:19 Vincent bm, Groupe 5, Mini boulet
+2026/11/17 15:53:18 Toulousain test, Shortest (27 lines of Python)
+2026/11/17 15:53:15 Empire Of The Sun, Shortest (27 lines of Python)
+2026/11/17 15:53:15 KOOPA DOMINION test, Vincent
+2026/11/17 15:53:15 Groupe 5, Shortest (27 lines of Python), Vincent Glicko
+2026/11/17 15:53:12 BOWSER, Le 4ème Empire le Remake, Vincent Glicko, Mini boulet
+2026/11/17 15:53:12 BOWSER, Groupe 5, Shortest (27 lines of Python)
+2026/11/17 15:53:12 Toulousain test, Shortest (27 lines of Python), Vincent Glicko
+2026/11/17 15:53:11 Groupe 5, Le 4ème Empire le Remake, "Monty_Python_Test"
+2026/11/17 15:53:10 Le 4ème Empire le Remake, Vincent
+2026/11/17 15:53:10 KOOPA DOMINION test, Mini boulet
+2026/11/17 15:53:10 BOWSER, Groupe 5, "Monty_Python_Test"
+2026/11/17 15:53:09 KOOPA DOMINION test, Groupe 5, "Monty_Python", Chloé
+2026/11/17 15:53:09 Groupe 5, Vincent, Gros boulet
+2026/11/17 15:53:08 Groupe 5, We Are The People, Empire Of The Sun, "Monty_Python_Test"
+2026/11/17 15:53:07 Le 4ème Empire le Remake, KOOPA DOMINION test, Chloé
+2026/11/17 15:53:07 Le 4ème Empire "Vrai", "Monty_Python"
+2026/11/17 15:53:06 Groupe 5, BOWSER, Vincent basique, KOOPA DOMINION test
+2026/11/17 15:53:06 Toulousain test, Vincent Glicko, Gros boulet
+2026/11/17 15:53:06 Le 4ème Empire le Remake, "Monty_Python", Groupe 5, Default player name
+2026/11/17 15:53:05 We Are The People, Empire Of The Sun, Toulousain test
+2026/11/17 15:53:05 KOOPA DOMINION test, Vincent Glicko, Vincent
+2026/11/17 15:53:04 We Are The People, BOWSER, Vincent Glicko
+2026/11/17 15:53:01 Groupe 5, Vincent Glicko, Chloé
+2026/11/17 15:53:00 BOWSER, Le 4ème Empire "Vrai", Groupe 5
+2026/11/17 15:52:59 Toulousain test, Vincent bm
+2026/11/17 15:52:59 Vincent bm, Default player name
+2026/11/17 15:52:56 Empire Of The Sun, BOWSER, Groupe 5
+2026/11/17 15:52:55 We Are The People, Groupe 5
+2026/11/17 15:52:54 KOOPA DOMINION test, Vincent bm, Groupe 5, Vincent Glicko
+2026/11/17 15:52:54 Empire Of The Sun, Le 4ème Empire le Remake
+2026/11/17 15:52:54 BOWSER, We Are The People, Empire Of The Sun, Chloé
+2026/11/17 15:52:53 Le 4ème Empire "Vrai", Mini boulet, Default player name
+2026/11/17 15:52:53 Groupe 5, Groupe 5, Vincent bm, Chloé
+2026/11/17 15:52:52 Vincent bm, Gros boulet
+2026/11/17 15:52:52 We Are The People, Toulousain test, Toulousain, Vincent basique
+2026/11/17 15:52:51 BOWSER, "Monty_Python"
+2026/11/17 15:52:51 BOWSER, Groupe 5, Vincent bm
+2026/11/17 15:52:50 BOWSER, "Monty_Python_Test"
+2026/11/17 15:52:49 Vincent basique, "Monty_Python", Default player name
+2026/11/17 15:52:48 BOWSER, Le 4ème Empire le Remake, Empire Of The Sun, Toulousain
+2026/11/17 15:52:47 Chloé, Vincent bm
+2026/11/17 15:52:46 Le 4ème Empire "Vrai", "Monty_Python_Test", Vincent Glicko
+2026/11/17 15:52:45 Vincent basique, Shortest (27 lines of Python), "Monty_Python"
+2026/11/17 15:52:45 Le 4ème Empire "Vrai", Chloé, Gros boulet
+2026/11/17 15:52:44 Groupe 5, Toulousain, Mini boulet, Chloé
+2026/11/17 15:52:44 Toulousain test, Gros boulet
+2026/11/17 15:52:44 Groupe 5, Empire Of The Sun, Vincent, "Monty_Python"
+2026/11/17 15:52:43 KOOPA DOMINION test, Le 4ème Empire "Vrai", "Monty_Python_Test"
+2026/11/17 15:52:42 Le 4ème Empire le Remake, Vincent bm, Toulousain, Groupe 5
+2026/11/17 15:52:42 We Are The People, Chloé
+2026/11/17 15:52:41 Vincent bm, Default player name
+2026/11/17 15:52:41 Groupe 5, "Monty_Python_Test", Gros boulet
+2026/11/17 15:52:41 Groupe 5, Default player name
+2026/11/17 15:52:40 Empire Of The Sun, Toulousain test, Vincent Glicko, Mini boulet
+2026/11/17 15:52:40 We Are The People, Mini boulet
+2026/11/17 15:52:39 Groupe 5, Vincent Glicko, Gros boulet
+2026/11/17 15:52:38 BOWSER, KOOPA DOMINION test
+2026/11/17 15:52:38 Empire Of The Sun, Chloé, Gros boulet
+2026/11/17 15:52:37 Default player name, Gros boulet
+2026/11/17 15:52:37 KOOPA DOMINION test, Le 4ème Empire "Vrai"
+2026/11/17 15:52:36 Vincent basique, Chloé
+2026/11/17 15:52:35 Le 4ème Empire le Remake, Empire Of The Sun, Default player name, Groupe 5
+2026/11/17 15:52:35 Toulousain, Mini boulet
+2026/11/17 15:52:34 Le 4ème Empire "Vrai", Mini boulet
+2026/11/17 15:52:34 Le 4ème Empire le Remake, Groupe 5, "Monty_Python", Default player name
+2026/11/17 15:52:33 Le 4ème Empire "Vrai", Vincent, "Monty_Python"
+2026/11/17 15:52:33 We Are The People, Empire Of The Sun, Default player name
+2026/11/17 15:52:32 Le 4ème Empire "Vrai", Groupe 5
+2026/11/17 15:52:32 KOOPA DOMINION test, Toulousain, Vincent, Mini boulet
+2026/11/17 15:52:31 Groupe 5, Empire Of The Sun
+2026/11/17 15:52:31 BOWSER, Vincent bm, Chloé, Vincent Glicko
+2026/11/17 15:52:30 Shortest (27 lines of Python), Empire Of The Sun, Vincent Glicko
+2026/11/17 15:52:30 Vincent bm, We Are The People, Chloé
+2026/11/17 15:52:29 BOWSER, Vincent basique, Groupe 5, "Monty_Python_Test"
+2026/11/17 15:52:29 Vincent basique, Vincent
+2026/11/17 15:52:28 BOWSER, Toulousain, Groupe 5, KOOPA DOMINION test
+2026/11/17 15:52:28 BOWSER, Shortest (27 lines of Python), Vincent Glicko, Mini boulet
+2026/11/17 15:52:27 BOWSER, Empire Of The Sun, Gros boulet, Chloé
+2026/11/17 15:51:32 Groupe 5, Vincent, We Are The People, Groupe 5
+2026/11/17 15:51:32 "Monty_Python_Test", Vincent
+2026/11/17 15:51:31 Toulousain test, Empire Of The Sun
+2026/11/17 15:51:31 We Are The People, Vincent Glicko
+2026/11/17 15:51:31 Toulousain, Chloé
+2026/11/17 15:51:30 Chloé, "Monty_Python_Test", Mini boulet, Gros boulet
+2026/11/17 15:51:29 Vincent Glicko, Gros boulet
+2026/11/17 15:51:28 KOOPA DOMINION test, Groupe 5, Vincent, Chloé
+2026/11/17 15:51:28 Groupe 5, Toulousain, "Monty_Python_Test"
+2026/11/17 15:51:28 "Monty_Python", Chloé, "Monty_Python_Test", Gros boulet
+2026/11/17 15:51:27 We Are The People, Le 4ème Empire "Vrai", "Monty_Python_Test"
+2026/11/17 15:51:27 Le 4ème Empire "Vrai", BOWSER, We Are The People, Toulousain test
+2026/11/17 15:51:26 Vincent basique, Groupe 5
+2026/11/17 15:51:26 Empire Of The Sun, Groupe 5
+2026/11/17 15:51:25 Le 4ème Empire "Vrai", "Monty_Python", Vincent Glicko
+2026/11/17 15:51:25 KOOPA DOMINION test, "Monty_Python", Gros boulet
+2026/11/17 15:51:24 BOWSER, Le 4ème Empire "Vrai", Vincent
+2026/11/17 15:51:22 Le 4ème Empire le Remake, We Are The People, KOOPA DOMINION test, "Monty_Python"
+2026/11/17 15:51:21 Empire Of The Sun, "Monty_Python_Test", Toulousain, Chloé
+2026/11/17 15:51:20 Le 4ème Empire "Vrai", Empire Of The Sun, Shortest (27 lines of Python)
+2026/11/17 15:51:20 Shortest (27 lines of Python), Mini boulet
+2026/11/17 15:51:19 Le 4ème Empire le Remake, Chloé, Gros boulet
+2026/11/17 15:51:17 Le 4ème Empire "Vrai", Groupe 5, Toulousain test
+2026/11/17 15:51:16 "Monty_Python", Le 4ème Empire le Remake, BOWSER
+2026/11/17 15:51:14 We Are The People, Vincent Glicko, Gros boulet
+2026/11/17 15:51:14 Empire Of The Sun, Vincent basique, Chloé, Default player name
+2026/11/17 15:51:12 Shortest (27 lines of Python), Vincent bm, "Monty_Python"
+2026/11/17 15:51:11 Shortest (27 lines of Python), KOOPA DOMINION test, Groupe 5
+2026/11/17 15:51:11 KOOPA DOMINION test, Groupe 5
+2026/11/17 15:51:10 BOWSER, Groupe 5
+2026/11/17 15:51:10 BOWSER, "Monty_Python_Test", Vincent basique, Groupe 5
+2026/11/17 15:51:10 Shortest (27 lines of Python), Toulousain test, Chloé
+2026/11/17 15:51:10 Le 4ème Empire le Remake, Toulousain test, Groupe 5
+2026/11/17 15:51:09 Vincent bm, Empire Of The Sun, Chloé, Mini boulet
+2026/11/17 15:51:09 Le 4ème Empire "Vrai", Groupe 5, We Are The People, Groupe 5
+2026/11/17 15:51:09 We Are The People, Shortest (27 lines of Python), Groupe 5
+2026/11/17 15:51:07 We Are The People, Le 4ème Empire "Vrai", Mini boulet
+2026/11/17 15:51:07 Groupe 5, Shortest (27 lines of Python), Vincent Glicko, Mini boulet
+2026/11/17 15:51:05 Groupe 5, BOWSER, Chloé
+2026/11/17 15:51:05 Toulousain, Le 4ème Empire le Remake, KOOPA DOMINION test, Groupe 5
+2026/11/17 15:51:05 "Monty_Python_Test", Groupe 5
+2026/11/17 15:51:04 Empire Of The Sun, Groupe 5, Groupe 5, Vincent bm
+2026/11/17 15:51:03 Le 4ème Empire "Vrai", Vincent Glicko
+2026/11/17 15:51:02 Toulousain, BOWSER, Le 4ème Empire le Remake, Vincent basique
+2026/11/17 15:51:02 Le 4ème Empire "Vrai", Groupe 5, Vincent
+2026/11/17 15:51:01 Vincent Glicko, Groupe 5, Shortest (27 lines of Python), Vincent basique
+2026/11/17 15:51:01 Groupe 5, Toulousain test, Mini boulet, Gros boulet
+2026/11/17 15:51:00 Le 4ème Empire le Remake, Shortest (27 lines of Python), Mini boulet
+2026/11/17 15:51:00 KOOPA DOMINION test, We Are The People, Mini boulet
+2026/11/17 15:50:59 "Monty_Python_Test", Shortest (27 lines of Python), Vincent, Gros boulet
+2026/11/17 15:50:59 BOWSER, Groupe 5, Toulousain test, Le 4ème Empire le Remake
+2026/11/17 15:50:58 Le 4ème Empire "Vrai", Empire Of The Sun, Le 4ème Empire le Remake, "Monty_Python"
+2026/11/17 15:50:58 Toulousain, "Monty_Python", Mini boulet, Gros boulet
+2026/11/17 15:50:57 BOWSER, Toulousain test
+2026/11/17 15:50:54 We Are The People, BOWSER, Groupe 5, KOOPA DOMINION test
+2026/11/17 15:50:53 KOOPA DOMINION test, Empire Of The Sun, Le 4ème Empire "Vrai"
+2026/11/17 15:50:52 Vincent Glicko, Chloé
+2026/11/17 15:50:51 Groupe 5, BOWSER, KOOPA DOMINION test
+2026/11/17 15:50:47 KOOPA DOMINION test, Shortest (27 lines of Python), Groupe 5
+2026/11/17 15:50:46 Toulousain, Shortest (27 lines of Python)
+2026/11/17 15:50:46 Le 4ème Empire le Remake, Chloé
+2026/11/17 15:50:46 Le 4ème Empire "Vrai", "Monty_Python_Test", Vincent Glicko, Vincent basique
+2026/11/17 15:50:45 Toulousain, Vincent basique
+2026/11/17 15:50:45 Le 4ème Empire le Remake, Shortest (27 lines of Python)
+2026/11/17 15:50:44 We Are The People, "Monty_Python_Test", Mini boulet
+2026/11/17 15:50:44 Vincent, Gros boulet
+2026/11/17 15:50:43 Vincent bm, Empire Of The Sun, "Monty_Python", Vincent basique
+2026/11/17 15:50:43 "Monty_Python", Gros boulet
+2026/11/17 15:50:42 Le 4ème Empire "Vrai", "Monty_Python_Test", "Monty_Python", Mini boulet
+2026/11/17 15:50:42 We Are The People, Toulousain, Vincent bm, Mini boulet
+2026/11/17 15:50:41 Le 4ème Empire "Vrai", Groupe 5, Shortest (27 lines of Python)
+2026/11/17 15:50:41 We Are The People, Le 4ème Empire le Remake
+2026/11/17 15:50:40 Toulousain, Vincent bm, "Monty_Python"
+2026/11/17 15:50:39 Le 4ème Empire "Vrai", Vincent Glicko, Groupe 5, Vincent basique
+2026/11/17 15:50:38 Empire Of The Sun, Vincent Glicko, Toulousain, Vincent bm
+2026/11/17 15:50:38 Groupe 5, Vincent bm, Empire Of The Sun, Vincent
+2026/11/17 15:50:37 Toulousain test, Vincent Glicko, Toulousain
+2026/11/17 15:50:36 Le 4ème Empire "Vrai", Le 4ème Empire le Remake, Vincent bm
+2026/11/17 15:50:36 Le 4ème Empire le Remake, Vincent bm
+2026/11/17 15:50:36 We Are The People, Groupe 5, Vincent basique
+2026/11/17 15:50:35 Le 4ème Empire le Remake, Toulousain test, Shortest (27 lines of Python)
+2026/11/17 15:50:35 BOWSER, Default player name
+2026/11/17 15:50:34 Empire Of The Sun, Vincent basique, Mini boulet
+2026/11/17 15:50:34 BOWSER, Vincent, Mini boulet
+2026/11/17 15:50:33 Toulousain test, Vincent basique, Vincent Glicko, "Monty_Python_Test"
+2026/11/17 15:50:32 Le 4ème Empire "Vrai", Empire Of The Sun, Toulousain
+2026/11/17 15:50:32 Le 4ème Empire le Remake, Shortest (27 lines of Python)
+2026/11/17 15:50:31 Empire Of The Sun, Groupe 5, Vincent Glicko, Default player name
+2026/11/17 15:50:31 Empire Of The Sun, Vincent basique
+2026/11/17 15:50:30 Shortest (27 lines of Python), Mini boulet, Gros boulet
+2026/11/17 15:50:30 Le 4ème Empire "Vrai", Empire Of The Sun, BOWSER
+2026/11/17 15:50:29 Shortest (27 lines of Python), Vincent bm
+2026/11/17 15:50:29 BOWSER, Groupe 5, "Monty_Python", Gros boulet
+2026/11/17 15:50:28 Empire Of The Sun, Toulousain, Chloé, Mini boulet
+2026/11/17 15:50:28 Le 4ème Empire "Vrai", Toulousain, Chloé
+2026/11/17 15:50:27 Groupe 5, Default player name
+2026/11/17 15:50:27 Groupe 5, "Monty_Python_Test", Toulousain test
+2026/11/17 15:50:26 Empire Of The Sun, Shortest (27 lines of Python), "Monty_Python_Test", Mini boulet
+2026/11/17 15:50:25 Toulousain, Mini boulet
+2026/11/17 15:50:25 KOOPA DOMINION test, Toulousain, Default player name
+2026/11/17 15:49:46 KOOPA DOMINION test, Toulousain

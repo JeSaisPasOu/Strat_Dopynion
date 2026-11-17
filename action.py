@@ -1,96 +1,68 @@
-"""Gestion prudente de la phase d'action pour le bot Dopynion."""
-
-from dataclasses import dataclass, replace
-from typing import Literal
-
-from dopynion.cards import Card
-from dopynion.data_model import CardName, Cards
-
+"""Adaptateur Action. Le classement dépend de strategie.valeur_action, pas d'une liste fixe."""
+from dataclasses import dataclass
+from dopynion.data_model import CardName
+from strategie import (ACTIONS_CONNUES, CONTINUATIONS, Contexte, est_action,
+                       nombre, valeur_action, carte)
 
 @dataclass(frozen=True)
 class EffetsAction:
-    """Nombre d'effets bonus déclarés par la carte, avant consommation de l'action."""
-
     actions: int = 0
     buys: int = 0
     bonus_money: int = 0
 
-
-# Ces valeurs servent uniquement à maintenir le compteur local du bot.
-# Les effets complets des cartes sont exécutés par l'arbitre Dopynion.
-EFFETS_ACTION: dict[CardName, EffetsAction] = {
-    CardName.VILLAGE: EffetsAction(actions=2),
-    CardName.WOODCUTTER: EffetsAction(buys=1, bonus_money=2),
-    CardName.SMITHY: EffetsAction(),
-    CardName.FESTIVAL: EffetsAction(actions=2, buys=1, bonus_money=2),
-    CardName.LABORATORY: EffetsAction(actions=1),
-    CardName.MARKET: EffetsAction(actions=1, buys=1, bonus_money=1),
-    CardName.COUNCILROOM: EffetsAction(buys=1),
-    CardName.WITCH: EffetsAction(),
-    CardName.FARMINGVILLAGE: EffetsAction(actions=2),
-    CardName.DISTANTSHORE: EffetsAction(actions=1),
-    CardName.HIRELING: EffetsAction(),
-    CardName.BANDIT: EffetsAction(),
-    CardName.BUREAUCRAT: EffetsAction(),
-    CardName.CHANCELLOR: EffetsAction(bonus_money=2),
-    CardName.GARDENS: EffetsAction(),
-    CardName.MILITIA: EffetsAction(bonus_money=2),
-}
-
-
 @dataclass(frozen=True)
 class ResultatAction:
     decision: str
-    end_action: bool
-    actions: int
-    buys: int
-    bonus_money: int
+    end_action: bool = False
+    actions: int = 0
+    buys: int = 0
+    bonus_money: int = 0
+
+EFFETS_ACTION = {}
+
+def enregistrer(nom, *, actions=0, buys=0, bonus_money=0):
+    c = carte(nom)
+    if c is not None:
+        EFFETS_ACTION[c] = EffetsAction(actions, buys, bonus_money)
+
+for c in ACTIONS_CONNUES:
+    EFFETS_ACTION[c] = EffetsAction()
+for c in (carte('VILLAGE'), carte('FARMINGVILLAGE'), carte('FESTIVAL')):
+    if c is not None: EFFETS_ACTION[c] = EffetsAction(actions=2)
+for c in (carte('LABORATORY'), carte('MARKET'), carte('DISTANTSHORE'),
+          carte('CELLAR'), carte('SWAP')):
+    if c is not None: EFFETS_ACTION[c] = EffetsAction(actions=1)
+for nom, effets in {
+    'FESTIVAL': (2,1,2), 'MARKET': (1,1,1), 'WOODCUTTER': (0,1,2),
+    'COUNCILROOM': (0,1,0), 'CHANCELLOR': (0,0,2), 'MILITIA': (0,0,2),
+    'FORTUNETELLER': (0,0,2), 'MONEYLENDER': (0,0,3),
+}.items():
+    enregistrer(nom, actions=effets[0], buys=effets[1], bonus_money=effets[2])
+
+# Compatibilité avec les scripts qui importent encore ACTION_PRIORITY.
+# server.py V5 n'utilise plus cette liste pour décider.
+ACTION_PRIORITY = ACTIONS_CONNUES
 
 
-def effets_action(carte: CardName) -> EffetsAction:
-    try:
-        return EFFETS_ACTION[carte]
-    except KeyError:
-        raise ValueError(f"Effets non définis pour la carte {carte}.") from None
+def effets_action(c):
+    return EFFETS_ACTION[c]
 
 
-def confirmer_fin_action(resultat: ResultatAction) -> ResultatAction:
-    return replace(resultat, end_action=True)
-
-
-def _card_type(carte: CardName):
-    """Retourne le type de carte si connu, sans faire planter une décision API."""
-    try:
-        return Card.class_(carte)
-    except (AttributeError, TypeError, ValueError, KeyError):
-        return Card
-
-
-def action(
-    main: Cards,
-    carte: CardName,
-    *,
-    actions_restantes: int = 1,
-) -> ResultatAction | Literal[False]:
-    """Propose une action seulement si elle est réellement présente et jouable."""
-    if actions_restantes <= 0:
+def action(main, carte, *, actions_restantes=1):
+    """Signature conservée de la V4, validation individuelle de la carte."""
+    if actions_restantes<=0 or not est_action(carte) or nombre(getattr(main,'quantities',{}),carte)==0:
         return False
+    e = EFFETS_ACTION.get(carte)
+    if e is None: return False
+    return ResultatAction(f'ACTION {carte.value}', False, e.actions,e.buys,e.bonus_money)
 
-    quantites = getattr(main, "quantities", {}) or {}
-    if int(quantites.get(carte, 0)) <= 0:
-        return False
 
-    carte_type = _card_type(carte)
-    if carte_type is Card or not bool(getattr(carte_type, "is_action", False)):
-        return False
-    if carte not in EFFETS_ACTION:
-        return False
-
-    effets = effets_action(carte)
-    return ResultatAction(
-        decision=f"ACTION {carte.value}",
-        end_action=False,
-        actions=effets.actions,
-        buys=effets.buys,
-        bonus_money=effets.bonus_money,
-    )
+def choisir_action(main, ctx: Contexte):
+    """Compare les actions présentes au lieu d'appliquer un ordre constant."""
+    possibilites = [c for c in ACTIONS_CONNUES if nombre(ctx.main,c)>0 and est_action(c)]
+    if not possibilites or ctx.actions<=0:
+        return None
+    meilleure = max(possibilites,key=lambda c: valeur_action(c,ctx))
+    if valeur_action(meilleure,ctx)==float('-inf'):
+        return None
+    return action(main,meilleure,actions_restantes=ctx.actions)
