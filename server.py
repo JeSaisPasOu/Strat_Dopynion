@@ -23,6 +23,7 @@ from fastapi.responses import HTMLResponse, JSONResponse
 from pydantic import BaseModel
 
 from action import ACTION_PRIORITY, action
+from achat import CHAPEL, MONEYLENDER, MINE, REMODEL, seuil_cuivre, economie_estimee
 from achat import achat, cout_carte, monnaie_en_main, priorites_achat
 from reaction import (
     confirmer_defausse,
@@ -76,6 +77,7 @@ def _new_state() -> dict[str, Any]:
         # Cartes réellement épurées : utilisé pour estimer si Chapel reste utile.
         "trashed": Counter(),
         "known_piles": set(),
+        "joueurs_actifs": 2,
         "last_stock": {},
     }
 
@@ -203,6 +205,40 @@ def start_turn(game_id: GameIdDependency) -> DopynionResponseStr:
     return DopynionResponseStr(game_id=game_id, decision="OK")
 
 
+def _action_utile(carte: CardName, main: Any, state: dict[str, Any]) -> bool:
+    """Évite les actions qui ne produiraient rien ou détruisent l'économie."""
+    q = getattr(main, "quantities", {}) or {}
+    n = lambda c: int(q.get(c, 0)) if c is not None else 0
+    achats = _cartes_connues(state)
+    trashed = state.get("trashed", Counter())
+    cuivre, _, _ = economie_estimee(achats, trashed)
+    minimum = seuil_cuivre(achats, trashed)
+    if carte == MONEYLENDER and MONEYLENDER is not None:
+        # Le +3 pièces est compté uniquement si le moteur pourra détruire un Cuivre.
+        return n(CardName.COPPER) > 0 and cuivre > minimum
+    if carte == CHAPEL and CHAPEL is not None:
+        # Chapelle n'a plus d'intérêt sans Domaine, Malédiction ni Cuivre sacrifiable.
+        return (n(CardName.CURSE) + n(CardName.ESTATE) > 0
+                or (n(CardName.COPPER) > 0 and cuivre > minimum))
+    if carte == MINE and MINE is not None:
+        return n(CardName.COPPER) + n(CardName.SILVER) > 0
+    if carte == REMODEL and REMODEL is not None:
+        return any(n(c) > 0 for c in (CardName.ESTATE, CardName.CURSE,
+                CardName.COPPER, CardName.CHANCELLOR, CardName.WOODCUTTER))
+    return True
+
+
+def _joueurs_en_jeu(game: Any) -> int:
+    """Nombre de participants actifs quand le moteur fournit l'information."""
+    players = getattr(game, 'players', None) or []
+    actifs = []
+    for p in players:
+        if any(getattr(p, attr, False) is True for attr in ('eliminated', 'is_eliminated', 'out')):
+            continue
+        actifs.append(p)
+    return max(2, len(actifs))
+
+
 @app.post("/play")
 def play(game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
     state = turn_state.setdefault(game_id, _new_state())
@@ -213,11 +249,14 @@ def play(game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
 
     main = player.hand
     stock = game.stock
+    state["joueurs_actifs"] = _joueurs_en_jeu(game)
 
     # Les nouvelles actions sont jouées par action.py : on ne duplique pas ici
     # leur résolution. action.py doit renvoyer les bons bonus/compteurs.
     if int(state.get("actions", 0)) > 0:
         for carte_action in ACTION_PRIORITY:
+            if not _action_utile(carte_action, main, state):
+                continue
             resultat_action = action(
                 main=main,
                 carte=carte_action,
@@ -259,6 +298,7 @@ def play(game: Game, game_id: GameIdDependency) -> DopynionResponseStr:
             piles_vides=piles_vides,
             budget=budget,
             main=main,
+            joueurs_actifs=int(state.get("joueurs_actifs", 2)),
         )
         for carte_cible in priorites:
             decision_achat = achat(
@@ -297,7 +337,8 @@ def confirm_discard_card_from_hand(
     game_id: GameIdDependency, decision_input: CardNameAndHand
 ) -> DopynionResponseBool:
     card = _extract_card_name(decision_input)
-    return DopynionResponseBool(game_id=game_id, decision=confirmer_defausse(card))
+    main = list(getattr(decision_input, "hand", None) or [])
+    return DopynionResponseBool(game_id=game_id, decision=confirmer_defausse(card, main=main))
 
 
 @app.post("/discard_card_from_hand")
@@ -313,7 +354,11 @@ def confirm_trash_card_from_hand(
     game_id: GameIdDependency, decision_input: CardNameAndHand
 ) -> DopynionResponseBool:
     card = _extract_card_name(decision_input)
-    decision = confirmer_destruction(card)
+    state = turn_state.setdefault(game_id, _new_state())
+    decision = confirmer_destruction(
+        card, achats=_cartes_connues(state), trashed=state.get("trashed", Counter()),
+        tour=int(state.get("turn", 1)), main=list(getattr(decision_input, 'hand', []) or [])
+    )
     if decision:
         _enregistrer_carte_epuree(game_id, card)
     return DopynionResponseBool(game_id=game_id, decision=decision)
@@ -325,7 +370,10 @@ def trash_card_from_hand(
 ) -> DopynionResponseCardName:
     state = turn_state.setdefault(game_id, _new_state())
     cards = list(decision_input.hand)
-    chosen = choisir_destruction(cards, tour=int(state.get("turn", 1)))
+    chosen = choisir_destruction(
+        cards, tour=int(state.get("turn", 1)), achats=_cartes_connues(state),
+        trashed=state.get("trashed", Counter())
+    )
     if cards:
         _enregistrer_carte_epuree(game_id, chosen)
     return DopynionResponseCardName(game_id=game_id, decision=chosen)
@@ -375,9 +423,15 @@ def choose_card_to_receive_in_deck(
 
 @app.post("/skip_card_reception_in_hand")
 def skip_card_reception_in_hand(
-    game_id: GameIdDependency, _decision_input: CardNameAndHand
+    game_id: GameIdDependency, decision_input: CardNameAndHand
 ) -> DopynionResponseBool:
-    return DopynionResponseBool(game_id=game_id, decision=sauter_reception_en_main())
+    state = turn_state.setdefault(game_id, _new_state())
+    card = _extract_card_name(decision_input)
+    decision = sauter_reception_en_main(
+        card, actions_restantes=int(state.get('actions', 0)),
+        main=list(getattr(decision_input, 'hand', []) or [])
+    )
+    return DopynionResponseBool(game_id=game_id, decision=decision)
 
 
 @app.post("/trash_money_card_for_better_money_card")

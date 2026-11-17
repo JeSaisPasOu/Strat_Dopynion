@@ -1,450 +1,244 @@
-"""Scoring dynamique des achats pour le bot Toulousain test.
+"""Achats de Toulousain v4 : priorité à une économie qui ne peut pas s'écrouler.
 
-La stratégie tient compte du tour, des cartes déjà acquises, des cartes
-épurées et de la composition de la main reçue par /play.
+Les seuils sont des heuristiques, pas des probabilités de victoire. On garde
+les mêmes signatures que l'API existante pour faciliter le déploiement.
 """
-
 from typing import Mapping
-
 from dopynion.cards import Card
 from dopynion.data_model import CardName, Cards
 
 
-def _optional_card(*names: str):
-    """Récupère une carte sans faire échouer l'import si l'enum diffère."""
+def option(*names):
     for name in names:
-        value = getattr(CardName, name, None)
-        if value is not None:
-            return value
+        card = getattr(CardName, name, None)
+        if card is not None:
+            return card
     return None
 
 
-COLONY = _optional_card("COLONY", "COLONIE")
-CHAPEL = _optional_card("CHAPEL", "CHAPELLE")
-MINE = _optional_card("MINE")
-MONEYLENDER = _optional_card("MONEYLENDER", "MONEY_LENDER", "PRETEUR_SUR_GAGES")
-REMODEL = _optional_card("REMODEL", "RENOVATION", "REMODELATION")
-SWAP = _optional_card("SWAP", "TROC")
+CHAPEL = option('CHAPEL', 'CHAPELLE')
+MONEYLENDER = option('MONEYLENDER', 'MONEY_LENDER')
+MINE = option('MINE')
+REMODEL = option('REMODEL')
+SWAP = option('SWAP')
+FEAST = option('FEAST')
+COLONY = option('COLONY')
 
 
-def _unique_cards(cards):
-    result = []
-    for card in cards:
-        if card is not None and card not in result:
-            result.append(card)
-    return tuple(result)
+def unique(cards):
+    return tuple(dict.fromkeys(c for c in cards if c is not None))
 
 
-# Troc est inclus à l'achat, mais sa valeur reste modérée tant que son effet
-# d'échange n'est pas confirmé dans action.py et par l'API du moteur.
-CARTES_STRATEGIE: tuple[CardName, ...] = _unique_cards((
-    CardName.PROVINCE,
-    COLONY,
-    CardName.GOLD,
-    CardName.HIRELING,
-    CardName.WITCH,
-    CardName.BANDIT,
-    CardName.LABORATORY,
-    CardName.FESTIVAL,
-    CardName.LIBRARY,
-    CardName.MILITIA,
-    CardName.COUNCILROOM,
-    CardName.MARKET,
-    CardName.MAGNATE,
-    CardName.SMITHY,
-    CardName.DISTANTSHORE,
-    CardName.FORTUNETELLER,
-    MINE,
-    MONEYLENDER,
-    REMODEL,
-    CHAPEL,
-    CardName.ADVENTURER,
-    CardName.SILVER,
-    CardName.WORKSHOP,
-    CardName.WOODCUTTER,
-    CardName.FARMINGVILLAGE,
-    CardName.VILLAGE,
-    CardName.CELLAR,
-    CardName.BUREAUCRAT,
-    CardName.CHANCELLOR,
-    CardName.GARDENS,
-    CardName.DUCHY,
-    CardName.ESTATE,
+CARTES_STRATEGIE = unique((
+    COLONY, CardName.PROVINCE, CardName.GOLD, CardName.SILVER,
+    CardName.HIRELING, CardName.WITCH, CardName.BANDIT,
+    CardName.LABORATORY, CardName.FESTIVAL, CardName.MARKET,
+    CardName.LIBRARY, CardName.MILITIA, CardName.COUNCILROOM,
+    CardName.SMITHY, CardName.MAGNATE, CardName.FORTUNETELLER,
+    CardName.ADVENTURER, CardName.WORKSHOP, CardName.CELLAR,
+    CardName.DISTANTSHORE, CardName.VILLAGE, CardName.FARMINGVILLAGE,
+    CardName.WOODCUTTER, CardName.BUREAUCRAT, CardName.CHANCELLOR,
+    CardName.GARDENS, CardName.DUCHY, CardName.ESTATE,
+    CHAPEL, MONEYLENDER, MINE, REMODEL, SWAP, FEAST,
 ))
 
-
-CARTES_TERMINALES: tuple[CardName, ...] = _unique_cards((
-    CardName.WITCH,
-    CardName.BANDIT,
-    CardName.HIRELING,
-    CardName.LIBRARY,
-    CardName.COUNCILROOM,
-    CardName.SMITHY,
-    CardName.MAGNATE,
-    CardName.FORTUNETELLER,
-    CardName.MILITIA,
-    CardName.ADVENTURER,
-    CardName.BUREAUCRAT,
-    CardName.WORKSHOP,
-    CardName.CHANCELLOR,
-    CardName.WOODCUTTER,
-    CHAPEL,
-    MINE,
-    MONEYLENDER,
-    REMODEL,
+TERMINALES = unique((
+    CardName.WITCH, CardName.BANDIT, CardName.HIRELING, CardName.LIBRARY,
+    CardName.COUNCILROOM, CardName.SMITHY, CardName.MILITIA,
+    CardName.MAGNATE, CardName.FORTUNETELLER, CardName.ADVENTURER,
+    CardName.WORKSHOP, CardName.BUREAUCRAT, CardName.CHANCELLOR,
+    CardName.WOODCUTTER, CHAPEL, MONEYLENDER, MINE, REMODEL, FEAST,
 ))
+VILLAGES = unique((CardName.VILLAGE, CardName.FARMINGVILLAGE, CardName.FESTIVAL))
 
 
-CARTES_DECHETS = _unique_cards((CardName.CURSE, CardName.ESTATE, CardName.COPPER))
+def nombre(mapping, carte):
+    if carte is None or mapping is None:
+        return 0
+    try:
+        return max(0, int(mapping.get(carte, 0)))
+    except (AttributeError, ValueError, TypeError):
+        return 0
 
 
-def type_carte(carte: CardName):
+def type_carte(carte):
     try:
         return Card.class_(carte)
     except (AttributeError, TypeError, ValueError, KeyError):
         return Card
 
 
-def cout_carte(carte: CardName) -> int:
-    """Coût entier de la carte, ou un coût impossible si elle est inconnue."""
-    classe = type_carte(carte)
-    if classe is Card:
+def cout_carte(carte):
+    cls = type_carte(carte)
+    if cls is Card:
         return 10**6
     try:
-        return int(classe.cost)
+        return int(cls.cost)
     except (AttributeError, TypeError, ValueError):
         return 10**6
 
 
-def monnaie_en_main(main: Cards) -> int:
-    """Somme la valeur des trésors actuellement présents dans la main."""
+def monnaie_en_main(main: Cards):
     total = 0
-    quantites = getattr(main, "quantities", {}) or {}
-    for nom, quantite in quantites.items():
-        classe = type_carte(nom)
+    for carte, q in (getattr(main, 'quantities', {}) or {}).items():
         try:
-            total += int(getattr(classe, "money", 0)) * int(quantite)
-        except (AttributeError, TypeError, ValueError):
-            continue
+            total += int(getattr(type_carte(carte), 'money', 0)) * int(q)
+        except (ValueError, TypeError, AttributeError):
+            pass
     return total
 
 
-def _quantite(mapping, carte) -> int:
-    if mapping is None or carte is None:
+def economie_estimee(achats, trashed):
+    """Conservateur : on ne présume jamais qu'un cuivre détruit existe encore."""
+    cuivre = max(0, 7 + nombre(achats, CardName.COPPER) - nombre(trashed, CardName.COPPER))
+    argent = max(0, nombre(achats, CardName.SILVER) - nombre(trashed, CardName.SILVER))
+    or_ = max(0, nombre(achats, CardName.GOLD) - nombre(trashed, CardName.GOLD))
+    return cuivre, argent, or_
+
+
+def seuil_cuivre(achats, trashed):
+    """Plancher de Cuivre tant que l'économie n'est pas reconstruite."""
+    _, argent, or_ = economie_estimee(achats, trashed)
+    if or_ >= 2 or (or_ >= 1 and argent >= 2) or argent >= 4:
         return 0
-    try:
-        return max(0, int(mapping.get(carte, 0)))
-    except (AttributeError, TypeError, ValueError):
-        return 0
+    if or_ >= 1 or argent >= 2:
+        return 3
+    if argent >= 1:
+        return 4
+    return 5
 
 
-def _n_achete(achats: Mapping[CardName, int] | None, carte: CardName) -> int:
-    return _quantite(achats, carte)
-
-
-def _total_connues(achats: Mapping[CardName, int] | None) -> int:
-    if not achats:
-        return 0
-    total = 0
-    for quantite in achats.values():
-        try:
-            total += max(0, int(quantite))
-        except (TypeError, ValueError):
-            continue
-    return total
-
-
-def _nombre_dans_main(main: Cards | None, carte: CardName | None) -> int:
-    if main is None or carte is None:
-        return 0
-    return _quantite(getattr(main, "quantities", {}) or {}, carte)
-
-
-def _dechets_dans_main(main: Cards | None) -> int:
-    return sum(_nombre_dans_main(main, card) for card in CARTES_DECHETS)
-
-
-def _dechets_epures(trashed: Mapping[CardName, int] | None) -> int:
-    return sum(_quantite(trashed, card) for card in CARTES_DECHETS)
-
-
-def _score_achat(
-    carte: CardName,
-    *,
-    achats: Mapping[CardName, int] | None,
-    trashed: Mapping[CardName, int] | None,
-    tour: int,
-    provinces_restantes: int,
-    piles_vides: int,
-    budget: int,
-    stock: Cards,
-    main: Cards | None,
-) -> float:
-    """Score heuristique de carte, ajusté au moment de la partie."""
-    copies = _n_achete(achats, carte)
-    quantites_stock = getattr(stock, "quantities", {}) or {}
-    fin_proche = provinces_restantes <= 3 or piles_vides >= 2
-    total_cartes_ajoutees = _total_connues(achats)
-    taille_deck_estimee = 10 + total_cartes_ajoutees - _dechets_epures(trashed)
-    terminales = sum(_n_achete(achats, nom) for nom in CARTES_TERMINALES)
-    villages = sum(
-        _n_achete(achats, nom)
-        for nom in (CardName.VILLAGE, CardName.FARMINGVILLAGE, CardName.FESTIVAL)
-    )
-    tresors_achetes = sum(
-        _n_achete(achats, nom)
-        for nom in (CardName.SILVER, CardName.GOLD, CardName.COPPER)
-    )
-    # Estimation des 7 Cuivres + 3 Domaines initiaux. Les Malédictions
-    # épurées sont suivies séparément et ne doivent pas fausser ce socle.
-    junk_left_estimate = max(0, 10 - _quantite(trashed, CardName.COPPER) - _quantite(trashed, CardName.ESTATE))
-    junk_in_hand = _dechets_dans_main(main)
-    copper_left_estimate = max(0, 7 - _quantite(trashed, CardName.COPPER))
-    estate_left_estimate = max(0, 3 - _quantite(trashed, CardName.ESTATE))
-
-    # Les points prennent le dessus quand ils sont disponibles et que la
-    # partie se termine réellement.
+def score_achat(carte, *, achats, trashed, tour, provinces_restantes,
+                piles_vides, budget, stock, main=None, joueurs_actifs=2):
+    n = lambda c: nombre(achats, c)
+    stock_q = getattr(stock, 'quantities', {}) or {}
+    cuivre, argent, or_ = economie_estimee(achats, trashed)
+    terminales = sum(n(c) for c in TERMINALES)
+    villages = sum(n(c) for c in VILLAGES)
+    joueurs = max(2, int(joueurs_actifs or 2))
+    course = (provinces_restantes <= (3 if joueurs <= 2 else 4 if joueurs == 3 else 5)
+              or piles_vides >= 2)
+    urgente = provinces_restantes <= 2 or piles_vides >= 2
+    if carte == COLONY and COLONY is not None:
+        return 190
     if carte == CardName.PROVINCE:
-        return 160.0
-    if COLONY is not None and carte == COLONY:
-        return 170.0
+        return 175
     if carte == CardName.DUCHY:
-        return 126.0 if fin_proche else 8.0
+        if urgente: return 125
+        return 82 if course and tour >= 13 else -100
     if carte == CardName.ESTATE:
-        return 91.0 if provinces_restantes <= 1 or piles_vides >= 2 else 0.0
+        return 89 if (provinces_restantes <= 1 or piles_vides >= 2) and tour >= 12 else -100
     if carte == CardName.GARDENS:
-        points_estimes = max(0, taille_deck_estimee // 10)
-        if fin_proche and points_estimes >= 4:
-            return min(72.0, 25.0 + 9.0 * points_estimes)
-        return 10.0 + 3.0 * points_estimes
+        # Le bot épure le deck : Jardins n'est donc pas sa stratégie par défaut.
+        return 44 if urgente and tour >= 16 else -100
 
-    # Épuration : Chapelle est un achat d'ouverture prioritaire si le deck
-    # contient encore ses Domaines/Cuivres/Malédictions.
-    if CHAPEL is not None and carte == CHAPEL:
-        if junk_left_estimate <= 2:
-            base = 28.0
-        elif tour <= 5:
-            base = 103.0
-        elif tour <= 8:
-            base = 94.0
-        elif tour <= 11:
-            base = 74.0
-        elif tour <= 14:
-            base = 49.0
-        else:
-            base = 24.0
-        if junk_in_hand >= 2:
-            base += 6.0
-        if copies == 1:
-            base -= 25.0
-        elif copies >= 2:
-            base -= 48.0
-        return max(5.0, base)
-
-    # Mine transforme Copper -> Silver et surtout Silver -> Gold. Une seule
-    # copie suffit généralement ; on l'achète plus tôt si des trésors restent.
-    if MINE is not None and carte == MINE:
-        if tour <= 10:
-            base = 86.0
-        elif tour <= 15:
-            base = 76.0
-        elif tour <= 19:
-            base = 58.0
-        else:
-            base = 34.0
-        if _nombre_dans_main(main, CardName.SILVER) > 0 or tresors_achetes >= 2:
-            base += 5.0
-        if copies >= 1:
-            base -= 30.0
-        return max(8.0, base)
-
-    # Prêteur sur gages est intéressant tant qu'il reste des Cuivres à convertir
-    # en +3 pièces. Chapelle garde la priorité car elle épure jusqu'à quatre cartes.
-    if MONEYLENDER is not None and carte == MONEYLENDER:
-        if copper_left_estimate <= 1:
-            base = 25.0
-        elif tour <= 7:
-            base = 88.0
-        elif tour <= 11:
-            base = 78.0
-        elif tour <= 15:
-            base = 57.0
-        else:
-            base = 28.0
-        if _nombre_dans_main(main, CardName.COPPER) > 0:
-            base += 4.0
-        if copies >= 1:
-            base -= 35.0
-        return max(5.0, base)
-
-    # Rénovation transforme un Domaine en action de coût 4 ou une carte faible
-    # en une carte plus chère. Sa valeur baisse lorsque l'épuration est terminée.
-    if REMODEL is not None and carte == REMODEL:
-        if tour <= 8 and (estate_left_estimate > 0 or junk_in_hand > 0):
-            base = 91.0
-        elif tour <= 13:
-            base = 78.0
-        elif tour <= 17:
-            base = 63.0
-        else:
-            base = 38.0
-        if copies == 1:
-            base -= 24.0
-        elif copies >= 2:
-            base -= 42.0
-        return max(5.0, base)
-
-    # Troc : carte potentiellement puissante, mais on limite son score tant que
-    # son endpoint d'échange et son exécution ne sont pas validés en jeu.
-    if SWAP is not None and carte == SWAP:
-        if tour <= 13:
-            base = 72.0 if copies == 0 else 48.0
-        else:
-            base = 50.0 if copies == 0 else 30.0
-        return base
-
-    # Cartes de moteur et d'économie.
-    if carte == CardName.HIRELING:
-        return 112.0 if copies == 0 else 96.0 if copies == 1 else 72.0 if copies == 2 else 44.0
-    if carte == CardName.GOLD:
-        return 106.0 if copies < 3 else 94.0 if copies < 5 else 76.0
-    if carte == CardName.WITCH:
-        maledictions = _quantite(quantites_stock, CardName.CURSE)
-        if maledictions > 0 and tour <= 18:
-            return 100.0 if copies == 0 else 88.0 if copies == 1 else 65.0 if copies == 2 else 42.0
-        return 65.0 if copies == 0 else 42.0
-    if carte == CardName.BANDIT:
-        return 92.0 if copies < 2 and tour <= 18 else 73.0 if copies < 3 else 45.0
-    if carte == CardName.LABORATORY:
-        return 101.0 if copies < 2 else 88.0 if copies < 3 else 65.0 if copies < 4 else 42.0
-    if carte == CardName.LIBRARY:
-        return 91.0 if copies == 0 else 80.0 if copies == 1 else 63.0 if copies == 2 else 43.0
-    if carte == CardName.COUNCILROOM:
-        return 80.0 if copies < 2 else 65.0 if copies < 3 else 42.0
-    if carte == CardName.SMITHY:
-        return 77.0 if copies < 2 else 62.0 if copies < 3 else 40.0
-    if carte == CardName.MAGNATE:
-        return 80.0 if tresors_achetes >= 3 and copies == 0 else 66.0 if copies == 0 else 49.0
-    if carte == CardName.FORTUNETELLER:
-        return 82.0 if copies == 0 and tour <= 13 else 68.0 if copies < 2 else 48.0
-    if carte == CardName.MILITIA:
-        return 84.0 if copies < 2 else 68.0 if copies < 3 else 44.0
-    if carte == CardName.FESTIVAL:
-        return 94.0 if copies < 2 else 82.0 if copies < 3 else 61.0 if copies < 4 else 42.0
-    if carte == CardName.MARKET:
-        return 84.0 if copies < 3 else 68.0 if copies < 4 else 44.0
-    if carte == CardName.DISTANTSHORE:
-        return 71.0 if copies < 2 else 54.0
-
-    if carte == CardName.WORKSHOP:
-        bonnes_cibles = (
-            CardName.FESTIVAL,
-            CardName.MILITIA,
-            CardName.SMITHY,
-            CardName.FARMINGVILLAGE,
-            CardName.BUREAUCRAT,
-            CardName.FORTUNETELLER,
-        )
-        cible_disponible = any(
-            _quantite(quantites_stock, nom) > 0 and cout_carte(nom) <= 4
-            for nom in bonnes_cibles
-        )
-        if cible_disponible and tour <= 12:
-            return 78.0 if copies == 0 else 60.0
-        return 46.0 if copies == 0 else 30.0
-    if carte == CardName.CELLAR:
-        return 57.0 if copies == 0 and tour <= 10 else 43.0 if copies == 0 else 28.0
-    if carte == CardName.ADVENTURER:
-        return 66.0 if copies == 0 and tour <= 14 and tresors_achetes < 3 else 46.0
+    # Économie : au moins un/deux Argent avant de commencer à épurer les Cuivres.
     if carte == CardName.SILVER:
-        return 72.0 if tour <= 10 else 59.0 if tour <= 16 else 39.0
-    if carte == CardName.WOODCUTTER:
-        return 35.0 if copies == 0 else 22.0
-    if carte == CardName.VILLAGE:
-        if terminales >= 2 and villages < terminales:
-            return 73.0 if copies < 2 else 53.0
-        return 43.0 if copies < 2 else 28.0
-    if carte == CardName.FARMINGVILLAGE:
-        if terminales >= 2 and villages < terminales:
-            return 70.0 if copies == 0 else 50.0
-        return 42.0 if copies == 0 else 27.0
-    if carte == CardName.BUREAUCRAT:
-        return 59.0 if copies == 0 and tour < 12 else 39.0
-    if carte == CardName.CHANCELLOR:
-        return 42.0 if copies == 0 else 27.0
+        if argent == 0 and or_ == 0: return 105
+        if argent == 1 and or_ == 0: return 91
+        if argent < 3 and or_ == 0: return 79
+        if argent < 4 and or_ <= 1: return 69
+        return 53 if tour <= 13 else 39
+    if carte == CardName.GOLD:
+        return 113 if or_ < 2 else 105 if or_ < 4 else 89
 
-    return 0.0
+    # Cas observé dans les logs : une deuxième Chapelle + Moneylender sans trésor
+    # a produit un deck incapable d'acheter. Interdire le doublon.
+    if CHAPEL is not None and carte == CHAPEL:
+        if n(CHAPEL) >= 1 or tour > 10: return -100
+        # N'acheter Chapelle qu'une fois le premier Argent sécurisé.
+        if argent + or_ == 0: return 35
+        return 99 if tour <= 6 else 73
+    if MONEYLENDER is not None and carte == MONEYLENDER:
+        if n(MONEYLENDER) >= 1 or n(CHAPEL) >= 1 or cuivre <= seuil_cuivre(achats, trashed):
+            return -100
+        return 71 if argent >= 1 and tour <= 8 else 42
+    if MINE is not None and carte == MINE:
+        if n(MINE) >= 1 or tour > 13: return -100
+        return 72 if argent >= 2 else 51
+    if REMODEL is not None and carte == REMODEL:
+        if n(REMODEL) >= 1 or tour > 13: return -100
+        return 57 if nombre(trashed, CardName.ESTATE) <= 1 else 41
+    if FEAST is not None and carte == FEAST:
+        return 52 if n(FEAST) == 0 and tour <= 10 else -100
+    if SWAP is not None and carte == SWAP:
+        return 54 if n(SWAP) == 0 and tour <= 11 else -100
+
+    scores = {
+        CardName.HIRELING: 114 if tour <= 11 else 90,
+        CardName.WITCH: 110 if tour <= 12 else 83,
+        CardName.LABORATORY: 104,
+        CardName.BANDIT: 92,
+        CardName.FESTIVAL: 88,
+        CardName.MARKET: 87,
+        CardName.LIBRARY: 82,
+        CardName.MILITIA: 84,
+        CardName.COUNCILROOM: 77,
+        CardName.SMITHY: 75,
+        CardName.MAGNATE: 63,
+        CardName.FORTUNETELLER: 74,
+        CardName.ADVENTURER: 48,
+        CardName.WORKSHOP: 48,
+        CardName.CELLAR: 51,
+        CardName.DISTANTSHORE: 69,
+        CardName.VILLAGE: 49,
+        CardName.FARMINGVILLAGE: 48,
+        CardName.WOODCUTTER: 29,
+        CardName.BUREAUCRAT: 48,
+        CardName.CHANCELLOR: 33,
+    }
+    score = float(scores.get(carte, -100))
+    if carte == CardName.WITCH:
+        if nombre(stock_q, CardName.CURSE) == 0: score -= 43
+        if tour > 15: score -= 18
+    if carte == CardName.HIRELING and tour > 15: score -= 24
+    if carte == CardName.MAGNATE:
+        score += min(19, 4 * argent + 7 * or_)
+    if carte == CardName.ADVENTURER and argent + or_ >= 4:
+        score -= 15
+    if carte in VILLAGES:
+        manque = terminales - villages
+        score += min(35, max(0, manque - 1) * 17)
+        if manque <= 1: score -= 22
+    elif carte in TERMINALES:
+        if terminales > villages + 1:
+            score -= min(38, 12 * (terminales - villages - 1))
+    if carte == CardName.WORKSHOP and tour > 10: score -= 18
+    if carte == CardName.CELLAR and n(carte) >= 1: score -= 27
+    if carte == CardName.LIBRARY and n(carte) >= 1: score -= 17
+    # Règle générale : chaque exemplaire supplémentaire doit apporter plus
+    # qu'un trésor ou un moteur déjà présent.
+    if carte not in (CardName.GOLD, CardName.SILVER):
+        score -= 17 * n(carte)
+    if course and carte not in (CardName.GOLD, CardName.SILVER):
+        score -= 12
+    if urgente and carte not in (CardName.GOLD, CardName.SILVER):
+        score -= 14
+    return score
 
 
-def priorites_achat(
-    stock: Cards,
-    *,
-    achats: Mapping[CardName, int] | None = None,
-    trashed: Mapping[CardName, int] | None = None,
-    tour: int = 1,
-    provinces_restantes: int = 8,
-    piles_vides: int = 0,
-    budget: int = 0,
-    main: Cards | None = None,
-) -> list[CardName]:
-    """Classe les cartes disponibles selon le contexte courant de la partie."""
-    quantites = getattr(stock, "quantities", {}) or {}
-    fin_proche = provinces_restantes <= 3 or piles_vides >= 2
-    candidates: list[CardName] = []
-
+def priorites_achat(stock, *, achats=None, trashed=None, tour=1,
+                    provinces_restantes=8, piles_vides=0, budget=0,
+                    main=None, joueurs_actifs=2):
+    achats, trashed = achats or {}, trashed or {}
+    q = getattr(stock, 'quantities', {}) or {}
+    propositions = []
     for carte in CARTES_STRATEGIE:
-        if _quantite(quantites, carte) <= 0 or cout_carte(carte) >= 10**6:
+        if nombre(q, carte) <= 0 or cout_carte(carte) > budget:
             continue
-        if carte == CardName.DUCHY and not fin_proche:
-            continue
-        if carte == CardName.ESTATE and not (provinces_restantes <= 1 or piles_vides >= 2):
-            continue
-        if carte == CardName.GARDENS and tour < 11 and not fin_proche:
-            continue
-        candidates.append(carte)
-
-    scored = [
-        (nom, _score_achat(
-            nom,
-            achats=achats,
-            trashed=trashed,
-            tour=tour,
-            provinces_restantes=provinces_restantes,
-            piles_vides=piles_vides,
-            budget=budget,
-            stock=stock,
-            main=main,
-        ))
-        for nom in candidates
-    ]
-    # Ne pas acheter une carte médiocre uniquement parce qu'elle est abordable.
-    # En fin de partie, les cartes à points sont déjà remontées par leurs scores.
-    score_minimum = 40.0
-    return [nom for nom, score in sorted(scored, key=lambda item: item[1], reverse=True)
-            if score >= score_minimum]
+        note = score_achat(carte, achats=achats, trashed=trashed,
+                           tour=tour, provinces_restantes=provinces_restantes,
+                           piles_vides=piles_vides, budget=budget, stock=stock,
+                           main=main, joueurs_actifs=joueurs_actifs)
+        if note >= 40:
+            propositions.append((note, carte))
+    return [carte for _, carte in sorted(propositions, key=lambda x: x[0], reverse=True)]
 
 
-def achat(
-    main: Cards,
-    carte: CardName,
-    stock: Cards,
-    *,
-    monnaie_disponible: int = 0,
-    achats_restants: int = 1,
-) -> str | bool:
-    """Valide un achat uniquement si le stock et le budget le permettent."""
-    if achats_restants <= 0:
-        return False
-    quantites_stock = getattr(stock, "quantities", {}) or {}
-    if _quantite(quantites_stock, carte) <= 0:
+def achat(main, carte, stock, *, monnaie_disponible=0, achats_restants=1):
+    if achats_restants <= 0 or nombre(getattr(stock, 'quantities', {}) or {}, carte) <= 0:
         return False
     cout = cout_carte(carte)
-    if cout >= 10**6:
+    if cout >= 10**6 or cout > monnaie_en_main(main) + int(monnaie_disponible):
         return False
-    try:
-        budget_total = monnaie_en_main(main) + int(monnaie_disponible)
-    except (TypeError, ValueError):
-        return False
-    if budget_total < cout:
-        return False
-    return f"BUY {carte.value}"
+    return f'BUY {carte.value}'

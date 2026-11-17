@@ -35,11 +35,12 @@ EFFETS_ACTION: dict[CardName, EffetsAction] = {
     CardName.CELLAR: EffetsAction(actions=1),
     # Troc : +1 action compense l'action dépensée pour le jouer.
     CardName.SWAP: EffetsAction(actions=1),
+    **({CardName.FEAST: EffetsAction()} if hasattr(CardName, "FEAST") else {}),
 
     # Actions terminales : elles ne rendent pas d'action.
     CardName.CHAPEL: EffetsAction(),
     CardName.MINE: EffetsAction(),
-    CardName.MONEYLENDER: EffetsAction(),
+    CardName.MONEYLENDER: EffetsAction(bonus_money=3),
     CardName.REMODEL: EffetsAction(),
     CardName.WITCH: EffetsAction(),
     CardName.BANDIT: EffetsAction(),
@@ -76,14 +77,7 @@ ACTION_PRIORITY: tuple[CardName, ...] = (
     CardName.CELLAR,
     CardName.SWAP,
 
-    # Épuration / amélioration du deck : ordre pensé pour ne pas perdre
-    # l'occasion d'utiliser Mine ou Prêteur sur gages avant Chapelle.
-    CardName.MINE,
-    CardName.MONEYLENDER,
-    CardName.CHAPEL,
-    CardName.REMODEL,
-
-    # Actions terminales restantes
+    # Actions terminales à fort impact avant l’épuration secondaire.
     CardName.WITCH,
     CardName.BANDIT,
     CardName.HIRELING,
@@ -98,6 +92,12 @@ ACTION_PRIORITY: tuple[CardName, ...] = (
     CardName.WORKSHOP,
     CardName.CHANCELLOR,
     CardName.WOODCUTTER,
+    # La Chapelle ne doit pas occuper l’action unique face à une Sorcière.
+    CardName.CHAPEL,
+    CardName.MONEYLENDER,
+    CardName.MINE,
+    CardName.REMODEL,
+    *((CardName.FEAST,) if hasattr(CardName, "FEAST") else ()),
 )
 
 
