@@ -114,6 +114,9 @@ class Contexte:
     hirelings_jouees: int = 0
     # Champ facultatif : valeurs visibles, et jamais points supposés.
     score_relatif_connu: float | None = None
+    # Approximativement, Provinces sorties du stock sans avoir ete achetees
+    # par nous. Calcul uniquement si un stock initial a ete observe.
+    provinces_adverses_estimees: int = 0
 
     @property
     def fin_proche(self) -> bool:
@@ -130,7 +133,9 @@ class Contexte:
         # Calibration prudente : dans les neuf matchs de la collecte du
         # 17 novembre, la durée moyenne de Toulousain est ~20 tours.
         # Ce n'est qu'un horizon heuristique, pas une information de l'arbitre.
-        estimation = 21.5 - 0.7 * max(0, self.joueurs_actifs - 2) - self.tour
+        estimation = 21.5 - 1.35 * max(0, self.joueurs_actifs - 2) - self.tour
+        # Des Provinces disparues au profit des adversaires accelerent le rush.
+        estimation -= min(2.0, 0.55 * max(0, self.provinces_adverses_estimees))
         return max(2.0, min(9.5, estimation))
 
     @property
@@ -287,12 +292,16 @@ def valeur_achat(c, ctx: Contexte) -> float:
         apres = Counter(ctx.deck)
         apres[c] += 1
         score += 75.0 * max(0, chance_achat_avec_tresors(apres, 8) - avant)
-        score -= max(0, copies-3)*9
+        score -= max(0, copies-3)*17
+        if copies >= 5:
+            score -= 32 + 12 * (copies - 5)  # 2/22 premières places après >=6 Argent
         score -= 18 if fin else 0
         # La collecte comporte des achats de 6e/7e Argent très tardifs.
         # Éviter de diluer inutilement le deck à quelques tours du terme.
-        if ctx.tour >= 12 and copies >= 4:
-            score -= 20 + 7 * (copies - 4)
+        if ctx.tour >= 11 and copies >= 4:
+            score -= 20 + 9 * (copies - 4)
+        if ctx.joueurs_actifs >= 4 and ctx.tour >= 9:
+            score -= 9
         if horizon <= 4:
             score -= 26
         if horizon <= 2.5 and copies >= 3:
@@ -368,9 +377,22 @@ def valeur_achat(c, ctx: Contexte) -> float:
     if c == CHAPEL:
         dechets = ctx.copies(carte('CURSE')) + ctx.copies(carte('ESTATE'))
         dechets += max(0, ctx.copies(carte('COPPER'))-seuil_cuivre(ctx))
-        if ctx.economies_ameliorees == 0 or dechets < 3 or ctx.tour > 10 or copies > 0:
+        # Une seule Chapelle, au début, avec de quoi financer les tours suivants.
+        # Le gain est la suppression des cartes mortes, pas la présence d'une
+        # Chapelle supplémentaire. Les données de 313 matchs sont associatives,
+        # elles ne justifient PAS de l'acheter dans toutes les parties.
+        if copies > 0 or ctx.tour > 9 or dechets < 3:
             return -100.0
-        score += min(12, dechets*2)
+        if ctx.economies_ameliorees == 0:
+            return -100.0
+        # Mieux valoriser la première Chapelle lorsque l'économie est amorcée.
+        score += 20 + min(19, dechets * 3)
+        if ctx.tour <= 5:
+            score += 12
+        if ctx.tour >= 8:
+            score -= 35
+        if ctx.tours_restants < 7:
+            score -= 22
     if c == MONEYLENDER:
         if copies or ctx.copies(carte('COPPER')) <= seuil_cuivre(ctx) or ctx.copies(CHAPEL):
             return -100.0
@@ -432,7 +454,7 @@ def valeur_action(c, ctx: Contexte) -> float:
         if ctx.copies(carte('COPPER'))>seuil_cuivre(ctx):
             dechets += nombre(ctx.main,carte('COPPER'))
         if dechets == 0: return float('-inf')
-        score += min(14, 3*dechets)
+        score += min(35, 10 + 6 * dechets) if ctx.tours_restants > 6 else 0
     if c == MINE and sum(nombre(ctx.main,x) for x in
                          (carte('COPPER'),carte('SILVER')))==0:
         return float('-inf')

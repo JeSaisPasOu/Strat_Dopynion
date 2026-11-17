@@ -35,9 +35,12 @@ for c in (carte('LABORATORY'), carte('MARKET'), carte('DISTANTSHORE'),
 for nom, effets in {
     'FESTIVAL': (2,1,2), 'MARKET': (1,1,1), 'WOODCUTTER': (0,1,2),
     'COUNCILROOM': (0,1,0), 'CHANCELLOR': (0,0,2), 'MILITIA': (0,0,2),
-    'FORTUNETELLER': (0,0,2), 'MONEYLENDER': (0,0,3),
+    'FORTUNETELLER': (0,0,2), 'MONEYLENDER': (0,0,0),
 }.items():
     enregistrer(nom, actions=effets[0], buys=effets[1], bonus_money=effets[2])
+
+# MONEY LENDER : le +3 n'est crédité que si le Cuivre est réellement détruit.
+# Le callback de destruction l'ajoute dans server.py, pas ici.
 
 # Compatibilité avec les scripts qui importent encore ACTION_PRIORITY.
 # server.py V5 n'utilise plus cette liste pour décider.

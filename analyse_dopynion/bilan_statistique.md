@@ -2,123 +2,124 @@
 
 **Étiquette de collecte :** V6  
 **Versions dans l'historique :** V6  
-**Rapport généré :** 2026-11-17T16:13:07+01:00  
-**Objectif :** 300 parties de ce bot ; **collectées :** 204  
+**Rapport généré :** 2026-11-17T16:24:19+01:00  
+**Objectif :** 300 parties de ce bot ; **collectées :** 313  
 
 ## Qualité de l'échantillon
 
-- Parties validées via `dop-game-data.players` : **204** (aucune partie d'un homonyme).
+- Parties validées via `dop-game-data.players` : **313** (aucune partie d'un homonyme).
 - Le champ `revision` est celui fourni au collecteur ; il ne prouve pas quelle version tournait lors d'un ancien match importé.
-- Résultats exploitables : **204**.
-- Premières places (y compris éventuelles égalités) : **99/204 = 48.5 %**.
-- Victoires sans égalité : **89/204**.
-- Intervalle indicatif 95 % de la proportion de premières places (Wilson) : **41.8 % à 55.4 %**.
+- Résultats exploitables : **313**.
+- Premières places (y compris éventuelles égalités) : **154/313 = 49.2 %**.
+- Victoires sans égalité : **136/313**.
+- Intervalle indicatif 95 % de la proportion de premières places (Wilson) : **43.7 % à 54.7 %**.
 - Cet intervalle ne corrige pas les différences de nombre d'adversaires, de qualité des adversaires ou de version du bot.
-- Score moyen final : **-12.88** ; rang moyen : **1.71**.
-- Tours moyens du bot : **21.81**.
-- Tours sans achat (moyenne/partie) : **1.9**.
-- Tour moyen du premier Or : **9.19** (uniquement si acheté).
-- Tour moyen de la première Province : **10.85** (uniquement si achetée).
-- Écart moyen avec la première Province des adversaires : **0.97 tours** (positif = notre bot démarre plus tard).
+- Score moyen final : **3.82** ; rang moyen : **1.7**.
+- Tours moyens du bot : **21.6**.
+- Tours sans achat (moyenne/partie) : **1.86**.
+- Tour moyen du premier Or : **9.0** (uniquement si acheté).
+- Tour moyen de la première Province : **10.57** (uniquement si achetée).
+- Écart moyen avec la première Province des adversaires : **0.69 tours** (positif = notre bot démarre plus tard).
 
 ## Par taille de partie
 
 | Joueurs | Parties | Premières places | Taux | Score moyen | Rang moyen |
 |---:|---:|---:|---:|---:|---:|
-| 2 | 46 | 32 | 69.6 % | 36.96 | 1.3 |
-| 3 | 70 | 34 | 48.6 % | 40.64 | 1.67 |
-| 4 | 88 | 33 | 37.5 % | -81.51 | 1.94 |
+| 2 | 66 | 46 | 69.7 % | 36.64 | 1.3 |
+| 3 | 112 | 61 | 54.5 % | 40.2 | 1.57 |
+| 4 | 135 | 47 | 34.8 % | -42.39 | 2 |
 
 ## Achats et actions observés
 
 | Carte achetée | Total | Par partie |
 |---|---:|---:|
-| province | 993 | 4.87 |
-| silver | 830 | 4.07 |
-| gold | 656 | 3.22 |
-| duchy | 361 | 1.77 |
-| witch | 167 | 0.82 |
-| laboratory | 145 | 0.71 |
-| estate | 106 | 0.52 |
-| hireling | 103 | 0.50 |
-| village | 87 | 0.43 |
-| festival | 84 | 0.41 |
-| chapel | 82 | 0.40 |
-| militia | 82 | 0.40 |
-| fortuneteller | 82 | 0.40 |
-| cellar | 73 | 0.36 |
-| smithy | 57 | 0.28 |
-| farmingvillage | 49 | 0.24 |
-| market | 47 | 0.23 |
-| bandit | 41 | 0.20 |
-| library | 36 | 0.18 |
-| magnate | 35 | 0.17 |
-| councilroom | 13 | 0.06 |
-| gardens | 12 | 0.06 |
-| workshop | 11 | 0.05 |
-| remodel | 8 | 0.04 |
-| moneylender | 8 | 0.04 |
+| province | 1525 | 4.87 |
+| silver | 1275 | 4.07 |
+| gold | 1026 | 3.28 |
+| duchy | 511 | 1.63 |
+| witch | 246 | 0.79 |
+| laboratory | 188 | 0.60 |
+| estate | 160 | 0.51 |
+| hireling | 151 | 0.48 |
+| village | 133 | 0.42 |
+| festival | 132 | 0.42 |
+| fortuneteller | 130 | 0.42 |
+| chapel | 121 | 0.39 |
+| militia | 119 | 0.38 |
+| cellar | 104 | 0.33 |
+| smithy | 99 | 0.32 |
+| market | 78 | 0.25 |
+| bandit | 74 | 0.24 |
+| farmingvillage | 74 | 0.24 |
+| library | 62 | 0.20 |
+| magnate | 53 | 0.17 |
+| councilroom | 23 | 0.07 |
+| gardens | 15 | 0.05 |
+| workshop | 13 | 0.04 |
+| moneylender | 12 | 0.04 |
+| remodel | 12 | 0.04 |
+| swap | 7 | 0.02 |
+| mine | 3 | 0.01 |
 | bureaucrat | 3 | 0.01 |
-| mine | 2 | 0.01 |
+| woodcutter | 2 | 0.01 |
 | chancellor | 2 | 0.01 |
-| swap | 1 | 0.00 |
 | feast | 1 | 0.00 |
-| woodcutter | 1 | 0.00 |
 
 | Carte Action jouée | Total |
 |---|---:|
-| witch | 756 |
-| laboratory | 524 |
-| chapel | 311 |
-| cellar | 276 |
-| militia | 259 |
-| festival | 248 |
-| fortuneteller | 238 |
-| village | 209 |
-| smithy | 188 |
-| bandit | 147 |
-| market | 141 |
-| farmingvillage | 119 |
-| library | 110 |
-| hireling | 102 |
-| magnate | 65 |
-| councilroom | 35 |
-| workshop | 19 |
+| witch | 1094 |
+| laboratory | 674 |
+| chapel | 435 |
+| fortuneteller | 372 |
+| militia | 370 |
+| festival | 370 |
+| cellar | 351 |
+| smithy | 332 |
+| village | 304 |
+| bandit | 260 |
+| market | 219 |
+| library | 178 |
+| farmingvillage | 169 |
+| hireling | 149 |
+| magnate | 90 |
+| councilroom | 60 |
+| workshop | 24 |
+| swap | 9 |
+| remodel | 8 |
+| moneylender | 8 |
 | bureaucrat | 6 |
-| remodel | 5 |
-| moneylender | 4 |
 | woodcutter | 2 |
-| swap | 1 |
 | feast | 1 |
 | chancellor | 1 |
 
 ## Signaux de faiblesse à examiner
 
-- **Au moins 6 Argent achetés** : 17/204 parties ; 2 premières places (11.8 %).
-- **Aucun Or acheté** : 12/204 parties ; 4 premières places (33.3 %).
-- **Aucune Province achetée** : 1/204 parties ; 0 premières places (0.0 %).
-- **Au moins 4 tours sans achat** : 38/204 parties ; 15 premières places (39.5 %).
-- **Première Province après le tour 12** : 48/204 parties ; 20 premières places (41.7 %).
-- **Plus lent que le premier adversaire sur les Provinces** : 109/204 parties ; 46 premières places (42.2 %).
+- **Au moins 6 Argent achetés** : 22/313 parties ; 2 premières places (9.1 %).
+- **Aucun Or acheté** : 16/313 parties ; 6 premières places (37.5 %).
+- **Aucune Province achetée** : 1/313 parties ; 0 premières places (0.0 %).
+- **Au moins 4 tours sans achat** : 51/313 parties ; 21 premières places (41.2 %).
+- **Première Province après le tour 12** : 68/313 parties ; 27 premières places (39.7 %).
+- **Plus lent que le premier adversaire sur les Provinces** : 161/313 parties ; 63 premières places (39.1 %).
 
 ## Destructions et interactions
 
 | Carte détruite (réponses de hook confirmées) | Total |
 |---|---:|
-| copper | 464 |
-| estate | 186 |
-| curse | 66 |
+| copper | 661 |
+| estate | 270 |
+| curse | 86 |
+| witch | 1 |
 
 ### Hooks reçus par le bot
 
 | Hook Dopynion | Nombre d'appels |
 |---|---:|
-| `confirm_trash_card_from_hand` | 1296 |
-| `confirm_discard_card_from_hand` | 1139 |
-| `discard_card_from_hand` | 729 |
-| `skip_card_reception_in_hand` | 59 |
-| `choose_card_to_receive_in_discard` | 25 |
-| `trash_card_from_hand` | 5 |
+| `confirm_trash_card_from_hand` | 1812 |
+| `confirm_discard_card_from_hand` | 1449 |
+| `discard_card_from_hand` | 1077 |
+| `skip_card_reception_in_hand` | 101 |
+| `choose_card_to_receive_in_discard` | 34 |
+| `trash_card_from_hand` | 8 |
 | `confirm_discard_deck` | 1 |
 
 - Erreurs explicitement attribuées au bot : **4**.
@@ -131,28 +132,43 @@ Afficher une association seulement si au moins 15 parties contiennent cette cart
 
 | Carte | Parties avec | 1res places avec | Parties sans | 1res places sans |
 |---|---:|---:|---:|---:|
-| duchy | 145 | 51.0 % | 59 | 42.4 % |
-| laboratory | 84 | 42.9 % | 120 | 52.5 % |
-| chapel | 82 | 50.0 % | 122 | 47.5 % |
-| witch | 81 | 48.1 % | 123 | 48.8 % |
-| hireling | 71 | 57.7 % | 133 | 43.6 % |
-| estate | 68 | 51.5 % | 136 | 47.1 % |
-| fortuneteller | 59 | 54.2 % | 145 | 46.2 % |
-| militia | 58 | 46.6 % | 146 | 49.3 % |
-| festival | 54 | 50.0 % | 150 | 48.0 % |
-| smithy | 52 | 40.4 % | 152 | 51.3 % |
-| village | 51 | 43.1 % | 153 | 50.3 % |
-| cellar | 45 | 46.7 % | 159 | 49.1 % |
-| market | 42 | 54.8 % | 162 | 46.9 % |
-| bandit | 40 | 50.0 % | 164 | 48.2 % |
-| library | 35 | 42.9 % | 169 | 49.7 % |
-| farmingvillage | 31 | 45.2 % | 173 | 49.1 % |
-| magnate | 28 | 50.0 % | 176 | 48.3 % |
+| gold | 297 | 49.8 % | 16 | 37.5 % |
+| duchy | 214 | 50.9 % | 99 | 45.5 % |
+| chapel | 121 | 44.6 % | 192 | 52.1 % |
+| witch | 118 | 48.3 % | 195 | 49.7 % |
+| laboratory | 113 | 46.0 % | 200 | 51.0 % |
+| hireling | 104 | 59.6 % | 209 | 44.0 % |
+| estate | 100 | 54.0 % | 213 | 46.9 % |
+| fortuneteller | 98 | 48.0 % | 215 | 49.8 % |
+| smithy | 86 | 40.7 % | 227 | 52.4 % |
+| militia | 85 | 45.9 % | 228 | 50.4 % |
+| festival | 84 | 46.4 % | 229 | 50.2 % |
+| village | 78 | 47.4 % | 235 | 49.8 % |
+| bandit | 70 | 54.3 % | 243 | 47.7 % |
+| market | 68 | 55.9 % | 245 | 47.3 % |
+| cellar | 67 | 46.3 % | 246 | 50.0 % |
+| library | 59 | 40.7 % | 254 | 51.2 % |
+| farmingvillage | 50 | 42.0 % | 263 | 50.6 % |
+| magnate | 45 | 48.9 % | 268 | 49.3 % |
+| councilroom | 23 | 52.2 % | 290 | 49.0 % |
 
 ## Matchs où le bot termine dernier / sans Province
 
 | Date | Joueurs | Rang | Score | Tours sans achat | Argent achetés | Province achetées | Lien |
 |---|---:|---:|---:|---:|---:|---:|---|
+| 2026-11-17T16:22:21.657082+01:00 | 2 | 2 | 30 | 0 | 4 | 4 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__16_22_21_657082.html) |
+| 2026-11-17T16:21:31.269871+01:00 | 2 | 2 | 32 | 5 | 4 | 4 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__16_21_31_269871.html) |
+| 2026-11-17T16:20:25.233922+01:00 | 3 | 3 | 23 | 1 | 4 | 3 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__16_20_25_233922.html) |
+| 2026-11-17T16:19:35.640270+01:00 | 3 | 3 | 21 | 1 | 4 | 3 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__16_19_35_640270.html) |
+| 2026-11-17T16:18:38.992230+01:00 | 4 | 4 | 24 | 0 | 4 | 3 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__16_18_38_992230.html) |
+| 2026-11-17T16:17:33.412671+01:00 | 4 | 4 | 21 | 1 | 4 | 3 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__16_17_33_412671.html) |
+| 2026-11-17T16:16:32.838473+01:00 | 2 | 2 | 24 | 2 | 4 | 4 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__16_16_32_838473.html) |
+| 2026-11-17T16:15:52.837006+01:00 | 2 | 2 | 24 | 3 | 4 | 4 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__16_15_52_837006.html) |
+| 2026-11-17T16:15:42.292061+01:00 | 4 | 4 | 21 | 0 | 5 | 3 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__16_15_42_292061.html) |
+| 2026-11-17T16:14:26.421647+01:00 | 2 | 2 | 23 | 0 | 2 | 3 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__16_14_26_421647.html) |
+| 2026-11-17T16:14:02.029852+01:00 | 4 | 4 | 18 | 1 | 4 | 2 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__16_14_02_029852.html) |
+| 2026-11-17T16:13:42.704698+01:00 | 2 | 2 | 21 | 3 | 5 | 3 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__16_13_42_704698.html) |
+| 2026-11-17T16:11:52.084035+01:00 | 4 | 4 | 16 | 1 | 4 | 2 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__16_11_52_084035.html) |
 | 2026-11-17T16:10:36.954349+01:00 | 3 | 3 | 26 | 2 | 2 | 4 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__16_10_36_954349.html) |
 | 2026-11-17T16:09:58.171469+01:00 | 4 | 4 | 21 | 0 | 4 | 3 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__16_09_58_171469.html) |
 | 2026-11-17T16:09:54.118189+01:00 | 2 | 2 | 27 | 2 | 4 | 3 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__16_09_54_118189.html) |
@@ -180,10 +196,6 @@ Afficher une association seulement si au moins 15 parties contiennent cette cart
 | 2026-11-17T15:49:44.366082+01:00 | 2 | 2 | 30 | 0 | 4 | 4 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__15_49_44_366082.html) |
 | 2026-11-17T15:47:40.502601+01:00 | 2 | 2 | 27 | 0 | 4 | 4 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__15_47_40_502601.html) |
 | 2026-11-17T15:47:12.528930+01:00 | 3 | 3 | 24 | 2 | 4 | 4 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__15_47_12_528930.html) |
-| 2026-11-17T15:47:11.375655+01:00 | 2 | 2 | 27 | 1 | 3 | 4 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__15_47_11_375655.html) |
-| 2026-11-17T15:46:59.023180+01:00 | 3 | 3 | 19 | 3 | 5 | 3 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__15_46_59_023180.html) |
-| 2026-11-17T15:46:34.236224+01:00 | 2 | 2 | 32 | 4 | 5 | 5 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__15_46_34_236224.html) |
-| 2026-11-17T15:45:13.325425+01:00 | 2 | 2 | 31 | 1 | 5 | 4 | [match](https://dopynion.lecalamar.fr/games/game__2026_11_17__15_45_13_325425.html) |
 
 ## Points à investiguer
 

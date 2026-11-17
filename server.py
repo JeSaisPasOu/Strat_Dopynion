@@ -1,4 +1,4 @@
-"""API Dopynion Toulousain V5 : mêmes routes, décisions contextuelles, état SQLite.
+"""API Dopynion Toulousain V7 : mêmes routes, décisions contextuelles, état SQLite.
 
 Le moteur n'expose pas forcément le deck intégral ; les comptes sont estimés.
 Définir TOULOUSAIN_STATE_DB pour placer la base sur un disque persistant Alwaysdata.
@@ -30,7 +30,7 @@ from strategie import Contexte, carte, nombre, quantites
 
 logger = logging.getLogger('toulousain')
 logging.basicConfig(level=logging.INFO)
-app = FastAPI(title='Toulousain - Dopynion V5')
+app = FastAPI(title='Toulousain test - Dopynion V7')
 DATABASE = Path(os.environ.get('TOULOUSAIN_STATE_DB',
     str(Path(__file__).with_name('toulousain_etat.sqlite3'))))
 DECISIONS_LOG = os.environ.get('TOULOUSAIN_DECISIONS_LOG')
@@ -64,6 +64,8 @@ def _new_state():
         'money_remaining': None, 'purchased': {}, 'gained': {},
         'trashed': {}, 'observed': {}, 'piles': {}, 'joueurs_actifs': 2,
         'events': [], 'hirelings_jouees': 0,
+        'pending_moneylender': False, 'moneylender_paid': False,
+        'pending_confirmed_trash': None, 'provinces_initiales': None,
     }
 
 
@@ -135,6 +137,10 @@ def _contexte(state, *, main=None, stock=None, player_count=None) -> Contexte:
         detruits=_decodage(state.get('trashed')),
         observation=_decodage(state.get('observed')),
         provinces=nombre(supply,carte('PROVINCE')) if supply else 8,
+        provinces_adverses_estimees=max(0,
+            int(state.get('provinces_initiales') or 0)
+            - nombre(supply, carte('PROVINCE'))
+            - int(state.get('purchased',{}).get('PROVINCE',0))),
         piles_vides=sum(1 for v in supply.values() if int(v)==0),
         joueurs_actifs=int(player_count or state.get('joueurs_actifs',2)),
         actions=int(state.get('actions',1)),
@@ -147,6 +153,10 @@ def _contexte(state, *, main=None, stock=None, player_count=None) -> Contexte:
 
 
 def _mesurer_stock(state,stock):
+    if state.get('provinces_initiales') is None:
+        compte = nombre(quantites(stock), carte('PROVINCE'))
+        if compte > 0:
+            state['provinces_initiales'] = compte
     # Ne pas inventer une pile épuisée si elle disparaît d'un snapshot partiel.
     state['piles']={_nom(k):int(v) for k,v in quantites(stock).items()}
 
@@ -166,7 +176,7 @@ def _player(game):
     # La V4 prenait le premier joueur ayant une main non nulle, ce qui peut
     # désigner un adversaire si plusieurs mains sont présentes dans le modèle.
     for p in players:
-        if getattr(p,'name',None)=='Toulousain' and getattr(p,'hand',None) is not None:
+        if getattr(p,'name',None)=='Toulousain test' and getattr(p,'hand',None) is not None:
             return p
     hands=[p for p in players if getattr(p,'hand',None) is not None]
     return hands[0] if len(hands)==1 else None
@@ -188,6 +198,32 @@ def _extraire_carte(payload):
     return None
 
 
+def _confirmer_monnaie_preteur(state, card):
+    """Crédite +3 SEULEMENT si un Cuivre est détruit après Prêteur sur gages."""
+    if card == carte('COPPER') and state.get('pending_moneylender') and not state.get('moneylender_paid'):
+        state['bonus_money'] = int(state.get('bonus_money', 0)) + 3
+        if state.get('money_remaining') is not None:
+            state['money_remaining'] = int(state['money_remaining']) + 3
+        state['moneylender_paid'] = True
+        state['pending_moneylender'] = False
+        return True
+    return False
+
+
+def _compter_destruction(state, card, *, confirme=False):
+    """Ne compte pas deux fois le même trash si deux hooks se suivent."""
+    cle = _nom(card) if card is not None else None
+    if not cle:
+        return
+    if not confirme and state.get('pending_confirmed_trash') == cle:
+        state['pending_confirmed_trash'] = None
+        return
+    _compter(state, 'trashed', card)
+    if confirme:
+        state['pending_confirmed_trash'] = cle
+    _evenement(state, 'TRASH', card)
+
+
 def _evenement(state,category,card=None):
     event={'tour':state.get('turn',0),'type':category}
     if card is not None: event['carte']=_nom(card)
@@ -205,12 +241,12 @@ def unknown_exception_handler(_request:Request,exc:Exception):
 
 @app.get('/',response_class=HTMLResponse)
 def root():
-    return "<html><body><h1>Toulousain - Dopynion V5</h1><a href='/docs'>API</a></body></html>"
+    return "<html><body><h1>Toulousain test - Dopynion V7</h1><a href='/docs'>API</a></body></html>"
 
 
-@app.get("/name")
-def name() -> str:
-    return "Toulousain"
+@app.get('/name')
+def name():
+    return 'Toulousain test'
 
 
 @app.get('/start_game')
@@ -223,7 +259,9 @@ def start_game(game_id:GameIdDependency)->DopynionResponseStr:
 def start_turn(game_id:GameIdDependency)->DopynionResponseStr:
     def change(s):
         s['turn']=int(s.get('turn',0))+1
-        s.update(actions=1,buys=1,bonus_money=0,money_remaining=None)
+        s.update(actions=1,buys=1,bonus_money=0,money_remaining=None,
+                 pending_moneylender=False,moneylender_paid=False,
+                 pending_confirmed_trash=None)
     _transition(game_id,change)
     return DopynionResponseStr(game_id=game_id,decision='OK')
 
@@ -246,6 +284,9 @@ def play(game:Game,game_id:GameIdDependency)->DopynionResponseStr:
             s['actions']=max(0,int(s['actions'])-1+selection.actions)
             s['buys']+=selection.buys
             s['bonus_money']+=selection.bonus_money
+            if carte('MONEYLENDER') is not None and selection.decision == f"ACTION {carte('MONEYLENDER').value}":
+                s['pending_moneylender'] = True
+                s['moneylender_paid'] = False
             hireling = carte('HIRELING')
             if hireling is not None and selection.decision == f'ACTION {hireling.value}':
                 s['hirelings_jouees'] = int(s.get('hirelings_jouees',0)) + 1
@@ -315,8 +356,8 @@ def confirm_trash_card_from_hand(game_id:GameIdDependency,
     def change(s):
         decision=confirmer_destruction(card,contexte=_contexte(s,main=_cards(hand)))
         if decision:
-            _compter(s,'trashed',card)
-            _evenement(s,'TRASH',card)
+            _compter_destruction(s,card,confirme=True)
+            _confirmer_monnaie_preteur(s,card)
         return decision
     return DopynionResponseBool(game_id=game_id,decision=_transition(game_id,change))
 
@@ -328,8 +369,8 @@ def trash_card_from_hand(game_id:GameIdDependency,
     def change(s):
         card=choisir_destruction(hand,contexte=_contexte(s,main=_cards(hand)))
         if hand:
-            _compter(s,'trashed',card)
-            _evenement(s,'TRASH',card)
+            _compter_destruction(s,card)
+            _confirmer_monnaie_preteur(s,card)
         return card
     return DopynionResponseCardName(game_id=game_id,decision=_transition(game_id,change))
 
